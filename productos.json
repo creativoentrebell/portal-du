@@ -2231,7 +2231,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Caja organizadora en acrílico con 5 bandejas. Filas y números para fácil organización.",
-      "imagen": "img/pestanas/COPES5.png",
+      "imagen": "img/pestanas/CO-PES5.jpg",
       "agotado": false
     },
     {
@@ -5813,6 +5813,28 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo portátil de tendencia.",
       "imagen": "img/accesorios/ESP4.png",
+      "agotado": false
+    },
+    {
+      "id": "p0563",
+      "nombre": "Caja Organizadora de Pestañas 10 Tablas",
+      "referencia": "CO-PES10",
+      "precio": 110000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "",
+      "imagen": "img/pestanas/CO-PES10.png",
+      "agotado": false
+    },
+    {
+      "id": "p0564",
+      "nombre": "Cofre Pinzas",
+      "referencia": "CO-PIN8",
+      "precio": 55000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "",
+      "imagen": "img/pestanas/CO-PIN8.png",
       "agotado": false
     }
   ]
