@@ -437,9 +437,11 @@
     .card-ref { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--du-gray); margin-top: 2px; }
     .card-desc { font-size: 11.5px; color: #999; line-height: 1.5; margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .card-footer { padding: 10px 14px 14px; border-top: 1px solid var(--du-border); display: flex; align-items: center; justify-content: space-between; }
+    .card-price-wrap { display: flex; flex-direction: column; gap: 2px; }
     .card-price { font-family: var(--font-serif); font-size: 15px; font-weight: 600; color: var(--du-dark); letter-spacing: 0.01em; }
     .card-price .currency { font-size: 11px; font-weight: 400; color: var(--du-gray); margin-right: 2px; }
     .price-pending { font-size: 12px; color: var(--du-gray); font-style: italic; font-weight: 400; }
+    .price-volumen { font-size: 10px; color: var(--du-gray); letter-spacing: 0.02em; }
     .card-cat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .cat-pestanas { background: #c4e8fb; }
     .cat-unas     { background: #c4e8fb; opacity: 0.6; }
@@ -807,7 +809,7 @@ const PIN_CORRECTO = '000000';
 
 const SUBCATS = {
   "Accesorios": ["Maletas, neceseres y carteras","Brochas, pinceles y accesorios","Hair Technology","Cepillos y peinillas","Cuidado del cabello","Herramientas y accesorios","Espejos"],
-  "Pestañas":   ["Pestañas de fácil aplicación","Pestañas pelo a pelo","Accesorios de pestañas"],
+  "Pestañas":   ["Pestañas de fácil aplicación","Pestañas pelo a pelo","Accesorios de pestañas","Kits de pestañas"],
   "Uñas":       ["Efectos y apliques","Stickers para uñas","Accesorios para uñas","Kits para uñas","Imanes"]
 };
 const CAT_DOTS = { "Pestañas": "cat-pestanas", "Uñas": "cat-unas", "Accesorios": "cat-accesorios" };
@@ -819,7 +821,8 @@ const ICONS = {
 
 /* ── State ── */
 let allProducts = [];
-let mayorMap    = {};   // referencia → precio mayorista
+let mayorMap    = {};   // id → precio mayorista
+let volumenMap  = {};   // id → precio volumen (+12 unid)
 let mode        = 'detal';  // 'detal' | 'mayorista'
 let state = { cat: "", subcat: "", query: "", showAgotados: true };
 
@@ -843,7 +846,7 @@ function renderCard(p) {
   // Precio según modo activo
   let precio;
   if (mode === 'mayorista') {
-    const mp = mayorMap[p.referencia];
+    const mp = mayorMap[p.id];
     precio = (mp !== undefined) ? mp : p.precio;
   } else {
     precio = p.precio;
@@ -852,6 +855,10 @@ function renderCard(p) {
   const precioHTML = (precio === 'pendiente' || precio === null || precio === undefined)
     ? `<span class="price-pending">Precio pendiente</span>`
     : `<span class="currency">$</span>${formatPrice(precio)}`;
+
+  const volumenHTML = (mode === 'mayorista' && volumenMap[p.id])
+    ? `<span class="price-volumen">+12 unid: <span class="currency">$</span>${formatPrice(volumenMap[p.id])}</span>`
+    : ``;
 
   const agotadoHTML = p.agotado ? `<div class="agotado-overlay"><span class="agotado-badge">Agotado</span></div>` : "";
   const hasImg      = p.imagen && p.imagen.trim() !== "";
@@ -891,7 +898,10 @@ function renderCard(p) {
       ${descHTML}
     </div>
     <div class="card-footer">
-      <div class="card-price">${precioHTML}</div>
+      <div class="card-price-wrap">
+        <div class="card-price">${precioHTML}</div>
+        ${volumenHTML}
+      </div>
       <div class="card-cat-dot ${dotClass}"></div>
     </div>
   </article>`;
@@ -1079,9 +1089,10 @@ async function init() {
 
     allProducts = dataD.productos || [];
 
-    // Construir mapa mayorista: referencia → precio
+    // Construir mapa mayorista: id → precio (y precio_volumen si existe)
     for (const p of (dataM.productos || [])) {
-      mayorMap[p.referencia] = p.precio;
+      mayorMap[p.id] = p.precio;
+      if (p.precio_volumen !== undefined) volumenMap[p.id] = p.precio_volumen;
     }
 
     renderSubcats();

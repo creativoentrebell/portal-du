@@ -6056,6 +6056,33 @@
       "imagen": "img/pestanas/6D-05.png",
       "agotado": false,
       "precio": 8000
+    },
+    {
+      "id": "p0585",
+      "nombre": "Kit Henna Every Brow Luxury Nueva Era con Invima",
+      "referencia": "",
+      "precio": 60000,
+      "categoria": "Pestañas",
+      "subcategoria": "Kits de pestañas",
+      "descripcion": "",
+      "imagen": "img/pestanas/Kit_Henna_1.jpeg",
+      "colores": [
+        "img/pestanas/Kit_Henna_1.jpeg",
+        "img/pestanas/Kit_Henna_2.jpeg",
+        "img/pestanas/Kit_Henna_3.jpeg"
+      ],
+      "agotado": false
+    },
+    {
+      "id": "p0586",
+      "nombre": "Kit Beauty Wave — Ondulado y Laminado Alta Gama Neicha",
+      "referencia": "",
+      "precio": 160000,
+      "categoria": "Pestañas",
+      "subcategoria": "Kits de pestañas",
+      "descripcion": "",
+      "imagen": "img/pestanas/Kit_Beauty.jpeg",
+      "agotado": false
     }
   ]
 }
