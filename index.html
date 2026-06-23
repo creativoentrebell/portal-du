@@ -575,6 +575,53 @@
     .pin-btn-enter { background: var(--du-dark); color: var(--du-white); border-color: var(--du-dark); }
     .pin-btn-enter:hover { background: #444; }
 
+    /* ─── LIGHTBOX ──────────────────────────────────── */
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      z-index: 700;
+      background: rgba(0,0,0,0.88);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+      cursor: zoom-out;
+    }
+    .lightbox.visible { opacity: 1; pointer-events: all; }
+    .lightbox img {
+      max-width: 92vw;
+      max-height: 92vh;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 12px 60px rgba(0,0,0,0.5);
+      transform: scale(0.94);
+      transition: transform 0.22s;
+      cursor: default;
+    }
+    .lightbox.visible img { transform: scale(1); }
+    .lightbox-close {
+      position: absolute;
+      top: 18px;
+      right: 22px;
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: white;
+      font-size: 20px;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.75;
+      transition: opacity 0.15s, background 0.15s;
+    }
+    .lightbox-close:hover { opacity: 1; background: rgba(255,255,255,0.2); }
+    .card-img-wrap img { cursor: zoom-in; }
+
     /* ─── MOBILE ─────────────────────────────────────── */
     .mobile-search {
       display: none;
@@ -745,6 +792,12 @@
   </div>
 </div>
 
+<!-- ─── LIGHTBOX ─── -->
+<div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">×</button>
+  <img id="lightboxImg" src="" alt=""/>
+</div>
+
 <script>
 /* ─────────────────────────────────────────────────
    DU CATALOG — Detal + Mayorista
@@ -806,6 +859,7 @@ function renderCard(p) {
 
   const imgHTML = hasImg
     ? `<img src="${p.imagen}" alt="${p.nombre}" loading="lazy"
+          onclick="openLightbox(this.src,'${p.nombre.replace(/'/g, "\\'")}')"
           onload="var w=this.closest('.card-img-wrap');w.classList.remove('no-img');w.classList.add('img-loaded')"
           onerror="this.closest('.card-img-wrap').classList.add('img-error')"/>`
     : "";
@@ -989,6 +1043,26 @@ document.getElementById('pinInput').addEventListener('keydown', e => {
 /* Clic en el fondo del overlay cierra el modal */
 document.getElementById('pinOverlay').addEventListener('click', e => {
   if (e.target === e.currentTarget) closePinModal();
+});
+
+/* ─────────────────────────────────────────────────
+   LIGHTBOX
+───────────────────────────────────────────────── */
+function openLightbox(src, alt) {
+  const lb  = document.getElementById('lightbox');
+  const img = document.getElementById('lightboxImg');
+  img.src = src;
+  img.alt = alt || '';
+  lb.classList.add('visible');
+}
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('visible');
+}
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeLightbox();
+    closePinModal();
+  }
 });
 
 /* ─────────────────────────────────────────────────
