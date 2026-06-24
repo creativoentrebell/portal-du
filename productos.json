@@ -295,7 +295,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster classic.",
       "imagen": "img/pestanas/REF DFD03.jpg",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0028",
@@ -2122,7 +2122,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo Bent.",
       "imagen": "img/pestanas/PINZA-75 1.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0192",
@@ -2232,7 +2232,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Caja organizadora en acrílico con 5 bandejas. Filas y números para fácil organización.",
       "imagen": "img/pestanas/CO-PES5.jpg",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0203",
@@ -2243,7 +2243,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Caja organizadora en acrílico con 10 bandejas.",
       "imagen": "img/pestanas/CO-PES2.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0204",
