@@ -675,7 +675,14 @@
 
     <!-- Modo toggle -->
     <div class="mode-toggle">
-      <button class="mode-btn active" id="btnDetal" onclick="setMode('detal')">Detal</button>
+      <button class="mode-btn active" id="btnCatalogo" onclick="setMode('sinprecios')">Catálogo</button>
+      <button class="mode-btn" id="btnDetal" onclick="setMode('detal')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <rect x="3" y="11" width="18" height="11" rx="2"/>
+          <path d="M7 11V7a5 5 0 0110 0v4"/>
+        </svg>
+        Detal
+      </button>
       <button class="mode-btn" id="btnMayor" onclick="setMode('mayorista')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
           <rect x="3" y="11" width="18" height="11" rx="2"/>
@@ -737,7 +744,7 @@
 <div class="toolbar">
   <div class="toolbar-left">
     <span class="count-label" id="countLabel"><strong>—</strong> productos</span>
-    <span class="modo-badge" id="modoBadge">· Mayorista</span>
+    <span class="modo-badge" id="modoBadge"></span>
   </div>
   <label class="toggle-agotados">
     <div class="toggle-switch">
@@ -781,7 +788,7 @@
         <path d="M7 11V7a5 5 0 0110 0v4"/>
       </svg>
     </div>
-    <h3>Precios Mayorista</h3>
+    <h3 id="pinTitle">Precios</h3>
     <p>Ingresa el PIN de acceso</p>
     <div class="pin-input-wrap">
       <input type="password" id="pinInput" maxlength="6" inputmode="numeric" placeholder="······" autocomplete="off"/>
@@ -805,11 +812,13 @@
    DU CATALOG — Detal + Mayorista
 ───────────────────────────────────────────────── */
 
-const PIN_CORRECTO = '000000';
+const PIN_DETAL  = '121212';
+const PIN_MAYOR  = '000000';
+let pendingMode  = null;   // 'detal' | 'mayorista'
 
 const SUBCATS = {
   "Accesorios": ["Maletas, neceseres y carteras","Brochas, pinceles y accesorios","Hair Technology","Cepillos y peinillas","Cuidado del cabello","Herramientas y accesorios","Espejos"],
-  "Pestañas":   ["Pestañas de fácil aplicación","Pestañas pelo a pelo","Accesorios de pestañas","Kits de pestañas"],
+  "Pestañas":   ["Tecnológicas","Pestañas de fácil aplicación","Pestañas pelo a pelo","Accesorios de pestañas","Kits de pestañas"],
   "Uñas":       ["Efectos y apliques","Stickers para uñas","Accesorios para uñas","Kits para uñas","Imanes"]
 };
 const CAT_DOTS = { "Pestañas": "cat-pestanas", "Uñas": "cat-unas", "Accesorios": "cat-accesorios" };
@@ -823,7 +832,7 @@ const ICONS = {
 let allProducts = [];
 let mayorMap    = {};   // id → precio mayorista
 let volumenMap  = {};   // id → precio volumen (+12 unid)
-let mode        = 'detal';  // 'detal' | 'mayorista'
+let mode        = 'sinprecios';  // 'sinprecios' | 'detal' | 'mayorista'
 let state = { cat: "", subcat: "", query: "", showAgotados: true };
 
 /* ── Cambiar foto de color ── */
@@ -844,21 +853,28 @@ function formatPrice(n) {
 /* ── Render card ── */
 function renderCard(p) {
   // Precio según modo activo
-  let precio;
-  if (mode === 'mayorista') {
-    const mp = mayorMap[p.id];
-    precio = (mp !== undefined) ? mp : p.precio;
+  let precioHTML, volumenHTML;
+
+  if (mode === 'sinprecios') {
+    precioHTML  = '';
+    volumenHTML = '';
   } else {
-    precio = p.precio;
+    let precio;
+    if (mode === 'mayorista') {
+      const mp = mayorMap[p.id];
+      precio = (mp !== undefined) ? mp : p.precio;
+    } else {
+      precio = p.precio;
+    }
+
+    precioHTML = (precio === 'pendiente' || precio === null || precio === undefined)
+      ? `<span class="price-pending">Precio pendiente</span>`
+      : `<span class="currency">$</span>${formatPrice(precio)}`;
+
+    volumenHTML = (mode === 'mayorista' && volumenMap[p.id])
+      ? `<span class="price-volumen">+12 unid: <span class="currency">$</span>${formatPrice(volumenMap[p.id])}</span>`
+      : ``;
   }
-
-  const precioHTML = (precio === 'pendiente' || precio === null || precio === undefined)
-    ? `<span class="price-pending">Precio pendiente</span>`
-    : `<span class="currency">$</span>${formatPrice(precio)}`;
-
-  const volumenHTML = (mode === 'mayorista' && volumenMap[p.id])
-    ? `<span class="price-volumen">+12 unid: <span class="currency">$</span>${formatPrice(volumenMap[p.id])}</span>`
-    : ``;
 
   const agotadoHTML = p.agotado ? `<div class="agotado-overlay"><span class="agotado-badge">Agotado</span></div>` : "";
   const hasImg      = p.imagen && p.imagen.trim() !== "";
@@ -986,30 +1002,43 @@ document.getElementById("toggleAgotados").addEventListener("change", e => {
 ───────────────────────────────────────────────── */
 
 function setMode(newMode) {
-  if (newMode === 'mayorista' && mode !== 'mayorista') {
-    openPinModal();
-  } else if (newMode === 'detal' && mode !== 'detal') {
-    mode = 'detal';
+  if (newMode === mode) return;
+  if (newMode === 'sinprecios') {
+    mode = 'sinprecios';
     updateModeUI();
     renderGrid();
+  } else if (newMode === 'detal') {
+    pendingMode = 'detal';
+    openPinModal();
+  } else if (newMode === 'mayorista') {
+    pendingMode = 'mayorista';
+    openPinModal();
   }
 }
 
 function updateModeUI() {
-  const btnDetal  = document.getElementById('btnDetal');
-  const btnMayor  = document.getElementById('btnMayor');
-  const badge     = document.getElementById('modoBadge');
-  const header    = document.getElementById('siteHeader');
+  const btnCat   = document.getElementById('btnCatalogo');
+  const btnDetal = document.getElementById('btnDetal');
+  const btnMayor = document.getElementById('btnMayor');
+  const badge    = document.getElementById('modoBadge');
+  const header   = document.getElementById('siteHeader');
   const footerNote = document.getElementById('footerNote');
 
-  const isMayor = mode === 'mayorista';
-  btnDetal.classList.toggle('active', !isMayor);
-  btnMayor.classList.toggle('active',  isMayor);
-  badge.classList.toggle('visible',    isMayor);
-  header.classList.toggle('mode-mayor', isMayor);
-  footerNote.textContent = isMayor
-    ? 'Mayorista 2026 — Precios exclusivos para mayoristas.'
-    : 'Catálogo 2026 — Solo de consulta. No incluye opciones de pedido.';
+  btnCat.classList.toggle('active',   mode === 'sinprecios');
+  btnDetal.classList.toggle('active', mode === 'detal');
+  btnMayor.classList.toggle('active', mode === 'mayorista');
+
+  badge.classList.toggle('visible', mode !== 'sinprecios');
+  badge.textContent = mode === 'mayorista' ? '· Mayorista' : '· Detal';
+  header.classList.toggle('mode-mayor', mode === 'mayorista');
+
+  if (mode === 'mayorista') {
+    footerNote.textContent = 'Mayorista 2026 — Precios exclusivos para mayoristas.';
+  } else if (mode === 'detal') {
+    footerNote.textContent = 'Catálogo 2026 — Solo de consulta. No incluye opciones de pedido.';
+  } else {
+    footerNote.textContent = 'Catálogo 2026 — Navega y consulta nuestros productos.';
+  }
 }
 
 /* ── PIN Modal ── */
@@ -1017,6 +1046,8 @@ function openPinModal() {
   const overlay = document.getElementById('pinOverlay');
   const input   = document.getElementById('pinInput');
   const errMsg  = document.getElementById('pinErrorMsg');
+  const title   = document.getElementById('pinTitle');
+  title.textContent = pendingMode === 'detal' ? 'Precios Detal' : 'Precios Mayorista';
   input.value   = '';
   input.classList.remove('error');
   errMsg.classList.remove('visible');
@@ -1025,14 +1056,17 @@ function openPinModal() {
 }
 
 function closePinModal() {
+  pendingMode = null;
   document.getElementById('pinOverlay').classList.remove('visible');
 }
 
 function validatePin() {
-  const input  = document.getElementById('pinInput');
-  const errMsg = document.getElementById('pinErrorMsg');
-  if (input.value === PIN_CORRECTO) {
-    mode = 'mayorista';
+  const input   = document.getElementById('pinInput');
+  const errMsg  = document.getElementById('pinErrorMsg');
+  const correct = pendingMode === 'detal' ? PIN_DETAL : PIN_MAYOR;
+  if (input.value === correct) {
+    mode = pendingMode;
+    pendingMode = null;
     closePinModal();
     updateModeUI();
     renderGrid();
@@ -1096,6 +1130,7 @@ async function init() {
     }
 
     renderSubcats();
+    updateModeUI();
     renderGrid();
   } catch (err) {
     console.error("Error cargando catálogo:", err);

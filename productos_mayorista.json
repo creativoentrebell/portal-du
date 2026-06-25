@@ -882,12 +882,12 @@
     },
     {
       "id": "p0081",
-      "nombre": "Cluster CLOVER",
-      "referencia": "CLOVER",
-      "precio": "pendiente",
+      "nombre": "Pestañas Clover",
+      "referencia": "PCUR-CLOVER",
+      "precio": 30000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas de fácil aplicación",
-      "descripcion": "Pestañas cluster versión CLOVER.",
+      "subcategoria": "Tecnológicas",
+      "descripcion": "Pestañas en abanico tecnológico, 3 fibras unidas. Efecto esponjoso. Grosor 0.07, curvatura D. Largos 7-13mm.",
       "imagen": "img/pestanas/CLOVER 2.png",
       "agotado": false
     },
@@ -919,7 +919,7 @@
       "referencia": "PCUR-M",
       "precio": 20000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas de fácil aplicación",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas cluster curvatura M.",
       "imagen": "img/pestanas/PCUR-M 2.png",
       "agotado": false
@@ -959,9 +959,9 @@
     },
     {
       "id": "p0088",
-      "nombre": "Pestañas P-SEGMIX1",
-      "referencia": "P-SEGMIX1",
-      "precio": "pendiente",
+      "nombre": "Pestañas P-SEGMIX",
+      "referencia": "P-SEGMIX",
+      "precio": 5500,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña Doll volumen ruso 10P.",
@@ -1015,7 +1015,7 @@
       "referencia": "P-FLY YY",
       "precio": 18000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas tecnológicas pelo a pelo, efecto pluma.",
       "imagen": "img/pestanas/REF P-FLY YY.jpg",
       "agotado": false
@@ -1026,7 +1026,7 @@
       "referencia": "P-YY",
       "precio": 15000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas tecnológicas pelo a pelo.",
       "imagen": "img/pestanas/REF P-YY.jpg",
       "agotado": false
@@ -1037,7 +1037,7 @@
       "referencia": "P-3DW",
       "precio": 18000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 3D pelo a pelo premium.",
       "imagen": "img/pestanas/REF P-3DW.jpg",
       "agotado": false
@@ -1048,7 +1048,7 @@
       "referencia": "P-4DW",
       "precio": 18000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 4D pelo a pelo premium.",
       "imagen": "img/pestanas/REF P-4DW.jpg",
       "agotado": false
@@ -1059,7 +1059,7 @@
       "referencia": "P-5DW",
       "precio": 24000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 5D pelo a pelo premium.",
       "imagen": "img/pestanas/REF P-5DW.jpg",
       "agotado": false
@@ -1070,7 +1070,7 @@
       "referencia": "P-6DW",
       "precio": 26000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 6D pelo a pelo premium.",
       "imagen": "img/pestanas/REF P-6DW.jpg",
       "agotado": false
@@ -1079,10 +1079,10 @@
       "id": "p0098",
       "nombre": "Pestañas Flat Premium FLAT15D",
       "referencia": "FLAT15D",
-      "precio": "pendiente",
+      "precio": 25000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
-      "descripcion": "Pestañas pelo a pelo planas, más suaves al tacto. Fibra de seda premium. Grosor 0.15, curvatura D.",
+      "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm.",
       "imagen": "img/pestanas/FLAT15D.png",
       "agotado": false
     },
@@ -1090,22 +1090,11 @@
       "id": "p0099",
       "nombre": "Pestañas Flat Premium FLAT20D",
       "referencia": "FLAT20D",
-      "precio": "pendiente",
+      "precio": 25000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
-      "descripcion": "Pestañas pelo a pelo planas, fibra de seda premium. Grosor 0.20, curvatura D.",
+      "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm.",
       "imagen": "img/pestanas/FLAT20D.jpg",
-      "agotado": false
-    },
-    {
-      "id": "p0100",
-      "nombre": "Pestañas Clover",
-      "referencia": "CLOVER",
-      "precio": 30000,
-      "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
-      "descripcion": "Pestañas en abanico tecnológico, 3 fibras unidas. Efecto esponjoso. Grosor 0.07, curvatura D. Largos 7-13mm.",
-      "imagen": "img/pestanas/CLOVER 2.png",
       "agotado": false
     },
     {
@@ -1114,7 +1103,7 @@
       "referencia": "PCUR-L",
       "precio": 20000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas pelo a pelo curvatura L. Grosor 0.10. Largos 6-13mm.",
       "imagen": "img/pestanas/PCUR-L.png",
       "agotado": false
@@ -1125,7 +1114,7 @@
       "referencia": "PCUR-M",
       "precio": 20000,
       "categoria": "Pestañas",
-      "subcategoria": "Pestañas pelo a pelo",
+      "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas pelo a pelo curvatura M. Grosor 0.07. Largos 8-14mm.",
       "imagen": "img/pestanas/PCUR-M 2.png",
       "agotado": false
@@ -1585,10 +1574,10 @@
       "id": "p0144",
       "nombre": "Punto a Punto 3P-C",
       "referencia": "3P-C",
-      "precio": "pendiente",
+      "precio": 8000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
-      "descripcion": "Extensiones para volumen ruso, abanicos pre-armados 3D (3 pelitos). Largo 8mm, curvatura C.",
+      "descripcion": "Extensiones para volumen ruso, abanicos pre-armados 3D (3 pelitos). Curvatura C. Disponible en: 8mm, 10mm, 12mm, 14mm.",
       "imagen": "img/pestanas/3P-C.png",
       "agotado": false
     },
@@ -3071,17 +3060,6 @@
       "agotado": false
     },
     {
-      "id": "p0285",
-      "nombre": "GEM1214",
-      "referencia": "GEM1214",
-      "precio": "pendiente",
-      "categoria": "Uñas",
-      "subcategoria": "Efectos y apliques",
-      "descripcion": "Efecto decorativo para uñas.",
-      "imagen": "img/unas/gem1214-4-.png",
-      "agotado": false
-    },
-    {
       "id": "p0290",
       "nombre": "GEM1222 Papel Oro",
       "referencia": "GEM1222",
@@ -4049,7 +4027,7 @@
       "id": "p0406",
       "nombre": "Cosmetiquera DU",
       "referencia": "COSME-DU",
-      "precio": "pendiente",
+      "precio": 5000,
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "Práctica cosmetiquera DU.",
@@ -5092,7 +5070,7 @@
       "id": "p0503",
       "nombre": "Masajeador Ice Glow AE-349",
       "referencia": "AE-349",
-      "precio": "pendiente",
+      "precio": 15900,
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Masajeador Ice Glow para rostro.",
@@ -6084,6 +6062,28 @@
       "subcategoria": "Kits de pestañas",
       "descripcion": "",
       "imagen": "img/pestanas/Kit_Beauty.jpeg",
+      "agotado": false
+    },
+    {
+      "id": "p0587",
+      "nombre": "Pestañas Volumen Ruso Abanico 3P-CMIX",
+      "referencia": "3P-CMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso abanico mix, pre-armadas 3D (3 pelitos). Curvatura C.",
+      "imagen": "img/pestanas/3P-CMIX.png",
+      "agotado": false
+    },
+    {
+      "id": "p0588",
+      "nombre": "Pestañas Volumen Ruso Flower 3P-CFLORMIX",
+      "referencia": "3P-CFLORMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso estilo Flower Mix, pre-armadas 3D (3 pelitos). Curvatura C.",
+      "imagen": null,
       "agotado": false
     }
   ]
