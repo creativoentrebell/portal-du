@@ -4054,7 +4054,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond ultralivianas. Fibra natural, cabo de aluminio.",
       "imagen": "img/accesorios/0_Set_Brochas_M-02.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0409",
@@ -4065,7 +4065,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-03.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0410",
@@ -4076,7 +4076,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-04.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0411",
@@ -4087,7 +4087,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond 25 piezas ultralivianas.",
       "imagen": "img/accesorios/0_Set_Brochas_M-05.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0412",
@@ -4098,7 +4098,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-06.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0413",
