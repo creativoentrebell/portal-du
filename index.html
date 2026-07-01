@@ -943,24 +943,32 @@ let _lazyObs = null;
 function _crearLazyObserver() {
   if (_lazyObs) _lazyObs.disconnect();
   if (!('IntersectionObserver' in window)) { _lazyObs = null; return; }
-  _lazyObs = new IntersectionObserver((entries) => {
+  const obs = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (!e.isIntersecting) return;
       const img = e.target;
       img.src = img.dataset.src;
       img.removeAttribute('data-src');
-      _lazyObs.unobserve(img);
+      obs.unobserve(img); // instancia local, no variable global
     });
   }, { rootMargin: '400px 0px' });
+  _lazyObs = obs;
 }
 
-function _observarImagenes() {
-  const imgs = document.querySelectorAll('img[data-src]');
-  if (_lazyObs) {
-    imgs.forEach(img => _lazyObs.observe(img));
-  } else {
-    imgs.forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
-  }
+function _observarImagenes(inmediatas = 0) {
+  const imgs = [...document.querySelectorAll('img[data-src]')];
+  imgs.forEach((img, i) => {
+    if (i < inmediatas) {
+      // Carga inmediata para imágenes ya visibles en el viewport
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+    } else if (_lazyObs) {
+      _lazyObs.observe(img);
+    } else {
+      img.src = img.dataset.src;
+      img.removeAttribute('data-src');
+    }
+  });
 }
 
 /* ── Paginación + scroll infinito ── */
@@ -1010,7 +1018,7 @@ function renderGrid() {
   const primero = _itemsFiltrados.slice(0, _POR_PAGINA);
   grid.innerHTML = primero.map(renderCard).join("");
   _cargados = primero.length;
-  _observarImagenes();
+  _observarImagenes(12); // primeras 12 cargan de inmediato (≈ lo visible en el viewport)
   if (_cargados < _itemsFiltrados.length) _ponerSentinel(grid);
 }
 
