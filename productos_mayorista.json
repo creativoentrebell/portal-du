@@ -822,7 +822,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x1, elaborada en PBT coreano de alta calidad.",
-      "imagen": "img/pestanas/3D39 1.webp",
+      "imagen": "img/pestanas/3D39 1.png",
       "agotado": false
     },
     {
@@ -1149,7 +1149,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.05 Curvatura C. Largos disponibles: 8mm a 15mm.",
-      "imagen": "img/pestanas/P5C8MM.png",
+      "imagen": "img/pestanas/P5C.png",
       "agotado": false
     },
     {
@@ -1160,7 +1160,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.05 Curvatura D. Largos disponibles: 8mm a 15mm.",
-      "imagen": "img/pestanas/P5D8MM.png",
+      "imagen": "img/pestanas/P5D.png",
       "agotado": false
     },
     {
@@ -1204,7 +1204,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.07 Curvatura D. Largos disponibles: 8mm a 15mm.",
-      "imagen": "img/pestanas/P7D8MM.png",
+      "imagen": "img/pestanas/P7D.png",
       "agotado": false
     },
     {
@@ -1270,7 +1270,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.12 Curvatura C. Largos disponibles: 8mm a 15mm.",
-      "imagen": "img/pestanas/P12C8MM.png",
+      "imagen": "img/pestanas/P12C.png",
       "agotado": false
     },
     {
@@ -1391,7 +1391,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.20 Curvatura DD (todos los largos). Largos disponibles: 8mm a 15mm.",
-      "imagen": "img/pestanas/P20DDMIX 1.png",
+      "imagen": "img/pestanas/P20DDMIX.png",
       "agotado": false
     },
     {
@@ -2176,7 +2176,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo hacha microdentada para abanicos más voluminosos.",
-      "imagen": "img/pestanas/PINZA-120.webp",
+      "imagen": "img/pestanas/PINZA-120.png",
       "agotado": false
     },
     {
@@ -5812,7 +5812,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "",
-      "imagen": "img/pestanas/CO-PIN8.webp",
+      "imagen": "img/pestanas/CO-PIN8.png",
       "agotado": false
     },
     {
@@ -5987,7 +5987,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-17.webp",
+      "imagen": "img/pestanas/3D-17.png",
       "agotado": false,
       "precio": 5000
     },
@@ -5998,7 +5998,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-27.webp",
+      "imagen": "img/pestanas/3D-27.png",
       "agotado": false,
       "precio": 5000
     },
@@ -6009,7 +6009,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-28.webp",
+      "imagen": "img/pestanas/3D-28.png",
       "agotado": false,
       "precio": 5000
     },
@@ -6020,7 +6020,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-30.webp",
+      "imagen": "img/pestanas/3D-30.png",
       "agotado": false,
       "precio": 5000
     },
@@ -6031,7 +6031,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-05.webp",
+      "imagen": "img/pestanas/6D-05.png",
       "agotado": false,
       "precio": 3500
     },
@@ -6072,7 +6072,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso abanico mix, pre-armadas 3D (3 pelitos). Curvatura C.",
-      "imagen": "img/pestanas/3P-CMIX.webp",
+      "imagen": "img/pestanas/3P-CMIX.png",
       "agotado": false
     },
     {
