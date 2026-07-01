@@ -3928,8 +3928,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "Set 4 cosmetiqueras: 25x7x15 / 21.5x5.5x12.5 / 16x5.5x9.5 / 12.5x4.5x7.5 cm.",
       "imagen": "img/accesorios/BAG17.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0400",
@@ -3959,8 +3958,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "Cosmetiquera.",
       "imagen": "img/accesorios/BAG26.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0402",
@@ -4034,8 +4032,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "Práctica cosmetiquera DU.",
       "imagen": "img/accesorios/COSME-DU.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0407",
@@ -4046,8 +4043,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "Maleta para maquillaje y accesorios.",
       "imagen": "img/accesorios/MAL027 6.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0408",
@@ -4058,8 +4054,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond ultralivianas. Fibra natural, cabo de aluminio.",
       "imagen": "img/accesorios/0_Set_Brochas_M-02.webp",
-      "agotado": true,
-      "colores": []
+      "agotado": true
     },
     {
       "id": "p0409",
@@ -4070,8 +4065,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-03.webp",
-      "agotado": true,
-      "colores": []
+      "agotado": true
     },
     {
       "id": "p0410",
@@ -4082,8 +4076,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-04.webp",
-      "agotado": true,
-      "colores": []
+      "agotado": true
     },
     {
       "id": "p0411",
@@ -4094,8 +4087,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond 25 piezas ultralivianas.",
       "imagen": "img/accesorios/0_Set_Brochas_M-05.webp",
-      "agotado": true,
-      "colores": []
+      "agotado": true
     },
     {
       "id": "p0412",
@@ -4106,8 +4098,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-06.webp",
-      "agotado": true,
-      "colores": []
+      "agotado": true
     },
     {
       "id": "p0413",
@@ -4118,8 +4109,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL1.",
       "imagen": "img/accesorios/BL1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0414",
@@ -4130,8 +4120,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL5.",
       "imagen": "img/accesorios/BL5.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0415",
@@ -4142,8 +4131,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL6.",
       "imagen": "img/accesorios/BL6.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0416",
@@ -4154,8 +4142,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL9.",
       "imagen": "img/accesorios/BL9.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0417",
@@ -4166,8 +4153,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL11.",
       "imagen": "img/accesorios/BL11.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0418",
@@ -4178,8 +4164,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL12.",
       "imagen": "img/accesorios/BL12.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0419",
@@ -4190,8 +4175,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL13.",
       "imagen": "img/accesorios/BL13.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0420",
@@ -4202,8 +4186,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL14.",
       "imagen": "img/accesorios/BL14.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0421",
@@ -4214,8 +4197,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL15.",
       "imagen": "img/accesorios/BL15.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0422",
@@ -4226,8 +4208,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL16.",
       "imagen": "img/accesorios/BL16.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0423",
@@ -4238,8 +4219,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla BD5.",
       "imagen": "img/accesorios/BD5.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0424",
@@ -4250,8 +4230,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD08.",
       "imagen": "img/accesorios/PD08.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0425",
@@ -4262,8 +4241,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD10.",
       "imagen": "img/accesorios/PD10.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0426",
@@ -4274,8 +4252,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD12.",
       "imagen": "img/accesorios/PD12.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0427",
@@ -4286,8 +4263,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD13.",
       "imagen": "img/accesorios/PD13.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0428",
@@ -4298,8 +4274,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD14.",
       "imagen": "img/accesorios/PD14.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0429",
@@ -4310,8 +4285,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD15.",
       "imagen": "img/accesorios/PD15.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0430",
@@ -4322,8 +4296,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD16.",
       "imagen": "img/accesorios/PD16.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0431",
@@ -4334,8 +4307,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD17.",
       "imagen": "img/accesorios/PD17.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0432",
@@ -4346,8 +4318,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3261. Mango en madera de ébano.",
       "imagen": "img/accesorios/BRO3261.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0433",
@@ -4358,8 +4329,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3262. Mango en madera de ébano.",
       "imagen": "img/accesorios/BRO3262.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0434",
@@ -4370,8 +4340,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3264. Mango en madera de ébano.",
       "imagen": "img/accesorios/BRO3264.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0435",
@@ -4382,8 +4351,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3660. Mango en madera de ébano.",
       "imagen": "img/accesorios/BRO3260.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0436",
@@ -4394,8 +4362,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3145.",
       "imagen": "img/accesorios/PIN3145.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0437",
@@ -4406,8 +4373,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3146.",
       "imagen": "img/accesorios/PIN3146.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0438",
@@ -4418,8 +4384,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3147.",
       "imagen": "img/accesorios/PIN3147.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0439",
@@ -4430,8 +4395,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3148.",
       "imagen": "img/accesorios/PIN3148.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0440",
@@ -4442,8 +4406,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3149.",
       "imagen": "img/accesorios/PIN3149.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0441",
@@ -4454,8 +4417,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3150.",
       "imagen": "img/accesorios/PIN3150.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0442",
@@ -4466,8 +4428,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3151.",
       "imagen": "img/accesorios/PIN3151.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0443",
@@ -4478,8 +4439,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC1.",
       "imagen": "img/accesorios/PC 1_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0444",
@@ -4490,8 +4450,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC2.",
       "imagen": "img/accesorios/PC 2_2 (1).webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0445",
@@ -4502,8 +4461,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC3.",
       "imagen": "img/accesorios/PC 3_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0446",
@@ -4514,8 +4472,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC4.",
       "imagen": "img/accesorios/PC 4_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0447",
@@ -4526,8 +4483,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC5.",
       "imagen": "img/accesorios/PC 5_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0448",
@@ -4538,8 +4494,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC6.",
       "imagen": "img/accesorios/PC 6_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0449",
@@ -4550,8 +4505,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC7.",
       "imagen": "img/accesorios/PC 7_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0450",
@@ -4562,8 +4516,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC8.",
       "imagen": "img/accesorios/PC 8_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0451",
@@ -4574,8 +4527,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL6.",
       "imagen": "img/accesorios/PL6.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0452",
@@ -4586,8 +4538,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL7.",
       "imagen": "img/accesorios/PL7.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0453",
@@ -4598,8 +4549,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL8.",
       "imagen": "img/accesorios/PL8.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0454",
@@ -4610,8 +4560,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL10.",
       "imagen": "img/accesorios/PL10.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0455",
@@ -4622,8 +4571,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL12.",
       "imagen": "img/accesorios/PL12.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0456",
@@ -4634,8 +4582,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL13.",
       "imagen": "img/accesorios/PI 13_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0457",
@@ -4646,8 +4593,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL14.",
       "imagen": "img/accesorios/PL14.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0458",
@@ -4658,8 +4604,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL15.",
       "imagen": "img/accesorios/PL15.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0459",
@@ -4670,8 +4615,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL17.",
       "imagen": "img/accesorios/PL17.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0460",
@@ -4682,8 +4626,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL18.",
       "imagen": "img/accesorios/PL18.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0461",
@@ -4694,8 +4637,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL21.",
       "imagen": "img/accesorios/PL21.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0462",
@@ -4706,8 +4648,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL22.",
       "imagen": "img/accesorios/PL22.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0463",
@@ -4718,8 +4659,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL23.",
       "imagen": "img/accesorios/PL23.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0464",
@@ -4730,8 +4670,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL24.",
       "imagen": "img/accesorios/PL24.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0465",
@@ -4742,8 +4681,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL25.",
       "imagen": "img/accesorios/PL25.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0466",
@@ -4754,8 +4692,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL26.",
       "imagen": "img/accesorios/PL26.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0467",
@@ -4766,8 +4703,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL27.",
       "imagen": "img/accesorios/PL27.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0468",
@@ -4778,8 +4714,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL28.",
       "imagen": "img/accesorios/PL28.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0469",
@@ -4790,8 +4725,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL29.",
       "imagen": "img/accesorios/PL29.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0470",
@@ -4802,8 +4736,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL30.",
       "imagen": "img/accesorios/PL30.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0471",
@@ -4814,8 +4747,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL31.",
       "imagen": "img/accesorios/PL31.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0472",
@@ -4826,8 +4758,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL32.",
       "imagen": "img/accesorios/PL32.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0473",
@@ -4838,8 +4769,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL33.",
       "imagen": "img/accesorios/PL33.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0474",
@@ -4850,8 +4780,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL35.",
       "imagen": "img/accesorios/PI 35_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0475",
@@ -4862,8 +4791,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL36.",
       "imagen": "img/accesorios/PI 36_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0476",
@@ -4874,8 +4802,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL37.",
       "imagen": "img/accesorios/PI 37_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0477",
@@ -4886,8 +4813,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL38.",
       "imagen": "img/accesorios/PI 38_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0478",
@@ -4898,8 +4824,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL39.",
       "imagen": "img/accesorios/PI 39_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0479",
@@ -4910,8 +4835,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL40.",
       "imagen": "img/accesorios/PI 40_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0480",
@@ -4922,8 +4846,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL41.",
       "imagen": "img/accesorios/PI 41_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0481",
@@ -4934,8 +4857,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL42.",
       "imagen": "img/accesorios/PI 42_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0482",
@@ -4946,8 +4868,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL43.",
       "imagen": "img/accesorios/PI 43_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0483",
@@ -4958,8 +4879,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL44.",
       "imagen": "img/accesorios/PI 44_1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0484",
@@ -4970,8 +4890,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Set 5 pinceles ultra delgados para cejas edición Merlot.",
       "imagen": "img/accesorios/SBRO3290.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0485",
@@ -4982,8 +4901,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rubor decorativo para maquillaje.",
       "imagen": "img/accesorios/01 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0486",
@@ -4994,8 +4912,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rubor decorativo para maquillaje.",
       "imagen": "img/accesorios/04 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0487",
@@ -5006,8 +4923,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rubor decorativo para maquillaje.",
       "imagen": "img/accesorios/05 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0488",
@@ -5018,8 +4934,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rubor decorativo para maquillaje.",
       "imagen": "img/accesorios/06 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0489",
@@ -5030,8 +4945,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rubor decorativo para maquillaje.",
       "imagen": "img/accesorios/07 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0490",
@@ -5042,8 +4956,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Limpiador en húmedo para brochas y pinceles.",
       "imagen": "img/accesorios/PLVBR01.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0492",
@@ -5054,8 +4967,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pomo triangular.",
       "imagen": "img/accesorios/POM3025.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0493",
@@ -5066,8 +4978,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pomo.",
       "imagen": "img/accesorios/POM3026.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0494",
@@ -5078,8 +4989,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pomy blender.",
       "imagen": "img/accesorios/POM3019 1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0495",
@@ -5106,8 +5016,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Estuche para brochas.",
       "imagen": "img/accesorios/ES3269.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0499",
@@ -5118,8 +5027,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Shinner acabado brillante.",
       "imagen": "img/accesorios/SHINNER.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0500",
@@ -5145,8 +5053,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rodillo doble cabezal de piedra natural. Reduce hinchazón y estimula circulación.",
       "imagen": "img/accesorios/CR01 1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0502",
@@ -5157,8 +5064,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rodillo de piedra natural.",
       "imagen": "img/accesorios/CR02 1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0503",
@@ -5169,8 +5075,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Masajeador Ice Glow para rostro.",
       "imagen": "img/accesorios/AE-349 1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0504",
@@ -5181,8 +5086,7 @@
       "subcategoria": "Hair Technology",
       "descripcion": "Secador DU motor BLDC 110.000 RPM. Control inteligente de temperatura, iones negativos, pantalla LED, limpieza inversa.",
       "imagen": "img/accesorios/R2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0505",
@@ -5193,8 +5097,7 @@
       "subcategoria": "Hair Technology",
       "descripcion": "Secador DU alta velocidad con microprocesador inteligente. Iones negativos, accesorios magnéticos 360°. 3 velocidades.",
       "imagen": "img/accesorios/LG01.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0506",
@@ -5205,8 +5108,7 @@
       "subcategoria": "Hair Technology",
       "descripcion": "Plancha de ondas equilibrio térmico 200-510°C. Apagado automático 30 min. Incluye guante termoprotector.",
       "imagen": "img/accesorios/S-9319.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0507",
@@ -5217,8 +5119,7 @@
       "subcategoria": "Hair Technology",
       "descripcion": "Rizadora sensor Moisture Protec (30 diagnósticos/seg). Cable giratorio 360°, pantalla digital.",
       "imagen": "img/accesorios/SH8603.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0508",
@@ -5266,8 +5167,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo de 9 hileras.",
       "imagen": "img/accesorios/CEP3118.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0511",
@@ -5278,8 +5178,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEP3118 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0512",
@@ -5290,8 +5189,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo desenredante.",
       "imagen": "img/accesorios/CEP3143 1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0513",
@@ -5302,8 +5200,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEP3144.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0514",
@@ -5314,8 +5211,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEP3145.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0515",
@@ -5326,8 +5222,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo suave y redondo que no daña el cuero cabelludo. Forma esqueleto para secado rápido.",
       "imagen": "img/accesorios/CEP3146.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0516",
@@ -5338,8 +5233,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEP3149 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0517",
@@ -5350,8 +5244,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo mini Sai.",
       "imagen": "img/accesorios/CEP3151.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0518",
@@ -5362,8 +5255,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo bambú doble cerda (nylon y cerdas naturales). Desenreda sin maltratar.",
       "imagen": "img/accesorios/CEP4101.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0519",
@@ -5374,8 +5266,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo bambú.",
       "imagen": "img/accesorios/CEP4102.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0520",
@@ -5386,8 +5277,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo bambú.",
       "imagen": "img/accesorios/CEP4103.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0521",
@@ -5398,8 +5288,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo bambú.",
       "imagen": "img/accesorios/CEP4104.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0522",
@@ -5410,8 +5299,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEPL-02.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0523",
@@ -5422,8 +5310,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo pulidor.",
       "imagen": "img/accesorios/CEPUL-05 1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0524",
@@ -5434,8 +5321,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico resistente a 350°C. Revestido de cerámica, tecnología de iones.",
       "imagen": "img/accesorios/25A.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0525",
@@ -5446,8 +5332,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/25D.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0526",
@@ -5458,8 +5343,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/25R.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0527",
@@ -5470,8 +5354,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/32A.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0528",
@@ -5482,8 +5365,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/32D.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0529",
@@ -5494,8 +5376,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/32R.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0530",
@@ -5506,8 +5387,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/43A.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0531",
@@ -5518,8 +5398,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/43R.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0532",
@@ -5530,8 +5409,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/53A.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0533",
@@ -5542,8 +5420,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/53D.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0534",
@@ -5554,8 +5431,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/53R.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0536",
@@ -5566,8 +5442,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Peinilla.",
       "imagen": "img/accesorios/pei-106.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0537",
@@ -5706,8 +5581,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Encrespador fino.",
       "imagen": "img/accesorios/C-0478 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0545",
@@ -5733,8 +5607,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Encrespador de pestañas.",
       "imagen": "img/accesorios/E100 2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0547",
@@ -5808,8 +5681,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Encrespador Claw metálico con bandas de goma. Repuesto silicona incluido.",
       "imagen": "img/accesorios/E108.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0552",
@@ -5820,8 +5692,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Depilador con punta oblicua para retirar vellos y perfeccionar cejas.",
       "imagen": "img/accesorios/DEP6000.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0553",
@@ -5832,8 +5703,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Atomizador tipo bruma para productos de belleza.",
       "imagen": "img/accesorios/ABRUMA1.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0554",
@@ -5844,8 +5714,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Atomizador tipo bruma.",
       "imagen": "img/accesorios/ABRUMA2.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0555",
@@ -5856,8 +5725,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Tijeras de precisión para uso en belleza.",
       "imagen": "img/accesorios/TJ819.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0556",
@@ -5868,8 +5736,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Tijeras.",
       "imagen": "img/accesorios/TJ818.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0557",
@@ -5880,8 +5747,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Pinza profesional tipo L para volumen en extensiones.",
       "imagen": "img/pestanas/PINZA-66 2.png",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0558",
@@ -5892,8 +5758,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo de mano plateado irregular. 15x27cm.",
       "imagen": "img/accesorios/ESPMN9.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0559",
@@ -5904,8 +5769,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo de mano plateado cuadrado irregular. 16x28cm.",
       "imagen": "img/accesorios/ESPMN11.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0560",
@@ -5916,8 +5780,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo lupa con ventosas para superficies lisas.",
       "imagen": "img/accesorios/10XL.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0562",
@@ -5928,8 +5791,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo portátil de tendencia.",
       "imagen": "img/accesorios/ESP4.webp",
-      "agotado": false,
-      "colores": []
+      "agotado": false
     },
     {
       "id": "p0563",
