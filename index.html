@@ -459,6 +459,68 @@
     .cat-unas     { background: #c4e8fb; opacity: 0.6; }
     .cat-accesorios { background: var(--du-blue); }
 
+    /* ─── PRODUCT DETAIL MODAL ──────────────────────── */
+    .prod-overlay {
+      position: fixed; inset: 0; z-index: 200;
+      background: rgba(0,0,0,0.45);
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.2s;
+      backdrop-filter: blur(2px);
+    }
+    .prod-overlay.visible { opacity: 1; pointer-events: all; }
+    .prod-modal {
+      background: var(--du-white);
+      border-radius: 8px;
+      width: 100%; max-width: 520px;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+      transform: translateY(16px);
+      transition: transform 0.25s ease;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+    }
+    .prod-overlay.visible .prod-modal { transform: translateY(0); }
+    .prod-modal-close {
+      position: absolute; top: 12px; right: 12px;
+      background: rgba(255,255,255,0.9); border: 1px solid var(--du-border);
+      cursor: pointer; width: 30px; height: 30px; border-radius: 50%;
+      font-size: 17px; color: var(--du-gray); z-index: 10;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.15s, color 0.15s;
+    }
+    .prod-modal-close:hover { background: var(--du-border); color: var(--du-dark); }
+    .prod-modal-img {
+      width: 100%; aspect-ratio: 1/1; max-height: 260px;
+      object-fit: contain; padding: 28px;
+      background: var(--du-off); display: block;
+      border-bottom: 1px solid var(--du-border);
+      cursor: zoom-in;
+    }
+    .prod-modal-img.no-img { display: none; }
+    .prod-modal-no-img {
+      width: 100%; height: 120px;
+      background: linear-gradient(145deg,#e8f4fd,#d0eaf8);
+      display: flex; align-items: center; justify-content: center;
+      border-bottom: 1px solid var(--du-border);
+    }
+    .prod-modal-no-img.hidden { display: none; }
+    .prod-modal-no-img svg { width: 32px; height: 32px; color: var(--du-blue-dk); opacity: 0.6; }
+    .prod-modal-body { padding: 22px 24px 28px; }
+    .prod-modal-subcat { font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--du-blue-dk); display: block; margin-bottom: 6px; }
+    .prod-modal-name { font-family: var(--font-serif); font-size: 17px; font-weight: 500; color: var(--du-dark); line-height: 1.35; margin-bottom: 4px; }
+    .prod-modal-ref { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--du-gray); display: block; margin-bottom: 14px; }
+    .prod-modal-agotado { display: inline-block; background: var(--du-dark); color: var(--du-white); font-size: 9px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; }
+    .prod-modal-desc { font-size: 13px; color: #555; line-height: 1.75; }
+    .prod-modal-price-wrap { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--du-border); }
+    .prod-modal-price { font-family: var(--font-serif); font-size: 17px; font-weight: 600; color: var(--du-dark); }
+    .prod-modal-price .currency { font-size: 12px; font-weight: 400; color: var(--du-gray); margin-right: 2px; }
+
+    /* Descripción clickable en la tarjeta */
+    .card-desc { cursor: pointer; }
+    .card-desc:hover { color: var(--du-dark); text-decoration: underline; text-decoration-color: var(--du-border); text-underline-offset: 2px; }
+
     /* ─── EMPTY STATE ────────────────────────────────── */
     .empty-state { max-width: 1280px; margin: 0 auto; padding: 80px 24px; text-align: center; display: none; }
     .empty-state.visible { display: block; }
@@ -819,6 +881,28 @@
   </div>
 </div>
 
+<!-- ─── PRODUCT DETAIL MODAL ─── -->
+<div class="prod-overlay" id="prodOverlay" onclick="if(event.target===this)closeProdModal()">
+  <div class="prod-modal">
+    <button class="prod-modal-close" onclick="closeProdModal()">×</button>
+    <img class="prod-modal-img" id="prodModalImg" src="" alt=""
+         onclick="openLightbox(this.src, this.alt)"/>
+    <div class="prod-modal-no-img" id="prodModalNoImg">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z"/><circle cx="12" cy="12" r="3"/></svg>
+    </div>
+    <div class="prod-modal-body">
+      <span class="prod-modal-subcat" id="prodModalSubcat"></span>
+      <h2 class="prod-modal-name" id="prodModalName"></h2>
+      <span class="prod-modal-ref" id="prodModalRef"></span>
+      <span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
+      <p class="prod-modal-desc" id="prodModalDesc"></p>
+      <div class="prod-modal-price-wrap" id="prodModalPriceWrap" style="display:none">
+        <div class="prod-modal-price" id="prodModalPrice"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ─── LIGHTBOX ─── -->
 <div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
   <button class="lightbox-close" onclick="closeLightbox()">×</button>
@@ -911,7 +995,7 @@ function renderCard(p) {
         `<div class="card-thumb ${i===0?'activo':''}" onclick="cambiarFoto(this,'${c}')"><img data-src="${c}"/></div>`
       ).join('')}</div>` : '';
 
-  const descHTML  = p.descripcion ? `<p class="card-desc">${p.descripcion}</p>` : "";
+  const descHTML  = p.descripcion ? `<p class="card-desc" onclick="openProdModal('${p.id}')" title="Ver descripción completa">${p.descripcion}</p>` : "";
   const dotClass  = CAT_DOTS[p.categoria] || "cat-accesorios";
 
   return `
@@ -1197,8 +1281,63 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     closeLightbox();
     closePinModal();
+    closeProdModal();
   }
 });
+
+/* ─────────────────────────────────────────────────
+   PRODUCT DETAIL MODAL
+───────────────────────────────────────────────── */
+function openProdModal(id) {
+  const p = allProducts.find(x => x.id === id);
+  if (!p) return;
+
+  // Texto
+  document.getElementById('prodModalSubcat').textContent = p.subcategoria;
+  document.getElementById('prodModalName').textContent   = p.nombre;
+  document.getElementById('prodModalRef').textContent    = 'Ref. ' + p.referencia;
+  document.getElementById('prodModalDesc').textContent   = p.descripcion || '';
+
+  // Agotado
+  document.getElementById('prodModalAgotado').style.display = p.agotado ? 'inline-block' : 'none';
+
+  // Imagen
+  const img     = document.getElementById('prodModalImg');
+  const noImg   = document.getElementById('prodModalNoImg');
+  if (p.imagen && p.imagen.trim()) {
+    img.src = p.imagen; img.alt = p.nombre;
+    img.classList.remove('no-img');
+    noImg.classList.add('hidden');
+  } else {
+    img.src = ''; img.classList.add('no-img');
+    noImg.classList.remove('hidden');
+  }
+
+  // Precio
+  const priceWrap = document.getElementById('prodModalPriceWrap');
+  const priceEl   = document.getElementById('prodModalPrice');
+  if (mode !== 'sinprecios') {
+    let precio;
+    if (mode === 'mayorista') {
+      const mp = mayorMap[p.id];
+      precio = (mp !== undefined) ? mp : p.precio;
+    } else {
+      precio = p.precio;
+    }
+    priceEl.innerHTML = (precio === 'pendiente' || precio === null || precio === undefined)
+      ? '<span class="price-pending">Precio pendiente</span>'
+      : '<span class="currency">$</span>' + formatPrice(precio);
+    priceWrap.style.display = '';
+  } else {
+    priceWrap.style.display = 'none';
+  }
+
+  document.getElementById('prodOverlay').classList.add('visible');
+}
+
+function closeProdModal() {
+  document.getElementById('prodOverlay').classList.remove('visible');
+}
 
 /* ─────────────────────────────────────────────────
    INIT — carga los dos JSONs en paralelo
