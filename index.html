@@ -1345,8 +1345,8 @@ function closeProdModal() {
 async function init() {
   try {
     const [resD, resM] = await Promise.all([
-      fetch("productos.json"),
-      fetch("productos_mayorista.json")
+      fetch("du_productos.json"),
+      fetch("du_productos_mayorista.json")
     ]);
     const dataD = await resD.json();
     const dataM = await resM.json();
