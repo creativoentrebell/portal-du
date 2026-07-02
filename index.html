@@ -157,6 +157,18 @@
     }
     .search-clear.visible { display: block; }
 
+    /* ─── FILTER BAR (sticky) ───────────────────────── */
+    .filter-bar {
+      position: sticky;
+      top: 64px;
+      z-index: 90;
+      background: var(--du-white);
+      transition: box-shadow 0.2s;
+    }
+    .filter-bar.stuck {
+      box-shadow: 0 3px 14px rgba(0,0,0,0.08);
+    }
+
     /* ─── CATEGORY NAV ───────────────────────────────── */
     .cat-nav { background: var(--du-white); border-bottom: 1px solid var(--du-border); }
     .cat-nav-inner {
@@ -725,6 +737,10 @@
   </div>
 </section>
 
+<!-- ─── FILTER BAR (sticky) ─── -->
+<div id="filterSentinel" style="height:0;pointer-events:none;"></div>
+<div class="filter-bar" id="filterBar">
+
 <!-- ─── CATEGORY NAV ─── -->
 <nav class="cat-nav" id="catNav">
   <div class="cat-nav-inner">
@@ -755,6 +771,8 @@
     Mostrar agotados
   </label>
 </div>
+
+</div><!-- /filter-bar -->
 
 <!-- ─── PRODUCT GRID ─── -->
 <div class="product-grid" id="productGrid"></div>
@@ -1211,6 +1229,17 @@ async function init() {
       `<p style="padding:40px;color:var(--du-gray)">No se pudo cargar el catálogo.</p>`;
   }
 }
+
+/* ── Sticky filter bar: sombra cuando está anclada ── */
+(function() {
+  const sentinel = document.getElementById('filterSentinel');
+  const bar      = document.getElementById('filterBar');
+  if (!sentinel || !bar || !('IntersectionObserver' in window)) return;
+  new IntersectionObserver(
+    ([entry]) => bar.classList.toggle('stuck', !entry.isIntersecting),
+    { threshold: 0, rootMargin: '-65px 0px 0px 0px' }
+  ).observe(sentinel);
+})();
 
 init();
 </script>
