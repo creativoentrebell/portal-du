@@ -6094,7 +6094,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/BR01.webp",
       "agotado": false
     },
     {
@@ -6105,7 +6105,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/BR07.webp",
       "agotado": false
     },
     {
@@ -6116,7 +6116,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/BR09.webp",
       "agotado": false
     },
     {
@@ -6127,7 +6127,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/BR10.webp",
       "agotado": false
     },
     {
@@ -6138,8 +6138,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/DM03_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/DM03_1.webp",
+        "img/accesorios/DM03_2.webp"
+      ]
     },
     {
       "id": "p0594",
@@ -6149,8 +6153,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/DM05_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/DM05_1.webp",
+        "img/accesorios/DM05_2.webp"
+      ]
     },
     {
       "id": "p0595",
@@ -6160,7 +6168,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MC01.webp",
       "agotado": false
     },
     {
@@ -6171,7 +6179,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP02.webp",
       "agotado": false
     },
     {
@@ -6182,7 +6190,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP06.webp",
       "agotado": false
     },
     {
@@ -6193,7 +6201,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP07.webp",
       "agotado": false
     },
     {
@@ -6204,7 +6212,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP08.webp",
       "agotado": false
     },
     {
@@ -6215,7 +6223,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP09.webp",
       "agotado": false
     },
     {
@@ -6226,7 +6234,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP10.webp",
       "agotado": false
     },
     {
@@ -6248,7 +6256,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP12.webp",
       "agotado": false
     },
     {
@@ -6259,7 +6267,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP13.webp",
       "agotado": false
     },
     {
@@ -6270,7 +6278,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP16.webp",
       "agotado": false
     },
     {
@@ -6281,7 +6289,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP17.webp",
       "agotado": false
     },
     {
@@ -6292,7 +6300,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MP20.webp",
       "agotado": false
     },
     {
@@ -6303,7 +6311,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MR01.webp",
       "agotado": false
     },
     {
@@ -6314,7 +6322,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MS02.webp",
       "agotado": false
     },
     {
@@ -6325,7 +6333,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/MS03.webp",
       "agotado": false
     },
     {
@@ -6336,7 +6344,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/SP01.webp",
       "agotado": false
     },
     {
@@ -6347,8 +6355,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/DEP3124_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/DEP3124_1.webp",
+        "img/accesorios/DEP3124_2.webp"
+      ]
     },
     {
       "id": "p0613",
@@ -6358,8 +6370,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/DEP3148_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/DEP3148_1.webp",
+        "img/accesorios/DEP3148_2.webp"
+      ]
     },
     {
       "id": "p0614",
@@ -6391,7 +6407,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/DEP7000.webp",
       "agotado": false
     },
     {
@@ -6446,8 +6462,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/PA11_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PA11_1.webp",
+        "img/accesorios/PA11_2.webp"
+      ]
     },
     {
       "id": "p0622",
@@ -6457,7 +6477,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/RT01.webp",
       "agotado": false
     },
     {
@@ -6479,7 +6499,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/CEP3051-1.webp",
       "agotado": false
     },
     {
@@ -6490,8 +6510,15 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/CEP3091-4_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/CEP3091-4_1.webp",
+        "img/accesorios/CEP3091-4_2.webp",
+        "img/accesorios/CEP3091-4_3.webp",
+        "img/accesorios/CEP3091-4_4.webp",
+        "img/accesorios/CEP3091-4_5.webp"
+      ]
     },
     {
       "id": "p0626",
@@ -6501,7 +6528,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/CEP3134.webp",
       "agotado": false
     },
     {
@@ -6534,7 +6561,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/CEPILLO1.webp",
       "agotado": false
     },
     {
@@ -6578,7 +6605,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/pei-105.webp",
       "agotado": false
     },
     {
@@ -6622,8 +6649,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/SPEIC03_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/SPEIC03_1.webp",
+        "img/accesorios/SPEIC03_2.webp"
+      ]
     },
     {
       "id": "p0638",
@@ -6644,8 +6675,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/GC2012_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/GC2012_1.webp",
+        "img/accesorios/GC2012_2.webp"
+      ]
     },
     {
       "id": "p0640",
@@ -6699,8 +6734,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/BAG3_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BAG3_1.webp",
+        "img/accesorios/BAG3_2.webp",
+        "img/accesorios/BAG3_3.webp"
+      ]
     },
     {
       "id": "p0645",
@@ -6732,7 +6772,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/CS17.webp",
       "agotado": false
     },
     {
@@ -6754,8 +6794,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/KITV01_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/KITV01_1.webp",
+        "img/accesorios/KITV01_2.webp"
+      ]
     },
     {
       "id": "p0651",
@@ -6787,7 +6831,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Espejos",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/ESP11.webp",
       "agotado": false
     },
     {
