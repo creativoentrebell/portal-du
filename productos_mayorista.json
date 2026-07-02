@@ -328,7 +328,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster classic.",
       "imagen": "img/pestanas/REF DFD06.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0031",
@@ -339,7 +339,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster classic.",
       "imagen": "img/pestanas/DFD08.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0032",
@@ -691,7 +691,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
       "imagen": "img/pestanas/3DX5-04 1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0064",
@@ -911,7 +911,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster ULAM.",
       "imagen": "img/pestanas/ULAM.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0084",
@@ -1084,7 +1084,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm.",
       "imagen": "img/pestanas/FLAT15D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0099",
@@ -1095,7 +1095,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm.",
       "imagen": "img/pestanas/FLAT20D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0101",
@@ -1134,7 +1134,7 @@
       "id": "p0104",
       "nombre": "Pestañas Pelo a Pelo — P3D",
       "referencia": "P3D",
-      "precio": 9900,
+      "precio": 6900,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.03 Curvatura D. Largos disponibles: 8mm a 15mm.",
@@ -1321,7 +1321,7 @@
       "id": "p0121",
       "nombre": "Pestañas Pelo a Pelo — P15D",
       "referencia": "P15D",
-      "precio": 9900,
+      "precio": 6900,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.15 Curvatura D. Largos disponibles: 8mm a 15mm.",
@@ -1629,7 +1629,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Depilador con punta oblicua para retirar vellos. Ideal para dar forma y perfeccionar cejas.",
       "imagen": "img/pestanas/DEP3138.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0149",
@@ -1717,7 +1717,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Depilador con punta oblicua.",
       "imagen": "img/pestanas/DEP3159 morado.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/DEP3159 morado.webp",
         "img/pestanas/DEP3159 rosado.webp"
@@ -1803,7 +1803,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador de pestañas.",
       "imagen": "img/pestanas/E100 2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0164",
@@ -1814,7 +1814,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador Rosé. Disponible en varios colores.",
       "imagen": "img/pestanas/E101 CORAL.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0165",
@@ -1869,7 +1869,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Lámpara LED media luna profesional. Ajuste de temperatura 3.200K-6.500K, 2.000 lúmenes, altura 128-180cm.",
       "imagen": "img/pestanas/ULAM.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0170",
@@ -1880,7 +1880,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Agujas para microblading x50 und. Diagonal 16U, 0.20mm diámetro.",
       "imagen": "img/pestanas/AGUDIG-16.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0171",
@@ -1891,7 +1891,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Agujas para microblading x50 und. Diagonal 18U, 0.20mm diámetro.",
       "imagen": "img/pestanas/AGUDIG-18.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0172",
@@ -1902,7 +1902,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Agujas microblading x50 und. Lengua de gato 16U, 0.20mm.",
       "imagen": "img/pestanas/AGULG-16 2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0173",
@@ -1913,7 +1913,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Agujas microblading x50 und. Lengua de gato 18U, 0.20mm.",
       "imagen": "img/pestanas/AGULG-18 2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0174",
@@ -2221,7 +2221,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Caja organizadora en acrílico con 5 bandejas. Filas y números para fácil organización.",
       "imagen": "img/pestanas/CO-PES5.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0203",
@@ -2232,7 +2232,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Caja organizadora en acrílico con 10 bandejas.",
       "imagen": "img/pestanas/CO-PES2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0204",
@@ -2397,7 +2397,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Lapicero en gel para uso en técnicas de pestañas y cejas.",
       "imagen": "img/pestanas/LAPGEL.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0220",
@@ -2606,7 +2606,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Kit de glitter x12 unidades con los que puedes crear hermosos diseños para todo tipo de técnicas.",
       "imagen": "img/unas/p-mirez1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0244",
@@ -2617,7 +2617,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Polvo espejo oro rosa. Efecto metalizado muy brillante e intenso. Ideal para semipermanente.",
       "imagen": "img/unas/REF PCOLOR.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0245",
@@ -2628,7 +2628,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix, mezcla de glitter y escamas con reflejos holográficos de diversos tamaños.",
       "imagen": "img/unas/G1_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0246",
@@ -2639,7 +2639,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G3_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0247",
@@ -2650,7 +2650,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G4_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0248",
@@ -2661,7 +2661,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G5.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0249",
@@ -2672,7 +2672,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G6_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0250",
@@ -2683,7 +2683,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/IMG_7404.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0251",
@@ -2694,7 +2694,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G8 _1 _2 _3 _4 _5 _6.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0252",
@@ -2705,7 +2705,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G9_10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0253",
@@ -2716,7 +2716,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G10 - 1 (1).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0254",
@@ -2727,7 +2727,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G12 _1 _2 _3.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0255",
@@ -2738,7 +2738,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G1_3.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0256",
@@ -2749,7 +2749,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G14 1 (1).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0257",
@@ -2760,7 +2760,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter mix con reflejos holográficos.",
       "imagen": "img/unas/G15 3 (2).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0258",
@@ -2771,7 +2771,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Efecto espejo en polvo. Efecto metalizado de máximo brillo para técnicas profesionales.",
       "imagen": "img/unas/PESPEJO.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0259",
@@ -2782,7 +2782,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter de colores con destellos holográficos para todo tipo de técnica.",
       "imagen": "img/unas/DG01_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0260",
@@ -2793,7 +2793,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Polvo aurora que da efecto iridiscente y realza el color de base.",
       "imagen": "img/unas/DG02-1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0261",
@@ -2804,7 +2804,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Mezcla de colores en glitter con destellos holográficos.",
       "imagen": "img/unas/DG04-1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0262",
@@ -2815,7 +2815,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Glitter de colores con destellos holográficos.",
       "imagen": "img/unas/DG05-1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0263",
@@ -2826,7 +2826,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Efecto espejo compacto para técnicas profesionales. Efecto metalizado muy brillante.",
       "imagen": "img/unas/DG 06_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0264",
@@ -2837,7 +2837,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Efecto espejo compacto. Efecto metalizado brillante e intenso.",
       "imagen": "img/unas/DG08 COMPLETO.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0265",
@@ -2848,7 +2848,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Polvo aurora con efecto iridiscente holográfico.",
       "imagen": "img/unas/DG09.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0266",
@@ -2859,7 +2859,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Dijes surtidos para colocar en uñas y crear todo tipo de diseños.",
       "imagen": "img/unas/GEM3060-1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0267",
@@ -2870,7 +2870,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Micro glitter x12 unidades con reflejos holográficos para todo tipo de técnica.",
       "imagen": "img/unas/P-MIRE-1-.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0268",
@@ -2881,7 +2881,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Aplique decorativo 3D con diferentes formas (osos, estrellas, etc.).",
       "imagen": "img/unas/GEM1221.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0269",
@@ -2892,7 +2892,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Concha de nácar decorativa 3D para uñas.",
       "imagen": "img/unas/GEM1219.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0270",
@@ -2903,7 +2903,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Aplique decorativo de flores para uñas.",
       "imagen": "img/unas/FLOR (1).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0271",
@@ -2914,7 +2914,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Perlas delgadas compactas tipo 'perlas de caviar' para uñas.",
       "imagen": "img/unas/GEM1220-1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0272",
@@ -2925,7 +2925,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Cola de sirena mix con destellos holográficos de diversos tamaños y colores.",
       "imagen": "img/unas/GEM 1201_10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0273",
@@ -2936,7 +2936,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Cola de sirena mix holográfica.",
       "imagen": "img/unas/GEM1202_10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0274",
@@ -2947,7 +2947,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Cola de sirena mix holográfica.",
       "imagen": "img/unas/GEM1203_.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0275",
@@ -2958,7 +2958,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Polvo traslúcido efecto aurora, da efecto iridiscente y realza el color de base.",
       "imagen": "img/unas/GEM1204_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0276",
@@ -2969,7 +2969,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Polvo traslúcido con toques perlados, acabado muy brillante.",
       "imagen": "img/unas/GEM1205_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0277",
@@ -2980,7 +2980,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Flake it hojuelas delgadas asimétricas, pigmentos metálicos e iridiscentes en tonos verdes.",
       "imagen": "img/unas/GEM1206_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0278",
@@ -2991,7 +2991,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Flake it hojuelas delgadas asimétricas, pigmentos metálicos en tonos violetas.",
       "imagen": "img/unas/GEM1207_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0279",
@@ -3002,7 +3002,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Flake it hojuelas delgadas asimétricas en diferentes tonalidades.",
       "imagen": "img/unas/GEM1208_11.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0280",
@@ -3013,7 +3013,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Micro glitter con reflejos holográficos para diferentes técnicas.",
       "imagen": "img/unas/GEM1209_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0281",
@@ -3024,7 +3024,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Pigmentos de colores para diferentes técnicas y diseños.",
       "imagen": "img/unas/GEM1210_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0282",
@@ -3035,7 +3035,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Micro glitter con reflejos holográficos.",
       "imagen": "img/unas/GEM1211_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0283",
@@ -3046,7 +3046,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Micro glitter blanco con reflejos holográficos.",
       "imagen": "img/unas/GEM1212.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0284",
@@ -3057,7 +3057,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Polvo efecto Moonlight. Crea un efecto perlado metalizado para uñas.",
       "imagen": "img/unas/GEM1213.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0290",
@@ -3068,7 +3068,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Papel oro, finas hojas para efecto de acabado metálico.",
       "imagen": "img/unas/GEM1222_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0295",
@@ -3079,7 +3079,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería brillante para uñas. Set x12. Ideal para semipermanente y acrílico.",
       "imagen": "img/unas/GM3061.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0296",
@@ -3090,7 +3090,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería brillante para uñas. Set x12.",
       "imagen": "img/unas/GM3062.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0297",
@@ -3101,7 +3101,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/SNY4012]_GM3085.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0298",
@@ -3112,7 +3112,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería brillante. Set x12.",
       "imagen": "img/unas/GM3088.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0299",
@@ -3123,7 +3123,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3090.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0300",
@@ -3134,7 +3134,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/3092.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0301",
@@ -3145,7 +3145,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3095.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0302",
@@ -3156,7 +3156,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3112.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0303",
@@ -3167,7 +3167,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3114.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0304",
@@ -3178,7 +3178,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3119.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0305",
@@ -3189,7 +3189,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3120.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0306",
@@ -3200,7 +3200,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3121.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0307",
@@ -3211,7 +3211,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3122.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0308",
@@ -3222,7 +3222,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3126.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0309",
@@ -3233,7 +3233,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3130.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0310",
@@ -3244,7 +3244,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3150.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0311",
@@ -3255,7 +3255,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3151.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0312",
@@ -3266,7 +3266,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería premium para uñas.",
       "imagen": "img/unas/GM3152.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0313",
@@ -3277,7 +3277,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3153.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0314",
@@ -3288,7 +3288,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3154.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0315",
@@ -3299,7 +3299,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
       "imagen": "img/unas/GM3155.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0316",
@@ -3310,7 +3310,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería premium para uñas.",
       "imagen": "img/unas/GM3158.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0317",
@@ -3321,7 +3321,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3159.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0318",
@@ -3332,7 +3332,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas. Set x12.",
       "imagen": "img/unas/GM3160.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0319",
@@ -3343,7 +3343,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería premium para uñas.",
       "imagen": "img/unas/GM3165.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0320",
@@ -3354,7 +3354,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Cristal triturado para decoración de uñas en todo tipo de técnica.",
       "imagen": "img/unas/GEC2601 (2) (1).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0321",
@@ -3365,7 +3365,7 @@
       "subcategoria": "Efectos y apliques",
       "descripcion": "Accesorios decorativos para todo tipo de técnica de uñas.",
       "imagen": "img/unas/GEC2611 (2).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0329",
@@ -3376,7 +3376,7 @@
       "subcategoria": "Stickers para uñas",
       "descripcion": "Stickers para uñas. Compatibles con semipermanente y tradicional.",
       "imagen": "img/unas/3DLINEAS (1).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0330",
@@ -3387,7 +3387,7 @@
       "subcategoria": "Stickers para uñas",
       "descripcion": "Stickers para uñas para crear hermosos diseños en todo tipo de técnica.",
       "imagen": "img/unas/GM3087 (1).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0331",
@@ -3398,7 +3398,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Práctico mostrador y probador de uñas. Incluye 50 uñas.",
       "imagen": "img/unas/PROUN23 (2).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0332",
@@ -3409,7 +3409,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Práctico mostrador y probador de uñas. Incluye 50 uñas.",
       "imagen": "img/unas/PROUN4.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0333",
@@ -3420,7 +3420,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Aluminio para retirado de esmalte semipermanente. Resistente, conserva el calor.",
       "imagen": "img/unas/alu02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0334",
@@ -3431,7 +3431,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Placa acrílica para copia de figuras fáciles y rápidas.",
       "imagen": "img/unas/PLADECOU.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0335",
@@ -3442,7 +3442,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Placa metálica para copia de figuras.",
       "imagen": "img/unas/PLADECOU2 (6).webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0336",
@@ -3453,7 +3453,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Uñas postizas x24 sets, ideales para aplicación de esmaltes.",
       "imagen": "img/unas/new salon.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0337",
@@ -3464,7 +3464,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Kit de 5 pinceles con punzón (doble punta) para decorado de uñas.",
       "imagen": "img/unas/PUNZON1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0338",
@@ -3475,7 +3475,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pinceles con punzón (doble punta) por unidad.",
       "imagen": "img/unas/PUN5PCS.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0339",
@@ -3486,7 +3486,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pads limpiadores paquete x200.",
       "imagen": "img/unas/PADS2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0340",
@@ -3497,7 +3497,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pads limpiadores paquete x200.",
       "imagen": "img/unas/PADS3.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0341",
@@ -3508,7 +3508,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cubos pulidores de colores x10 bloques. Para uñas naturales y acrílicas.",
       "imagen": "img/unas/cub-02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0342",
@@ -3519,7 +3519,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Kit de 2 cepillos para uñas.",
       "imagen": "img/unas/HC-0396.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0343",
@@ -3530,7 +3530,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Recipiente de vidrio grueso para monómero en uñas acrílicas. x20 unidades.",
       "imagen": "img/unas/MOR1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0344",
@@ -3541,7 +3541,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Molde silicona 3D para Nail Art 6.5x5cm. Para semipermanente, gel o acrílico.",
       "imagen": "img/unas/ML01.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0345",
@@ -3552,7 +3552,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Molde silicona 3D para Nail Art 8.5x5.5cm.",
       "imagen": "img/unas/ML02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0346",
@@ -3563,7 +3563,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Molde silicona 3D para Nail Art 6.5x5cm.",
       "imagen": "img/unas/ML03.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0347",
@@ -3574,7 +3574,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cortacutícula plástico Spring. Por unidad.",
       "imagen": "img/unas/CORT2867.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/CORT2867.webp",
         "img/unas/CORT2867_1.webp",
@@ -3591,7 +3591,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cortacutícula metálico.",
       "imagen": "img/unas/CORT8819.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0349",
@@ -3602,7 +3602,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Mini cortauñas de acero x24 unidades.",
       "imagen": "img/unas/602.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0350",
@@ -3613,7 +3613,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Guillotina de alta calidad con mango ergonómico antideslizante. Corte preciso y sin esfuerzo.",
       "imagen": "img/unas/BLACKY.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0351",
@@ -3624,7 +3624,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cortacutículas.",
       "imagen": "img/unas/CORT8850.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0354",
@@ -3635,7 +3635,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher con punta diamante DU. Para correr cutícula y limpiar uñas. Permite desinfección y esterilización.",
       "imagen": "img/unas/PUS20.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0355",
@@ -3646,7 +3646,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher doble pala DU.",
       "imagen": "img/unas/PUS21.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0356",
@@ -3657,7 +3657,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher DU.",
       "imagen": "img/unas/PUS22.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0357",
@@ -3668,7 +3668,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher tipo pala DU.",
       "imagen": "img/unas/PUS23.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0358",
@@ -3679,7 +3679,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher doble uso para correr cutícula y limpiar uñas.",
       "imagen": "img/unas/PUS03.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0359",
@@ -3690,7 +3690,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher doble uso.",
       "imagen": "img/unas/PUS04.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0360",
@@ -3701,7 +3701,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher doble uso.",
       "imagen": "img/unas/PUS05.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0361",
@@ -3712,7 +3712,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pusher doble uso.",
       "imagen": "img/unas/PUS06.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0363",
@@ -3723,7 +3723,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Lima metálica pico de loro x12 unidades. Punta curva para acceder a todos los rincones.",
       "imagen": "img/unas/LIM30-053.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0364",
@@ -3734,7 +3734,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Herramienta básica para cortar cutículas en plástico con punta de goma. Set x12.",
       "imagen": "img/unas/PT30-112.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0365",
@@ -3771,7 +3771,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Palitos de naranjo en madera x100. Para retirar residuos, empujar cutícula, corregir manicure.",
       "imagen": "img/unas/SNY3115-.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0368",
@@ -3782,7 +3782,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Palitos de naranjo en madera x10.",
       "imagen": "img/unas/0010.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0388",
@@ -3793,7 +3793,7 @@
       "subcategoria": "Kits para uñas",
       "descripcion": "Kit compuesto por arcilla + VIDUNA1 (exhibidor vidrio) + SOPO1 (soporte mostrador).",
       "imagen": "img/unas/KIT1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0389",
@@ -3804,7 +3804,7 @@
       "subcategoria": "Kits para uñas",
       "descripcion": "Kit compuesto por arcilla + VIDUNA2 (exhibidor vidrio) + SOPO2 (soporte mostrador).",
       "imagen": "img/unas/KIT2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0390",
@@ -3815,7 +3815,7 @@
       "subcategoria": "Kits para uñas",
       "descripcion": "Kit compuesto por arcilla + VIDUNA3 (exhibidor vidrio) + SOPO3 (soporte mostrador).",
       "imagen": "img/unas/KIT3.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0391",
@@ -3826,7 +3826,7 @@
       "subcategoria": "Kits para uñas",
       "descripcion": "Kit compuesto por arcilla + VIDUNA4 (exhibidor vidrio) + SOPO1 (soporte mostrador).",
       "imagen": "img/unas/KIT4.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0392",
@@ -3837,7 +3837,7 @@
       "subcategoria": "Imanes",
       "descripcion": "Imán multifuncional 5 en 1. Puntas: T, doble cuadrada, plana ancha, redonda y flor central.",
       "imagen": "img/unas/C821.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0393",
@@ -3848,7 +3848,7 @@
       "subcategoria": "Imanes",
       "descripcion": "Imán 3 en 1. Punta redonda, plana y flor. Potente campo magnético.",
       "imagen": "img/unas/CT1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0394",
@@ -3859,7 +3859,7 @@
       "subcategoria": "Imanes",
       "descripcion": "Imán rectangular con funda de silicona. Crea efectos 3D: línea recta, diagonal, halo, galaxia, flama.",
       "imagen": "img/unas/CT2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0395",
@@ -3870,7 +3870,7 @@
       "subcategoria": "Imanes",
       "descripcion": "Imán doble cabezal texturizado. Crea efecto rayo, S, media luna, X, onda, ojo de gato y más.",
       "imagen": "img/unas/CT3.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0396",
@@ -4043,7 +4043,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "Maleta para maquillaje y accesorios.",
       "imagen": "img/accesorios/MAL027 6.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0408",
@@ -4054,7 +4054,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond ultralivianas. Fibra natural, cabo de aluminio.",
       "imagen": "img/accesorios/0_Set_Brochas_M-02.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0409",
@@ -4065,7 +4065,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-03.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0410",
@@ -4076,7 +4076,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-04.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0411",
@@ -4087,7 +4087,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond 25 piezas ultralivianas.",
       "imagen": "img/accesorios/0_Set_Brochas_M-05.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0412",
@@ -4098,7 +4098,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-06.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0413",
@@ -4109,7 +4109,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL1.",
       "imagen": "img/accesorios/BL1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0414",
@@ -4120,7 +4120,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL5.",
       "imagen": "img/accesorios/BL5.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0415",
@@ -4131,7 +4131,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL6.",
       "imagen": "img/accesorios/BL6.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0416",
@@ -4582,7 +4582,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL13.",
       "imagen": "img/accesorios/PI 13_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0457",
@@ -5200,7 +5200,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEP3144.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0514",
@@ -5211,7 +5211,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEP3145.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0515",
@@ -5299,7 +5299,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo.",
       "imagen": "img/accesorios/CEPL-02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0523",
@@ -5398,7 +5398,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/43R.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0532",
@@ -5607,7 +5607,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Encrespador de pestañas.",
       "imagen": "img/accesorios/E100 2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0547",
@@ -5618,7 +5618,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Encrespador Rosé con colores.",
       "imagen": "img/accesorios/E101 CORAL.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/E101 CORAL.webp",
         "img/accesorios/E101 MORADO.webp",
@@ -5758,7 +5758,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo de mano plateado irregular. 15x27cm.",
       "imagen": "img/accesorios/ESPMN9.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0559",
@@ -5769,7 +5769,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo de mano plateado cuadrado irregular. 16x28cm.",
       "imagen": "img/accesorios/ESPMN11.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0560",
@@ -5791,7 +5791,7 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo portátil de tendencia.",
       "imagen": "img/accesorios/ESP4.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0563",
@@ -5802,7 +5802,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "",
       "imagen": "img/pestanas/CO-PES10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0564",
