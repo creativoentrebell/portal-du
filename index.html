@@ -443,6 +443,21 @@
       border-radius: 2px;
     }
 
+    .promo-badge {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      z-index: 21;
+      background: var(--du-blue-dk);
+      color: var(--du-white);
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 2px;
+    }
+
     .card-body { padding: 14px 14px 16px; flex: 1; display: flex; flex-direction: column; gap: 4px; }
     .card-subcat { font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--du-blue-dk); margin-bottom: 2px; }
     .card-name { font-family: var(--font-serif); font-size: 14px; font-weight: 500; color: var(--du-dark); line-height: 1.35; }
@@ -512,6 +527,7 @@
     .prod-modal-name { font-family: var(--font-serif); font-size: 17px; font-weight: 500; color: var(--du-dark); line-height: 1.35; margin-bottom: 4px; }
     .prod-modal-ref { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--du-gray); display: block; margin-bottom: 14px; }
     .prod-modal-agotado { display: inline-block; background: var(--du-dark); color: var(--du-white); font-size: 9px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; }
+    .prod-modal-promo { display: inline-block; background: var(--du-blue-dk); color: var(--du-white); font-size: 9px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; margin-right: 6px; }
     .prod-modal-desc { font-size: 13px; color: #555; line-height: 1.75; }
     .prod-modal-price-wrap { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--du-border); }
     .prod-modal-price { font-family: var(--font-serif); font-size: 17px; font-weight: 600; color: var(--du-dark); }
@@ -894,7 +910,7 @@
       <span class="prod-modal-subcat" id="prodModalSubcat"></span>
       <h2 class="prod-modal-name" id="prodModalName"></h2>
       <span class="prod-modal-ref" id="prodModalRef"></span>
-      <span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
+      <span class="prod-modal-promo" id="prodModalPromo" style="display:none">Promoción</span><span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
       <p class="prod-modal-desc" id="prodModalDesc"></p>
       <div class="prod-modal-price-wrap" id="prodModalPriceWrap" style="display:none">
         <div class="prod-modal-price" id="prodModalPrice"></div>
@@ -979,6 +995,7 @@ function renderCard(p) {
   }
 
   const agotadoHTML = p.agotado ? `<div class="agotado-overlay"><span class="agotado-badge">Agotado</span></div>` : "";
+  const promoHTML   = p.promocion ? `<span class="promo-badge">Promoción</span>` : "";
   const hasImg      = p.imagen && p.imagen.trim() !== "";
   const placeholderIcon = ICONS[p.categoria] || ICONS["Accesorios"];
 
@@ -1007,6 +1024,7 @@ function renderCard(p) {
         <span class="card-placeholder-ref">${p.referencia}</span>
       </div>
       ${thumbsHTML}
+      ${promoHTML}
       ${agotadoHTML}
     </div>
     <div class="card-body">
@@ -1300,6 +1318,9 @@ function openProdModal(id) {
 
   // Agotado
   document.getElementById('prodModalAgotado').style.display = p.agotado ? 'inline-block' : 'none';
+
+  // Promoción
+  document.getElementById('prodModalPromo').style.display = p.promocion ? 'inline-block' : 'none';
 
   // Imagen
   const img     = document.getElementById('prodModalImg');

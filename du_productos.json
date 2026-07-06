@@ -7501,6 +7501,17 @@
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
       "agotado": false
+    },
+    {
+      "id": "p0722",
+      "nombre": "Punzón Pincel — PUNDB",
+      "referencia": "PUNDB",
+      "precio": 4000,
+      "categoria": "Uñas",
+      "subcategoria": "Accesorios para uñas",
+      "imagen": "",
+      "agotado": false,
+      "promocion": true
     }
   ]
 }
