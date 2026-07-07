@@ -7514,6 +7514,1066 @@
       "imagen": "",
       "agotado": false,
       "promocion": true
+    },
+    {
+      "id": "p0723",
+      "nombre": "Sticker Gel 3D — STICKER2",
+      "referencia": "STICKER2",
+      "precio": 2900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "",
+      "agotado": false
+    },
+    {
+      "id": "p0724",
+      "nombre": "Sticker Gel Dimension #01 — STICKER3-01",
+      "referencia": "STICKER3-01",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-1_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-1_1.webp",
+        "img/unas/STICKER3-1_2.webp"
+      ]
+    },
+    {
+      "id": "p0725",
+      "nombre": "Sticker Gel Dimension #02 — STICKER3-02",
+      "referencia": "STICKER3-02",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2_1.webp",
+        "img/unas/STICKER3-2_2.webp"
+      ]
+    },
+    {
+      "id": "p0726",
+      "nombre": "Sticker Gel Dimension #03 — STICKER3-03",
+      "referencia": "STICKER3-03",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-3_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-3_1.webp",
+        "img/unas/STICKER3-3_2.webp"
+      ]
+    },
+    {
+      "id": "p0727",
+      "nombre": "Sticker Gel Dimension #04 — STICKER3-04",
+      "referencia": "STICKER3-04",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-4_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-4_1.webp",
+        "img/unas/STICKER3-4_2.webp"
+      ]
+    },
+    {
+      "id": "p0728",
+      "nombre": "Sticker Gel Dimension #05 — STICKER3-05",
+      "referencia": "STICKER3-05",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-5_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-5_1.webp",
+        "img/unas/STICKER3-5_2.webp"
+      ]
+    },
+    {
+      "id": "p0729",
+      "nombre": "Sticker Gel Dimension #06 — STICKER3-06",
+      "referencia": "STICKER3-06",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-6_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-6_1.webp",
+        "img/unas/STICKER3-6_2.webp"
+      ]
+    },
+    {
+      "id": "p0730",
+      "nombre": "Sticker Gel Dimension #07 — STICKER3-07",
+      "referencia": "STICKER3-07",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-7_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-7_1.webp",
+        "img/unas/STICKER3-7_2.webp"
+      ]
+    },
+    {
+      "id": "p0731",
+      "nombre": "Sticker Gel Dimension #08 — STICKER3-08",
+      "referencia": "STICKER3-08",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-8_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-8_1.webp",
+        "img/unas/STICKER3-8_2.webp"
+      ]
+    },
+    {
+      "id": "p0732",
+      "nombre": "Sticker Gel Dimension #09 — STICKER3-09",
+      "referencia": "STICKER3-09",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-9_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-9_1.webp",
+        "img/unas/STICKER3-9_2.webp"
+      ]
+    },
+    {
+      "id": "p0733",
+      "nombre": "Sticker Gel Dimension #10 — STICKER3-10",
+      "referencia": "STICKER3-10",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-10_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-10_1.webp",
+        "img/unas/STICKER3-10_2.webp"
+      ]
+    },
+    {
+      "id": "p0734",
+      "nombre": "Sticker Gel Dimension #11 — STICKER3-11",
+      "referencia": "STICKER3-11",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-11_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-11_1.webp",
+        "img/unas/STICKER3-11_2.webp"
+      ]
+    },
+    {
+      "id": "p0735",
+      "nombre": "Sticker Gel Dimension #12 — STICKER3-12",
+      "referencia": "STICKER3-12",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-12_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-12_1.webp",
+        "img/unas/STICKER3-12_2.webp"
+      ]
+    },
+    {
+      "id": "p0736",
+      "nombre": "Sticker Gel Dimension #13 — STICKER3-13",
+      "referencia": "STICKER3-13",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-13_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-13_1.webp",
+        "img/unas/STICKER3-13_2.webp"
+      ]
+    },
+    {
+      "id": "p0737",
+      "nombre": "Sticker Gel Dimension #14 — STICKER3-14",
+      "referencia": "STICKER3-14",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-14_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-14_1.webp",
+        "img/unas/STICKER3-14_2.webp"
+      ]
+    },
+    {
+      "id": "p0738",
+      "nombre": "Sticker Gel Dimension #15 — STICKER3-15",
+      "referencia": "STICKER3-15",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-15_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-15_1.webp",
+        "img/unas/STICKER3-15_2.webp"
+      ]
+    },
+    {
+      "id": "p0739",
+      "nombre": "Sticker Gel Dimension #16 — STICKER3-16",
+      "referencia": "STICKER3-16",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-16_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-16_1.webp",
+        "img/unas/STICKER3-16_2.webp"
+      ]
+    },
+    {
+      "id": "p0740",
+      "nombre": "Sticker Gel Dimension #17 — STICKER3-17",
+      "referencia": "STICKER3-17",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-17_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-17_1.webp",
+        "img/unas/STICKER3-17_2.webp"
+      ]
+    },
+    {
+      "id": "p0741",
+      "nombre": "Sticker Gel Dimension #18 — STICKER3-18",
+      "referencia": "STICKER3-18",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-18_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-18_1.webp",
+        "img/unas/STICKER3-18_2.webp"
+      ]
+    },
+    {
+      "id": "p0742",
+      "nombre": "Sticker Gel Dimension #19 — STICKER3-19",
+      "referencia": "STICKER3-19",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-19_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-19_1.webp",
+        "img/unas/STICKER3-19_2.webp"
+      ]
+    },
+    {
+      "id": "p0743",
+      "nombre": "Sticker Gel Dimension #20 — STICKER3-20",
+      "referencia": "STICKER3-20",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-20_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-20_1.webp",
+        "img/unas/STICKER3-20_2.webp"
+      ]
+    },
+    {
+      "id": "p0744",
+      "nombre": "Sticker Gel Dimension #21 — STICKER3-21",
+      "referencia": "STICKER3-21",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-21_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-21_1.webp",
+        "img/unas/STICKER3-21_2.webp"
+      ]
+    },
+    {
+      "id": "p0745",
+      "nombre": "Sticker Gel Dimension #22 — STICKER3-22",
+      "referencia": "STICKER3-22",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-22_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-22_1.webp",
+        "img/unas/STICKER3-22_2.webp"
+      ]
+    },
+    {
+      "id": "p0746",
+      "nombre": "Sticker Gel Dimension #23 — STICKER3-23",
+      "referencia": "STICKER3-23",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-23_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-23_1.webp",
+        "img/unas/STICKER3-23_2.webp"
+      ]
+    },
+    {
+      "id": "p0747",
+      "nombre": "Sticker Gel Dimension #24 — STICKER3-24",
+      "referencia": "STICKER3-24",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-24_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-24_1.webp",
+        "img/unas/STICKER3-24_2.webp"
+      ]
+    },
+    {
+      "id": "p0748",
+      "nombre": "Sticker Gel Dimension #25 — STICKER3-25",
+      "referencia": "STICKER3-25",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-25_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-25_1.webp",
+        "img/unas/STICKER3-25_2.webp"
+      ]
+    },
+    {
+      "id": "p0749",
+      "nombre": "Sticker Gel Dimension #26 — STICKER3-26",
+      "referencia": "STICKER3-26",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-26_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-26_1.webp",
+        "img/unas/STICKER3-26_2.webp"
+      ]
+    },
+    {
+      "id": "p0750",
+      "nombre": "Sticker Gel Dimension #27 — STICKER3-27",
+      "referencia": "STICKER3-27",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-27_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-27_1.webp",
+        "img/unas/STICKER3-27_2.webp"
+      ]
+    },
+    {
+      "id": "p0751",
+      "nombre": "Sticker Gel Dimension #28 — STICKER3-28",
+      "referencia": "STICKER3-28",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-28_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-28_1.webp",
+        "img/unas/STICKER3-28_2.webp"
+      ]
+    },
+    {
+      "id": "p0752",
+      "nombre": "Sticker Gel Dimension #29 — STICKER3-29",
+      "referencia": "STICKER3-29",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-29_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-29_1.webp",
+        "img/unas/STICKER3-29_2.webp"
+      ]
+    },
+    {
+      "id": "p0753",
+      "nombre": "Sticker Gel Dimension #30 — STICKER3-30",
+      "referencia": "STICKER3-30",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-30_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-30_1.webp",
+        "img/unas/STICKER3-30_2.webp"
+      ]
+    },
+    {
+      "id": "p0754",
+      "nombre": "Sticker Gel Dimension #31 — STICKER3-31",
+      "referencia": "STICKER3-31",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-31_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-31_1.webp",
+        "img/unas/STICKER3-31_2.webp"
+      ]
+    },
+    {
+      "id": "p0755",
+      "nombre": "Sticker Gel Dimension #32 — STICKER3-32",
+      "referencia": "STICKER3-32",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-32_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-32_1.webp",
+        "img/unas/STICKER3-32_2.webp"
+      ]
+    },
+    {
+      "id": "p0756",
+      "nombre": "Sticker Gel Dimension #33 — STICKER3-33",
+      "referencia": "STICKER3-33",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-33_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-33_1.webp",
+        "img/unas/STICKER3-33_2.webp"
+      ]
+    },
+    {
+      "id": "p0757",
+      "nombre": "Sticker Gel Dimension #34 — STICKER3-34",
+      "referencia": "STICKER3-34",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-34_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-34_1.webp",
+        "img/unas/STICKER3-34_2.webp"
+      ]
+    },
+    {
+      "id": "p0758",
+      "nombre": "Sticker Gel Dimension #35 — STICKER3-35",
+      "referencia": "STICKER3-35",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-35_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-35_1.webp",
+        "img/unas/STICKER3-35_2.webp"
+      ]
+    },
+    {
+      "id": "p0759",
+      "nombre": "Sticker Gel Dimension #36 — STICKER3-36",
+      "referencia": "STICKER3-36",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-36_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-36_1.webp",
+        "img/unas/STICKER3-36_2.webp"
+      ]
+    },
+    {
+      "id": "p0760",
+      "nombre": "Sticker Gel Dimension #37 — STICKER3-37",
+      "referencia": "STICKER3-37",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-37_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-37_1.webp",
+        "img/unas/STICKER3-37_2.webp"
+      ]
+    },
+    {
+      "id": "p0761",
+      "nombre": "Sticker Gel Dimension #38 — STICKER3-38",
+      "referencia": "STICKER3-38",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-38_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-38_1.webp",
+        "img/unas/STICKER3-38_2.webp"
+      ]
+    },
+    {
+      "id": "p0762",
+      "nombre": "Sticker Gel Dimension #39 — STICKER3-39",
+      "referencia": "STICKER3-39",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-39_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-39_1.webp",
+        "img/unas/STICKER3-39_2.webp"
+      ]
+    },
+    {
+      "id": "p0763",
+      "nombre": "Sticker Gel Dimension #40 — STICKER3-40",
+      "referencia": "STICKER3-40",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-40_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-40_1.webp",
+        "img/unas/STICKER3-40_2.webp"
+      ]
+    },
+    {
+      "id": "p0764",
+      "nombre": "Sticker Gel Dimension #41 — STICKER3-41",
+      "referencia": "STICKER3-41",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-41_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-41_1.webp",
+        "img/unas/STICKER3-41_2.webp"
+      ]
+    },
+    {
+      "id": "p0765",
+      "nombre": "Sticker Gel Dimension #42 — STICKER3-42",
+      "referencia": "STICKER3-42",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-42_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-42_1.webp",
+        "img/unas/STICKER3-42_2.webp"
+      ]
+    },
+    {
+      "id": "p0766",
+      "nombre": "Sticker Gel Dimension #43 — STICKER3-43",
+      "referencia": "STICKER3-43",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-43_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-43_1.webp",
+        "img/unas/STICKER3-43_2.webp"
+      ]
+    },
+    {
+      "id": "p0767",
+      "nombre": "Sticker Gel Dimension #44 — STICKER3-44",
+      "referencia": "STICKER3-44",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-44_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-44_1.webp",
+        "img/unas/STICKER3-44_2.webp"
+      ]
+    },
+    {
+      "id": "p0768",
+      "nombre": "Sticker Gel Dimension #45 — STICKER3-45",
+      "referencia": "STICKER3-45",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-45_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-45_1.webp",
+        "img/unas/STICKER3-45_2.webp"
+      ]
+    },
+    {
+      "id": "p0769",
+      "nombre": "Sticker Gel Dimension #46 — STICKER3-46",
+      "referencia": "STICKER3-46",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-46_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-46_1.webp",
+        "img/unas/STICKER3-46_2.webp"
+      ]
+    },
+    {
+      "id": "p0770",
+      "nombre": "Sticker Gel Dimension #47 — STICKER3-47",
+      "referencia": "STICKER3-47",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-47_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-47_1.webp",
+        "img/unas/STICKER3-47_2.webp"
+      ]
+    },
+    {
+      "id": "p0771",
+      "nombre": "Sticker Gel Dimension #48 — STICKER3-48",
+      "referencia": "STICKER3-48",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-48_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-48_1.webp",
+        "img/unas/STICKER3-48_2.webp"
+      ]
+    },
+    {
+      "id": "p0772",
+      "nombre": "Sticker Gel Dimension #49 — STICKER3-49",
+      "referencia": "STICKER3-49",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-49_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-49_1.webp",
+        "img/unas/STICKER3-49_2.webp"
+      ]
+    },
+    {
+      "id": "p0773",
+      "nombre": "Sticker Gel Dimension #50 — STICKER3-50",
+      "referencia": "STICKER3-50",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-50_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-50_1.webp",
+        "img/unas/STICKER3-50_2.webp"
+      ]
+    },
+    {
+      "id": "p0774",
+      "nombre": "Sticker Gel Dimension #51 — STICKER3-51",
+      "referencia": "STICKER3-51",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-51_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-51_1.webp",
+        "img/unas/STICKER3-51_2.webp"
+      ]
+    },
+    {
+      "id": "p0775",
+      "nombre": "Sticker Gel Dimension #52 — STICKER3-52",
+      "referencia": "STICKER3-52",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-52_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-52_1.webp",
+        "img/unas/STICKER3-52_2.webp"
+      ]
+    },
+    {
+      "id": "p0776",
+      "nombre": "Sticker Gel Dimension #53 — STICKER3-53",
+      "referencia": "STICKER3-53",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-53_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-53_1.webp",
+        "img/unas/STICKER3-53_2.webp"
+      ]
+    },
+    {
+      "id": "p0777",
+      "nombre": "Sticker Gel Dimension #54 — STICKER3-54",
+      "referencia": "STICKER3-54",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-54_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-54_1.webp",
+        "img/unas/STICKER3-54_2.webp"
+      ]
+    },
+    {
+      "id": "p0778",
+      "nombre": "Sticker Gel Dimension #55 — STICKER3-55",
+      "referencia": "STICKER3-55",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-55_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-55_1.webp",
+        "img/unas/STICKER3-55_2.webp"
+      ]
+    },
+    {
+      "id": "p0779",
+      "nombre": "Sticker Gel Dimension #56 — STICKER3-56",
+      "referencia": "STICKER3-56",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-56_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-56_1.webp",
+        "img/unas/STICKER3-56_2.webp"
+      ]
+    },
+    {
+      "id": "p0780",
+      "nombre": "Sticker Gel Dimension #57 — STICKER3-57",
+      "referencia": "STICKER3-57",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-57_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-57_1.webp",
+        "img/unas/STICKER3-57_2.webp"
+      ]
+    },
+    {
+      "id": "p0781",
+      "nombre": "Sticker Gel Dimension #58 — STICKER3-58",
+      "referencia": "STICKER3-58",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-58_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-58_1.webp",
+        "img/unas/STICKER3-58_2.webp"
+      ]
+    },
+    {
+      "id": "p0782",
+      "nombre": "Sticker Gel Dimension #59 — STICKER3-59",
+      "referencia": "STICKER3-59",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-59_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-59_1.webp",
+        "img/unas/STICKER3-59_2.webp"
+      ]
+    },
+    {
+      "id": "p0783",
+      "nombre": "Sticker Gel Dimension #60 — STICKER3-60",
+      "referencia": "STICKER3-60",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-60_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-60_1.webp",
+        "img/unas/STICKER3-60_2.webp"
+      ]
+    },
+    {
+      "id": "p0784",
+      "nombre": "Sticker Gel Dimension #61 — STICKER3-61",
+      "referencia": "STICKER3-61",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-61_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-61_1.webp",
+        "img/unas/STICKER3-61_2.webp"
+      ]
+    },
+    {
+      "id": "p0785",
+      "nombre": "Sticker Gel Dimension #62 — STICKER3-62",
+      "referencia": "STICKER3-62",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-62_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-62_1.webp",
+        "img/unas/STICKER3-62_2.webp"
+      ]
+    },
+    {
+      "id": "p0786",
+      "nombre": "Sticker Gel Dimension #63 — STICKER3-63",
+      "referencia": "STICKER3-63",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-63_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-63_1.webp",
+        "img/unas/STICKER3-63_2.webp"
+      ]
+    },
+    {
+      "id": "p0787",
+      "nombre": "Sticker Gel Dimension #64 — STICKER3-64",
+      "referencia": "STICKER3-64",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER2-64_1.webp",
+      "agotado": false
+    },
+    {
+      "id": "p0788",
+      "nombre": "Sticker Gel Dimension #65 — STICKER3-65",
+      "referencia": "STICKER3-65",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER2-65_1.webp",
+      "agotado": false
+    },
+    {
+      "id": "p0789",
+      "nombre": "Sticker Gel Dimension #66 — STICKER3-66",
+      "referencia": "STICKER3-66",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-66_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-66_1.webp",
+        "img/unas/STICKER3-2-66_2.webp"
+      ]
+    },
+    {
+      "id": "p0790",
+      "nombre": "Sticker Gel Dimension #67 — STICKER3-67",
+      "referencia": "STICKER3-67",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER2-67_1.webp",
+      "agotado": false
+    },
+    {
+      "id": "p0791",
+      "nombre": "Sticker Gel Dimension #68 — STICKER3-68",
+      "referencia": "STICKER3-68",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-68_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-68_1.webp",
+        "img/unas/STICKER3-2-68_2.webp"
+      ]
+    },
+    {
+      "id": "p0792",
+      "nombre": "Sticker Gel Dimension #69 — STICKER3-69",
+      "referencia": "STICKER3-69",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-69_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-69_1.webp",
+        "img/unas/STICKER3-2-69_2.webp"
+      ]
+    },
+    {
+      "id": "p0793",
+      "nombre": "Sticker Gel Dimension #70 — STICKER3-70",
+      "referencia": "STICKER3-70",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-70_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-70_1.webp",
+        "img/unas/STICKER3-2-70_2.webp"
+      ]
+    },
+    {
+      "id": "p0794",
+      "nombre": "Sticker Gel Dimension #71 — STICKER3-71",
+      "referencia": "STICKER3-71",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-71_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-71_1.webp",
+        "img/unas/STICKER3-2-71_2.webp"
+      ]
+    },
+    {
+      "id": "p0795",
+      "nombre": "Sticker Gel Dimension #72 — STICKER3-72",
+      "referencia": "STICKER3-72",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-72_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-72_1.webp",
+        "img/unas/STICKER3-2-72_2.webp"
+      ]
+    },
+    {
+      "id": "p0796",
+      "nombre": "Sticker Gel Dimension #73 — STICKER3-73",
+      "referencia": "STICKER3-73",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-73_1.webp",
+      "agotado": false
+    },
+    {
+      "id": "p0797",
+      "nombre": "Sticker Gel Dimension #74 — STICKER3-74",
+      "referencia": "STICKER3-74",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "img/unas/STICKER3-2-74_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-2-74_1.webp",
+        "img/unas/STICKER3-2-74_2.webp"
+      ]
+    },
+    {
+      "id": "p0798",
+      "nombre": "Sticker Gel Dimension #75 — STICKER3-75",
+      "referencia": "STICKER3-75",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "",
+      "agotado": false
+    },
+    {
+      "id": "p0799",
+      "nombre": "Sticker Gel Dimension Varios — STICKER3-VARIOS",
+      "referencia": "STICKER3-VARIOS",
+      "precio": 5900,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "",
+      "agotado": false
+    },
+    {
+      "id": "p0800",
+      "nombre": "Sticker 3D — STICKER3D",
+      "referencia": "STICKER3D",
+      "precio": 1500,
+      "categoria": "Uñas",
+      "subcategoria": "Stickers para uñas",
+      "imagen": "",
+      "agotado": false
     }
   ]
 }
