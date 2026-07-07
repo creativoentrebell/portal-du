@@ -7369,8 +7369,14 @@
       "precio": 2000,
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/STICKER1_1.png",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER1_1.png",
+        "img/unas/STICKER1_2.png",
+        "img/unas/STICKER1_3.png",
+        "img/unas/STICKER1_4.png"
+      ]
     },
     {
       "id": "p0709",
