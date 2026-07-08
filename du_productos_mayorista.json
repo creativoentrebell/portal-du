@@ -5064,7 +5064,11 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Masajeador Ice Glow para rostro.",
       "imagen": "img/accesorios/AE-349 1.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/accesorios/AE-349 1.webp",
+        "img/accesorios/AE-349.webp"
+      ]
     },
     {
       "id": "p0504",
@@ -6233,7 +6237,7 @@
       "precio": 6900,
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
-      "descripcion": "",
+      "descripcion": "img/accesorios/MP11.jpg",
       "imagen": "",
       "agotado": false
     },
@@ -6344,11 +6348,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "img/accesorios/DEP3124_1.webp",
+      "imagen": "img/accesorios/DEP3124_1.jpg",
       "agotado": false,
       "colores": [
-        "img/accesorios/DEP3124_1.webp",
-        "img/accesorios/DEP3124_2.webp"
+        "img/accesorios/DEP3124_1.jpg",
+        "img/accesorios/DEP3124_2.jpg"
       ]
     },
     {
@@ -6359,12 +6363,8 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "img/accesorios/DEP3148_1.webp",
-      "agotado": false,
-      "colores": [
-        "img/accesorios/DEP3148_1.webp",
-        "img/accesorios/DEP3148_2.webp"
-      ]
+      "imagen": "img/accesorios/DEP3148.png",
+      "agotado": false
     },
     {
       "id": "p0614",
@@ -6396,8 +6396,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "img/accesorios/DEP7000.webp",
-      "agotado": false
+      "imagen": "img/accesorios/DEP7000_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/DEP7000_1.jpg",
+        "img/accesorios/DEP7000_2.jpg",
+        "img/accesorios/DEP7000_3.jpg"
+      ]
     },
     {
       "id": "p0617",
@@ -6451,11 +6456,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "img/accesorios/PA11_1.webp",
+      "imagen": "img/accesorios/PA11.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/PA11_1.webp",
-        "img/accesorios/PA11_2.webp"
+        "img/accesorios/PA11.png",
+        "img/accesorios/PA11-2.png"
       ]
     },
     {
@@ -6528,8 +6533,17 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/CEP3141_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/CEP3141_1.jpg",
+        "img/accesorios/CEP3141_2.jpg",
+        "img/accesorios/CEP3141_3.jpg",
+        "img/accesorios/CEP3141_4.jpg",
+        "img/accesorios/CEP3141_5.jpg",
+        "img/accesorios/CEP3141_6.jpg",
+        "img/accesorios/CEP3141_7.jpg"
+      ]
     },
     {
       "id": "p0628",
@@ -6561,8 +6575,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/CEPL-03_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/CEPL-03_1.jpg",
+        "img/accesorios/CEPL-03_2.jpg",
+        "img/accesorios/CEPL-03_3.jpg"
+      ]
     },
     {
       "id": "p0631",
@@ -6572,8 +6591,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/PEI-101_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PEI-101_1.jpg",
+        "img/accesorios/PEI-101_2.jpg"
+      ]
     },
     {
       "id": "p0632",
@@ -6583,8 +6606,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/PEI-104_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PEI-104_1.jpg",
+        "img/accesorios/PEI-104_2.jpg"
+      ]
     },
     {
       "id": "p0633",
@@ -6605,8 +6632,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/PEI109_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PEI109_1.jpg",
+        "img/accesorios/PEI109_2.jpg"
+      ]
     },
     {
       "id": "p0635",
@@ -6638,11 +6669,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/SPEIC03_1.webp",
+      "imagen": "img/accesorios/SPEIC03_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/SPEIC03_1.webp",
-        "img/accesorios/SPEIC03_2.webp"
+        "img/accesorios/SPEIC03_1.png",
+        "img/accesorios/SPEIC03_2.png"
       ]
     },
     {
@@ -6664,11 +6695,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "img/accesorios/GC2012_1.webp",
+      "imagen": "img/accesorios/GC2012_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/GC2012_1.webp",
-        "img/accesorios/GC2012_2.webp"
+        "img/accesorios/GC2012_1.png",
+        "img/accesorios/GC2012_2.png"
       ]
     },
     {
@@ -6690,7 +6721,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/SATINLG.jpg",
       "agotado": false
     },
     {
@@ -6723,12 +6754,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "img/accesorios/BAG3_1.webp",
+      "imagen": "img/accesorios/BAG3_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/BAG3_1.webp",
-        "img/accesorios/BAG3_2.webp",
-        "img/accesorios/BAG3_3.webp"
+        "img/accesorios/BAG3_1.png",
+        "img/accesorios/BAG3_2.png",
+        "img/accesorios/BAG3_3.png"
       ]
     },
     {
@@ -6739,8 +6770,14 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/BAG14_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BAG14_1.jpg",
+        "img/accesorios/BAG14_2.jpg",
+        "img/accesorios/BAG14_3.jpg",
+        "img/accesorios/BAG14_4.jpg"
+      ]
     },
     {
       "id": "p0646",
@@ -6750,8 +6787,14 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/BAG19_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BAG19_1.jpg",
+        "img/accesorios/BAG19_2.jpg",
+        "img/accesorios/BAG19_3.jpg",
+        "img/accesorios/BAG19_4.png"
+      ]
     },
     {
       "id": "p0648",
@@ -6761,7 +6804,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "img/accesorios/CS17.webp",
+      "imagen": "img/accesorios/CS17.png",
       "agotado": false
     },
     {
@@ -6809,8 +6852,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/626_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/626_1.png",
+        "img/accesorios/626_2.png"
+      ]
     },
     {
       "id": "p0653",
@@ -6820,7 +6867,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Espejos",
       "descripcion": "",
-      "imagen": "img/accesorios/ESP11.webp",
+      "imagen": "img/accesorios/ESP11.jpg",
       "agotado": false
     },
     {

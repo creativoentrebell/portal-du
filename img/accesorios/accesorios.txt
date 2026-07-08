@@ -20,8 +20,11 @@
 53A.webp
 53D.webp
 53R.webp
+626_1.png
+626_2.png
 ABRUMA1.webp
 ABRUMA2.webp
+accesorios.txt
 AE-349 1.webp
 AE-349.webp
 archivos.txt
@@ -31,9 +34,17 @@ BAG11_3.webp
 BAG11_4.webp
 BAG13_1.webp
 BAG13_2.webp
+BAG14_1.jpg
+BAG14_2.jpg
+BAG14_3.jpg
+BAG14_4.jpg
 BAG16_1.webp
 BAG16_2.webp
 BAG17.webp
+BAG19_1.jpg
+BAG19_2.jpg
+BAG19_3.jpg
+BAG19_4.png
 BAG25_1.webp
 BAG25_2.webp
 BAG25_3.webp
@@ -52,9 +63,9 @@ BAG30_3.webp
 BAG30_4.webp
 BAG31_1.webp
 BAG31_2.webp
-BAG3_1.webp
-BAG3_2.webp
-BAG3_3.webp
+BAG3_1.png
+BAG3_2.png
+BAG3_3.png
 BD5.webp
 BL1.webp
 BL11 2.webp
@@ -96,6 +107,13 @@ CEP3118-2 4.webp
 CEP3118-2.webp
 CEP3118.webp
 CEP3134.webp
+CEP3141_1.jpg
+CEP3141_2.jpg
+CEP3141_3.jpg
+CEP3141_4.jpg
+CEP3141_5.jpg
+CEP3141_6.jpg
+CEP3141_7.jpg
 CEP3143 1.webp
 CEP3143 2.webp
 CEP3143 3.webp
@@ -114,6 +132,9 @@ CEP4102.webp
 CEP4103.webp
 CEP4104.webp
 CEPL-02.webp
+CEPL-03_1.jpg
+CEPL-03_2.jpg
+CEPL-03_3.jpg
 CEPUL-05 1.webp
 COLETTE1 CAJA.webp
 COLETTE1-AZUL.webp
@@ -129,13 +150,17 @@ CR01 1.webp
 CR02 1.webp
 CR04 blanca.webp
 CR04 verde.webp
-CS17.webp
-DEP3124_1.webp
-DEP3124_2.webp
-DEP3148_1.webp
-DEP3148_2.webp
+CS17.png
+DEP3124 1.jpg
+DEP3124 2.jpg
+DEP3148.png
+DEP3154.png
+DEP4000.png
 DEP6000.webp
-DEP7000.webp
+DEP7000_1.jpg
+DEP7000_2.jpg
+DEP7000_3.jpg
+DEP8000.png
 DM03_1.webp
 DM03_2.webp
 DM05_1.webp
@@ -162,7 +187,7 @@ E99 DORADO.webp
 E99 ORO ROSA.webp
 ES3269-2.webp
 ES3269.webp
-ESP11.webp
+ESP11.jpg
 ESP4.webp
 ESPMN11 2.webp
 ESPMN11.webp
@@ -171,8 +196,8 @@ ESPMN9.webp
 EYELINER.webp
 G201.webp
 G204.webp
-GC2012_1.webp
-GC2012_2.webp
+GC2012_1.png
+GC2012_2.png
 GOBIM-OFF crema.webp
 GOBIM-OFF gris.webp
 GOBIM-OFF rosa.webp
@@ -197,6 +222,7 @@ MP07.webp
 MP08.webp
 MP09.webp
 MP10.webp
+MP11.jpg
 MP12.webp
 MP13.webp
 MP16.webp
@@ -205,8 +231,9 @@ MP20.webp
 MR01.webp
 MS02.webp
 MS03.webp
-PA11_1.webp
-PA11_2.webp
+P5DMIX.png
+PA11-2.png
+PA11.png
 PC 1_1.webp
 PC 1_2.webp
 PC 2_1.webp
@@ -231,8 +258,14 @@ PD14.webp
 PD15.webp
 PD16.webp
 PD17.webp
+PEI-101_1.jpg
+PEI-101_2.jpg
+PEI-104_1.jpg
+PEI-104_2.jpg
 pei-105.webp
 pei-106.webp
+PEI109_1.jpg
+PEI109_2.jpg
 PI 13_1.webp
 PI 13_2.webp
 PI 13_3.webp
@@ -265,6 +298,7 @@ PIN3148.webp
 PIN3149.webp
 PIN3150.webp
 PIN3151.webp
+PINZA-120A.png
 PL10.webp
 PL12.webp
 PL14.webp
@@ -304,6 +338,7 @@ POM3026.webp
 R2.webp
 RT01.webp
 S-9319.webp
+SATINLG.jpg
 SATINLUXE-MD azul.webp
 SATINLUXE-MD cafe .webp
 SATINLUXE-MD champagne.webp
@@ -329,7 +364,7 @@ SDOBLEL VINOTINTO.webp
 SH8603.webp
 SHINNER.webp
 SP01.webp
-SPEIC03_1.webp
-SPEIC03_2.webp
+SPEIC03_1.png
+SPEIC03_2.png
 TJ818.webp
 TJ819.webp
