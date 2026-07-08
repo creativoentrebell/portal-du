@@ -5677,17 +5677,6 @@
       "agotado": false
     },
     {
-      "id": "p0552",
-      "nombre": "Depilador DEP6000",
-      "referencia": "DEP6000",
-      "precio": 8000,
-      "categoria": "Accesorios",
-      "subcategoria": "Herramientas y accesorios",
-      "descripcion": "Depilador con punta oblicua para retirar vellos y perfeccionar cejas.",
-      "imagen": "img/accesorios/DEP6000.webp",
-      "agotado": false
-    },
-    {
       "id": "p0553",
       "nombre": "Atomizador Tipo Bruma ABRUMA1",
       "referencia": "ABRUMA1",
@@ -6372,7 +6361,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/DEP3154.png",
       "agotado": false
     },
     {
@@ -6383,7 +6372,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/DEP4000.png",
       "agotado": false
     },
     {
@@ -6410,7 +6399,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "img/accesorios/DEP8000.png",
       "agotado": false
     },
     {
@@ -6562,8 +6551,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/CEPILLO1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/CEPILLO 1_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/CEPILLO 1_1.png",
+        "img/accesorios/CEPILLO 1_2.png"
+      ]
     },
     {
       "id": "p0630",
