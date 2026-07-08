@@ -2825,7 +2825,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "descripcion": "Efecto espejo compacto. Efecto metalizado brillante e intenso.",
-      "imagen": "img/unas/DG08 COMPLETO.webp",
+      "imagen": "img/unas/DG08.webp",
       "agotado": false
     },
     {
@@ -2891,7 +2891,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "descripcion": "Aplique decorativo de flores para uñas.",
-      "imagen": "img/unas/FLOR (1).webp",
+      "imagen": "img/unas/GEM1225.webp",
       "agotado": false
     },
     {
@@ -3089,7 +3089,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "descripcion": "Decoración en pedrería para uñas.",
-      "imagen": "img/unas/SNY4012]_GM3085.webp",
+      "imagen": "img/unas/GM3085.webp",
       "agotado": true
     },
     {
@@ -3364,8 +3364,12 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "descripcion": "Stickers para uñas. Compatibles con semipermanente y tradicional.",
-      "imagen": "img/unas/3DLINEAS (1).webp",
-      "agotado": false
+      "imagen": "img/unas/3DLINEAS_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/3DLINEAS_1.webp",
+        "img/unas/3DLINEAS_2.webp"
+      ]
     },
     {
       "id": "p0330",
@@ -3375,8 +3379,17 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "descripcion": "Stickers para uñas para crear hermosos diseños en todo tipo de técnica.",
-      "imagen": "img/unas/GM3087 (1).webp",
-      "agotado": false
+      "imagen": "img/unas/GM3087_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/GM3087_1.webp",
+        "img/unas/GM3087_2.webp",
+        "img/unas/GM3087_3.webp",
+        "img/unas/GM3087_4.webp",
+        "img/unas/GM3087_5.webp",
+        "img/unas/GM3087_6.webp",
+        "img/unas/GM3087_7.webp"
+      ]
     },
     {
       "id": "p0331",
@@ -3496,7 +3509,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cubos pulidores de colores x10 bloques. Para uñas naturales y acrílicas.",
-      "imagen": "img/unas/cub-02.webp",
+      "imagen": "img/unas/CUB-02.webp",
       "agotado": false
     },
     {
@@ -3562,13 +3575,15 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cortacutícula plástico Spring. Por unidad.",
-      "imagen": "img/unas/CORT2867.webp",
+      "imagen": "img/unas/CORT2867_1.webp",
       "agotado": true,
       "colores": [
-        "img/unas/CORT2867.webp",
         "img/unas/CORT2867_1.webp",
         "img/unas/CORT2867_2.webp",
-        "img/unas/CORT2867_3.webp"
+        "img/unas/CORT2867_3.webp",
+        "img/unas/CORT2867_4.webp",
+        "img/unas/CORT2867_5.webp",
+        "img/unas/CORT2867_6.webp"
       ]
     },
     {
@@ -3836,8 +3851,13 @@
       "categoria": "Uñas",
       "subcategoria": "Imanes",
       "descripcion": "Imán 3 en 1. Punta redonda, plana y flor. Potente campo magnético.",
-      "imagen": "img/unas/CT1.webp",
-      "agotado": false
+      "imagen": "img/unas/CT1_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/CT1_1.webp",
+        "img/unas/CT1_2.webp",
+        "img/unas/CT1_3.webp"
+      ]
     },
     {
       "id": "p0394",
