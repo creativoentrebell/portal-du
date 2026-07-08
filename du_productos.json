@@ -6721,8 +6721,14 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/MED-ONDAS_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/MED-ONDAS_1.webp",
+        "img/accesorios/MED-ONDAS_2.webp",
+        "img/accesorios/MED-ONDAS_3.webp",
+        "img/accesorios/MED-ONDAS_4.webp"
+      ]
     },
     {
       "id": "p0641",
