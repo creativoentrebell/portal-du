@@ -1607,7 +1607,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set profesional x5 pinzas doradas en acero inoxidable.",
       "imagen": "img/pestanas/5spinzagold.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0148",
@@ -1830,7 +1830,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador de pestañas con bandas de goma internas. Repuesto de silicona incluido.",
       "imagen": "img/pestanas/E103 GRIS.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0167",
@@ -2236,7 +2236,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cinta transpore para extensiones y lifting. Microporos altamente transpirable.",
-      "imagen": "img/pestanas/_SNY1715 MICROFA1.png",
+      "imagen": "img/pestanas/MICROFA1.webp",
       "agotado": false
     },
     {
@@ -2269,7 +2269,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cinta adhesiva de espuma hipoalergénica. Paquete x3 unidades.",
-      "imagen": "img/pestanas/_SNY1717 MICROFA4.png",
+      "imagen": "img/pestanas/MICROFA4.webp",
       "agotado": false
     },
     {
@@ -4919,7 +4919,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rubor decorativo para maquillaje.",
       "imagen": "img/accesorios/01 2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0486",
@@ -5637,21 +5637,6 @@
       ]
     },
     {
-      "id": "p0549",
-      "nombre": "Encrespador E103",
-      "referencia": "E103",
-      "precio": 6900,
-      "categoria": "Accesorios",
-      "subcategoria": "Herramientas y accesorios",
-      "descripcion": "Encrespador con bandas de goma. Repuesto silicona incluido.",
-      "imagen": "img/accesorios/E103 GRIS.webp",
-      "agotado": false,
-      "colores": [
-        "img/accesorios/E103 GRIS.webp",
-        "img/accesorios/E103 VERDE.webp"
-      ]
-    },
-    {
       "id": "p0550",
       "nombre": "Encrespador E104",
       "referencia": "E104",
@@ -5743,17 +5728,6 @@
       "descripcion": "Espejo de mano plateado cuadrado irregular. 16x28cm.",
       "imagen": "img/accesorios/ESPMN11.webp",
       "agotado": true
-    },
-    {
-      "id": "p0560",
-      "nombre": "Espejo Lupa 3XL",
-      "referencia": "3XL",
-      "precio": 8000,
-      "categoria": "Accesorios",
-      "subcategoria": "Espejos",
-      "descripcion": "Espejo lupa con ventosas para superficies lisas.",
-      "imagen": null,
-      "agotado": false
     },
     {
       "id": "p0562",
@@ -6023,7 +5997,7 @@
         "img/pestanas/Kit_Henna_2.webp",
         "img/pestanas/Kit_Henna_3.webp"
       ],
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0586",
@@ -6217,7 +6191,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "img/accesorios/MP11.jpg",
-      "imagen": "",
+      "imagen": "img/accesorios/MP11.jpg",
       "agotado": false
     },
     {
@@ -6451,7 +6425,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/RT01.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0623",
@@ -6877,8 +6851,8 @@
       "precio": 10000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/018B.png",
+      "agotado": true
     },
     {
       "id": "p0656",
@@ -6907,7 +6881,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/ARCILLA_1.png",
       "agotado": false
     },
     {
@@ -6927,7 +6901,7 @@
       "precio": 24000,
       "categoria": "Uñas",
       "subcategoria": "Imanes",
-      "imagen": "",
+      "imagen": "img/unas/C822.png",
       "agotado": false
     },
     {
@@ -6957,8 +6931,12 @@
       "precio": 8900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/CORT3100_1.png",
+      "agotado": false,
+      "colores": [
+        "img/unas/CORT3100_1.png",
+        "img/unas/CORT3100_2.png"
+      ]
     },
     {
       "id": "p0664",
@@ -6967,8 +6945,12 @@
       "precio": 4900,
       "categoria": "Uñas",
       "subcategoria": "Imanes",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/CT4_1.png",
+      "agotado": false,
+      "colores": [
+        "img/unas/CT4_1.png",
+        "img/unas/CT4_2.png"
+      ]
     },
     {
       "id": "p0665",
@@ -6997,7 +6979,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEC2612.png",
       "agotado": false
     },
     {
@@ -7007,7 +6989,7 @@
       "precio": 3000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1217.png",
       "agotado": false
     },
     {
@@ -7017,8 +6999,15 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/GEM1218_1.png",
+      "agotado": false,
+      "colores": [
+        "img/unas/GEM1218_1.png",
+        "img/unas/GEM1218_2.png",
+        "img/unas/GEM1218_3.png",
+        "img/unas/GEM1218_4.png",
+        "img/unas/GEM1218_5.png"
+      ]
     },
     {
       "id": "p0670",
@@ -7027,7 +7016,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1301.png",
       "agotado": false
     },
     {
@@ -7037,7 +7026,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1302.png",
       "agotado": false
     },
     {
@@ -7047,7 +7036,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1303.png",
       "agotado": false
     },
     {
@@ -7057,7 +7046,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1304.png",
       "agotado": false
     },
     {
@@ -7067,7 +7056,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1305.png",
       "agotado": false
     },
     {
@@ -7077,7 +7066,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1306.png",
       "agotado": false
     },
     {
@@ -7087,7 +7076,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1307.png",
       "agotado": false
     },
     {
@@ -7097,7 +7086,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1308.png",
       "agotado": false
     },
     {
@@ -7107,7 +7096,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1309.png",
       "agotado": false
     },
     {
@@ -7117,7 +7106,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1310.png",
       "agotado": false
     },
     {
@@ -7127,7 +7116,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GEM1311.png",
       "agotado": false
     },
     {
@@ -7137,47 +7126,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
-      "agotado": false
-    },
-    {
-      "id": "p0682",
-      "nombre": "Lámpara Recargable para Soft Gel GLAM1",
-      "referencia": "GLAM1",
-      "precio": 28000,
-      "categoria": "Uñas",
-      "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
-    },
-    {
-      "id": "p0683",
-      "nombre": "Lámpara Recargable para Soft Gel GLAM2",
-      "referencia": "GLAM2",
-      "precio": 14900,
-      "categoria": "Uñas",
-      "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
-    },
-    {
-      "id": "p0684",
-      "nombre": "Lámpara Recargable para Soft Gel GLAM3",
-      "referencia": "GLAM3",
-      "precio": 10900,
-      "categoria": "Uñas",
-      "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
-    },
-    {
-      "id": "p0685",
-      "nombre": "Soporte para Lámpara de Uñas GLAM4",
-      "referencia": "GLAM4",
-      "precio": 19900,
-      "categoria": "Uñas",
-      "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/GEM1312.png",
       "agotado": false
     },
     {
@@ -7207,7 +7156,7 @@
       "precio": 10000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3091.jpg",
       "agotado": false
     },
     {
@@ -7217,7 +7166,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3115.jpg",
       "agotado": false
     },
     {
@@ -7227,7 +7176,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3116.jpg",
       "agotado": false
     },
     {
@@ -7237,7 +7186,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3117.jpg",
       "agotado": false
     },
     {
@@ -7247,7 +7196,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3118.jpg",
       "agotado": false
     },
     {
@@ -7257,7 +7206,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3127.jpg",
       "agotado": false
     },
     {
@@ -7267,7 +7216,7 @@
       "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3141.jpg",
       "agotado": false
     },
     {
@@ -7277,7 +7226,7 @@
       "precio": 28000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
+      "imagen": "img/unas/GM3156.jpg",
       "agotado": false
     },
     {
@@ -7297,7 +7246,7 @@
       "precio": 4900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/MOR7.png",
       "agotado": false
     },
     {
@@ -7317,8 +7266,22 @@
       "precio": 6000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/P-CON_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/P-CON_1.webp",
+        "img/unas/P-CON_2.webp",
+        "img/unas/P-CON_3.webp",
+        "img/unas/P-CON_4.webp",
+        "img/unas/P-CON_5.webp",
+        "img/unas/P-CON_6.webp",
+        "img/unas/P-CON_7.webp",
+        "img/unas/P-CON_8.webp",
+        "img/unas/P-CON_9.webp",
+        "img/unas/P-CON_10.webp",
+        "img/unas/P-CON_11.webp",
+        "img/unas/P-CON_12.webp"
+      ]
     },
     {
       "id": "p0700",
@@ -7327,7 +7290,7 @@
       "precio": 17000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/PIN5002.png",
       "agotado": false
     },
     {
@@ -7337,8 +7300,15 @@
       "precio": 8000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/POMUNA_1.png",
+      "agotado": false,
+      "colores": [
+        "img/unas/POMUNA_1.png",
+        "img/unas/POMUNA_2.png",
+        "img/unas/POMUNA_3.png",
+        "img/unas/POMUNA_4.png",
+        "img/unas/POMUNA_5.png"
+      ]
     },
     {
       "id": "p0702",
@@ -7357,7 +7327,7 @@
       "precio": 13900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/REMO120ML.png",
       "agotado": false
     },
     {
@@ -7377,8 +7347,14 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/SOP01.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/SOP01.webp",
+        "img/unas/SOP01_1.jpg",
+        "img/unas/SOP01_2.jpg",
+        "img/unas/SOP01_3.jpg"
+      ]
     },
     {
       "id": "p0706",
@@ -7387,8 +7363,13 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/SOP02.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/SOP02.webp",
+        "img/unas/SOP02_1.png",
+        "img/unas/SOP02_2.png"
+      ]
     },
     {
       "id": "p0707",
@@ -7397,8 +7378,13 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/SOP03.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/SOP03.webp",
+        "img/unas/SOP03_1.png",
+        "img/unas/SOP03_2.png"
+      ]
     },
     {
       "id": "p0708",
@@ -7423,7 +7409,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/UCOFM5.png",
       "agotado": false
     },
     {
@@ -7433,7 +7419,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/UCOFM6.png",
       "agotado": false
     },
     {
@@ -7443,7 +7429,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/UCOFM7.png",
       "agotado": false
     },
     {
@@ -7453,7 +7439,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/UCOFM8.png",
       "agotado": false
     },
     {
@@ -7463,7 +7449,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/UCOFM9.png",
       "agotado": false
     },
     {
@@ -7483,7 +7469,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/USTM7.png",
       "agotado": false
     },
     {
@@ -7493,7 +7479,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/USTM8.png",
       "agotado": false
     },
     {
@@ -7503,7 +7489,7 @@
       "precio": 3900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/USTM9.png",
       "agotado": false
     },
     {
@@ -7513,7 +7499,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/VIDUNA1.webp",
       "agotado": false
     },
     {
@@ -7523,8 +7509,14 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/VIDUNA2.webp",
+      "agotado": false,
+      "colores": [
+        "img/unas/VIDUNA2.webp",
+        "img/unas/VIDUNA2_1.jpg",
+        "img/unas/VIDUNA2_2.png",
+        "img/unas/VIDUNA2_3.png"
+      ]
     },
     {
       "id": "p0720",
@@ -7543,7 +7535,7 @@
       "precio": 4000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/VIDUNA4.png",
       "agotado": false
     },
     {
@@ -7553,19 +7545,9 @@
       "precio": 8900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/PUNDB.png",
       "agotado": false,
       "promocion": true
-    },
-    {
-      "id": "p0723",
-      "nombre": "Sticker Gel 3D — STICKER2",
-      "referencia": "STICKER2",
-      "precio": 2900,
-      "categoria": "Uñas",
-      "subcategoria": "Stickers para uñas",
-      "imagen": "",
-      "agotado": false
     },
     {
       "id": "p0724",
@@ -8625,8 +8607,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-03_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-03_1.png",
+        "img/pestanas/3DX5-03_2.png"
+      ]
     },
     {
       "id": "p0802",
@@ -8636,8 +8622,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-13_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-13_1.png",
+        "img/pestanas/3DX5-13_2.png"
+      ]
     },
     {
       "id": "p0803",
@@ -8647,8 +8637,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-15_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-15_1.png",
+        "img/pestanas/3DX5-15_2.png"
+      ]
     },
     {
       "id": "p0804",
@@ -8658,8 +8652,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-19_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-19_1.png",
+        "img/pestanas/3DX5-19_2.png"
+      ]
     },
     {
       "id": "p0805",
@@ -8669,8 +8667,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-21_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-21_1.png",
+        "img/pestanas/3DX5-21_2.png"
+      ]
     },
     {
       "id": "p0806",
@@ -8680,8 +8682,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-25_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-25_1.png",
+        "img/pestanas/3DX5-25_2.png"
+      ]
     },
     {
       "id": "p0807",
@@ -8691,8 +8697,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-26_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-26_1.png",
+        "img/pestanas/3DX5-26_2.png"
+      ]
     },
     {
       "id": "p0808",
@@ -8702,8 +8712,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-31_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-31_1.png",
+        "img/pestanas/3DX5-31_2.png"
+      ]
     },
     {
       "id": "p0809",
@@ -8713,8 +8727,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-34_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-34_1.png",
+        "img/pestanas/3DX5-34_2.png"
+      ]
     },
     {
       "id": "p0810",
@@ -8724,8 +8742,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-35_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-35_1.png",
+        "img/pestanas/3DX5-35_2.png"
+      ]
     },
     {
       "id": "p0811",
@@ -8735,8 +8757,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-36_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-36_1.png",
+        "img/pestanas/3DX5-36_2.png"
+      ]
     },
     {
       "id": "p0812",
@@ -8746,8 +8772,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-37_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-37_1.png",
+        "img/pestanas/3DX5-37_2.png"
+      ]
     },
     {
       "id": "p0813",
@@ -8757,8 +8787,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3DX5-39_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3DX5-39_1.png",
+        "img/pestanas/3DX5-39_2.png"
+      ]
     },
     {
       "id": "p0814",
@@ -8768,8 +8802,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-01_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-01_1.png",
+        "img/pestanas/6DX5-01_2.png"
+      ]
     },
     {
       "id": "p0815",
@@ -8779,8 +8817,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-02_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-02_1.png",
+        "img/pestanas/6DX5-02_2.png"
+      ]
     },
     {
       "id": "p0816",
@@ -8790,8 +8832,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-03_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-03_1.png",
+        "img/pestanas/6DX5-03_2.png"
+      ]
     },
     {
       "id": "p0817",
@@ -8801,8 +8847,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-04_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-04_1.png",
+        "img/pestanas/6DX5-04_2.png"
+      ]
     },
     {
       "id": "p0818",
@@ -8812,8 +8862,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-05_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-05_1.png",
+        "img/pestanas/6DX5-05_2.png"
+      ]
     },
     {
       "id": "p0819",
@@ -8823,8 +8877,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-06_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-06_1.png",
+        "img/pestanas/6DX5-06_2.png"
+      ]
     },
     {
       "id": "p0820",
@@ -8834,8 +8892,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-07_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-07_1.png",
+        "img/pestanas/6DX5-07_2.png"
+      ]
     },
     {
       "id": "p0821",
@@ -8845,8 +8907,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-08_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-08_1.png",
+        "img/pestanas/6DX5-08_2.png"
+      ]
     },
     {
       "id": "p0822",
@@ -8856,8 +8922,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-09_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-09_1.png",
+        "img/pestanas/6DX5-09_2.png"
+      ]
     },
     {
       "id": "p0823",
@@ -8867,8 +8937,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-10_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-10_1.png",
+        "img/pestanas/6DX5-10_2.png"
+      ]
     },
     {
       "id": "p0824",
@@ -8878,8 +8952,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-11_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-11_1.png",
+        "img/pestanas/6DX5-11_2.png"
+      ]
     },
     {
       "id": "p0825",
@@ -8889,8 +8967,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-12_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-12_1.png",
+        "img/pestanas/6DX5-12_2.png"
+      ]
     },
     {
       "id": "p0826",
@@ -8900,8 +8982,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-13_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-13_1.png",
+        "img/pestanas/6DX5-13_2.png"
+      ]
     },
     {
       "id": "p0827",
@@ -8911,8 +8997,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-14_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-14_1.png",
+        "img/pestanas/6DX5-14_2.png"
+      ]
     },
     {
       "id": "p0828",
@@ -8922,8 +9012,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-15_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-15_1.png",
+        "img/pestanas/6DX5-15_2.png"
+      ]
     },
     {
       "id": "p0829",
@@ -8933,8 +9027,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-16_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-16_1.png",
+        "img/pestanas/6DX5-16_2.png"
+      ]
     },
     {
       "id": "p0830",
@@ -8944,8 +9042,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-17_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-17_1.png",
+        "img/pestanas/6DX5-17_2.png"
+      ]
     },
     {
       "id": "p0831",
@@ -8955,8 +9057,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-18_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-18_1.png",
+        "img/pestanas/6DX5-18_2.png"
+      ]
     },
     {
       "id": "p0832",
@@ -8966,8 +9072,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-19_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-19_1.png",
+        "img/pestanas/6DX5-19_2.png"
+      ]
     },
     {
       "id": "p0833",
@@ -8977,8 +9087,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/6DX5-20_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6DX5-20_1.png",
+        "img/pestanas/6DX5-20_2.png"
+      ]
     },
     {
       "id": "p0834",
@@ -8988,8 +9102,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña cluster curvatura C, 7 líneas.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/CFC01_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/CFC01_1.png",
+        "img/pestanas/CFC01_2.png"
+      ]
     },
     {
       "id": "p0835",
@@ -8999,8 +9117,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster en PBT coreano con adhesivo de fácil aplicación.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/CFGLUE11_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/CFGLUE11_1.png",
+        "img/pestanas/CFGLUE11_2.png"
+      ]
     },
     {
       "id": "p0836",
@@ -9010,8 +9132,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster 3D.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/CLU3D11_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/CLU3D11_1.png",
+        "img/pestanas/CLU3D11_2.png",
+        "img/pestanas/CLU3D11_3.png"
+      ]
     },
     {
       "id": "p0837",
@@ -9021,8 +9148,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster 3D.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/CLU3D14_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/CLU3D14_1.png",
+        "img/pestanas/CLU3D14_2.png",
+        "img/pestanas/CLU3D14_3.png"
+      ]
     },
     {
       "id": "p0838",
@@ -9032,8 +9164,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 Carlina curvatura C.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/SET4CARLINA-C_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SET4CARLINA-C_1.png",
+        "img/pestanas/SET4CARLINA-C_2.png"
+      ]
     },
     {
       "id": "p0839",
@@ -9065,8 +9201,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Curvatura DD (mix largos). 14 líneas.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/P5DDMIX_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/P5DDMIX_1.png",
+        "img/pestanas/P5DDMIX_2.png"
+      ]
     },
     {
       "id": "p0842",
@@ -9087,8 +9227,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso estilo abanico, pre-armadas 10D (10 pelitos). Curvatura D (mix largos).",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/10P-DMIX_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/10P-DMIX_1.png",
+        "img/pestanas/10P-DMIX_2.png"
+      ]
     },
     {
       "id": "p0844",
@@ -9109,7 +9253,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso pre-armadas 5D (5 pelitos). Curvatura C. Largo disponible: 10mm.",
-      "imagen": null,
+      "imagen": "img/pestanas/5P-C.png",
       "agotado": false
     },
     {
@@ -9120,8 +9264,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso estilo Flower Mix, pre-armadas 5D (5 pelitos). Curvatura C.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/5P-CFLORMIX_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/5P-CFLORMIX_1.png",
+        "img/pestanas/5P-CFLORMIX_2.png"
+      ]
     },
     {
       "id": "p0847",
@@ -9142,8 +9290,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso estilo abanico, pre-armadas 7D (7 pelitos). Curvatura C (mix largos).",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/7P-CMIX_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/7P-CMIX_1.png",
+        "img/pestanas/7P-CMIX_2.png"
+      ]
     },
     {
       "id": "p0849",
@@ -9164,8 +9316,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza para extensiones de pestañas.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/PINZA-82_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/PINZA-82_1.png",
+        "img/pestanas/PINZA-82_2.png"
+      ]
     },
     {
       "id": "p0851",
@@ -9175,8 +9331,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza profesional curva para extensiones.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/PINZA-90_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/PINZA-90_1.png",
+        "img/pestanas/PINZA-90_2.png"
+      ]
     },
     {
       "id": "p0852",
@@ -9263,7 +9423,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cepillo de pestañas de lujo.",
-      "imagen": null,
+      "imagen": "img/pestanas/CEPEST3.png",
       "agotado": false
     },
     {
@@ -9274,7 +9434,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Probador para pestañas enteras.",
-      "imagen": null,
+      "imagen": "img/pestanas/EXP1.png",
       "agotado": false
     },
     {
@@ -9307,7 +9467,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash profesional.",
-      "imagen": null,
+      "imagen": "img/pestanas/KITPE.png",
       "agotado": false
     },
     {
@@ -9318,7 +9478,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash profesional.",
-      "imagen": null,
+      "imagen": "img/pestanas/LAMC.png",
       "agotado": false
     },
     {
@@ -9329,7 +9489,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash.",
-      "imagen": null,
+      "imagen": "img/pestanas/TINPC.png",
       "agotado": false
     },
     {
@@ -9362,8 +9522,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pluma para microblading.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/PLUMA2_1.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/PLUMA2_1.png",
+        "img/pestanas/PLUMA2_2.png"
+      ]
     },
     {
       "id": "p0869",
@@ -9373,7 +9537,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo plástico porta adhesivo x100 unidades.",
-      "imagen": null,
+      "imagen": "img/pestanas/ANI-03.png",
       "agotado": false
     },
     {
@@ -9384,7 +9548,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x100 unidades.",
-      "imagen": null,
+      "imagen": "img/pestanas/ANI-09.webp",
       "agotado": false
     },
     {
@@ -9406,7 +9570,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Rodillo corporal Smooth Roller.",
-      "imagen": null,
+      "imagen": "img/accesorios/HD-7061.png",
       "agotado": false
     },
     {
@@ -9417,7 +9581,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": null,
+      "imagen": "img/accesorios/MP14.png",
       "agotado": false
     },
     {
@@ -9428,7 +9592,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": null,
+      "imagen": "img/accesorios/SP02.png",
       "agotado": false
     }
   ]
