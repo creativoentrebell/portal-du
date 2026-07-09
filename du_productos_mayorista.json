@@ -1066,25 +1066,25 @@
     },
     {
       "id": "p0098",
-      "nombre": "Pestañas Flat Premium FLAT15D",
-      "referencia": "FLAT15D",
+      "nombre": "Pestañas Flat Premium PF15D",
+      "referencia": "PF15D",
       "precio": 25000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
-      "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm, 15mm.",
+      "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm y 15mm.",
       "imagen": "img/pestanas/FLAT15D.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0099",
-      "nombre": "Pestañas Flat Premium FLAT20D",
-      "referencia": "FLAT20D",
+      "nombre": "Pestañas Flat Premium PF20D",
+      "referencia": "PF20D",
       "precio": 25000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
-      "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm.",
+      "descripcion": "Pestañas Flat Premium tecnológica curvatura D. Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm y 14mm.",
       "imagen": "img/pestanas/FLAT20D.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0101",
@@ -1803,7 +1803,12 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador Rosé. Disponible en varios colores.",
       "imagen": "img/pestanas/E101 CORAL.webp",
-      "agotado": true
+      "agotado": true,
+      "colores": [
+        "img/pestanas/E101 CORAL.webp",
+        "img/pestanas/E101 MORADO.webp",
+        "img/pestanas/E101 VERDE.webp"
+      ]
     },
     {
       "id": "p0165",
@@ -2429,8 +2434,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pluma tebori para microblading. Se vende por separado.",
-      "imagen": "img/pestanas/PIUMA1.webp",
-      "agotado": false
+      "imagen": "img/pestanas/PLUMA1.webp",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/PLUMA1.webp",
+        "img/pestanas/PLUMA1_2.webp"
+      ]
     },
     {
       "id": "p0224",
@@ -3399,7 +3408,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Práctico mostrador y probador de uñas. Incluye 50 uñas.",
-      "imagen": "img/unas/PROUN23 (2).webp",
+      "imagen": "img/unas/PROUN2.webp",
       "agotado": false
     },
     {
@@ -3749,7 +3758,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Extractor manual de espinillas x3 unidades, diversidad de puntas.",
       "imagen": "img/unas/SETEP.webp",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/unas/SETEP.webp",
         "img/unas/SETEP-Y-SETEP02.webp"
@@ -3764,7 +3773,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Extractor manual de espinillas x3 unidades.",
       "imagen": "img/unas/SETEP02.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0367",
@@ -3774,8 +3783,8 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Palitos de naranjo en madera x100. Para retirar residuos, empujar cutícula, corregir manicure.",
-      "imagen": "img/unas/SNY3115-.webp",
-      "agotado": true
+      "imagen": "img/unas/115.jpeg",
+      "agotado": false
     },
     {
       "id": "p0368",
@@ -5612,33 +5621,6 @@
       ]
     },
     {
-      "id": "p0546",
-      "nombre": "Encrespador E100",
-      "referencia": "E100",
-      "precio": 4900,
-      "categoria": "Accesorios",
-      "subcategoria": "Herramientas y accesorios",
-      "descripcion": "Encrespador de pestañas.",
-      "imagen": "img/accesorios/E100 2.webp",
-      "agotado": true
-    },
-    {
-      "id": "p0547",
-      "nombre": "Encrespador Rosé E101",
-      "referencia": "E101",
-      "precio": 6900,
-      "categoria": "Accesorios",
-      "subcategoria": "Herramientas y accesorios",
-      "descripcion": "Encrespador Rosé con colores.",
-      "imagen": "img/accesorios/E101 CORAL.webp",
-      "agotado": true,
-      "colores": [
-        "img/accesorios/E101 CORAL.webp",
-        "img/accesorios/E101 MORADO.webp",
-        "img/accesorios/E101 VERDE.webp"
-      ]
-    },
-    {
       "id": "p0548",
       "nombre": "Encrespador E102",
       "referencia": "E102",
@@ -5741,17 +5723,6 @@
       "agotado": false
     },
     {
-      "id": "p0557",
-      "nombre": "Pinza Profesional Tipo L PINZA-66",
-      "referencia": "PINZA-66",
-      "precio": 19900,
-      "categoria": "Accesorios",
-      "subcategoria": "Herramientas y accesorios",
-      "descripcion": "Pinza profesional tipo L para volumen en extensiones.",
-      "imagen": "img/pestanas/PINZA-66 2.webp",
-      "agotado": false
-    },
-    {
       "id": "p0558",
       "nombre": "Espejo de Mano Redondo ESPMN9",
       "referencia": "ESPMN9",
@@ -5781,7 +5752,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Espejos",
       "descripcion": "Espejo lupa con ventosas para superficies lisas.",
-      "imagen": "img/accesorios/10XL.webp",
+      "imagen": null,
       "agotado": false
     },
     {
@@ -6056,10 +6027,9 @@
     },
     {
       "id": "p0586",
-      "nombre": "Kit Beauty Wave — Ondulado y Laminado Alta Gama Neicha",
-      "referencia": "",
+      "nombre": "Kit de Lifthing de Pestañas",
+      "referencia": "KITLIF01",
       "precio": 130000,
-      "precio_volumen": 120000,
       "categoria": "Pestañas",
       "subcategoria": "Kits de pestañas",
       "descripcion": "",
@@ -7377,7 +7347,7 @@
       "precio": 2500,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/PROUN23.webp",
       "agotado": false
     },
     {
@@ -8645,6 +8615,820 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "imagen": "",
+      "agotado": false
+    },
+    {
+      "id": "p0801",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-03",
+      "referencia": "3DX5-03",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0802",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-13",
+      "referencia": "3DX5-13",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0803",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-15",
+      "referencia": "3DX5-15",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0804",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-19",
+      "referencia": "3DX5-19",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0805",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-21",
+      "referencia": "3DX5-21",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0806",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-25",
+      "referencia": "3DX5-25",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0807",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-26",
+      "referencia": "3DX5-26",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0808",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-31",
+      "referencia": "3DX5-31",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0809",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-34",
+      "referencia": "3DX5-34",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0810",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-35",
+      "referencia": "3DX5-35",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0811",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-36",
+      "referencia": "3DX5-36",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0812",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-37",
+      "referencia": "3DX5-37",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0813",
+      "nombre": "Pestañas Enteras 3D x5 — 3DX5-39",
+      "referencia": "3DX5-39",
+      "precio": 20800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 3D x5 Midi efecto Foxy Eye. PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0814",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-01",
+      "referencia": "6DX5-01",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0815",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-02",
+      "referencia": "6DX5-02",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0816",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-03",
+      "referencia": "6DX5-03",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0817",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-04",
+      "referencia": "6DX5-04",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0818",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-05",
+      "referencia": "6DX5-05",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0819",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-06",
+      "referencia": "6DX5-06",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0820",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-07",
+      "referencia": "6DX5-07",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0821",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-08",
+      "referencia": "6DX5-08",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0822",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-09",
+      "referencia": "6DX5-09",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0823",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-10",
+      "referencia": "6DX5-10",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0824",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-11",
+      "referencia": "6DX5-11",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0825",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-12",
+      "referencia": "6DX5-12",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0826",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-13",
+      "referencia": "6DX5-13",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0827",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-14",
+      "referencia": "6DX5-14",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0828",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-15",
+      "referencia": "6DX5-15",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0829",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-16",
+      "referencia": "6DX5-16",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0830",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-17",
+      "referencia": "6DX5-17",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0831",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-18",
+      "referencia": "6DX5-18",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0832",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-19",
+      "referencia": "6DX5-19",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0833",
+      "nombre": "Pestañas Enteras 6D x5 — 6DX5-20",
+      "referencia": "6DX5-20",
+      "precio": 22800,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña entera 6D x5 en PBT coreano de alta calidad.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0834",
+      "nombre": "Pestañas Cluster CFC01",
+      "referencia": "CFC01",
+      "precio": 9900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestaña cluster curvatura C, 7 líneas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0835",
+      "nombre": "Cluster con Glue CFGLUE11",
+      "referencia": "CFGLUE11",
+      "precio": 14900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Cluster en PBT coreano con adhesivo de fácil aplicación.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0836",
+      "nombre": "Cluster 3D CLU3D11",
+      "referencia": "CLU3D11",
+      "precio": 14900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestañas cluster 3D.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0837",
+      "nombre": "Cluster 3D CLU3D14",
+      "referencia": "CLU3D14",
+      "precio": 14900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Pestañas cluster 3D.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0838",
+      "nombre": "Cluster Mix x4 Carlina-C",
+      "referencia": "SET4 CARLINA-C",
+      "precio": 30900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Cluster Mix x4 Carlina curvatura C.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0839",
+      "nombre": "Color Lashes C — Verde Unicornio",
+      "referencia": "COMIXC5",
+      "precio": 5000,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Pestañas pelo a pelo curvatura C, verde unicornio. Grosor 0.07.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0840",
+      "nombre": "Pestañas Pelo a Pelo — P20CMIX",
+      "referencia": "P20CMIX",
+      "precio": 9000,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "PBT coreano tipo seda. Grosor 0.20 Curvatura C (mix largos).",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0841",
+      "nombre": "Pestañas Pelo a Pelo — P5DDMIX",
+      "referencia": "P5DDMIX",
+      "precio": 9000,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "PBT coreano tipo seda. Curvatura DD (mix largos). 14 líneas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0842",
+      "nombre": "Pestañas Volumen Ruso 10P-C",
+      "referencia": "10P-C",
+      "precio": 8000,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso pre-armadas 10D (10 pelitos). Curvatura C. Largos disponibles: 8mm y 14mm.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0843",
+      "nombre": "Pestañas Volumen Ruso Abanico 10P-DMIX",
+      "referencia": "10P-DMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso estilo abanico, pre-armadas 10D (10 pelitos). Curvatura D (mix largos).",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0844",
+      "nombre": "Pestañas Volumen Ruso Flower 3P-DFLORMIX",
+      "referencia": "3P-DFLORMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso estilo Flower Mix, pre-armadas 3D (3 pelitos). Curvatura D.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0845",
+      "nombre": "Pestañas Volumen Ruso 5P-C",
+      "referencia": "5P-C",
+      "precio": 8000,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso pre-armadas 5D (5 pelitos). Curvatura C. Largo disponible: 10mm.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0846",
+      "nombre": "Pestañas Volumen Ruso Flower 5P-CFLORMIX",
+      "referencia": "5P-CFLORMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso estilo Flower Mix, pre-armadas 5D (5 pelitos). Curvatura C.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0847",
+      "nombre": "Pestañas Volumen Ruso Abanico 5P-CMIX",
+      "referencia": "5P-CMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso estilo abanico, pre-armadas 5D (5 pelitos). Curvatura C (mix largos).",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0848",
+      "nombre": "Pestañas Volumen Ruso Abanico 7P-CMIX",
+      "referencia": "7P-CMIX",
+      "precio": 19600,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas pelo a pelo",
+      "descripcion": "Extensiones para volumen ruso estilo abanico, pre-armadas 7D (7 pelitos). Curvatura C (mix largos).",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0849",
+      "nombre": "Set Welly x5 Pinzas Black",
+      "referencia": "5SPINZABLACK",
+      "precio": 119000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Set profesional x5 pinzas Welly en acero inoxidable, edición black: recta, curva, tipo L, tipo Bent y tipo hacha.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0850",
+      "nombre": "Pinza 82",
+      "referencia": "PINZA82",
+      "precio": 5900,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Pinza para extensiones de pestañas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0851",
+      "nombre": "Pinza Profesional Curva PINZA-90",
+      "referencia": "PINZA-90",
+      "precio": 19900,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Pinza profesional curva para extensiones.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0852",
+      "nombre": "Removedor Professional DU Melt Cream",
+      "referencia": "DU MELT CREAM",
+      "precio": 29000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Removedor profesional en crema para extensiones de pestañas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0853",
+      "nombre": "Removedor Professional DU Melt Gel",
+      "referencia": "DU MELT GEL",
+      "precio": 19000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Removedor profesional en gel para extensiones de pestañas. Actúa en 2 minutos.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0854",
+      "nombre": "Super Bonder Profesional DU Seal",
+      "referencia": "DU SEAL",
+      "precio": 29000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Super bonder profesional 220ml. Sella y acelera el secado del adhesivo.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0855",
+      "nombre": "Regla 6 — REGCE6",
+      "referencia": "REGCE6",
+      "precio": 4000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Regla de posicionamiento para diseño de cejas y pestañas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0856",
+      "nombre": "Sticker Pega Pestaña 1108-2",
+      "referencia": "1108-2",
+      "precio": 6500,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Sticker adhesivo para pestañas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0857",
+      "nombre": "Parche de Papel para Pestañas 1108-6",
+      "referencia": "1108-6",
+      "precio": 2500,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Parche de papel para protección durante extensiones.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0858",
+      "nombre": "Carta Lashmore",
+      "referencia": "CARTALASHMORE",
+      "precio": 80000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Carta de exhibición Lashmore.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0859",
+      "nombre": "Cepillo de Pestañas de Lujo CEPEST3",
+      "referencia": "CEPEST3",
+      "precio": 6900,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Cepillo de pestañas de lujo.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0860",
+      "nombre": "Probador de Pestañas Enteras EXP1",
+      "referencia": "EXP1",
+      "precio": 5000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Probador para pestañas enteras.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0861",
+      "nombre": "Kit Lashista Base",
+      "referencia": "KITLASHISTA1",
+      "precio": 150000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Kit base para lashista profesional.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0862",
+      "nombre": "Kit Lashista Pro",
+      "referencia": "KITLASHISTA2",
+      "precio": 300000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Kit profesional completo para lashista.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0863",
+      "nombre": "Set Lash KITPE",
+      "referencia": "KITPE",
+      "precio": 60000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Set Lash profesional.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0864",
+      "nombre": "Set Lash LAMC",
+      "referencia": "LAMC",
+      "precio": 60000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Set Lash profesional.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0865",
+      "nombre": "Set Lash TINPC",
+      "referencia": "TINPC",
+      "precio": 15000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Set Lash.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0866",
+      "nombre": "Gafas Optivisoras OPTI-1",
+      "referencia": "OPTI-1",
+      "precio": 36000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Gafas optivisoras con aumento para trabajo de precisión.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0867",
+      "nombre": "Paleta de Pestañas PAH01",
+      "referencia": "PAH01",
+      "precio": 6000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Paleta para pestañas.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0868",
+      "nombre": "Pluma Microblading PLUMA2",
+      "referencia": "PLUMA2",
+      "precio": 12000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Pluma para microblading.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0869",
+      "nombre": "Anillo Plástico x100 ANI-03",
+      "referencia": "ANI-03",
+      "precio": 6000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Anillo plástico porta adhesivo x100 unidades.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0870",
+      "nombre": "Anillo Corazón x100 ANI-09",
+      "referencia": "ANI-09",
+      "precio": 8000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Anillo corazón porta adhesivo x100 unidades.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0871",
+      "nombre": "Anillo Corazón x12 ANI-11",
+      "referencia": "ANI-11",
+      "precio": 1500,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Anillo corazón porta adhesivo x12 unidades.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0872",
+      "nombre": "Smooth Roller HD-7061",
+      "referencia": "HD-7061",
+      "precio": 8900,
+      "categoria": "Accesorios",
+      "subcategoria": "Herramientas y accesorios",
+      "descripcion": "Rodillo corporal Smooth Roller.",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0873",
+      "nombre": "Mini Pinzas x2 Esmaltadas con Lunares — MP14",
+      "referencia": "MP14",
+      "precio": 9900,
+      "categoria": "Accesorios",
+      "subcategoria": "Herramientas y accesorios",
+      "descripcion": "",
+      "imagen": null,
+      "agotado": false
+    },
+    {
+      "id": "p0874",
+      "nombre": "Set de Pinzas x3 con Apliques — SP02",
+      "referencia": "SP02",
+      "precio": 8900,
+      "categoria": "Accesorios",
+      "subcategoria": "Herramientas y accesorios",
+      "descripcion": "",
+      "imagen": null,
       "agotado": false
     }
   ]
