@@ -1915,7 +1915,7 @@
     },
     {
       "id": "p0174",
-      "nombre": "Microbrush MICFI",
+      "nombre": "Microcepillo Fino MICFI",
       "referencia": "MICFI",
       "precio": 4500,
       "categoria": "Pestañas",
@@ -1926,7 +1926,7 @@
     },
     {
       "id": "p0175",
-      "nombre": "Microbrush MICLI",
+      "nombre": "Microcepillos MICLI",
       "referencia": "MICLI",
       "precio": 4500,
       "categoria": "Pestañas",
@@ -1937,7 +1937,7 @@
     },
     {
       "id": "p0176",
-      "nombre": "Microbrush MICNO",
+      "nombre": "Microcepillo MICNO",
       "referencia": "MICNO",
       "precio": 4500,
       "categoria": "Pestañas",
@@ -1948,7 +1948,7 @@
     },
     {
       "id": "p0177",
-      "nombre": "Microbrush MICSU",
+      "nombre": "Microcepillo MICSU",
       "referencia": "MICSU",
       "precio": 4500,
       "categoria": "Pestañas",
@@ -1959,7 +1959,7 @@
     },
     {
       "id": "p0178",
-      "nombre": "Microbrush MICUL",
+      "nombre": "Microcepillo Ultrafino MICUL",
       "referencia": "MICUL",
       "precio": 4500,
       "categoria": "Pestañas",
