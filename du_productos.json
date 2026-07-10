@@ -1160,8 +1160,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.05 Curvatura C (mix largos).",
-      "imagen": "img/pestanas/P5CMIX.webp",
-      "agotado": false
+      "imagen": "img/pestanas/5C-PMIX_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/5C-PMIX_1.jpg",
+        "img/pestanas/5C-PMIX_2.jpg"
+      ]
     },
     {
       "id": "p0108",
@@ -6028,8 +6032,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso estilo Flower Mix, pre-armadas 3D (3 pelitos). Curvatura C.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3P-CFLORMIX_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3P-CFLORMIX_1.jpg",
+        "img/pestanas/3P-CFLORMIX_2.jpg"
+      ]
     },
     {
       "id": "p0589",
@@ -6375,8 +6383,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/ATM10_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/ATM10_1.jpg",
+        "img/accesorios/ATM10_2.jpg",
+        "img/accesorios/ATM10_3.jpg"
+      ]
     },
     {
       "id": "p0619",
@@ -6397,8 +6410,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/BAR400_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BAR400_1.jpg",
+        "img/accesorios/BAR400_2.jpg",
+        "img/accesorios/BAR400_3.jpg"
+      ]
     },
     {
       "id": "p0621",
@@ -6640,8 +6658,16 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/FUNDA1_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/FUNDA1_1.jpg",
+        "img/accesorios/FUNDA1_2.jpg",
+        "img/accesorios/FUNDA1_3.jpg",
+        "img/accesorios/FUNDA1_4.jpg",
+        "img/accesorios/FUNDA1_5.jpg",
+        "img/accesorios/FUNDA1_6.jpg"
+      ]
     },
     {
       "id": "p0639",
@@ -6777,8 +6803,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/CS18_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/CS18_1.jpg",
+        "img/accesorios/CS18_2.jpg",
+        "img/accesorios/CS18_3.jpg"
+      ]
     },
     {
       "id": "p0650",
@@ -6840,8 +6871,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Espejos",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/5X_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/5X_1.jpg",
+        "img/accesorios/5X_2.jpg"
+      ]
     },
     {
       "id": "p0655",
@@ -6860,7 +6895,7 @@
       "precio": 10000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
+      "imagen": "img/unas/20XNAIL-CL.jpg",
       "agotado": false
     },
     {
@@ -7135,8 +7170,12 @@
       "precio": 6000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/GM3065_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/GM3065_1.jpg",
+        "img/unas/GM3065_2.jpg"
+      ]
     },
     {
       "id": "p0687",
@@ -7205,8 +7244,12 @@
       "precio": 12000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "img/unas/GM3127.jpg",
-      "agotado": false
+      "imagen": "img/unas/GM3127_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/GM3127_1.jpg",
+        "img/unas/GM3127_2.jpg"
+      ]
     },
     {
       "id": "p0694",
@@ -7215,8 +7258,12 @@
       "precio": 8000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "img/unas/GM3141.jpg",
-      "agotado": false
+      "imagen": "img/unas/GM3141_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/GM3141_1.jpg",
+        "img/unas/GM3141_2.jpg"
+      ]
     },
     {
       "id": "p0695",
@@ -7225,8 +7272,12 @@
       "precio": 40000,
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
-      "imagen": "img/unas/GM3156.jpg",
-      "agotado": false
+      "imagen": "img/unas/GM3156_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/GM3156_1.jpg",
+        "img/unas/GM3156_2.jpg"
+      ]
     },
     {
       "id": "p0696",
@@ -7235,8 +7286,12 @@
       "precio": 88000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/LAM04_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/LAM04_1.jpg",
+        "img/unas/LAM04_2.jpg"
+      ]
     },
     {
       "id": "p0697",
@@ -7255,8 +7310,14 @@
       "precio": 14000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/PAL6_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/PAL6_1.jpg",
+        "img/unas/PAL6_2.jpg",
+        "img/unas/PAL6_3.jpg",
+        "img/unas/PAL6_4.jpg"
+      ]
     },
     {
       "id": "p0699",
@@ -7458,8 +7519,12 @@
       "precio": 6000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/USTM6_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/USTM6_1.jpg",
+        "img/unas/USTM6_2.jpg"
+      ]
     },
     {
       "id": "p0715",
@@ -7498,8 +7563,12 @@
       "precio": 7000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "img/unas/VIDUNA1.webp",
-      "agotado": false
+      "imagen": "img/unas/VIDUNA1_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/VIDUNA1_1.jpg",
+        "img/unas/VIDUNA1_2.jpg"
+      ]
     },
     {
       "id": "p0719",
@@ -7524,8 +7593,12 @@
       "precio": 7000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/VIDUNA3_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/VIDUNA3_1.jpg",
+        "img/unas/VIDUNA3_2.jpg"
+      ]
     },
     {
       "id": "p0721",
@@ -8575,8 +8648,12 @@
       "precio": 10000,
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/STICKER3-75_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3-75_1.jpg",
+        "img/unas/STICKER3-75_2.jpg"
+      ]
     },
     {
       "id": "p0799",
@@ -8595,8 +8672,12 @@
       "precio": 2000,
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/unas/STICKER3D_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/unas/STICKER3D_1.jpg",
+        "img/unas/STICKER3D_2.jpg"
+      ]
     },
     {
       "id": "p0801",
@@ -9178,8 +9259,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo curvatura C, verde unicornio. Grosor 0.07.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/COMIXC5_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/COMIXC5_1.jpg",
+        "img/pestanas/COMIXC5_2.jpg"
+      ]
     },
     {
       "id": "p0840",
@@ -9189,8 +9274,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "PBT coreano tipo seda. Grosor 0.20 Curvatura C (mix largos).",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/P20CMIX_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/P20CMIX_1.jpg",
+        "img/pestanas/P20CMIX_2.jpg"
+      ]
     },
     {
       "id": "p0841",
@@ -9241,8 +9330,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso estilo Flower Mix, pre-armadas 3D (3 pelitos). Curvatura D.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/3P-DFLORMIX_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/3P-DFLORMIX_1.jpg",
+        "img/pestanas/3P-DFLORMIX_2.jpg"
+      ]
     },
     {
       "id": "p0845",
@@ -9345,7 +9438,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Removedor profesional en crema para extensiones de pestañas.",
-      "imagen": null,
+      "imagen": "img/pestanas/DU MELT CREAM.jpg",
       "agotado": false
     },
     {
@@ -9356,7 +9449,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Removedor profesional en gel para extensiones de pestañas. Actúa en 2 minutos.",
-      "imagen": null,
+      "imagen": "img/pestanas/DU MELT GEL.jpg",
       "agotado": false
     },
     {
@@ -9367,7 +9460,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Super bonder profesional 220ml. Sella y acelera el secado del adhesivo.",
-      "imagen": null,
+      "imagen": "img/pestanas/DU SEAL.jpg",
       "agotado": false
     },
     {
@@ -9378,8 +9471,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Regla de posicionamiento para diseño de cejas y pestañas.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/REGCE6_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/REGCE6_1.jpg",
+        "img/pestanas/REGCE6_2.jpg",
+        "img/pestanas/REGCE6_3.jpg"
+      ]
     },
     {
       "id": "p0856",
@@ -9389,8 +9487,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Sticker adhesivo para pestañas.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/1108-2_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/1108-2_1.jpg",
+        "img/pestanas/1108-2_2.jpg"
+      ]
     },
     {
       "id": "p0857",
@@ -9400,8 +9502,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Parche de papel para protección durante extensiones.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/1108-6_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/1108-6_1.jpg",
+        "img/pestanas/1108-6_2.jpg"
+      ]
     },
     {
       "id": "p0858",
@@ -9444,8 +9550,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Kit base para lashista profesional.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/KITLASHISTA1_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/KITLASHISTA1_1.jpg",
+        "img/pestanas/KITLASHISTA1_2.jpg",
+        "img/pestanas/KITLASHISTA1_3.jpg"
+      ]
     },
     {
       "id": "p0862",
@@ -9455,8 +9566,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Kit profesional completo para lashista.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/KITLASHISTA2_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/KITLASHISTA2_1.jpg",
+        "img/pestanas/KITLASHISTA2_2.jpg",
+        "img/pestanas/KITLASHISTA2_3.jpg"
+      ]
     },
     {
       "id": "p0863",
@@ -9510,8 +9626,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Paleta para pestañas.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/PAH01_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/PAH01_1.jpg",
+        "img/pestanas/PAH01_2.jpg"
+      ]
     },
     {
       "id": "p0868",
@@ -9547,8 +9667,14 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x100 unidades.",
-      "imagen": "img/pestanas/ANI-09.webp",
-      "agotado": false
+      "imagen": "img/pestanas/ANI-09_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/ANI-09_1.jpg",
+        "img/pestanas/ANI-09_2.jpg",
+        "img/pestanas/ANI-09_3.jpg",
+        "img/pestanas/ANI-09_4.jpg"
+      ]
     },
     {
       "id": "p0871",
@@ -9558,8 +9684,14 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x12 unidades.",
-      "imagen": null,
-      "agotado": false
+      "imagen": "img/pestanas/ANI-11_1.jpg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/ANI-11_1.jpg",
+        "img/pestanas/ANI-11_2.jpg",
+        "img/pestanas/ANI-11_3.jpg",
+        "img/pestanas/ANI-11_4.jpg"
+      ]
     },
     {
       "id": "p0872",
