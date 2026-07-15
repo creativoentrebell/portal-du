@@ -6919,16 +6919,6 @@
       "agotado": false
     },
     {
-      "id": "p0659",
-      "nombre": "Cortaúñas Aster",
-      "referencia": "ASTER",
-      "precio": 24000,
-      "categoria": "Uñas",
-      "subcategoria": "Accesorios para uñas",
-      "imagen": "",
-      "agotado": false
-    },
-    {
       "id": "p0660",
       "nombre": "Barrita Corazón x12 — C822",
       "referencia": "C822",
@@ -6936,16 +6926,6 @@
       "categoria": "Uñas",
       "subcategoria": "Imanes",
       "imagen": "img/unas/C822.png",
-      "agotado": false
-    },
-    {
-      "id": "p0661",
-      "nombre": "Cortaúñas Calisto",
-      "referencia": "CALISTO",
-      "precio": 24000,
-      "categoria": "Uñas",
-      "subcategoria": "Accesorios para uñas",
-      "imagen": "",
       "agotado": false
     },
     {
