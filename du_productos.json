@@ -9382,8 +9382,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set profesional x5 pinzas Welly en acero inoxidable, edición black: recta, curva, tipo L, tipo Bent y tipo hacha.",
-      "imagen": null,
-      "agotado": true
+      "imagen": "img/pestanas/5SPINZABLACK_1.webp",
+      "agotado": true,
+      "colores": [
+        "img/pestanas/5SPINZABLACK_1.webp",
+        "img/pestanas/5SPINZABLACK_2.webp"
+      ]
     },
     {
       "id": "p0850",
