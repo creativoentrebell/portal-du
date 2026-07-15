@@ -3522,7 +3522,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cubos pulidores de colores x10 bloques. Para uñas naturales y acrílicas.",
-      "imagen": "img/unas/CUB-02.webp",
+      "imagen": "img/unas/CUB-02.png",
       "agotado": false
     },
     {
@@ -7441,7 +7441,6 @@
       "imagen": "img/unas/SOP03.webp",
       "agotado": false,
       "colores": [
-        "img/unas/SOP03.webp",
         "img/unas/SOP03_1.png",
         "img/unas/SOP03_2.png"
       ]
