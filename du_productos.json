@@ -5989,19 +5989,19 @@
     },
     {
       "id": "p0585",
-      "nombre": "Kit Henna Every Brow Luxury Nueva Era con Invima",
-      "referencia": "",
-      "precio": 60000,
+      "nombre": "Kit Henna Luxury Light Brown",
+      "referencia": "KITHE01",
+      "precio": 65000,
       "categoria": "Pestañas",
       "subcategoria": "Kits de pestañas",
-      "descripcion": "",
-      "imagen": "img/pestanas/Kit_Henna_1.webp",
+      "descripcion": "Henna coreana de origen natural en polvo para piel y pelo. Puede utilizarse en cejas y pestañas, logrando acabados naturales y duraderos. Ideal también para piel sensible. Duración de 8 a 15 días. Cada kit rinde de 35 a 45 aplicaciones en cejas o pestañas. Incluye en la caja: henna 5g + mortero + fijador activador en crema 30 ml + brocha de alta definición.",
+      "imagen": "img/pestanas/KITHE01_1.webp",
       "colores": [
-        "img/pestanas/Kit_Henna_1.webp",
-        "img/pestanas/Kit_Henna_2.webp",
-        "img/pestanas/Kit_Henna_3.webp"
+        "img/pestanas/KITHE01_1.webp",
+        "img/pestanas/KITHE01_2.webp",
+        "img/pestanas/KITHE01_3.webp"
       ],
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0586",
@@ -6010,7 +6010,7 @@
       "precio": 160000,
       "categoria": "Pestañas",
       "subcategoria": "Kits de pestañas",
-      "descripcion": "",
+      "descripcion": "Kit Beauty Wave para ondulado y laminado de pestañas. Alta gama Neicha coreano, original con Invima. Rinde 60 aplicaciones.",
       "imagen": "img/pestanas/Kit_Beauty.webp",
       "agotado": false
     },
@@ -9709,6 +9709,38 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/SP02.png",
+      "agotado": false
+    },
+    {
+      "id": "p0875",
+      "nombre": "Kit Henna Luxury Medium Brown",
+      "referencia": "KITHE02",
+      "precio": 65000,
+      "categoria": "Pestañas",
+      "subcategoria": "Kits de pestañas",
+      "descripcion": "Henna coreana de origen natural en polvo para piel y pelo. Puede utilizarse en cejas y pestañas, logrando acabados naturales y duraderos. Ideal también para piel sensible. Duración de 8 a 15 días. Cada kit rinde de 35 a 45 aplicaciones en cejas o pestañas. Incluye en la caja: henna 5g + mortero + fijador activador en crema 30 ml + brocha de alta definición.",
+      "imagen": "img/pestanas/KITHE02_1.webp",
+      "colores": [
+        "img/pestanas/KITHE02_1.webp",
+        "img/pestanas/KITHE02_2.webp",
+        "img/pestanas/KITHE02_3.webp"
+      ],
+      "agotado": false
+    },
+    {
+      "id": "p0876",
+      "nombre": "Kit Henna Luxury Dark Brown",
+      "referencia": "KITHE03",
+      "precio": 65000,
+      "categoria": "Pestañas",
+      "subcategoria": "Kits de pestañas",
+      "descripcion": "Henna coreana de origen natural en polvo para piel y pelo. Puede utilizarse en cejas y pestañas, logrando acabados naturales y duraderos. Ideal también para piel sensible. Duración de 8 a 15 días. Cada kit rinde de 35 a 45 aplicaciones en cejas o pestañas. Incluye en la caja: henna 5g + mortero + fijador activador en crema 30 ml + brocha de alta definición.",
+      "imagen": "img/pestanas/KITHE03_1.webp",
+      "colores": [
+        "img/pestanas/KITHE03_1.webp",
+        "img/pestanas/KITHE03_2.webp",
+        "img/pestanas/KITHE03_3.webp"
+      ],
       "agotado": false
     }
   ]
