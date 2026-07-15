@@ -5516,7 +5516,8 @@
       "agotado": false,
       "colores": [
         "img/accesorios/GOTER BLANCO.webp",
-        "img/accesorios/GOTER NEGRO.webp"
+        "img/accesorios/GOTER NEGRO.webp",
+        "img/accesorios/GOTER_3.png"
       ]
     },
     {
@@ -6834,8 +6835,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "",
-      "agotado": false
+      "imagen": "img/accesorios/TRP01_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/TRP01_1.png",
+        "img/accesorios/TRP01_2.png",
+        "img/accesorios/TRP01_3.png"
+      ]
     },
     {
       "id": "p0652",

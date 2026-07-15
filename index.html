@@ -1044,14 +1044,17 @@ function renderCard(p) {
 }
 
 /* ── Filter ── */
+function normalizar(texto) {
+  return (texto || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
 function filtered() {
   return allProducts.filter(p => {
     if (!state.showAgotados && p.agotado) return false;
     if (state.cat && p.categoria !== state.cat) return false;
     if (state.subcat && p.subcategoria !== state.subcat) return false;
     if (state.query) {
-      const q = state.query.toLowerCase();
-      if (!p.nombre.toLowerCase().includes(q) && !p.referencia.toLowerCase().includes(q) && !(p.descripcion||"").toLowerCase().includes(q)) return false;
+      const q = normalizar(state.query);
+      if (!normalizar(p.nombre).includes(q) && !normalizar(p.referencia).includes(q) && !normalizar(p.descripcion).includes(q)) return false;
     }
     return true;
   });
