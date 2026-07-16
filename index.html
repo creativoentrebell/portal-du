@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DU — Catálogo 2026</title>
+  <link rel="icon" type="image/png" href="img/logo.png" />
+  <link rel="apple-touch-icon" href="img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
@@ -469,6 +471,9 @@
     .card-price .currency { font-size: 11px; font-weight: 400; color: var(--du-gray); margin-right: 2px; }
     .price-pending { font-size: 12px; color: var(--du-gray); font-style: italic; font-weight: 400; }
     .price-volumen { font-size: 10px; color: var(--du-gray); letter-spacing: 0.02em; }
+    .price-anticipado { font-size: 10px; color: var(--du-blue-dk); font-weight: 600; letter-spacing: 0.02em; }
+    .prod-modal-anticipado { margin-top: 6px; font-size: 12px; color: var(--du-blue-dk); font-weight: 600; }
+    .prod-modal-anticipado .currency { font-size: 10px; font-weight: 400; margin-right: 1px; }
     .card-cat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .cat-pestanas { background: #c4e8fb; }
     .cat-unas     { background: #c4e8fb; opacity: 0.6; }
@@ -755,15 +760,15 @@
       position: relative;
       flex-shrink: 0;
       width: 42px; height: 42px;
-      border: 1px solid var(--du-border);
+      border: 1px solid var(--du-blue-dk);
       border-radius: 50%;
-      background: var(--du-white);
+      background: var(--du-blue);
       cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       color: var(--du-dark);
-      transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+      transition: background 0.15s, border-color 0.15s, box-shadow 0.15s, color 0.15s;
     }
-    .cart-btn:hover { background: var(--du-off); border-color: var(--du-blue-dk); box-shadow: var(--du-shadow); }
+    .cart-btn:hover { background: var(--du-blue-dk); border-color: var(--du-blue-dk); color: var(--du-white); box-shadow: var(--du-shadow); }
     .cart-btn svg { width: 20px; height: 20px; }
     .cart-count {
       position: absolute;
@@ -839,13 +844,13 @@
     .opt-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
     .add-cart-btn {
       flex: 1; height: 48px; border: none; border-radius: 10px;
-      background: var(--du-dark); color: var(--du-white); cursor: pointer;
+      background: var(--du-blue-dk); color: var(--du-white); cursor: pointer;
       font-family: var(--font-sans); font-size: 13px; font-weight: 600;
       letter-spacing: 0.08em; text-transform: uppercase;
       display: flex; align-items: center; justify-content: center; gap: 8px;
       transition: background 0.15s, opacity 0.15s;
     }
-    .add-cart-btn:hover { background: #444; }
+    .add-cart-btn:hover { background: #69a7c9; }
     .add-cart-btn:disabled { background: var(--du-gray); cursor: not-allowed; opacity: 0.7; }
     .add-cart-btn svg { width: 17px; height: 17px; }
     .opt-warning { font-size: 11.5px; color: #e05555; min-height: 15px; opacity: 0; transition: opacity 0.2s; }
@@ -853,13 +858,13 @@
 
     /* Botón "Agregar" en la tarjeta */
     .card-add-btn {
-      border: 1px solid var(--du-border); background: var(--du-white);
+      border: 1px solid var(--du-blue-dk); background: var(--du-blue);
       border-radius: 8px; width: 34px; height: 34px; cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       color: var(--du-dark); flex-shrink: 0;
       transition: background 0.15s, border-color 0.15s, color 0.15s;
     }
-    .card-add-btn:hover { background: var(--du-dark); border-color: var(--du-dark); color: var(--du-white); }
+    .card-add-btn:hover { background: var(--du-blue-dk); border-color: var(--du-blue-dk); color: var(--du-white); }
     .card-add-btn svg { width: 17px; height: 17px; }
     .card-name, .card-img-wrap img { cursor: pointer; }
 
@@ -1187,6 +1192,7 @@
       <p class="prod-modal-desc" id="prodModalDesc"></p>
       <div class="prod-modal-price-wrap" id="prodModalPriceWrap" style="display:none">
         <div class="prod-modal-price" id="prodModalPrice"></div>
+        <div class="prod-modal-anticipado" id="prodModalAnticipado" style="display:none"></div>
       </div>
 
       <!-- Opciones de pedido -->
@@ -1298,6 +1304,7 @@ const ICONS = {
 let allProducts = [];
 let mayorMap    = {};   // id → precio mayorista
 let volumenMap  = {};   // id → precio volumen (+12 unid)
+let anticipadoMap = {}; // id → precio pago anticipado (solo mayorista)
 let mode        = 'sinprecios';  // 'sinprecios' | 'detal' | 'mayorista'
 let state = { cat: "", subcat: "", query: "", showAgotados: true };
 
@@ -1318,11 +1325,12 @@ function formatPrice(n) {
 /* ── Render card ── */
 function renderCard(p) {
   // Precio según modo activo
-  let precioHTML, volumenHTML;
+  let precioHTML, volumenHTML, anticipadoHTML;
 
   if (mode === 'sinprecios') {
-    precioHTML  = '';
-    volumenHTML = '';
+    precioHTML     = '';
+    volumenHTML    = '';
+    anticipadoHTML = '';
   } else {
     let precio;
     if (mode === 'mayorista') {
@@ -1338,6 +1346,11 @@ function renderCard(p) {
 
     volumenHTML = (mode === 'mayorista' && volumenMap[p.id])
       ? `<span class="price-volumen">+12 unid: <span class="currency">$</span>${formatPrice(volumenMap[p.id])}</span>`
+      : ``;
+
+    const ant = anticipadoMap[p.id];
+    anticipadoHTML = (mode === 'mayorista' && ant && ant !== 'pendiente')
+      ? `<span class="price-anticipado">Pago anticipado: <span class="currency">$</span>${formatPrice(ant)}</span>`
       : ``;
   }
 
@@ -1384,6 +1397,7 @@ function renderCard(p) {
       <div class="card-price-wrap">
         <div class="card-price">${precioHTML}</div>
         ${volumenHTML}
+        ${anticipadoHTML}
       </div>
       ${p.agotado
         ? `<div class="card-cat-dot ${dotClass}"></div>`
@@ -1706,6 +1720,15 @@ function openProdModal(id) {
     priceEl.innerHTML = (precio === 'pendiente' || precio === null || precio === undefined)
       ? '<span class="price-pending">Precio pendiente</span>'
       : '<span class="currency">$</span>' + formatPrice(precio);
+
+    const antEl = document.getElementById('prodModalAnticipado');
+    const ant   = anticipadoMap[p.id];
+    if (mode === 'mayorista' && ant && ant !== 'pendiente') {
+      antEl.innerHTML = 'Pago anticipado: <span class="currency">$</span>' + formatPrice(ant);
+      antEl.style.display = '';
+    } else {
+      antEl.style.display = 'none';
+    }
     priceWrap.style.display = '';
   } else {
     priceWrap.style.display = 'none';
@@ -2149,6 +2172,7 @@ async function init() {
     for (const p of (dataM.productos || [])) {
       mayorMap[p.id] = p.precio;
       if (p.precio_volumen !== undefined) volumenMap[p.id] = p.precio_volumen;
+      if (p.precio_anticipado !== undefined) anticipadoMap[p.id] = p.precio_anticipado;
     }
 
     loadCart();
