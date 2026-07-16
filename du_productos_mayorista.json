@@ -2043,7 +2043,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set profesional x5 pinzas en acero inoxidable: recta, curva, tipo L, tipo Bent y tipo hacha.",
       "imagen": "img/pestanas/5SPINZA.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/5SPINZA.webp",
         "img/pestanas/5SPINZA azul.webp",
@@ -5546,7 +5546,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Masajeador Ice Glow para rostro.",
       "imagen": "img/accesorios/AE-349 1.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/AE-349 1.webp",
         "img/accesorios/AE-349.webp"
@@ -6914,7 +6914,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
       "imagen": "img/accesorios/CEP3051-1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0625",
@@ -7429,7 +7429,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0666",
@@ -10200,6 +10200,17 @@
         "img/pestanas/KITHE03_3.webp"
       ],
       "agotado": false
+    },
+    {
+      "id": "p0877",
+      "nombre": "Pega Lady Black",
+      "referencia": "LADYBLACK5G",
+      "precio": 36000,
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Adhesivo para extensiones de pestañas Lady Black, 5 g. Nueva imagen.",
+      "imagen": "img/pestanas/LADYBLACK5G.jpg",
+      "agotado": true
     }
   ]
 }
