@@ -835,6 +835,7 @@
     }
     .opt-nota:focus { border-color: var(--du-blue-dk); background: var(--du-white); }
     .opt-nota::placeholder { color: var(--du-gray); }
+    .opt-hint { font-size: 11px; color: var(--du-blue-dk); opacity: 0.85; line-height: 1.4; }
     .opt-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
     .add-cart-btn {
       flex: 1; height: 48px; border: none; border-radius: 10px;
@@ -1142,7 +1143,7 @@
       <!-- Opciones de pedido -->
       <div class="prod-opts" id="prodOpts">
         <div class="opt-block" id="optColorBlock" style="display:none">
-          <span class="opt-label">Elige la opción</span>
+          <span class="opt-label">Fotos disponibles</span>
           <div class="color-thumbs" id="optColorThumbs"></div>
         </div>
         <div class="opt-block" id="optVarBlock" style="display:none">
@@ -1150,8 +1151,9 @@
           <div class="variante-pills" id="optVarPills"></div>
         </div>
         <div class="opt-block">
-          <span class="opt-label">Nota (opcional)</span>
-          <textarea class="opt-nota" id="optNota" rows="1" placeholder="Ej. color más claro, observación para tu asesora…"></textarea>
+          <span class="opt-label">Color / Nota (opcional)</span>
+          <textarea class="opt-nota" id="optNota" rows="1" placeholder="Ej. color turquesa, o alguna observación para tu asesora…"></textarea>
+          <span class="opt-hint" id="optHint">Si el producto viene en varios colores o fotos, dinos aquí cuál quieres.</span>
         </div>
         <div class="opt-row">
           <div class="opt-block" style="gap:6px">
@@ -1691,24 +1693,29 @@ function setupProdOptions(p) {
   }
   opts.style.display = 'flex';
 
-  // Selector de fotos/opciones (colores)
+  // Visor de fotos (colores) — solo para ver; el color se especifica en la nota
+  const hint = document.getElementById('optHint');
   if (p.colores && p.colores.length > 1) {
     colorBlk.style.display = 'flex';
     colorWrap.innerHTML = p.colores.map((c, i) =>
-      `<div class="color-thumb ${i === 0 ? 'active' : ''}" data-idx="${i}" onclick="selectColor(${i}, '${c.replace(/'/g, "\\'")}')"><img src="${c}" alt="Opción ${i+1}" onerror="this.style.opacity=0.2"/></div>`
+      `<div class="color-thumb ${i === 0 ? 'active' : ''}" data-idx="${i}" onclick="selectColor(${i}, '${c.replace(/'/g, "\\'")}')"><img src="${c}" alt="Foto ${i+1}" onerror="this.style.opacity=0.2"/></div>`
     ).join('');
+    if (hint) hint.style.display = '';
   } else {
     colorBlk.style.display = 'none';
     colorWrap.innerHTML = '';
+    if (hint) hint.style.display = 'none';
   }
 
   // Selector de tamaño/variante (largos de pestañas, etc.)
   if (p.variantes && p.variantes.length > 0) {
     varBlk.style.display = 'flex';
     varLabel.innerHTML = (p.variante_label || 'Tamaño') + ' <span class="req">*</span>';
-    varPills.innerHTML = p.variantes.map(v =>
-      `<button type="button" class="var-pill" data-val="${String(v).replace(/"/g,'&quot;')}" onclick="selectVariante(this, '${String(v).replace(/'/g, "\\'")}')">${v}</button>`
-    ).join('');
+    varPills.innerHTML = p.variantes.map(v => {
+      const val = (v && typeof v === 'object') ? v.v : v;
+      const safe = String(val).replace(/'/g, "\\'");
+      return `<button type="button" class="var-pill" data-val="${String(val).replace(/"/g,'&quot;')}" onclick="selectVariante(this, '${safe}')">${val}</button>`;
+    }).join('');
   } else {
     varBlk.style.display = 'none';
     varPills.innerHTML = '';
@@ -1728,6 +1735,19 @@ function selectVariante(btn, val) {
   document.querySelectorAll('#optVarPills .var-pill').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   document.getElementById('optWarning').classList.remove('visible');
+  updateModalPrice();
+}
+
+/* Actualiza el precio mostrado en el modal según la variante elegida */
+function updateModalPrice() {
+  const p = allProducts.find(x => x.id === currentProdId);
+  if (!p || mode === 'sinprecios') return;
+  const priceEl = document.getElementById('prodModalPrice');
+  if (!priceEl) return;
+  const precio = precioActual(p, currentVariante);
+  priceEl.innerHTML = (precio === 'pendiente' || precio === null || precio === undefined)
+    ? '<span class="price-pending">Precio pendiente</span>'
+    : '<span class="currency">$</span>' + formatPrice(precio);
 }
 
 function modalQty(delta) {
@@ -1755,9 +1775,24 @@ function loadCart() {
   } catch(e) { cart = []; }
 }
 
-/* Precio del producto según el modo activo */
-function precioActual(p) {
+/* Definición de una variante (si es objeto con precio propio) */
+function varDef(p, varianteVal) {
+  if (!p.variantes || !varianteVal) return null;
+  for (const v of p.variantes) {
+    if (v && typeof v === 'object' && v.v === varianteVal) return v;
+  }
+  return null;
+}
+
+/* Precio del producto según el modo activo (y la variante elegida, si tiene precio propio) */
+function precioActual(p, varianteVal) {
   if (mode === 'sinprecios') return null;
+  // Si la variante elegida tiene precio propio, ese manda
+  const vd = varDef(p, varianteVal);
+  if (vd) {
+    const pr = (mode === 'mayorista') ? vd.mayor : vd.detal;
+    if (pr !== undefined && pr !== null && pr !== 'pendiente') return pr;
+  }
   let precio = (mode === 'mayorista')
     ? (mayorMap[p.id] !== undefined ? mayorMap[p.id] : p.precio)
     : p.precio;
@@ -1766,7 +1801,7 @@ function precioActual(p) {
 }
 
 function itemKey(it) {
-  return [it.id, it.variante || '', it.colorIdx || 0, it.nota || ''].join('§');
+  return [it.id, it.variante || '', it.nota || ''].join('§');
 }
 
 /* Agregar el producto abierto en el modal */
@@ -1782,7 +1817,7 @@ function addCurrentToCart() {
 
   const qty  = Math.max(1, parseInt(document.getElementById('optQty').value, 10) || 1);
   const nota = document.getElementById('optNota').value.trim();
-  const nuevo = { id: p.id, qty, variante: currentVariante, colorIdx: currentColorIdx || 0, nota };
+  const nuevo = { id: p.id, qty, variante: currentVariante, nota };
 
   const key = itemKey(nuevo);
   const existente = cart.find(it => itemKey(it) === key);
@@ -1858,20 +1893,19 @@ function renderCart() {
   body.innerHTML = cart.map((it, idx) => {
     const p = allProducts.find(x => x.id === it.id);
     if (!p) return '';
-    const imgSrc = (p.colores && p.colores[it.colorIdx]) ? p.colores[it.colorIdx] : p.imagen;
+    const imgSrc = p.imagen;
     const imgHTML = imgSrc
       ? `<img src="${imgSrc}" alt="${p.nombre}" onerror="this.style.display='none'"/>`
       : `<span class="ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z"/><circle cx="12" cy="12" r="3"/></svg></span>`;
 
     let priceHTML = '';
     if (conPrecios) {
-      const precio = precioActual(p);
+      const precio = precioActual(p, it.variante);
       if (precio === 'pendiente') { hayPendiente = true; priceHTML = `<span class="cart-item-price"><span class="price-pending">A confirmar</span></span>`; }
       else { const sub = precio * it.qty; total += sub; priceHTML = `<span class="cart-item-price">$${formatPrice(sub)}</span>`; }
     }
 
     const varHTML  = it.variante ? `<span class="cart-item-var">${p.variante_label || 'Tamaño'}: ${it.variante}</span>` : '';
-    const optHTML  = (p.colores && p.colores.length > 1) ? `<span class="cart-item-var">Opción ${it.colorIdx + 1}</span>` : '';
     const notaHTML = it.nota ? `<span class="cart-item-nota">“${it.nota}”</span>` : '';
 
     return `<div class="cart-item">
@@ -1879,7 +1913,7 @@ function renderCart() {
       <div class="cart-item-main">
         <span class="cart-item-name">${p.nombre}</span>
         <span class="cart-item-ref">Ref. ${p.referencia}</span>
-        ${varHTML}${optHTML}${notaHTML}
+        ${varHTML}${notaHTML}
         <div class="cart-item-bottom">
           <div class="qty-stepper">
             <button type="button" onclick="cartSetQty(${idx}, -1)" aria-label="Menos">−</button>
@@ -1927,8 +1961,8 @@ function buildWhatsAppMessage() {
   const modoNombre = mode === 'mayorista' ? 'Mayorista' : mode === 'detal' ? 'Detal' : 'Catálogo (sin precios)';
   const conPrecios = mode !== 'sinprecios';
   const L = [];
-  L.push('🛍️ *NUEVO PEDIDO — DU*');
-  L.push('🧾 Lista de precios: *' + modoNombre + '*');
+  L.push('*NUEVO PEDIDO — DU*');
+  L.push('Lista de precios: *' + modoNombre + '*');
   L.push('━━━━━━━━━━━━━━━━━━━');
   L.push('');
 
@@ -1937,27 +1971,26 @@ function buildWhatsAppMessage() {
     const p = allProducts.find(x => x.id === it.id);
     if (!p) return;
     unidades += it.qty;
-    L.push('*' + (i + 1) + '.* ' + p.nombre);
-    L.push('🔖 Ref: ' + p.referencia);
-    if (it.variante) L.push('📏 ' + (p.variante_label || 'Tamaño') + ': ' + it.variante);
-    if (p.colores && p.colores.length > 1) L.push('🎨 Opción: ' + (it.colorIdx + 1));
-    if (it.nota) L.push('📝 Nota: ' + it.nota);
+    L.push('*' + (i + 1) + '. ' + p.nombre + '*');
+    L.push('• Ref: ' + p.referencia);
+    if (it.variante) L.push('• ' + (p.variante_label || 'Tamaño') + ': ' + it.variante);
+    if (it.nota) L.push('• Nota: ' + it.nota);
     if (conPrecios) {
-      const precio = precioActual(p);
-      if (precio === 'pendiente') { hayPendiente = true; L.push('🔢 ' + it.qty + ' und · precio a confirmar'); }
-      else { const sub = precio * it.qty; total += sub; L.push('🔢 ' + it.qty + ' × $' + formatPrice(precio)); L.push('💵 Subtotal: *$' + formatPrice(sub) + '*'); }
+      const precio = precioActual(p, it.variante);
+      if (precio === 'pendiente') { hayPendiente = true; L.push('• Cantidad: ' + it.qty + ' · precio a confirmar'); }
+      else { const sub = precio * it.qty; total += sub; L.push('• Cantidad: ' + it.qty + ' × $' + formatPrice(precio)); L.push('• Subtotal: *$' + formatPrice(sub) + '*'); }
     } else {
-      L.push('🔢 Cantidad: ' + it.qty);
+      L.push('• Cantidad: ' + it.qty);
     }
     L.push('');
   });
 
   L.push('━━━━━━━━━━━━━━━━━━━');
-  L.push('📦 Productos: ' + cart.length + '  ·  Unidades: ' + unidades);
+  L.push('Productos: ' + cart.length + '  ·  Unidades: ' + unidades);
   if (conPrecios) {
-    L.push('💰 *TOTAL: $' + formatPrice(total) + '*' + (hayPendiente ? ' _(+ ítems a confirmar)_' : ''));
+    L.push('*TOTAL: $' + formatPrice(total) + '*' + (hayPendiente ? ' _(+ ítems a confirmar)_' : ''));
   } else {
-    L.push('💬 Precios a confirmar con la asesora.');
+    L.push('Precios a confirmar con la asesora.');
   }
   L.push('');
   L.push('_Enviado desde el catálogo DU_');

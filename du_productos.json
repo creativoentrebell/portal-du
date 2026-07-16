@@ -1073,7 +1073,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm y 15mm. Pestañas Flat Premium tecnológica curvatura D.",
       "imagen": "img/pestanas/FLAT15D.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0099",
@@ -1084,7 +1095,17 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm y 14mm. Pestañas Flat Premium tecnológica curvatura D.",
       "imagen": "img/pestanas/FLAT20D.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0101",
@@ -1117,7 +1138,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.03 Curvatura C.",
       "imagen": "img/pestanas/P3C8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0104",
@@ -1128,7 +1160,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.03 Curvatura D.",
       "imagen": "img/pestanas/P3D8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0105",
@@ -1139,7 +1182,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.05 Curvatura C.",
       "imagen": "img/pestanas/P5C.png",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0106",
@@ -1150,7 +1204,50 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.05 Curvatura D.",
       "imagen": "img/pestanas/P5D.png",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        {
+          "v": "8 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "9 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "10 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "11 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "12 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "13 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "14 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "15 mm",
+          "detal": 15900,
+          "mayor": 9900
+        }
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0107",
@@ -1187,7 +1284,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.07 Curvatura C.",
       "imagen": "img/pestanas/P7C8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0110",
@@ -1198,7 +1306,50 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.07 Curvatura D.",
       "imagen": "img/pestanas/P7D.png",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        {
+          "v": "8 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "9 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "10 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "11 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "12 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "13 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "14 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "15 mm",
+          "detal": 15900,
+          "mayor": 9900
+        }
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0111",
@@ -1209,7 +1360,17 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.07 Curvatura CC.",
       "imagen": "img/pestanas/P7CC8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0112",
@@ -1231,7 +1392,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.10 Curvatura C.",
       "imagen": "img/pestanas/P10C8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0114",
@@ -1242,7 +1414,50 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.10 Curvatura D.",
       "imagen": "img/pestanas/P10D8MM.png",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        {
+          "v": "8 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "9 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "10 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "11 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "12 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "13 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "14 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "15 mm",
+          "detal": 11900,
+          "mayor": 6900
+        }
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0115",
@@ -1264,7 +1479,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.12 Curvatura C.",
       "imagen": "img/pestanas/P12C.png",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0117",
@@ -1275,7 +1501,50 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.12 Curvatura D.",
       "imagen": "img/pestanas/P12D8MM.png",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        {
+          "v": "8 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "9 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "10 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "11 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "12 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "13 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "14 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "15 mm",
+          "detal": 15900,
+          "mayor": 9900
+        }
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0118",
@@ -1297,7 +1566,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.15 Curvatura C.",
       "imagen": "img/pestanas/P15C8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0120",
@@ -1308,7 +1588,17 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.15 Curvatura CC.",
       "imagen": "img/pestanas/P15CC.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0121",
@@ -1319,7 +1609,50 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.15 Curvatura D.",
       "imagen": "img/pestanas/P15D.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        {
+          "v": "8 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "9 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "10 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "11 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "12 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "13 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "14 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "15 mm",
+          "detal": 11900,
+          "mayor": 6900
+        }
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0122",
@@ -1341,7 +1674,18 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.20 Curvatura C.",
       "imagen": "img/pestanas/P20C8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm",
+        "15 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0124",
@@ -1352,7 +1696,17 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.20 Curvatura CC.",
       "imagen": "img/pestanas/P20CC8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "9 mm",
+        "10 mm",
+        "11 mm",
+        "12 mm",
+        "13 mm",
+        "14 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0125",
@@ -1363,7 +1717,50 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.20 Curvatura D.",
       "imagen": "img/pestanas/P20D8MM.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        {
+          "v": "8 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "9 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "10 mm",
+          "detal": 11900,
+          "mayor": 6900
+        },
+        {
+          "v": "11 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "12 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "13 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "14 mm",
+          "detal": 15900,
+          "mayor": 9900
+        },
+        {
+          "v": "15 mm",
+          "detal": 11900,
+          "mayor": 6900
+        }
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0126",
@@ -1539,7 +1936,24 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo en tono café claro. Fibra de seda. Grosor 0.07, curvaturas C y D, largos 8-14mm.",
       "imagen": "img/pestanas/COFFEE-CLARO.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "C · 8 mm",
+        "C · 9 mm",
+        "C · 10 mm",
+        "C · 11 mm",
+        "C · 12 mm",
+        "C · 13 mm",
+        "C · 14 mm",
+        "D · 8 mm",
+        "D · 9 mm",
+        "D · 10 mm",
+        "D · 11 mm",
+        "D · 12 mm",
+        "D · 13 mm",
+        "D · 14 mm"
+      ],
+      "variante_label": "Curvatura y largo"
     },
     {
       "id": "p0142",
@@ -1550,7 +1964,21 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo en tono café medio. Fibra de seda. Grosor 0.07.",
       "imagen": "img/pestanas/COFFEE MEDIO.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "C · 10 mm",
+        "C · 11 mm",
+        "C · 12 mm",
+        "C · 13 mm",
+        "C · 14 mm",
+        "D · 9 mm",
+        "D · 10 mm",
+        "D · 11 mm",
+        "D · 12 mm",
+        "D · 13 mm",
+        "D · 14 mm"
+      ],
+      "variante_label": "Curvatura y largo"
     },
     {
       "id": "p0143",
@@ -1561,7 +1989,22 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo en tono café oscuro. Fibra de seda. Grosor 0.07.",
       "imagen": "img/pestanas/COFFEE OSCURO.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "C · 8 mm",
+        "C · 11 mm",
+        "C · 12 mm",
+        "C · 13 mm",
+        "C · 14 mm",
+        "D · 8 mm",
+        "D · 9 mm",
+        "D · 10 mm",
+        "D · 11 mm",
+        "D · 12 mm",
+        "D · 13 mm",
+        "D · 14 mm"
+      ],
+      "variante_label": "Curvatura y largo"
     },
     {
       "id": "p0144",
@@ -1572,7 +2015,13 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 10mm, 12mm, 14mm. Extensiones para volumen ruso, abanicos pre-armados 3D (3 pelitos). Curvatura C.",
       "imagen": "img/pestanas/3P-C.webp",
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "12 mm",
+        "14 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0145",
@@ -9290,7 +9739,12 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm y 14mm. Extensiones para volumen ruso pre-armadas 10D (10 pelitos). Curvatura C.",
       "imagen": null,
-      "agotado": false
+      "agotado": false,
+      "variantes": [
+        "8 mm",
+        "14 mm"
+      ],
+      "variante_label": "Largo"
     },
     {
       "id": "p0843",
