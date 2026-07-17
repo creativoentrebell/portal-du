@@ -4,8 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DU — Catálogo 2026</title>
-  <link rel="icon" type="image/png" href="img/logo.png" />
-  <link rel="apple-touch-icon" href="img/logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
@@ -471,9 +469,6 @@
     .card-price .currency { font-size: 11px; font-weight: 400; color: var(--du-gray); margin-right: 2px; }
     .price-pending { font-size: 12px; color: var(--du-gray); font-style: italic; font-weight: 400; }
     .price-volumen { font-size: 10px; color: var(--du-gray); letter-spacing: 0.02em; }
-    .price-anticipado { font-size: 10px; color: var(--du-blue-dk); font-weight: 600; letter-spacing: 0.02em; }
-    .prod-modal-anticipado { margin-top: 6px; font-size: 12px; color: var(--du-blue-dk); font-weight: 600; }
-    .prod-modal-anticipado .currency { font-size: 10px; font-weight: 400; margin-right: 1px; }
     .card-cat-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .cat-pestanas { background: #c4e8fb; }
     .cat-unas     { background: #c4e8fb; opacity: 0.6; }
@@ -760,15 +755,15 @@
       position: relative;
       flex-shrink: 0;
       width: 42px; height: 42px;
-      border: 1px solid var(--du-blue-dk);
+      border: 1px solid var(--du-border);
       border-radius: 50%;
-      background: var(--du-blue);
+      background: var(--du-white);
       cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       color: var(--du-dark);
-      transition: background 0.15s, border-color 0.15s, box-shadow 0.15s, color 0.15s;
+      transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
     }
-    .cart-btn:hover { background: var(--du-blue-dk); border-color: var(--du-blue-dk); color: var(--du-white); box-shadow: var(--du-shadow); }
+    .cart-btn:hover { background: var(--du-off); border-color: var(--du-blue-dk); box-shadow: var(--du-shadow); }
     .cart-btn svg { width: 20px; height: 20px; }
     .cart-count {
       position: absolute;
@@ -844,13 +839,13 @@
     .opt-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
     .add-cart-btn {
       flex: 1; height: 48px; border: none; border-radius: 10px;
-      background: var(--du-blue-dk); color: var(--du-white); cursor: pointer;
+      background: var(--du-dark); color: var(--du-white); cursor: pointer;
       font-family: var(--font-sans); font-size: 13px; font-weight: 600;
       letter-spacing: 0.08em; text-transform: uppercase;
       display: flex; align-items: center; justify-content: center; gap: 8px;
       transition: background 0.15s, opacity 0.15s;
     }
-    .add-cart-btn:hover { background: #69a7c9; }
+    .add-cart-btn:hover { background: #444; }
     .add-cart-btn:disabled { background: var(--du-gray); cursor: not-allowed; opacity: 0.7; }
     .add-cart-btn svg { width: 17px; height: 17px; }
     .opt-warning { font-size: 11.5px; color: #e05555; min-height: 15px; opacity: 0; transition: opacity 0.2s; }
@@ -858,13 +853,13 @@
 
     /* Botón "Agregar" en la tarjeta */
     .card-add-btn {
-      border: 1px solid var(--du-blue-dk); background: var(--du-blue);
+      border: 1px solid var(--du-border); background: var(--du-white);
       border-radius: 8px; width: 34px; height: 34px; cursor: pointer;
       display: flex; align-items: center; justify-content: center;
       color: var(--du-dark); flex-shrink: 0;
       transition: background 0.15s, border-color 0.15s, color 0.15s;
     }
-    .card-add-btn:hover { background: var(--du-blue-dk); border-color: var(--du-blue-dk); color: var(--du-white); }
+    .card-add-btn:hover { background: var(--du-dark); border-color: var(--du-dark); color: var(--du-white); }
     .card-add-btn svg { width: 17px; height: 17px; }
     .card-name, .card-img-wrap img { cursor: pointer; }
 
@@ -994,7 +989,11 @@
       transition: background 0.15s, color 0.15s;
     }
     .destino-close:hover { background: var(--du-off); color: var(--du-dark); }
-    .destino-list { display: flex; flex-direction: column; gap: 8px; }
+    .destino-list { display: flex; flex-direction: column; gap: 8px; max-height: 60vh; overflow-y: auto; }
+    .destino-group {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--du-blue-dk); padding: 8px 4px 2px;
+    }
     .destino-item {
       display: flex; align-items: center; gap: 12px;
       width: 100%; text-align: left; cursor: pointer;
@@ -1192,7 +1191,6 @@
       <p class="prod-modal-desc" id="prodModalDesc"></p>
       <div class="prod-modal-price-wrap" id="prodModalPriceWrap" style="display:none">
         <div class="prod-modal-price" id="prodModalPrice"></div>
-        <div class="prod-modal-anticipado" id="prodModalAnticipado" style="display:none"></div>
       </div>
 
       <!-- Opciones de pedido -->
@@ -1304,7 +1302,6 @@ const ICONS = {
 let allProducts = [];
 let mayorMap    = {};   // id → precio mayorista
 let volumenMap  = {};   // id → precio volumen (+12 unid)
-let anticipadoMap = {}; // id → precio pago anticipado (solo mayorista)
 let mode        = 'sinprecios';  // 'sinprecios' | 'detal' | 'mayorista'
 let state = { cat: "", subcat: "", query: "", showAgotados: true };
 
@@ -1325,12 +1322,11 @@ function formatPrice(n) {
 /* ── Render card ── */
 function renderCard(p) {
   // Precio según modo activo
-  let precioHTML, volumenHTML, anticipadoHTML;
+  let precioHTML, volumenHTML;
 
   if (mode === 'sinprecios') {
-    precioHTML     = '';
-    volumenHTML    = '';
-    anticipadoHTML = '';
+    precioHTML  = '';
+    volumenHTML = '';
   } else {
     let precio;
     if (mode === 'mayorista') {
@@ -1346,11 +1342,6 @@ function renderCard(p) {
 
     volumenHTML = (mode === 'mayorista' && volumenMap[p.id])
       ? `<span class="price-volumen">+12 unid: <span class="currency">$</span>${formatPrice(volumenMap[p.id])}</span>`
-      : ``;
-
-    const ant = anticipadoMap[p.id];
-    anticipadoHTML = (mode === 'mayorista' && ant && ant !== 'pendiente')
-      ? `<span class="price-anticipado">Pago anticipado: <span class="currency">$</span>${formatPrice(ant)}</span>`
       : ``;
   }
 
@@ -1397,7 +1388,6 @@ function renderCard(p) {
       <div class="card-price-wrap">
         <div class="card-price">${precioHTML}</div>
         ${volumenHTML}
-        ${anticipadoHTML}
       </div>
       ${p.agotado
         ? `<div class="card-cat-dot ${dotClass}"></div>`
@@ -1720,15 +1710,6 @@ function openProdModal(id) {
     priceEl.innerHTML = (precio === 'pendiente' || precio === null || precio === undefined)
       ? '<span class="price-pending">Precio pendiente</span>'
       : '<span class="currency">$</span>' + formatPrice(precio);
-
-    const antEl = document.getElementById('prodModalAnticipado');
-    const ant   = anticipadoMap[p.id];
-    if (mode === 'mayorista' && ant && ant !== 'pendiente') {
-      antEl.innerHTML = 'Pago anticipado: <span class="currency">$</span>' + formatPrice(ant);
-      antEl.style.display = '';
-    } else {
-      antEl.style.display = 'none';
-    }
     priceWrap.style.display = '';
   } else {
     priceWrap.style.display = 'none';
@@ -1856,11 +1837,23 @@ const WHATSAPP_DESTINOS = {
     { label: 'Asesora', numero: '573217337623' }
   ],
   mayorista: [
-    { label: 'Elegir entre tus contactos', numero: null }
-    // Cuando lleguen los números de las asesoras de zona, agrégalos aquí, ej:
-    // { label: 'Asesora Zona Norte',  numero: '57XXXXXXXXXX' },
-    // { label: 'Asesora Zona Centro', numero: '57XXXXXXXXXX' },
-    // { label: 'Asesora Zona Sur',    numero: '57XXXXXXXXXX' },
+    { label: 'Elegir entre tus contactos', numero: null },
+
+    // — Antioquia —
+    { grupo: 'Antioquia', label: 'Sur Medellín, Nordeste, Occidente y Suroeste', asesora: 'Yuri',        numero: '573245402583' },
+    { grupo: 'Antioquia', label: 'Centro Medellín',                              asesora: 'Aide Isabel',  numero: '573042343068' },
+    { grupo: 'Antioquia', label: 'Norte',                                        asesora: 'Gloria',       numero: '573013408198' },
+    { grupo: 'Antioquia', label: 'Oriente',                                      asesora: 'Gloria',       numero: '573013405737' },
+
+    // — Costa y Eje Cafetero —
+    { grupo: 'Costa y Eje Cafetero', label: 'Costa (Córdoba, Sucre)', asesora: 'Doly', numero: '573007556223' },
+    { grupo: 'Costa y Eje Cafetero', label: 'Costa Atlántico',        asesora: 'Doly', numero: '573013406153' },
+    { grupo: 'Costa y Eje Cafetero', label: 'Eje Cafetero',           asesora: 'Doly', numero: '573013409222' },
+
+    // — Bogotá y Llanos —
+    { grupo: 'Bogotá y Llanos', label: 'Centro Bogotá',                   asesora: 'Leydi', numero: '573013408038' },
+    { grupo: 'Bogotá y Llanos', label: 'Periferia Bogotá',               asesora: 'Leydi', numero: '573245391366' },
+    { grupo: 'Bogotá y Llanos', label: 'Llanos Orientales (Villavicencio)', asesora: 'Leydi', numero: '573013404640' }
   ]
 };
 const CART_KEY = 'du_cart_v1';
@@ -2115,16 +2108,22 @@ function abrirDestinos() {
   const list = document.getElementById('destinoList');
   let html = '';
   let dividerPuesto = false;
+  let lastGrupo = null;
   dests.forEach((d) => {
     if (d.numero && !dividerPuesto) {
       // separador entre "Elegir contacto" y las asesoras
       if (html) html += '<div class="destino-divider"></div>';
       dividerPuesto = true;
     }
+    if (d.numero && d.grupo && d.grupo !== lastGrupo) {
+      html += `<div class="destino-group">${d.grupo}</div>`;
+      lastGrupo = d.grupo;
+    }
     if (d.numero) {
+      const sub = (d.asesora ? d.asesora + ' · ' : '') + formatTel(d.numero);
       html += `<button class="destino-item asesora" onclick="enviarADestino('${d.numero}')">
         <span class="di-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>
-        <span class="di-text"><span class="di-label">${d.label}</span><span class="di-num">${formatTel(d.numero)}</span></span>
+        <span class="di-text"><span class="di-label">${d.label}</span><span class="di-num">${sub}</span></span>
       </button>`;
     } else {
       html += `<button class="destino-item contactos" onclick="enviarADestino(null)">
@@ -2172,7 +2171,6 @@ async function init() {
     for (const p of (dataM.productos || [])) {
       mayorMap[p.id] = p.precio;
       if (p.precio_volumen !== undefined) volumenMap[p.id] = p.precio_volumen;
-      if (p.precio_anticipado !== undefined) anticipadoMap[p.id] = p.precio_anticipado;
     }
 
     loadCart();
