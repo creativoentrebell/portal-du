@@ -6774,7 +6774,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DEP3148.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0614",
@@ -6785,7 +6785,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DEP3154.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0615",
@@ -6823,7 +6823,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DEP8000.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0618",
