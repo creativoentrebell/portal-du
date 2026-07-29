@@ -2536,7 +2536,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza curva de mayor precisión y calibre. Acero inoxidable.",
       "imagen": "img/pestanas/PINZA71.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0190",
@@ -6704,7 +6704,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP20.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0608",
@@ -7415,7 +7415,7 @@
       "categoria": "Uñas",
       "subcategoria": "Imanes",
       "imagen": "img/unas/CT4_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/CT4_1.png",
         "img/unas/CT4_2.png"
