@@ -2126,7 +2126,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Depilador con punta oblicua.",
       "imagen": "img/pestanas/DEP3152.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0154",
