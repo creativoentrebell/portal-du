@@ -4295,55 +4295,6 @@
       "agotado": true
     },
     {
-      "id": "p0392",
-      "nombre": "Imán Multiusos 5 en 1 — C821",
-      "referencia": "C821",
-      "precio": 25000,
-      "categoria": "Uñas",
-      "subcategoria": "Imanes",
-      "descripcion": "Imán multifuncional 5 en 1. Puntas: T, doble cuadrada, plana ancha, redonda y flor central.",
-      "imagen": "img/unas/C821.webp",
-      "agotado": false
-    },
-    {
-      "id": "p0393",
-      "nombre": "Imán 3 en 1 — CT1",
-      "referencia": "CT1",
-      "precio": 21000,
-      "categoria": "Uñas",
-      "subcategoria": "Imanes",
-      "descripcion": "Imán 3 en 1. Punta redonda, plana y flor. Potente campo magnético.",
-      "imagen": "img/unas/CT1_1.webp",
-      "agotado": false,
-      "colores": [
-        "img/unas/CT1_1.webp",
-        "img/unas/CT1_2.webp",
-        "img/unas/CT1_3.webp"
-      ]
-    },
-    {
-      "id": "p0394",
-      "nombre": "Imán en Barra — CT2",
-      "referencia": "CT2",
-      "precio": 18000,
-      "categoria": "Uñas",
-      "subcategoria": "Imanes",
-      "descripcion": "Imán rectangular con funda de silicona. Crea efectos 3D: línea recta, diagonal, halo, galaxia, flama.",
-      "imagen": "img/unas/CT2.webp",
-      "agotado": false
-    },
-    {
-      "id": "p0395",
-      "nombre": "Imán en S — CT3",
-      "referencia": "CT3",
-      "precio": 15000,
-      "categoria": "Uñas",
-      "subcategoria": "Imanes",
-      "descripcion": "Imán doble cabezal texturizado. Crea efecto rayo, S, media luna, X, onda, ojo de gato y más.",
-      "imagen": "img/unas/CT3.webp",
-      "agotado": false
-    },
-    {
       "id": "p0396",
       "nombre": "Cosmetic Bag BAG11",
       "referencia": "BAG11",
@@ -7374,16 +7325,6 @@
       "agotado": false
     },
     {
-      "id": "p0660",
-      "nombre": "Barrita Corazón x12 — C822",
-      "referencia": "C822",
-      "precio": 48000,
-      "categoria": "Uñas",
-      "subcategoria": "Imanes",
-      "imagen": "img/unas/C822.png",
-      "agotado": false
-    },
-    {
       "id": "p0662",
       "nombre": "Carta de Colores de Esmalte — CARTA",
       "referencia": "CARTA",
@@ -7405,20 +7346,6 @@
       "colores": [
         "img/unas/CORT3100_1.png",
         "img/unas/CORT3100_2.png"
-      ]
-    },
-    {
-      "id": "p0664",
-      "nombre": "Imán Clásico — CT4",
-      "referencia": "CT4",
-      "precio": 8000,
-      "categoria": "Uñas",
-      "subcategoria": "Imanes",
-      "imagen": "img/unas/CT4_1.png",
-      "agotado": true,
-      "colores": [
-        "img/unas/CT4_1.png",
-        "img/unas/CT4_2.png"
       ]
     },
     {
