@@ -6710,7 +6710,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DEP3124_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/DEP3124_1.jpg",
         "img/accesorios/DEP3124_2.jpg"
@@ -6758,7 +6758,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DEP7000_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/DEP7000_1.jpg",
         "img/accesorios/DEP7000_2.jpg",
