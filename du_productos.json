@@ -295,7 +295,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster classic.",
       "imagen": "img/pestanas/REF DFD03.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0028",
@@ -636,7 +636,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster con glue.",
       "imagen": "img/pestanas/REF DFGLUE06.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0059",
@@ -6340,7 +6340,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
       "imagen": "img/pestanas/3D-17.png",
-      "agotado": false,
+      "agotado": true,
       "precio": 7000
     },
     {
@@ -7673,7 +7673,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/PAL6_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/PAL6_1.jpg",
         "img/unas/PAL6_2.jpg",
@@ -9064,7 +9064,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
       "imagen": "img/pestanas/3DX5-13_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/3DX5-13_1.png",
         "img/pestanas/3DX5-13_2.png"
@@ -9079,7 +9079,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x5. Tres capas de pelitos en PBT coreano de alta calidad.",
       "imagen": "img/pestanas/3DX5-15_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/3DX5-15_1.png",
         "img/pestanas/3DX5-15_2.png"
@@ -9606,7 +9606,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 Carlina curvatura C.",
       "imagen": "img/pestanas/SET4CARLINA-C_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/SET4CARLINA-C_1.png",
         "img/pestanas/SET4CARLINA-C_2.png"
@@ -10027,7 +10027,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo plástico porta adhesivo x100 unidades.",
       "imagen": "img/pestanas/ANI-03.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0870",
