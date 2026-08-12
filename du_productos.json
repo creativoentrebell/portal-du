@@ -2226,17 +2226,6 @@
       ]
     },
     {
-      "id": "p0162",
-      "nombre": "Encrespador E99 Goldy",
-      "referencia": "E99",
-      "precio": 10000,
-      "categoria": "Pestañas",
-      "subcategoria": "Accesorios de pestañas",
-      "descripcion": "Encrespador Goldy.",
-      "imagen": "img/pestanas/E99 DORADO.webp",
-      "agotado": false
-    },
-    {
       "id": "p0163",
       "nombre": "Encrespador E100",
       "referencia": "E100",
@@ -6015,14 +6004,14 @@
       "nombre": "Encrespador E99 Goldy",
       "referencia": "E99",
       "precio": 10000,
-      "categoria": "Accesorios",
-      "subcategoria": "Herramientas y accesorios",
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador Goldy.",
-      "imagen": "img/accesorios/E99 DORADO.webp",
+      "imagen": "img/pestanas/E99 DORADO.webp",
       "agotado": false,
       "colores": [
-        "img/accesorios/E99 DORADO.webp",
-        "img/accesorios/E99 ORO ROSA.webp"
+        "img/pestanas/E99 DORADO.webp",
+        "img/pestanas/E99 ORO ROSA.webp"
       ]
     },
     {
