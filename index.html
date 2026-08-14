@@ -1156,6 +1156,16 @@
 
 </div><!-- /filter-bar -->
 
+<!-- ─── DESTACADOS DEL MES ─── -->
+<section class="destacados-section" id="destacadosSection" style="display:none">
+  <div class="section-divider">
+    <span class="section-divider-dot"></span>
+    <span class="section-divider-label">Destacados del mes</span>
+    <div class="section-divider-line"></div>
+  </div>
+  <div class="product-grid destacados-grid" id="destacadosGrid"></div>
+</section>
+
 <!-- ─── PRODUCT GRID ─── -->
 <div class="product-grid" id="productGrid"></div>
 
@@ -1564,6 +1574,18 @@ function renderGrid() {
   if (_cargados < _itemsFiltrados.length) _ponerSentinel(grid);
 }
 
+/* ── Destacados del mes (sección fija, independiente de filtros) ── */
+function renderDestacados() {
+  const section = document.getElementById('destacadosSection');
+  const grid    = document.getElementById('destacadosGrid');
+  if (!section || !grid) return;
+  const destacados = allProducts.filter(p => p.destacado && (state.showAgotados || !p.agotado));
+  if (!destacados.length) { section.style.display = 'none'; grid.innerHTML = ''; return; }
+  section.style.display = '';
+  grid.innerHTML = destacados.map(renderCard).join('');
+  grid.querySelectorAll('img[data-src]').forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
+}
+
 /* ── Subcategories ── */
 function renderSubcats() {
   const strip = document.getElementById("subcatStrip");
@@ -1609,7 +1631,7 @@ setupSearch("searchInputMobile");
 
 /* ── Toggle agotados ── */
 document.getElementById("toggleAgotados").addEventListener("change", e => {
-  state.showAgotados = e.target.checked; renderGrid();
+  state.showAgotados = e.target.checked; renderGrid(); renderDestacados();
 });
 
 /* ─────────────────────────────────────────────────
@@ -1658,6 +1680,9 @@ function updateModeUI() {
   // Refrescar carrito si está abierto (los precios dependen del modo)
   const drawer = document.getElementById('cartDrawer');
   if (drawer && drawer.classList.contains('visible')) renderCart();
+
+  // Refrescar destacados (los precios dependen del modo)
+  renderDestacados();
 }
 
 /* ── PIN Modal ── */
@@ -2309,6 +2334,7 @@ async function init() {
     renderSubcats();
     updateModeUI();
     renderGrid();
+    renderDestacados();
     updateCartCount();
   } catch (err) {
     console.error("Error cargando catálogo:", err);

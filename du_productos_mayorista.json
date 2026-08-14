@@ -867,7 +867,8 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas enteras con banda invisible. Tallas S, M, L.",
       "imagen": "img/pestanas/PESEN3.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0080",
@@ -889,29 +890,32 @@
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas en abanico tecnológico, 3 fibras unidas. Efecto esponjoso. Grosor 0.07, curvatura D. Largos 7-13mm.",
       "imagen": "img/pestanas/CLOVER 2.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0082",
       "nombre": "Cluster EMPG",
       "referencia": "EMPG",
-      "precio": 8900,
+      "precio": 9000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster EMPG.",
       "imagen": "img/pestanas/EMPG.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0084",
       "nombre": "Cluster PCUR-M",
       "referencia": "PCUR-M",
-      "precio": 20000,
+      "precio": 21900,
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas cluster curvatura M.",
       "imagen": "img/pestanas/PCUR-M 2.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0085",
@@ -1122,12 +1126,13 @@
       "id": "p0102",
       "nombre": "Pestañas Curvatura M",
       "referencia": "PCUR-M",
-      "precio": 20000,
+      "precio": 21900,
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas pelo a pelo curvatura M. Grosor 0.07. Largos 8-14mm.",
       "imagen": "img/pestanas/PCUR-M 2.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0103",
@@ -1262,7 +1267,8 @@
       "colores": [
         "img/pestanas/5C-PMIX_1.jpg",
         "img/pestanas/5C-PMIX_2.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0108",
@@ -1810,12 +1816,13 @@
       "id": "p0130",
       "nombre": "Color Lashes D — Verde/Azul",
       "referencia": "COMIXD3",
-      "precio": 5000,
+      "precio": 10000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo curvatura D, verde y azul. Grosor 0.07.",
       "imagen": "img/pestanas/COMIXD3.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0131",
@@ -1832,12 +1839,13 @@
       "id": "p0132",
       "nombre": "Color Lashes D — Verde Unicornio",
       "referencia": "COMIXD5",
-      "precio": 5000,
+      "precio": 12000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo curvatura D, verde unicornio. Grosor 0.07.",
       "imagen": "img/pestanas/COMIXD5.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0133",
@@ -2382,7 +2390,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Microbrush desechable.",
       "imagen": "img/pestanas/MICNO.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0177",
@@ -2393,7 +2402,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Microbrush desechable.",
       "imagen": "img/pestanas/micsu.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0178",
@@ -2421,12 +2431,13 @@
       "id": "p0180",
       "nombre": "Contenedor de Adhesivos EMPG",
       "referencia": "EMPG",
-      "precio": 8900,
+      "precio": 9000,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Contenedor de adhesivos con botón de sellado. Capacidad para 3 adhesivos de extensiones.",
       "imagen": "img/pestanas/EMPG.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0181",
@@ -2437,7 +2448,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza profesional de alta precisión.",
       "imagen": "img/pestanas/PINZA-40.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0182",
@@ -2613,7 +2625,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo hacha microdentada para abanicos más voluminosos.",
       "imagen": "img/pestanas/PINZA-120.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0199",
@@ -2624,7 +2637,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo hacha con efecto polvo en punta para mejor agarre.",
       "imagen": "img/pestanas/PINZA-120A.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0200",
@@ -2734,7 +2748,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Dispensador de cinta/transpore. Forma de dona.",
       "imagen": "img/pestanas/88010 azul.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0210",
@@ -2745,7 +2760,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Dispensador de cinta/transpore. Forma de corazón.",
       "imagen": "img/pestanas/88011-PhotoRoom.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0211",
@@ -2767,7 +2783,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Espejo para pestañas.",
       "imagen": "img/pestanas/ESPES03_1.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0213",
@@ -2811,7 +2828,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Ventilador portátil para secado rápido en procesos de extensiones.",
       "imagen": "img/pestanas/KTFS002.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0218",
@@ -2844,7 +2862,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Paleta en forma de Y para lifting de pestañas. Paquete x6 pares.",
       "imagen": "img/pestanas/PAH02.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0221",
@@ -2855,7 +2874,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Herramienta para lifting de pestañas en acero.",
       "imagen": "img/pestanas/PAH05.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0222",
@@ -2866,7 +2886,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Herramienta para lifting de pestañas en acero.",
       "imagen": "img/pestanas/PAH06.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0223",
@@ -2887,67 +2908,73 @@
       "id": "p0224",
       "nombre": "Repuesto Lifting RPES1",
       "referencia": "RPES1",
-      "precio": 5000,
+      "precio": 5500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto para kit de lifting y ondulado. Diseño curvo con líneas guía. Unidad.",
       "imagen": "img/pestanas/RPES1.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0225",
       "nombre": "Repuesto Lifting RPES4",
       "referencia": "RPES4",
-      "precio": 5000,
+      "precio": 5500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto para kit de lifting. Unidad.",
       "imagen": "img/pestanas/RPES4.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0226",
       "nombre": "Repuesto Lifting RPES5",
       "referencia": "RPES5",
-      "precio": 5000,
+      "precio": 5500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto para kit de lifting. Unidad.",
       "imagen": "img/pestanas/RPES5-PhotoRoom.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0227",
       "nombre": "Repuesto Lifting RPES7",
       "referencia": "RPES7",
-      "precio": 13900,
+      "precio": 15500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto premium para kit de lifting. Unidad.",
       "imagen": "img/pestanas/RPES7.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0228",
       "nombre": "Repuesto Lifting RPES8",
       "referencia": "RPES8",
-      "precio": 13900,
+      "precio": 15500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto premium para kit de lifting. Unidad.",
       "imagen": "img/pestanas/RPES8.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0229",
       "nombre": "Repuesto Lifting RPES9",
       "referencia": "RPES9",
-      "precio": 13900,
+      "precio": 15500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto premium para kit de lifting. Unidad.",
       "imagen": "img/pestanas/RPES9.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0230",
@@ -2969,7 +2996,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Regla de alta calidad para diseño de cejas.",
       "imagen": "img/pestanas/REGCE4.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0232",
@@ -2991,7 +3019,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cepillos para pestañas/cejas en cerdas de silicona, paquete x20. 4 tipos distintos.",
       "imagen": "img/pestanas/CEPESTX20.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0234",
@@ -3013,18 +3042,20 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cepillos para pestañas paquete x10.",
       "imagen": "img/pestanas/CEPEST.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0236",
       "nombre": "Pincel Delineador x100 PINOJ100",
       "referencia": "PINOJ100",
-      "precio": 8900,
+      "precio": 9500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pincel delineador desechable x100 unidades.",
       "imagen": "img/pestanas/PINOJ100.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0237",
@@ -3967,12 +3998,13 @@
       "id": "p0342",
       "nombre": "Cepillo Uñas HC-0396",
       "referencia": "HC-0396",
-      "precio": 1500,
+      "precio": 2500,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Kit de 2 cepillos para uñas.",
       "imagen": "img/unas/HC-0396.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0343",
@@ -3994,7 +4026,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Molde silicona 3D para Nail Art 6.5x5cm. Para semipermanente, gel o acrílico.",
       "imagen": "img/unas/ML01.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0345",
@@ -4005,7 +4038,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Molde silicona 3D para Nail Art 8.5x5.5cm.",
       "imagen": "img/unas/ML02.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0346",
@@ -4016,7 +4050,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Molde silicona 3D para Nail Art 6.5x5cm.",
       "imagen": "img/unas/ML03.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0347",
@@ -4189,7 +4224,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Herramienta básica para cortar cutículas en plástico con punta de goma. Set x12.",
       "imagen": "img/unas/PT30-112.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0365",
@@ -4465,7 +4501,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond ultralivianas. Fibra natural, cabo de aluminio.",
       "imagen": "img/accesorios/0_Set_Brochas_M-02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0409",
@@ -4476,7 +4512,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-03.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0410",
@@ -4487,7 +4523,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-04.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0411",
@@ -4498,7 +4534,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond 25 piezas ultralivianas.",
       "imagen": "img/accesorios/0_Set_Brochas_M-05.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0412",
@@ -4509,7 +4545,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Kit de brochas Colección Diamond.",
       "imagen": "img/accesorios/0_Set_Brochas_M-06.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0413",
@@ -4685,7 +4721,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD14.",
       "imagen": "img/accesorios/PD14.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0429",
@@ -5378,7 +5415,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pomo triangular.",
       "imagen": "img/accesorios/POM3025.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0493",
@@ -5427,7 +5465,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Estuche para brochas.",
       "imagen": "img/accesorios/ES3269.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0499",
@@ -5464,7 +5503,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rodillo doble cabezal de piedra natural. Reduce hinchazón y estimula circulación.",
       "imagen": "img/accesorios/CR01 1.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0502",
@@ -5475,7 +5515,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Rodillo de piedra natural.",
       "imagen": "img/accesorios/CR02 1.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0503",
@@ -5490,7 +5531,8 @@
       "colores": [
         "img/accesorios/AE-349 1.webp",
         "img/accesorios/AE-349.webp"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0504",
@@ -5725,7 +5767,8 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo pulidor.",
       "imagen": "img/accesorios/CEPUL-05 1.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0524",
@@ -5967,7 +6010,8 @@
         "img/accesorios/COLETTE1-NEGRO.webp",
         "img/accesorios/COLETTE1-ROSADO.webp",
         "img/accesorios/COLETTE1-TURQUESA.webp"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0543",
@@ -6154,7 +6198,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "",
       "imagen": "img/pestanas/CO-PIN8.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0565",
@@ -6655,7 +6700,8 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MR01.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0609",
@@ -6935,7 +6981,7 @@
       "id": "p0630",
       "nombre": "Cepillo CEPL-03",
       "referencia": "CEPL-03",
-      "precio": 7000,
+      "precio": 7500,
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
@@ -6945,7 +6991,8 @@
         "img/accesorios/CEPL-03_1.jpg",
         "img/accesorios/CEPL-03_2.jpg",
         "img/accesorios/CEPL-03_3.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0631",
@@ -7057,7 +7104,8 @@
         "img/accesorios/FUNDA1_4.jpg",
         "img/accesorios/FUNDA1_5.jpg",
         "img/accesorios/FUNDA1_6.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0639",
@@ -7301,7 +7349,8 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0658",
@@ -7311,7 +7360,8 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/ARCILLA_1.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0662",
@@ -7634,7 +7684,7 @@
       "id": "p0696",
       "nombre": "Lámpara Portátil LAM04",
       "referencia": "LAM04",
-      "precio": 19000,
+      "precio": 25900,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/LAM04_1.jpg",
@@ -7642,7 +7692,8 @@
       "colores": [
         "img/unas/LAM04_1.jpg",
         "img/unas/LAM04_2.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0697",
@@ -7725,11 +7776,12 @@
       "id": "p0702",
       "nombre": "Probador de Uñas PROUN23",
       "referencia": "PROUN23",
-      "precio": 2500,
+      "precio": 3500,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/PROUN23.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0703",
@@ -7954,11 +8006,12 @@
       "id": "p0721",
       "nombre": "Probador de Esmalte en Vidrio VIDUNA4",
       "referencia": "VIDUNA4",
-      "precio": 4000,
+      "precio": 5000,
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/VIDUNA4.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0722",
@@ -9644,7 +9697,8 @@
       "colores": [
         "img/pestanas/P5DDMIX_1.png",
         "img/pestanas/P5DDMIX_2.png"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0842",
@@ -9851,13 +9905,14 @@
       "colores": [
         "img/pestanas/1108-2_1.jpg",
         "img/pestanas/1108-2_2.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0857",
       "nombre": "Parche de Papel para Pestañas 1108-6",
       "referencia": "1108-6",
-      "precio": 2500,
+      "precio": 2900,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Parche de papel para protección durante extensiones.",
@@ -9866,7 +9921,8 @@
       "colores": [
         "img/pestanas/1108-6_1.jpg",
         "img/pestanas/1108-6_2.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0858",
@@ -9899,7 +9955,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Probador para pestañas enteras.",
       "imagen": "img/pestanas/EXP1.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0861",
@@ -10039,7 +10096,7 @@
       "id": "p0871",
       "nombre": "Anillo Corazón x12 ANI-11",
       "referencia": "ANI-11",
-      "precio": 1500,
+      "precio": 2500,
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x12 unidades.",
@@ -10050,7 +10107,8 @@
         "img/pestanas/ANI-11_2.jpg",
         "img/pestanas/ANI-11_3.jpg",
         "img/pestanas/ANI-11_4.jpg"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0872",
