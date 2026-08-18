@@ -337,7 +337,31 @@
     .section-divider-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--du-blue); flex-shrink: 0; }
 
     /* ─── DESTACADOS DEL MES ─────────────────────────── */
-    .destacados-section { background: linear-gradient(180deg, #eef8fd 0%, var(--du-white) 100%); border-bottom: 1px solid var(--du-border); padding-bottom: 8px; }
+    .destacados-section {
+      background: linear-gradient(180deg, #eef8fd 0%, #f6fbfe 100%);
+      border-bottom: 3px solid var(--du-blue-dk);
+      box-shadow: 0 6px 16px -8px rgba(46,46,46,0.22);
+      position: relative;
+      z-index: 1;
+    }
+    .destacados-grid { padding: 20px 24px 28px !important; }
+    .catalogo-divider {
+      max-width: 1280px;
+      margin: 22px auto 0;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .catalogo-divider-line { flex: 1; height: 1px; background: var(--du-border); }
+    .catalogo-divider-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--du-gray);
+      white-space: nowrap;
+    }
     .destacados-header {
       max-width: 1280px;
       margin: 0 auto;
@@ -1185,6 +1209,12 @@
   <div class="product-grid destacados-grid" id="destacadosGrid"></div>
 </section>
 
+<!-- ─── DIVISOR: FIN DE DESTACADOS ─── -->
+<div class="catalogo-divider" id="catalogoDivider" style="display:none">
+  <span class="catalogo-divider-label">Catálogo completo</span>
+  <div class="catalogo-divider-line"></div>
+</div>
+
 <!-- ─── TOOLBAR ─── -->
 <div class="toolbar">
   <div class="toolbar-left">
@@ -1611,12 +1641,19 @@ function renderGrid() {
 
 /* ── Destacados del mes (sección fija, independiente de filtros) ── */
 function renderDestacados() {
-  const section = document.getElementById('destacadosSection');
-  const grid    = document.getElementById('destacadosGrid');
+  const section  = document.getElementById('destacadosSection');
+  const grid     = document.getElementById('destacadosGrid');
+  const divider  = document.getElementById('catalogoDivider');
   if (!section || !grid) return;
   const destacados = allProducts.filter(p => p.destacado && (state.showAgotados || !p.agotado));
-  if (!destacados.length) { section.style.display = 'none'; grid.innerHTML = ''; return; }
+  if (!destacados.length) {
+    section.style.display = 'none';
+    grid.innerHTML = '';
+    if (divider) divider.style.display = 'none';
+    return;
+  }
   section.style.display = '';
+  if (divider) divider.style.display = '';
   grid.innerHTML = destacados.map(renderCard).join('');
   grid.querySelectorAll('img[data-src]').forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
 }
