@@ -1541,17 +1541,18 @@ function renderCard(p) {
 function normalizar(texto) {
   return (texto || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[-\s]/g, "");
 }
+function matchesFilters(p) {
+  if (!state.showAgotados && p.agotado) return false;
+  if (state.cat && p.categoria !== state.cat) return false;
+  if (state.subcat && p.subcategoria !== state.subcat) return false;
+  if (state.query) {
+    const q = normalizar(state.query);
+    if (!normalizar(p.nombre).includes(q) && !normalizar(p.referencia).includes(q) && !normalizar(p.descripcion).includes(q)) return false;
+  }
+  return true;
+}
 function filtered() {
-  return allProducts.filter(p => {
-    if (!state.showAgotados && p.agotado) return false;
-    if (state.cat && p.categoria !== state.cat) return false;
-    if (state.subcat && p.subcategoria !== state.subcat) return false;
-    if (state.query) {
-      const q = normalizar(state.query);
-      if (!normalizar(p.nombre).includes(q) && !normalizar(p.referencia).includes(q) && !normalizar(p.descripcion).includes(q)) return false;
-    }
-    return true;
-  });
+  return allProducts.filter(matchesFilters);
 }
 
 /* ── Lazy loading con IntersectionObserver ── */
@@ -1639,13 +1640,13 @@ function renderGrid() {
   if (_cargados < _itemsFiltrados.length) _ponerSentinel(grid);
 }
 
-/* ── Destacados del mes (sección fija, independiente de filtros) ── */
+/* ── Destacados del mes (sección fija, respeta búsqueda y filtros de categoría) ── */
 function renderDestacados() {
   const section  = document.getElementById('destacadosSection');
   const grid     = document.getElementById('destacadosGrid');
   const divider  = document.getElementById('catalogoDivider');
   if (!section || !grid) return;
-  const destacados = allProducts.filter(p => p.destacado && (state.showAgotados || !p.agotado));
+  const destacados = allProducts.filter(p => p.destacado && matchesFilters(p));
   if (!destacados.length) {
     section.style.display = 'none';
     grid.innerHTML = '';
@@ -1668,7 +1669,7 @@ function renderSubcats() {
   inner.innerHTML = `<button class="sub-pill ${!state.subcat?"active":""}" data-sub="">Todos</button>`
     + subs.map(s => `<button class="sub-pill ${state.subcat===s?"active":""}" data-sub="${s}">${s}</button>`).join("");
   inner.querySelectorAll(".sub-pill").forEach(btn => btn.addEventListener("click", () => {
-    state.subcat = btn.dataset.sub; renderSubcats(); renderGrid();
+    state.subcat = btn.dataset.sub; renderSubcats(); renderGrid(); renderDestacados();
   }));
 }
 
@@ -1680,6 +1681,7 @@ document.querySelectorAll(".cat-btn").forEach(btn => btn.addEventListener("click
   state.subcat = "";
   renderSubcats();
   renderGrid();
+  renderDestacados();
 }));
 
 /* ── Search ── */
@@ -1693,9 +1695,10 @@ function setupSearch(inputId, clearId) {
       const el = document.getElementById(id); if (el) el.value = input.value;
     });
     renderGrid();
+    renderDestacados();
   });
   if (clearBtn) clearBtn.addEventListener("click", () => {
-    input.value = ""; state.query = ""; clearBtn.classList.remove("visible"); renderGrid();
+    input.value = ""; state.query = ""; clearBtn.classList.remove("visible"); renderGrid(); renderDestacados();
   });
 }
 setupSearch("searchInput", "searchClear");
