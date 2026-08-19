@@ -1088,7 +1088,8 @@
         "14 mm",
         "15 mm"
       ],
-      "variante_label": "Largo"
+      "variante_label": "Largo",
+      "destacado": true
     },
     {
       "id": "p0099",
@@ -1109,7 +1110,8 @@
         "13 mm",
         "14 mm"
       ],
-      "variante_label": "Largo"
+      "variante_label": "Largo",
+      "destacado": true
     },
     {
       "id": "p0101",
@@ -10196,7 +10198,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Uña guía tipo X-Nail.",
       "imagen": "img/unas/X-NAIL-CL.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0879",
@@ -10207,7 +10210,8 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestaña Camellia línea Floración, grosor 0.10, curvatura C, mix.",
       "imagen": "img/accesorios/0.10C MIX.webp",
-      "agotado": true
+      "agotado": true,
+      "destacado": true
     },
     {
       "id": "p0880",
@@ -10218,7 +10222,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel cepillo PIN3053.",
       "imagen": "img/accesorios/PIN3053.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0881",
@@ -10234,7 +10239,8 @@
         "img/accesorios/RP-50_1.png",
         "img/accesorios/RP-50_2.png",
         "img/accesorios/RP-50_3.png"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0882",
@@ -10245,7 +10251,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto de silicona para lifting de pestañas RPES3.",
       "imagen": "img/pestanas/RPES3.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0883",
@@ -10256,7 +10263,8 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo pulidor CEPUL1.",
       "imagen": "img/accesorios/CEPUL1.jpg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0884",
@@ -10267,7 +10275,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PINCEP3056.",
       "imagen": "img/accesorios/PINCEP3056.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0885",
@@ -10278,7 +10287,8 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo P3D, largo 15mm.",
       "imagen": "img/pestanas/P3D15MM.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0886",
@@ -10289,7 +10299,8 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo P3C, largo 9mm.",
       "imagen": "img/pestanas/P3C9MM.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0887",
@@ -10300,7 +10311,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD1.",
       "imagen": "img/accesorios/PD1.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0888",
@@ -10311,7 +10323,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD2.",
       "imagen": "img/accesorios/PD2.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0889",
@@ -10322,7 +10335,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD4.",
       "imagen": "img/accesorios/PD4.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0890",
@@ -10333,7 +10347,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD5.",
       "imagen": "img/accesorios/PD5.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0891",
@@ -10344,7 +10359,8 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo P7D, largo 13mm.",
       "imagen": "img/pestanas/P7D13MM.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0892",
@@ -10355,7 +10371,8 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Tijeras de colores mini TJ824.",
       "imagen": "img/accesorios/TJ824.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0893",
@@ -10366,7 +10383,8 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo con luz ESP3170.",
       "imagen": "img/accesorios/ESP3170.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0894",
@@ -10377,7 +10395,8 @@
       "subcategoria": "Cuidado del cabello",
       "descripcion": "Limpiador LBR04.",
       "imagen": "img/accesorios/LBR04.jpg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0895",
@@ -10388,7 +10407,8 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Tijeras TJ810.",
       "imagen": "img/accesorios/TJ810.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0896",
@@ -10399,7 +10419,8 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha BRO3247.",
       "imagen": "img/accesorios/BRO3247.jpg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0897",
@@ -10410,7 +10431,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Punzón liner para nail art PUNDLINER.",
       "imagen": "img/unas/PUNDLINER.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0898",
@@ -10425,7 +10447,8 @@
       "colores": [
         "img/pestanas/P7D8MM.png",
         "img/pestanas/P7D8MM_2.png"
-      ]
+      ],
+      "destacado": true
     },
     {
       "id": "p0899",
@@ -10436,7 +10459,8 @@
       "subcategoria": "Cuidado del cabello",
       "descripcion": "Esponja de baño YQ03.",
       "imagen": "",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0900",
@@ -10447,7 +10471,8 @@
       "subcategoria": "Espejos",
       "descripcion": "Espejo lupa 3XL.",
       "imagen": "img/accesorios/3XL.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0901",
@@ -10458,7 +10483,8 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo CEP3130.",
       "imagen": "img/accesorios/CEP3130.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0902",
@@ -10469,7 +10495,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set de pinzas para pestañas SPIN3216.",
       "imagen": "img/pestanas/SPIN3216.png",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0903",
@@ -10480,7 +10507,8 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestañas pelo a pelo tono café, curvatura D, largo 8mm.",
       "imagen": "img/pestanas/P7D8MM CAFÉ.jpeg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0904",
@@ -10491,7 +10519,8 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Cortacutícula STAR.",
       "imagen": "img/unas/STAR 1.webp",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     },
     {
       "id": "p0905",
@@ -10502,7 +10531,8 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Brocha para pestañas BROS3270.",
       "imagen": "img/pestanas/BROS3270.jpg",
-      "agotado": false
+      "agotado": false,
+      "destacado": true
     }
   ]
 }
