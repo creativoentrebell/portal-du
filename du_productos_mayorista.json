@@ -4655,7 +4655,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL16.",
       "imagen": "img/accesorios/BL16.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0423",
