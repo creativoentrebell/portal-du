@@ -1077,7 +1077,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm y 15mm. Pestañas Flat Premium tecnológica curvatura D.",
       "imagen": "img/pestanas/PF15D - FLAT 15 mm.png",
-      "agotado": false,
+      "agotado": true,
       "variantes": [
         "8 mm",
         "9 mm",
@@ -1099,7 +1099,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm y 14mm. Pestañas Flat Premium tecnológica curvatura D.",
       "imagen": "img/pestanas/FLAT20D.webp",
-      "agotado": false,
+      "agotado": true,
       "variantes": [
         "8 mm",
         "9 mm",
@@ -4655,7 +4655,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL16.",
       "imagen": "img/accesorios/BL16.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0423",
@@ -10205,7 +10205,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Pestaña Camellia línea Floración, grosor 0.10, curvatura C, mix.",
-      "imagen": "",
+      "imagen": "img/accesorios/0.10C MIX.webp",
       "agotado": true
     },
     {
@@ -10467,7 +10467,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set de pinzas para pestañas SPIN3216.",
-      "imagen": "",
+      "imagen": "img/pestanas/SPIN3216.png",
       "agotado": false
     },
     {
