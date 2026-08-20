@@ -2505,8 +2505,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza profesional tipo L para volumen.",
-      "imagen": "img/pestanas/PINZA-66 2.webp",
-      "agotado": false
+      "imagen": "img/pestanas/PINZA-66_1.jpeg",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/PINZA-66_1.jpeg",
+        "img/pestanas/PINZA-66_2.jpeg",
+        "img/pestanas/PINZA-66_3.jpeg"
+      ]
     },
     {
       "id": "p0187",
