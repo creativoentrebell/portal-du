@@ -306,7 +306,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster classic.",
       "imagen": "img/pestanas/REF DFD04.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0029",
@@ -350,7 +350,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster classic.",
       "imagen": "img/pestanas/REF DFD10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0033",
@@ -5747,7 +5747,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo bambú.",
       "imagen": "img/accesorios/CEP4104.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0522",
@@ -5825,7 +5825,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/32D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0529",
@@ -6409,7 +6409,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
       "imagen": "img/pestanas/3D-30.png",
-      "agotado": false,
+      "agotado": true,
       "precio": 7000
     },
     {
@@ -6459,7 +6459,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso abanico mix, pre-armadas 3D (3 pelitos). Curvatura C.",
       "imagen": "img/pestanas/3P-CMIX.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0588",
@@ -6931,7 +6931,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
       "imagen": "img/accesorios/CEP3134.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0627",
@@ -6942,7 +6942,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
       "imagen": "img/accesorios/CEP3141_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/CEP3141_1.jpg",
         "img/accesorios/CEP3141_2.jpg",
@@ -6962,7 +6962,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
       "imagen": "",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0629",
@@ -6973,7 +6973,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
       "imagen": "img/accesorios/CEPILLO 1_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/CEPILLO 1_1.png",
         "img/accesorios/CEPILLO 1_2.png"
@@ -9618,7 +9618,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster 3D.",
       "imagen": "img/pestanas/CLU3D11_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/CLU3D11_1.png",
         "img/pestanas/CLU3D11_2.png",
