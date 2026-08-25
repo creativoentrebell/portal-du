@@ -75,7 +75,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Jeni curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJENI-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0008",
@@ -86,7 +86,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Jeni curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJENI-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0009",
@@ -97,7 +97,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Juli curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJULI-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0010",
@@ -108,7 +108,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Juli curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJULI-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0011",
@@ -119,7 +119,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Karol curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKAROL-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0012",
@@ -130,7 +130,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Karol curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKAROL-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0013",
@@ -141,7 +141,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Kelly curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKELLY-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0014",
@@ -152,7 +152,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Kelly curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKELLY-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0015",
@@ -163,7 +163,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Laura curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLAURA-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0016",
@@ -174,7 +174,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Laura curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLAURA-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0017",
@@ -185,7 +185,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Lu curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLU-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0018",
@@ -196,18 +196,18 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Lu curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLU-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0019",
-      "nombre": "Cluster Set Simona-C",
-      "referencia": "SETSIMONA-C",
+      "nombre": "Cluster Set Simona-C7",
+      "referencia": "SETSIMONA-C7",
       "precio": 41000,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Simona curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSIMONA-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0020",
@@ -218,7 +218,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Simona curvatura D7. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSIMONA-D7.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0021",
@@ -229,7 +229,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Sofi curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSOFI-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0022",
@@ -240,7 +240,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Sofi curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSOFI-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0023",
@@ -251,7 +251,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Tani curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETTANI-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0024",
@@ -262,7 +262,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Tani curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETTANI-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0025",
@@ -1476,7 +1476,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Largos disponibles: 8mm a 15mm. PBT coreano tipo seda. Grosor 0.10 Curvatura D (mix largos).",
       "imagen": "img/pestanas/P10DMIX.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0116",
@@ -2370,7 +2370,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Microbrush con puntas de diferentes tamaños. Ideal para lash artist y nails artist.",
       "imagen": "img/pestanas/du5_micfi.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0175",
@@ -2711,7 +2711,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cinta transpore para extensiones y lifting.",
       "imagen": "img/pestanas/MICROFA2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0206",
@@ -5774,7 +5774,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo pulidor.",
       "imagen": "img/accesorios/CEPUL-05 1.webp",
-      "agotado": false,
+      "agotado": true,
       "destacado": true
     },
     {
@@ -7010,7 +7010,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
       "imagen": "img/accesorios/PEI-101_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/PEI-101_1.jpg",
         "img/accesorios/PEI-101_2.jpg"
@@ -7123,7 +7123,7 @@
       "subcategoria": "Hair Technology",
       "descripcion": "",
       "imagen": "img/accesorios/GC2012_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/GC2012_1.png",
         "img/accesorios/GC2012_2.png"
@@ -9951,7 +9951,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Cepillo de pestañas de lujo.",
       "imagen": "img/pestanas/CEPEST3.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0860",
@@ -10039,7 +10039,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Gafas optivisoras con aumento para trabajo de precisión.",
       "imagen": null,
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0867",
@@ -10065,7 +10065,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pluma para microblading.",
       "imagen": "img/pestanas/PLUMA2_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/PLUMA2_1.png",
         "img/pestanas/PLUMA2_2.png"
