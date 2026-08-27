@@ -4595,8 +4595,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL9.",
-      "imagen": "img/accesorios/BL9.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BL9_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BL9_1.png",
+        "img/accesorios/BL9_2.webp"
+      ]
     },
     {
       "id": "p0417",
@@ -4606,8 +4610,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL11.",
-      "imagen": "img/accesorios/BL11.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BL11_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BL11_1.png",
+        "img/accesorios/BL11_2.webp"
+      ]
     },
     {
       "id": "p0418",
@@ -4617,8 +4625,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL12.",
-      "imagen": "img/accesorios/BL12.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BL12_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BL12_1.png",
+        "img/accesorios/BL12_2.webp"
+      ]
     },
     {
       "id": "p0419",
@@ -4628,8 +4640,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL13.",
-      "imagen": "img/accesorios/BL13.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BL13_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BL13_1.png",
+        "img/accesorios/BL13_2.webp"
+      ]
     },
     {
       "id": "p0420",
@@ -4639,8 +4655,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL14.",
-      "imagen": "img/accesorios/BL14.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BL14_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BL14_1.png",
+        "img/accesorios/BL14_2.webp"
+      ]
     },
     {
       "id": "p0421",
@@ -4650,8 +4670,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Diamond BL15.",
-      "imagen": "img/accesorios/BL15.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BL15_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BL15_1.png",
+        "img/accesorios/BL15_2.webp"
+      ]
     },
     {
       "id": "p0422",
@@ -4672,8 +4696,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla BD5.",
-      "imagen": "img/accesorios/BD5.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BD5_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BD5_1.png",
+        "img/accesorios/BD5_2.webp"
+      ]
     },
     {
       "id": "p0424",
@@ -4683,8 +4711,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD08.",
-      "imagen": "img/accesorios/PD08.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD08_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD08_1.png",
+        "img/accesorios/PD08_2.webp"
+      ]
     },
     {
       "id": "p0425",
@@ -4694,8 +4726,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD10.",
-      "imagen": "img/accesorios/PD10.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD10_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD10_1.png",
+        "img/accesorios/PD10_2.webp"
+      ]
     },
     {
       "id": "p0426",
@@ -4705,8 +4741,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD12.",
-      "imagen": "img/accesorios/PD12.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD12_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD12_1.png",
+        "img/accesorios/PD12_2.webp"
+      ]
     },
     {
       "id": "p0427",
@@ -4716,8 +4756,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD13.",
-      "imagen": "img/accesorios/PD13.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD13_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD13_1.png",
+        "img/accesorios/PD13_2.webp"
+      ]
     },
     {
       "id": "p0428",
@@ -4727,9 +4771,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD14.",
-      "imagen": "img/accesorios/PD14.webp",
+      "imagen": "img/accesorios/PD14_1.JPG",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "colores": [
+        "img/accesorios/PD14_1.JPG",
+        "img/accesorios/PD14_2.webp"
+      ]
     },
     {
       "id": "p0429",
@@ -10314,9 +10362,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD1.",
-      "imagen": "img/accesorios/PD1.jpeg",
+      "imagen": "img/accesorios/PD1_1.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "colores": [
+        "img/accesorios/PD1_1.png",
+        "img/accesorios/PD1_2.png"
+      ]
     },
     {
       "id": "p0888",
@@ -10326,9 +10378,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD2.",
-      "imagen": "img/accesorios/PD2.jpeg",
+      "imagen": "img/accesorios/PD2_1.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "colores": [
+        "img/accesorios/PD2_1.png",
+        "img/accesorios/PD2_2.png"
+      ]
     },
     {
       "id": "p0889",
@@ -10338,9 +10394,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD4.",
-      "imagen": "img/accesorios/PD4.jpeg",
+      "imagen": "img/accesorios/PD4_1.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "colores": [
+        "img/accesorios/PD4_1.png",
+        "img/accesorios/PD4_2.png"
+      ]
     },
     {
       "id": "p0890",
@@ -10350,9 +10410,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel vainilla PD5.",
-      "imagen": "img/accesorios/PD5.jpeg",
+      "imagen": "img/accesorios/PD5_1.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "colores": [
+        "img/accesorios/PD5_1.png",
+        "img/accesorios/PD5_2.png"
+      ]
     },
     {
       "id": "p0891",
