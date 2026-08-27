@@ -582,6 +582,41 @@
     .prod-modal-no-img.hidden { display: none; }
     .prod-modal-no-img svg { width: 32px; height: 32px; color: var(--du-blue-dk); opacity: 0.6; }
     .prod-modal-body { padding: 22px 24px 28px; }
+
+    /* ─── PRODUCT DETAIL MODAL: layout de dos columnas en desktop ─── */
+    @media (min-width: 641px) {
+      .prod-modal {
+        max-width: 780px;
+        max-height: 85vh;
+        display: flex;
+        align-items: stretch;
+        overflow: hidden; /* el scroll queda solo en .prod-modal-body */
+      }
+      .prod-modal-media {
+        flex: 0 0 45%;
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .prod-modal-img {
+        width: 100%; height: 100%;
+        aspect-ratio: auto; max-height: none;
+        padding: 36px;
+        border-bottom: none;
+        border-right: 1px solid var(--du-border);
+      }
+      .prod-modal-no-img {
+        width: 100%; height: 100%;
+        border-bottom: none;
+        border-right: 1px solid var(--du-border);
+      }
+      .prod-modal-body {
+        flex: 1;
+        overflow-y: auto;
+        max-height: 85vh;
+      }
+    }
     .prod-modal-subcat { font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--du-blue-dk); display: block; margin-bottom: 6px; }
     .prod-modal-name { font-family: var(--font-serif); font-size: 17px; font-weight: 500; color: var(--du-dark); line-height: 1.35; margin-bottom: 4px; }
     .prod-modal-ref { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--du-gray); display: block; margin-bottom: 14px; }
@@ -1324,10 +1359,12 @@
 <div class="prod-overlay" id="prodOverlay" onclick="if(event.target===this)closeProdModal()">
   <div class="prod-modal">
     <button class="prod-modal-close" onclick="closeProdModal()">×</button>
-    <img class="prod-modal-img" id="prodModalImg" src="" alt=""
-         onclick="openLightbox(this.src, this.alt)"/>
-    <div class="prod-modal-no-img" id="prodModalNoImg">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z"/><circle cx="12" cy="12" r="3"/></svg>
+    <div class="prod-modal-media">
+      <img class="prod-modal-img" id="prodModalImg" src="" alt=""
+           onclick="openLightbox(this.src, this.alt)"/>
+      <div class="prod-modal-no-img" id="prodModalNoImg">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
     </div>
     <div class="prod-modal-body">
       <span class="prod-modal-subcat" id="prodModalSubcat"></span>
