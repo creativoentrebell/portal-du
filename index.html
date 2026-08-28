@@ -19,6 +19,7 @@
       --du-off:     #f8f9fa;
       --du-border:  #e8e8e8;
       --du-shadow:  0 2px 16px rgba(0,0,0,0.06);
+      --du-nuevo:   #2f9e6e;
       --radius:     4px;
       --header-h:   64px;
       --font-serif: 'Instrument Sans', system-ui, sans-serif;
@@ -259,6 +260,7 @@
       align-items: center;
       justify-content: space-between;
       gap: 16px;
+      flex-wrap: wrap;
     }
     .toolbar-left { display: flex; align-items: center; gap: 12px; }
     .count-label { font-size: 12px; color: var(--du-gray); letter-spacing: 0.04em; }
@@ -277,6 +279,29 @@
       border-radius: 3px;
     }
     .modo-badge.visible { display: inline-block; }
+
+    .toolbar-right { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; justify-content: flex-end; }
+    .btn-solo-nuevos {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: inherit;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      color: var(--du-gray);
+      background: var(--du-white);
+      border: 1px solid var(--du-border);
+      border-radius: 999px;
+      padding: 6px 14px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      white-space: nowrap;
+    }
+    .btn-solo-nuevos:hover { color: var(--du-dark); border-color: var(--du-nuevo); }
+    .btn-solo-nuevos .dot-nuevo { width: 7px; height: 7px; border-radius: 50%; background: var(--du-nuevo); flex-shrink: 0; }
+    .btn-solo-nuevos.active { background: var(--du-nuevo); border-color: var(--du-nuevo); color: var(--du-white); font-weight: 500; }
+    .btn-solo-nuevos.active .dot-nuevo { background: var(--du-white); }
+    .btn-solo-nuevos[hidden] { display: none; }
 
     .toggle-agotados {
       display: flex;
@@ -517,6 +542,24 @@
       border-radius: 2px;
     }
 
+    .nuevo-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      z-index: 22;
+      background: var(--du-nuevo);
+      color: var(--du-white);
+      font-size: 9px;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 2px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+    }
+    /* Si el producto está agotado, la insignia va bajo el velo pero sigue visible */
+    .product-card.is-agotado .nuevo-badge { z-index: 22; opacity: 0.85; }
+
     .card-body { padding: 14px 14px 16px; flex: 1; display: flex; flex-direction: column; gap: 4px; }
     .card-subcat { font-size: 9px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--du-blue-dk); margin-bottom: 2px; }
     .card-name { font-family: var(--font-serif); font-size: 14px; font-weight: 500; color: var(--du-dark); line-height: 1.35; }
@@ -621,6 +664,7 @@
     .prod-modal-name { font-family: var(--font-serif); font-size: 17px; font-weight: 500; color: var(--du-dark); line-height: 1.35; margin-bottom: 4px; }
     .prod-modal-ref { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--du-gray); display: block; margin-bottom: 14px; }
     .prod-modal-agotado { display: inline-block; background: var(--du-dark); color: var(--du-white); font-size: 9px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; }
+    .prod-modal-nuevo { display: inline-block; background: var(--du-nuevo); color: var(--du-white); font-size: 9px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; margin-right: 6px; }
     .prod-modal-promo { display: inline-block; background: var(--du-blue-dk); color: var(--du-white); font-size: 9px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; margin-right: 6px; }
     .prod-modal-desc { font-size: 13px; color: #555; line-height: 1.75; }
     .prod-modal-price-wrap { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--du-border); }
@@ -1300,14 +1344,19 @@
     <span class="count-label" id="countLabel"><strong>—</strong> productos</span>
     <span class="modo-badge" id="modoBadge"></span>
   </div>
-  <label class="toggle-agotados">
-    <div class="toggle-switch">
-      <input type="checkbox" id="toggleAgotados" checked/>
-      <div class="toggle-track"></div>
-      <div class="toggle-thumb"></div>
-    </div>
-    Mostrar agotados
-  </label>
+  <div class="toolbar-right">
+    <button type="button" class="btn-solo-nuevos" id="btnSoloNuevos" aria-pressed="false" hidden>
+      <span class="dot-nuevo"></span><span id="btnSoloNuevosLabel">Mostrar solo nuevos</span>
+    </button>
+    <label class="toggle-agotados">
+      <div class="toggle-switch">
+        <input type="checkbox" id="toggleAgotados" checked/>
+        <div class="toggle-track"></div>
+        <div class="toggle-thumb"></div>
+      </div>
+      Mostrar agotados
+    </label>
+  </div>
 </div>
 
 <!-- ─── PRODUCT GRID ─── -->
@@ -1370,7 +1419,7 @@
       <span class="prod-modal-subcat" id="prodModalSubcat"></span>
       <h2 class="prod-modal-name" id="prodModalName"></h2>
       <span class="prod-modal-ref" id="prodModalRef"></span>
-      <span class="prod-modal-promo" id="prodModalPromo" style="display:none">Promoción</span><span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
+      <span class="prod-modal-nuevo" id="prodModalNuevo" style="display:none">Nuevo</span><span class="prod-modal-promo" id="prodModalPromo" style="display:none">Promoción</span><span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
       <p class="prod-modal-desc" id="prodModalDesc"></p>
       <div class="prod-modal-price-wrap" id="prodModalPriceWrap" style="display:none">
         <div class="prod-modal-price" id="prodModalPrice"></div>
@@ -1525,7 +1574,7 @@ let allProducts = [];
 let mayorMap    = {};   // id → precio mayorista
 let volumenMap  = {};   // id → precio volumen (+12 unid)
 let mode        = 'sinprecios';  // 'sinprecios' | 'detal' | 'mayorista'
-let state = { cat: "", subcat: "", query: "", showAgotados: true };
+let state = { cat: "", subcat: "", query: "", showAgotados: true, soloNuevos: false };
 
 /* ── Cambiar foto de color ── */
 function cambiarFoto(thumb, src) {
@@ -1569,6 +1618,7 @@ function renderCard(p) {
 
   const agotadoHTML = p.agotado ? `<div class="agotado-overlay"><span class="agotado-badge">Agotado</span></div>` : "";
   const promoHTML   = p.promocion ? `<span class="promo-badge">Promoción</span>` : "";
+  const nuevoHTML   = p.nuevo ? `<span class="nuevo-badge">Nuevo</span>` : "";
   const hasImg      = p.imagen && p.imagen.trim() !== "";
   const placeholderIcon = ICONS[p.categoria] || ICONS["Accesorios"];
 
@@ -1599,6 +1649,7 @@ function renderCard(p) {
       ${thumbsHTML}
       ${promoHTML}
       ${agotadoHTML}
+      ${nuevoHTML}
     </div>
     <div class="card-body">
       <span class="card-subcat">${p.subcategoria}</span>
@@ -1623,6 +1674,7 @@ function normalizar(texto) {
   return (texto || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[-\s]/g, "");
 }
 function matchesFilters(p) {
+  if (state.soloNuevos && !p.nuevo) return false;
   if (!state.showAgotados && p.agotado) return false;
   if (state.cat && p.categoria !== state.cat) return false;
   if (state.subcat && p.subcategoria !== state.subcat) return false;
@@ -1786,6 +1838,24 @@ setupSearch("searchInput", "searchClear");
 setupSearch("searchInputMobile");
 
 /* ── Toggle agotados ── */
+/* ── Botón "Mostrar solo nuevos" ── */
+function initSoloNuevos() {
+  const btn = document.getElementById("btnSoloNuevos");
+  if (!btn) return;
+  // El botón solo aparece si hay al menos un producto marcado como nuevo
+  const hayNuevos = allProducts.some(p => p.nuevo);
+  btn.hidden = !hayNuevos;
+  if (!hayNuevos) { state.soloNuevos = false; return; }
+  btn.addEventListener("click", () => {
+    state.soloNuevos = !state.soloNuevos;
+    btn.classList.toggle("active", state.soloNuevos);
+    btn.setAttribute("aria-pressed", state.soloNuevos ? "true" : "false");
+    document.getElementById("btnSoloNuevosLabel").textContent =
+      state.soloNuevos ? "Viendo solo nuevos" : "Mostrar solo nuevos";
+    renderGrid(); renderDestacados();
+  });
+}
+
 document.getElementById("toggleAgotados").addEventListener("change", e => {
   state.showAgotados = e.target.checked; renderGrid(); renderDestacados();
 });
@@ -1929,6 +1999,7 @@ function openProdModal(id) {
   document.getElementById('prodModalAgotado').style.display = p.agotado ? 'inline-block' : 'none';
 
   // Promoción
+  document.getElementById('prodModalNuevo').style.display = p.nuevo ? 'inline-block' : 'none';
   document.getElementById('prodModalPromo').style.display = p.promocion ? 'inline-block' : 'none';
 
   // Imagen
@@ -2491,6 +2562,7 @@ async function init() {
 
     renderSubcats();
     updateModeUI();
+    initSoloNuevos();
     renderGrid();
     renderDestacados();
     updateCartCount();

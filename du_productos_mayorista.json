@@ -10560,9 +10560,9 @@
       "nombre": "Set de Pinceles SPIN3216",
       "referencia": "SPIN3216",
       "precio": 30000,
-      "categoria": "Pestañas",
-      "subcategoria": "Accesorios de pestañas",
-      "descripcion": "Set de pinzas para pestañas SPIN3216.",
+      "categoria": "Accesorios",
+      "subcategoria": "Brochas, pinceles y accesorios",
+      "descripcion": "Set de pinceles SPIN3216.",
       "imagen": "img/pestanas/SPIN3216.jpeg",
       "agotado": false,
       "destacado": true
@@ -10602,6 +10602,384 @@
       "imagen": "img/pestanas/BROS3270.jpg",
       "agotado": false,
       "destacado": true
+    },
+    {
+      "id": "p0906",
+      "nombre": "Cluster Set Jeni-C + Pinza",
+      "referencia": "CSPC-01",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Jeni curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-01_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-01_1.png",
+        "img/pestanas/CSPC-01_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0907",
+      "nombre": "Cluster Set Juli-C + Pinza",
+      "referencia": "CSPC-02",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Juli curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-02_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-02_1.png",
+        "img/pestanas/CSPC-02_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0908",
+      "nombre": "Cluster Set Karol-C + Pinza",
+      "referencia": "CSPC-03",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Karol curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-03_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-03_1.png",
+        "img/pestanas/CSPC-03_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0909",
+      "nombre": "Cluster Set Kelly-C + Pinza",
+      "referencia": "CSPC-04",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Kelly curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-04_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-04_1.png",
+        "img/pestanas/CSPC-04_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0910",
+      "nombre": "Cluster Set Laura-C + Pinza",
+      "referencia": "CSPC-05",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Laura curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-05_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-05_1.png",
+        "img/pestanas/CSPC-05_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0911",
+      "nombre": "Cluster Set Lu-C + Pinza",
+      "referencia": "CSPC-06",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Lu curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-06_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-06_1.png",
+        "img/pestanas/CSPC-06_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0912",
+      "nombre": "Cluster Set Simona7-C + Pinza",
+      "referencia": "CSPC-07",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Simona7 curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-07_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-07_1.png",
+        "img/pestanas/CSPC-07_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0913",
+      "nombre": "Cluster Set Sofi-C + Pinza",
+      "referencia": "CSPC-08",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Sofi curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-08_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-08_1.png",
+        "img/pestanas/CSPC-08_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0914",
+      "nombre": "Cluster Set Tani-C + Pinza",
+      "referencia": "CSPC-09",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Tani curvatura C con pinza incluida.",
+      "imagen": "img/pestanas/CSPC-09_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPC-09_1.png",
+        "img/pestanas/CSPC-09_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0915",
+      "nombre": "Cluster Set Jeni-D + Pinza",
+      "referencia": "CSPD-01",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Jeni curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-01_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-01_1.png",
+        "img/pestanas/CSPD-01_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0916",
+      "nombre": "Cluster Set Juli-D + Pinza",
+      "referencia": "CSPD-02",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Juli curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-02_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-02_1.png",
+        "img/pestanas/CSPD-02_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0917",
+      "nombre": "Cluster Set Karol-D + Pinza",
+      "referencia": "CSPD-03",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Karol curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-03_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-03_1.png",
+        "img/pestanas/CSPD-03_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0918",
+      "nombre": "Cluster Set Kelly-D + Pinza",
+      "referencia": "CSPD-04",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Kelly curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-04_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-04_1.png",
+        "img/pestanas/CSPD-04_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0919",
+      "nombre": "Cluster Set Laura-D + Pinza",
+      "referencia": "CSPD-05",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Laura curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-05_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-05_1.png",
+        "img/pestanas/CSPD-05_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0920",
+      "nombre": "Cluster Set Lu-D + Pinza",
+      "referencia": "CSPD-06",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Lu curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-06_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-06_1.png",
+        "img/pestanas/CSPD-06_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0921",
+      "nombre": "Cluster Set Simona7-D + Pinza",
+      "referencia": "CSPD-07",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Simona7 curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-07_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-07_1.png",
+        "img/pestanas/CSPD-07_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0922",
+      "nombre": "Cluster Set Sofi-D + Pinza",
+      "referencia": "CSPD-08",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Sofi curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-08_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-08_1.png",
+        "img/pestanas/CSPD-08_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0923",
+      "nombre": "Cluster Set Tani-D + Pinza",
+      "referencia": "CSPD-09",
+      "precio": 21900,
+      "categoria": "Pestañas",
+      "subcategoria": "Pestañas de fácil aplicación",
+      "descripcion": "Set de pestañas cluster Tani curvatura D con pinza incluida.",
+      "imagen": "img/pestanas/CSPD-09_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/CSPD-09_1.png",
+        "img/pestanas/CSPD-09_2.png",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png"
+      ],
+      "nuevo": true
+    },
+    {
+      "id": "p0924",
+      "nombre": "Set de Glue para Pestañas + Removedor",
+      "referencia": "SETGYR",
+      "precio": "pendiente",
+      "categoria": "Pestañas",
+      "subcategoria": "Accesorios de pestañas",
+      "descripcion": "Set de glue para pestañas con removedor incluido.",
+      "imagen": "img/pestanas/SETGYR_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ],
+      "nuevo": true
     }
   ]
 }
