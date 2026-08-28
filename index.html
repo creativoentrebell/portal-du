@@ -608,6 +608,31 @@
       transition: background 0.15s, color 0.15s;
     }
     .prod-modal-close:hover { background: var(--du-border); color: var(--du-dark); }
+    .prod-modal-media { position: relative; }
+    .zoom-hint {
+      position: absolute;
+      left: 10px;
+      bottom: 10px;
+      z-index: 5;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: rgba(46,46,46,0.72);
+      color: var(--du-white);
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      padding: 4px 9px;
+      border-radius: 999px;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      backdrop-filter: blur(2px);
+      white-space: nowrap;
+    }
+    .zoom-hint.visible { opacity: 1; }
+    .zoom-hint svg { width: 11px; height: 11px; flex-shrink: 0; }
+    .zoom-hint.oculto { display: none; }
+
     .prod-modal-img {
       width: 100%; aspect-ratio: 1/1; max-height: 260px;
       object-fit: contain; padding: 28px;
@@ -636,6 +661,7 @@
         overflow: hidden; /* el scroll queda solo en .prod-modal-body */
       }
       .prod-modal-media {
+        position: relative;
         flex: 0 0 45%;
         display: flex;
         align-items: stretch;
@@ -1411,6 +1437,10 @@
     <div class="prod-modal-media">
       <img class="prod-modal-img" id="prodModalImg" src="" alt=""
            onclick="openLightbox(this.src, this.alt)"/>
+      <span class="zoom-hint" id="zoomHint">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>
+        Toca para ampliar
+      </span>
       <div class="prod-modal-no-img" id="prodModalNoImg">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z"/><circle cx="12" cy="12" r="3"/></svg>
       </div>
@@ -2005,13 +2035,24 @@ function openProdModal(id) {
   // Imagen
   const img     = document.getElementById('prodModalImg');
   const noImg   = document.getElementById('prodModalNoImg');
+  const hint = document.getElementById('zoomHint');
   if (p.imagen && p.imagen.trim()) {
     img.src = p.imagen; img.alt = p.nombre;
     img.classList.remove('no-img');
     noImg.classList.add('hidden');
+    // Pista de zoom: aparece con la foto y se desvanece a los 4 s
+    if (hint) {
+      hint.classList.remove('oculto');
+      clearTimeout(window._zoomHintTimer);
+      hint.classList.remove('visible');
+      window._zoomHintTimer = setTimeout(() => hint.classList.add('visible'), 250);
+      window._zoomHintTimer2 && clearTimeout(window._zoomHintTimer2);
+      window._zoomHintTimer2 = setTimeout(() => hint.classList.remove('visible'), 4500);
+    }
   } else {
     img.src = ''; img.classList.add('no-img');
     noImg.classList.remove('hidden');
+    if (hint) { hint.classList.add('oculto'); hint.classList.remove('visible'); }
   }
 
   // Precio
