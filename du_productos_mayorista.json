@@ -4787,8 +4787,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD15.",
-      "imagen": "img/accesorios/PD15.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD15_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD15_1.png",
+        "img/accesorios/PD15_2.png"
+      ]
     },
     {
       "id": "p0430",
@@ -4798,8 +4802,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD16.",
-      "imagen": "img/accesorios/PD16.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD16_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD16_1.png",
+        "img/accesorios/PD16_2.png"
+      ]
     },
     {
       "id": "p0431",
@@ -4809,8 +4817,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD17.",
-      "imagen": "img/accesorios/PD17.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PD17_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PD17_1.png",
+        "img/accesorios/PD17_2.png"
+      ]
     },
     {
       "id": "p0432",
@@ -4820,8 +4832,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3261. Mango en madera de ébano.",
-      "imagen": "img/accesorios/BRO3261.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BRO3261_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BRO3261_1.png",
+        "img/accesorios/BRO3261_2.webp"
+      ]
     },
     {
       "id": "p0433",
@@ -4831,8 +4847,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3262. Mango en madera de ébano.",
-      "imagen": "img/accesorios/BRO3262.png",
-      "agotado": false
+      "imagen": "img/accesorios/BRO3262_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BRO3262_1.png",
+        "img/accesorios/BRO3262_2.png"
+      ]
     },
     {
       "id": "p0434",
@@ -4842,8 +4862,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3264. Mango en madera de ébano.",
-      "imagen": "img/accesorios/BRO3264.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BRO3264_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BRO3264_1.png",
+        "img/accesorios/BRO3264_2.webp"
+      ]
     },
     {
       "id": "p0435",
@@ -4853,8 +4877,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha Colección Ébano BRO3660. Mango en madera de ébano.",
-      "imagen": "img/accesorios/BRO3260.webp",
-      "agotado": false
+      "imagen": "img/accesorios/BRO3260_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/BRO3260_1.png",
+        "img/accesorios/BRO3260_2.webp"
+      ]
     },
     {
       "id": "p0436",
@@ -4864,8 +4892,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3145.",
-      "imagen": "img/accesorios/PIN3145.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3145_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3145_1.png",
+        "img/accesorios/PIN3145_2.webp"
+      ]
     },
     {
       "id": "p0437",
@@ -4875,8 +4907,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3146.",
-      "imagen": "img/accesorios/PIN3146.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3146_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3146_1.png",
+        "img/accesorios/PIN3146_2.webp"
+      ]
     },
     {
       "id": "p0438",
@@ -4886,8 +4922,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3147.",
-      "imagen": "img/accesorios/PIN3147.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3147_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3147_1.png",
+        "img/accesorios/PIN3147_2.webp"
+      ]
     },
     {
       "id": "p0439",
@@ -4897,8 +4937,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3148.",
-      "imagen": "img/accesorios/PIN3148.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3148_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3148_1.png",
+        "img/accesorios/PIN3148_2.webp"
+      ]
     },
     {
       "id": "p0440",
@@ -4908,8 +4952,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3149.",
-      "imagen": "img/accesorios/PIN3149.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3149_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3149_1.png",
+        "img/accesorios/PIN3149_2.webp"
+      ]
     },
     {
       "id": "p0441",
@@ -4919,8 +4967,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3150.",
-      "imagen": "img/accesorios/PIN3150.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3150_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3150_1.png",
+        "img/accesorios/PIN3150_2.webp"
+      ]
     },
     {
       "id": "p0442",
@@ -4930,8 +4982,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel Colección Ébano PIN3151.",
-      "imagen": "img/accesorios/PIN3151.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PIN3151_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PIN3151_1.png",
+        "img/accesorios/PIN3151_2.webp"
+      ]
     },
     {
       "id": "p0443",
@@ -4942,7 +4998,11 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC1.",
       "imagen": "img/accesorios/PC 1_1.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 1_1.webp",
+        "img/accesorios/PC 1_2.png"
+      ]
     },
     {
       "id": "p0444",
@@ -4952,8 +5012,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC2.",
-      "imagen": "img/accesorios/PC 2_2 (1).webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 2_1.webp",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 2_1.webp",
+        "img/accesorios/PC 2_2.png"
+      ]
     },
     {
       "id": "p0445",
@@ -4963,8 +5027,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC3.",
-      "imagen": "img/accesorios/PC 3_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 3_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 3_1.png",
+        "img/accesorios/PC 3_2.png"
+      ]
     },
     {
       "id": "p0446",
@@ -4974,8 +5042,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC4.",
-      "imagen": "img/accesorios/PC 4_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 4_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 4_1.png",
+        "img/accesorios/PC 4_2.png"
+      ]
     },
     {
       "id": "p0447",
@@ -4985,8 +5057,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC5.",
-      "imagen": "img/accesorios/PC 5_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 5_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 5_1.png",
+        "img/accesorios/PC 5_2.png"
+      ]
     },
     {
       "id": "p0448",
@@ -4996,8 +5072,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC6.",
-      "imagen": "img/accesorios/PC 6_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 6_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 6_1.png",
+        "img/accesorios/PC 6_2.png"
+      ]
     },
     {
       "id": "p0449",
@@ -5007,8 +5087,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC7.",
-      "imagen": "img/accesorios/PC 7_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 7_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 7_1.png",
+        "img/accesorios/PC 7_2.png"
+      ]
     },
     {
       "id": "p0450",
@@ -5018,8 +5102,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PC8.",
-      "imagen": "img/accesorios/PC 8_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PC 8_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PC 8_1.png",
+        "img/accesorios/PC 8_2.png"
+      ]
     },
     {
       "id": "p0451",
@@ -10563,9 +10651,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Set de pinceles SPIN3216.",
-      "imagen": "img/pestanas/SPIN3216.jpeg",
+      "imagen": "img/accesorios/SPIN3216_1.jpeg",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "colores": [
+        "img/accesorios/SPIN3216_1.jpeg",
+        "img/accesorios/SPIN3216_2.jpeg"
+      ]
     },
     {
       "id": "p0903",
