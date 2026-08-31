@@ -5117,8 +5117,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL6.",
-      "imagen": "img/accesorios/PL6.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL6_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL6_1.png",
+        "img/accesorios/PL6_2.png"
+      ]
     },
     {
       "id": "p0452",
@@ -5128,8 +5132,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL7.",
-      "imagen": "img/accesorios/PL7.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL7_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL7_1.png",
+        "img/accesorios/PL7_2.png"
+      ]
     },
     {
       "id": "p0453",
@@ -5139,8 +5147,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL8.",
-      "imagen": "img/accesorios/PL8.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL8_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL8_1.png",
+        "img/accesorios/PL8_2.png"
+      ]
     },
     {
       "id": "p0454",
@@ -5150,8 +5162,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL10.",
-      "imagen": "img/accesorios/PL10.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL10_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL10_1.png",
+        "img/accesorios/PL10_2.png"
+      ]
     },
     {
       "id": "p0455",
@@ -5161,8 +5177,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL12.",
-      "imagen": "img/accesorios/PL12.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL12_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL12_1.png",
+        "img/accesorios/PL12_2.png"
+      ]
     },
     {
       "id": "p0456",
@@ -5183,8 +5203,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL14.",
-      "imagen": "img/accesorios/PL14.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL14_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL14_1.png",
+        "img/accesorios/PL14_2.png"
+      ]
     },
     {
       "id": "p0458",
@@ -5194,8 +5218,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL15.",
-      "imagen": "img/accesorios/PL15.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL15_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL15_1.png",
+        "img/accesorios/PL15_2.png"
+      ]
     },
     {
       "id": "p0459",
@@ -5205,8 +5233,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL17.",
-      "imagen": "img/accesorios/PL17.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL17_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL17_1.png",
+        "img/accesorios/PL17_2.png"
+      ]
     },
     {
       "id": "p0460",
@@ -5216,8 +5248,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL18.",
-      "imagen": "img/accesorios/PL18.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL18_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL18_1.png",
+        "img/accesorios/PL18_2.png"
+      ]
     },
     {
       "id": "p0461",
@@ -5227,8 +5263,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL21.",
-      "imagen": "img/accesorios/PL21.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL21_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL21_1.png",
+        "img/accesorios/PL21_2.png"
+      ]
     },
     {
       "id": "p0462",
@@ -5238,8 +5278,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL22.",
-      "imagen": "img/accesorios/PL22.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL22_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL22_1.png",
+        "img/accesorios/PL22_2.png"
+      ]
     },
     {
       "id": "p0463",
@@ -5249,8 +5293,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL23.",
-      "imagen": "img/accesorios/PL23.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL23_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL23_1.png",
+        "img/accesorios/PL23_2.png"
+      ]
     },
     {
       "id": "p0464",
@@ -5260,8 +5308,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL24.",
-      "imagen": "img/accesorios/PL24.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL24_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL24_1.png",
+        "img/accesorios/PL24_2.png"
+      ]
     },
     {
       "id": "p0465",
@@ -5271,8 +5323,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL25.",
-      "imagen": "img/accesorios/PL25.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL25_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL25_1.png",
+        "img/accesorios/PL25_2.png"
+      ]
     },
     {
       "id": "p0466",
@@ -5282,8 +5338,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL26.",
-      "imagen": "img/accesorios/PL26.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL26_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL26_1.png",
+        "img/accesorios/PL26_2.png"
+      ]
     },
     {
       "id": "p0467",
@@ -5293,8 +5353,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL27.",
-      "imagen": "img/accesorios/PL27.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL27_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL27_1.png",
+        "img/accesorios/PL27_2.png"
+      ]
     },
     {
       "id": "p0468",
@@ -5304,8 +5368,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL28.",
-      "imagen": "img/accesorios/PL28.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL28_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL28_1.png",
+        "img/accesorios/PL28_2.png"
+      ]
     },
     {
       "id": "p0469",
@@ -5315,8 +5383,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL29.",
-      "imagen": "img/accesorios/PL29.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL29_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL29_1.png",
+        "img/accesorios/PL29_2.png"
+      ]
     },
     {
       "id": "p0470",
@@ -5326,8 +5398,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL30.",
-      "imagen": "img/accesorios/PL30.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL30_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL30_1.png",
+        "img/accesorios/PL30_2.png"
+      ]
     },
     {
       "id": "p0471",
@@ -5337,8 +5413,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL31.",
-      "imagen": "img/accesorios/PL31.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL31_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL31_1.png",
+        "img/accesorios/PL31_2.png"
+      ]
     },
     {
       "id": "p0472",
@@ -5348,8 +5428,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL32.",
-      "imagen": "img/accesorios/PL32.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL32_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL32_1.png",
+        "img/accesorios/PL32_2.png"
+      ]
     },
     {
       "id": "p0473",
@@ -5359,8 +5443,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL33.",
-      "imagen": "img/accesorios/PL33.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PL33_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PL33_1.png",
+        "img/accesorios/PL33_2.png"
+      ]
     },
     {
       "id": "p0474",
@@ -5370,8 +5458,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL35.",
-      "imagen": "img/accesorios/PI 35_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 35_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 35_1.png",
+        "img/accesorios/PI 35_2.png"
+      ]
     },
     {
       "id": "p0475",
@@ -5381,8 +5473,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL36.",
-      "imagen": "img/accesorios/PI 36_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 36_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 36_1.png",
+        "img/accesorios/PI 36_2.png"
+      ]
     },
     {
       "id": "p0476",
@@ -5392,8 +5488,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL37.",
-      "imagen": "img/accesorios/PI 37_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 37_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 37_1.png",
+        "img/accesorios/PI 37_2.png"
+      ]
     },
     {
       "id": "p0477",
@@ -5403,8 +5503,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL38.",
-      "imagen": "img/accesorios/PI 38_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 38_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 38_1.png",
+        "img/accesorios/PI 38_2.png"
+      ]
     },
     {
       "id": "p0478",
@@ -5414,8 +5518,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL39.",
-      "imagen": "img/accesorios/PI 39_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 39_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 39_1.png",
+        "img/accesorios/PI 39_2.png"
+      ]
     },
     {
       "id": "p0479",
@@ -5425,8 +5533,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL40.",
-      "imagen": "img/accesorios/PI 40_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 40_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 40_1.png",
+        "img/accesorios/PI 40_2.png"
+      ]
     },
     {
       "id": "p0480",
@@ -5436,8 +5548,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL41.",
-      "imagen": "img/accesorios/PI 41_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 41_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 41_1.png",
+        "img/accesorios/PI 41_2.png"
+      ]
     },
     {
       "id": "p0481",
@@ -5447,8 +5563,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL42.",
-      "imagen": "img/accesorios/PI 42_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 42_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 42_1.png",
+        "img/accesorios/PI 42_2.png"
+      ]
     },
     {
       "id": "p0482",
@@ -5458,8 +5578,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL43.",
-      "imagen": "img/accesorios/PI 43_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 43_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 43_1.png",
+        "img/accesorios/PI 43_2.png"
+      ]
     },
     {
       "id": "p0483",
@@ -5469,8 +5593,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL44.",
-      "imagen": "img/accesorios/PI 44_1.webp",
-      "agotado": false
+      "imagen": "img/accesorios/PI 44_1.png",
+      "agotado": false,
+      "colores": [
+        "img/accesorios/PI 44_1.png",
+        "img/accesorios/PI 44_2.png"
+      ]
     },
     {
       "id": "p0484",
