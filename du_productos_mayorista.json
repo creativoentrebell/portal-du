@@ -2042,7 +2042,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Shampoo para pestañas. Contiene extracto de hamamelis y aminoácidos. Sin aceites, sin sulfatos, sin alcohol.",
       "imagen": "img/pestanas/SHPES.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0146",
@@ -2217,7 +2217,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador de pestañas.",
       "imagen": "img/pestanas/E92 FUCSIA.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0161",
@@ -10503,7 +10503,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Raspacallos RP-50.",
       "imagen": "img/accesorios/RP-50_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/RP-50_1.png",
         "img/accesorios/RP-50_2.png",
@@ -10532,7 +10532,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo pulidor CEPUL1.",
       "imagen": "img/accesorios/CEPUL1.jpg",
-      "agotado": false,
+      "agotado": true,
       "destacado": true
     },
     {
