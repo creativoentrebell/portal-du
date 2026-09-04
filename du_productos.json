@@ -11199,6 +11199,35 @@
         "img/pestanas/SETGYR_3.png"
       ],
       "nuevo": true
+    },
+    {
+      "id": "p0925",
+      "nombre": "Set de Brochas 3274",
+      "referencia": "SBRO3274",
+      "precio": 44000,
+      "categoria": "Accesorios",
+      "subcategoria": "Brochas, pinceles y accesorios",
+      "descripcion": "Set de brochas de maquillaje 3274 con cosmetiquera de lentejuelas doradas.",
+      "imagen": "img/accesorios/SBRO3274_1.png",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/accesorios/SBRO3274_1.png",
+        "img/accesorios/SBRO3274_2.png",
+        "img/accesorios/SBRO3274_3.png"
+      ]
+    },
+    {
+      "id": "p0926",
+      "nombre": "Cosmetiquera Lentejuelas Doradas",
+      "referencia": "BAG-LD",
+      "precio": 10000,
+      "categoria": "Accesorios",
+      "subcategoria": "Maletas, neceseres y carteras",
+      "descripcion": "Cosmetiquera de lentejuelas doradas con cierre.",
+      "imagen": "img/accesorios/BAG-LD.png",
+      "agotado": false,
+      "destacado": false
     }
   ]
 }
