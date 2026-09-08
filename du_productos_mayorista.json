@@ -97,7 +97,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Juli curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJULI-C.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0010",
@@ -108,7 +108,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Juli curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJULI-D.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0011",
