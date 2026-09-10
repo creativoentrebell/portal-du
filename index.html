@@ -180,6 +180,12 @@
     .filter-bar.stuck {
       box-shadow: 0 3px 14px rgba(0,0,0,0.08);
     }
+    .filter-bar .toolbar { border-bottom: 1px solid var(--du-border); }
+    @media (max-width: 640px) {
+      .toolbar { padding: 7px 16px; gap: 8px 12px; }
+      .toolbar-right { gap: 10px; }
+      .toggle-agotados, .btn-solo-nuevos { font-size: 11px; }
+    }
 
     /* ─── CATEGORY NAV ───────────────────────────────── */
     .cat-nav { background: var(--du-white); border-bottom: 1px solid var(--du-border); }
@@ -264,7 +270,8 @@
     .toolbar {
       max-width: 1280px;
       margin: 0 auto;
-      padding: 20px 24px 0;
+      padding: 9px 24px 9px;
+      border-top: 1px solid var(--du-border);
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -396,10 +403,22 @@
 
     /* card compacta + acentos dorados discretos */
     .destacados-grid .product-card {
+      position: relative;
       border-color: var(--du-gold-line);
-      background: #fff;
+      background: #fffdfa;
       box-shadow: 0 1px 3px rgba(138,108,24,0.05);
     }
+    /* filo tornasol en el borde superior de cada tarjeta */
+    .destacados-grid .product-card::after {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, var(--du-rose) 0%, var(--du-gold) 38%, var(--du-gold-lt) 62%, var(--du-rose) 100%);
+      opacity: 0.9;
+      transition: opacity 0.2s;
+      z-index: 15;
+      pointer-events: none;
+    }
+    .destacados-grid .product-card:hover::after { opacity: 1; }
     .destacados-grid .product-card:hover { box-shadow: 0 6px 20px -6px rgba(138,108,24,0.22); }
     .destacados-grid .card-body { padding: 10px 11px 12px; gap: 3px; }
     .destacados-grid .card-name { font-size: 12.5px; line-height: 1.3; }
@@ -1439,6 +1458,27 @@
   <div class="subcat-inner" id="subcatInner"></div>
 </div>
 
+<!-- ─── TOOLBAR (dentro de la barra sticky) ─── -->
+<div class="toolbar">
+  <div class="toolbar-left">
+    <span class="count-label" id="countLabel"><strong>—</strong> productos</span>
+    <span class="modo-badge" id="modoBadge"></span>
+  </div>
+  <div class="toolbar-right">
+    <button type="button" class="btn-solo-nuevos" id="btnSoloNuevos" aria-pressed="false" hidden>
+      <span class="dot-nuevo"></span><span id="btnSoloNuevosLabel">Mostrar solo nuevos</span>
+    </button>
+    <label class="toggle-agotados">
+      <div class="toggle-switch">
+        <input type="checkbox" id="toggleAgotados" checked/>
+        <div class="toggle-track"></div>
+        <div class="toggle-thumb"></div>
+      </div>
+      Mostrar agotados
+    </label>
+  </div>
+</div>
+
 </div><!-- /filter-bar -->
 
 <!-- ─── ELECCIÓN DE ANIVERSARIO ─── -->
@@ -1458,27 +1498,6 @@
 <div class="catalogo-divider" id="catalogoDivider" style="display:none">
   <span class="catalogo-divider-label">Catálogo completo</span>
   <div class="catalogo-divider-line"></div>
-</div>
-
-<!-- ─── TOOLBAR ─── -->
-<div class="toolbar">
-  <div class="toolbar-left">
-    <span class="count-label" id="countLabel"><strong>—</strong> productos</span>
-    <span class="modo-badge" id="modoBadge"></span>
-  </div>
-  <div class="toolbar-right">
-    <button type="button" class="btn-solo-nuevos" id="btnSoloNuevos" aria-pressed="false" hidden>
-      <span class="dot-nuevo"></span><span id="btnSoloNuevosLabel">Mostrar solo nuevos</span>
-    </button>
-    <label class="toggle-agotados">
-      <div class="toggle-switch">
-        <input type="checkbox" id="toggleAgotados" checked/>
-        <div class="toggle-track"></div>
-        <div class="toggle-thumb"></div>
-      </div>
-      Mostrar agotados
-    </label>
-  </div>
 </div>
 
 <!-- ─── PRODUCT GRID ─── -->
