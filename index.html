@@ -20,6 +20,13 @@
       --du-border:  #e8e8e8;
       --du-shadow:  0 2px 16px rgba(0,0,0,0.06);
       --du-nuevo:   #2f9e6e;
+      /* — Aniversario DU: crema + dorado — */
+      --du-gold:      #c9a227;
+      --du-gold-lt:   #e8cf8b;
+      --du-gold-dk:   #a07d15;
+      --du-cream:     #fdfaf2;
+      --du-cream-dp:  #f6edda;
+      --du-gold-line: #e6d7ae;
       --radius:     4px;
       --header-h:   64px;
       --font-serif: 'Instrument Sans', system-ui, sans-serif;
@@ -364,13 +371,51 @@
 
     /* ─── DESTACADOS DEL MES ─────────────────────────── */
     .destacados-section {
-      background: linear-gradient(180deg, #eef8fd 0%, #f6fbfe 100%);
-      border-bottom: 3px solid var(--du-blue-dk);
-      box-shadow: 0 6px 16px -8px rgba(46,46,46,0.22);
+      background: linear-gradient(180deg, var(--du-cream-dp) 0%, var(--du-cream) 55%, #ffffff 100%);
+      border-bottom: 3px solid var(--du-gold);
+      box-shadow: 0 6px 16px -8px rgba(160,125,21,0.28);
       position: relative;
       z-index: 1;
     }
-    .destacados-grid { padding: 20px 24px 28px !important; }
+    /* filo dorado superior */
+    .destacados-section::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent 0%, var(--du-gold-lt) 18%, var(--du-gold) 50%, var(--du-gold-lt) 82%, transparent 100%);
+    }
+
+    /* ── Cuadrícula compacta: 5 por fila solo en Aniversario ── */
+    .destacados-grid {
+      padding: 18px 24px 26px !important;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 14px;
+    }
+    @media (max-width: 1100px) { .destacados-grid { grid-template-columns: repeat(4, 1fr); gap: 12px; } }
+    @media (max-width: 760px)  { .destacados-grid { grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 14px 16px 20px !important; } }
+    @media (max-width: 420px)  { .destacados-grid { grid-template-columns: repeat(2, 1fr); } }
+
+    /* card compacta + acentos dorados dentro de la sección */
+    .destacados-grid .product-card { border-color: var(--du-gold-line); }
+    .destacados-grid .product-card:hover { box-shadow: 0 4px 18px rgba(160,125,21,0.18); }
+    .destacados-grid .card-body { padding: 10px 10px 12px; gap: 3px; }
+    .destacados-grid .card-name { font-size: 12.5px; line-height: 1.3; }
+    .destacados-grid .card-subcat { font-size: 8.5px; color: var(--du-gold-dk); }
+    .destacados-grid .card-ref { font-size: 9px; }
+    .destacados-grid .card-desc { display: none; }
+    .destacados-grid .card-footer { padding: 8px 10px 10px; border-top-color: var(--du-gold-line); }
+    .destacados-grid .card-price { font-size: 13px; }
+    .destacados-grid .card-img-wrap img { padding: 8px; }
+    .destacados-grid .card-img-wrap.no-img { background: linear-gradient(145deg, #f7eeda 0%, #f0e2c4 50%, #e8d5a8 100%); }
+    .destacados-grid .card-placeholder-icon svg,
+    .destacados-grid .card-placeholder-ref { color: var(--du-gold-dk); }
+    .destacados-grid .card-thumb.activo { border-color: var(--du-gold); }
+    .destacados-grid .card-thumb:hover { border-color: var(--du-gold-lt); }
+    @media (max-width: 760px) {
+      .destacados-grid .card-body { padding: 8px 8px 10px; }
+      .destacados-grid .card-name { font-size: 11.5px; }
+      .destacados-grid .card-footer { padding: 6px 8px 8px; }
+      .destacados-grid .card-price { font-size: 12px; }
+    }
     .catalogo-divider {
       max-width: 1280px;
       margin: 22px auto 0;
@@ -400,8 +445,9 @@
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: linear-gradient(135deg, var(--du-blue) 0%, var(--du-blue-dk) 100%);
-      color: var(--du-dark);
+      background: linear-gradient(135deg, #f0dca9 0%, var(--du-gold-lt) 35%, var(--du-gold) 100%);
+      color: #4a3a08;
+      border: 1px solid rgba(160,125,21,0.35);
       font-family: var(--font-sans);
       font-size: 12.5px;
       font-weight: 700;
@@ -409,11 +455,11 @@
       text-transform: uppercase;
       padding: 9px 18px;
       border-radius: 24px;
-      box-shadow: 0 4px 14px rgba(124,184,217,0.4);
+      box-shadow: 0 4px 14px rgba(201,162,39,0.35);
       white-space: nowrap;
     }
-    .destacados-badge svg { width: 15px; height: 15px; flex-shrink: 0; color: var(--du-dark); }
-    .destacados-header-line { flex: 1; height: 1px; background: var(--du-border); }
+    .destacados-badge svg { width: 15px; height: 15px; flex-shrink: 0; color: #4a3a08; }
+    .destacados-header-line { flex: 1; height: 1px; background: linear-gradient(90deg, var(--du-gold-line) 0%, rgba(230,215,174,0) 100%); }
     @media (max-width: 640px) {
       .destacados-badge { font-size: 11px; padding: 8px 14px; }
       .destacados-header { padding: 22px 16px 4px; gap: 10px; }
@@ -1346,12 +1392,12 @@
 
 </div><!-- /filter-bar -->
 
-<!-- ─── DESTACADOS DEL MES ─── -->
+<!-- ─── ELECCIÓN DE ANIVERSARIO ─── -->
 <section class="destacados-section" id="destacadosSection" style="display:none">
   <div class="destacados-header">
     <span class="destacados-badge">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.3 5.5 21.2l1.8-7.3-5.7-4.9 7.5-.6z"/></svg>
-      Destacados del mes
+      Elección de Aniversario
     </span>
     <div class="destacados-header-line"></div>
   </div>
