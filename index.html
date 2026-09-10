@@ -21,12 +21,14 @@
       --du-shadow:  0 2px 16px rgba(0,0,0,0.06);
       --du-nuevo:   #2f9e6e;
       /* — Aniversario DU: crema + dorado — */
-      --du-gold:      #b8912f;
-      --du-gold-lt:   #d9bd72;
-      --du-gold-dk:   #8a6c18;
-      --du-cream:     #fffdf8;
-      --du-cream-dp:  #fbf5e9;
-      --du-gold-line: #ecdfc2;
+      --du-gold:      #c19653;   /* dorado champán */
+      --du-gold-lt:   #e2c39a;   /* champán claro */
+      --du-gold-dk:   #9c7440;   /* dorado oscuro (texto) */
+      --du-rose:      #c98f7d;   /* oro rosa */
+      --du-rose-lt:   #e8b9a8;   /* oro rosa claro */
+      --du-cream:     #fffcf8;
+      --du-cream-dp:  #faf1e8;   /* crema con tinte rosado */
+      --du-gold-line: #ecdccb;
       --radius:     4px;
       --header-h:   64px;
       --font-serif: 'Instrument Sans', system-ui, sans-serif;
@@ -379,7 +381,7 @@
     .destacados-section::before {
       content: '';
       position: absolute; top: 0; left: 0; right: 0; height: 1px;
-      background: linear-gradient(90deg, transparent, var(--du-gold-lt) 30%, var(--du-gold-lt) 70%, transparent);
+      background: linear-gradient(90deg, transparent, var(--du-gold-lt) 25%, var(--du-rose-lt) 50%, var(--du-gold-lt) 75%, transparent);
     }
 
     /* ── Cuadrícula compacta: 5 por fila solo en Aniversario ── */
@@ -410,7 +412,7 @@
     .destacados-grid .card-img-wrap.no-img { background: linear-gradient(145deg, #faf3e4 0%, #f3e9d3 100%); }
     .destacados-grid .card-placeholder-icon svg,
     .destacados-grid .card-placeholder-ref { color: var(--du-gold-dk); }
-    .destacados-grid .card-thumb.activo { border-color: var(--du-gold); }
+    .destacados-grid .card-thumb.activo { border-color: var(--du-rose); }
     .destacados-grid .card-thumb:hover { border-color: var(--du-gold-lt); }
     @media (max-width: 760px) {
       .destacados-grid .card-body { padding: 8px 9px 10px; }
@@ -451,7 +453,6 @@
       align-items: center;
       gap: 9px;
       background: none;
-      color: var(--du-gold-dk);
       font-family: var(--font-sans);
       font-size: 10px;
       font-weight: 600;
@@ -459,8 +460,9 @@
       text-transform: uppercase;
       padding: 0;
       white-space: nowrap;
+      color: var(--du-gold-dk);
     }
-    .destacados-badge svg { width: 11px; height: 11px; flex-shrink: 0; color: var(--du-gold); }
+    .destacados-badge svg { width: 11px; height: 11px; flex-shrink: 0; color: var(--du-rose); }
     .destacados-title {
       font-family: var(--font-serif);
       font-size: 30px;
@@ -469,16 +471,42 @@
       color: var(--du-dark);
       line-height: 1.15;
     }
-    .destacados-title em {
+
+    /* ── Tornasol: degradado ancho recortado al texto, en loop ── */
+    .tornasol {
+      background-image: linear-gradient(100deg,
+        #9c7440 0%,
+        #c19653 14%,
+        #d9b184 26%,
+        #e0bfa4 34%,
+        #dfa895 44%,
+        #c98f7d 54%,
+        #d9b184 66%,
+        #c19653 80%,
+        #9c7440 100%);
+      background-size: 300% 100%;
+      background-position: 0% 50%;
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent; color: transparent;
+      animation: tornasol 7s linear infinite;
+    }
+    .destacados-title .tornasol {
       font-style: italic;
       font-weight: 400;
-      background: linear-gradient(100deg, var(--du-gold-dk) 0%, #c9a227 45%, var(--du-gold-lt) 100%);
-      -webkit-background-clip: text; background-clip: text;
-      -webkit-text-fill-color: transparent; color: var(--du-gold);
+      padding-right: 0.08em;   /* aire para la itálica */
     }
+    .destacados-badge .tornasol { animation-duration: 9s; }
+    @keyframes tornasol {
+      0%   { background-position:   0% 50%; }
+      100% { background-position: 300% 50%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .tornasol { animation: none; background-position: 42% 50%; }
+    }
+
     .destacados-header-line {
       width: 54px; height: 1px; margin-top: 3px;
-      background: linear-gradient(90deg, transparent, var(--du-gold-lt), transparent);
+      background: linear-gradient(90deg, transparent, var(--du-rose-lt), var(--du-gold-lt), transparent);
     }
     @media (max-width: 640px) {
       .destacados-badge { font-size: 9px; letter-spacing: 0.22em; }
@@ -1418,9 +1446,9 @@
   <div class="destacados-header">
     <span class="destacados-badge">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.5l2.9 6.9 7.5.6-5.7 4.9 1.8 7.3L12 17.3 5.5 21.2l1.8-7.3-5.7-4.9 7.5-.6z"/></svg>
-      DU · Aniversario 2026
+      DU · <span class="tornasol">Aniversario 2026</span>
     </span>
-    <h2 class="destacados-title">Elección de <em>Aniversario</em></h2>
+    <h2 class="destacados-title">Elección de <em class="tornasol">Aniversario</em></h2>
     <div class="destacados-header-line"></div>
   </div>
   <div class="product-grid destacados-grid" id="destacadosGrid"></div>
