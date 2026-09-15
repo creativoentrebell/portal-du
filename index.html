@@ -1842,6 +1842,13 @@ function renderCard(p) {
 function normalizar(texto) {
   return (texto || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[-\s]/g, "");
 }
+/* Búsqueda por nombre/marca: ignora orden de palabras, guiones/espacios y tildes */
+function coincideNombre(nombre, query) {
+  const n = normalizar(nombre);
+  if (n.includes(normalizar(query))) return true;
+  const palabras = (query || "").split(/[-\s]+/).map(normalizar).filter(Boolean);
+  return palabras.length > 0 && palabras.every(w => n.includes(w));
+}
 function matchesFilters(p) {
   if (state.soloNuevos && !p.nuevo) return false;
   if (!state.showAgotados && p.agotado) return false;
@@ -1849,7 +1856,7 @@ function matchesFilters(p) {
   if (state.subcat && p.subcategoria !== state.subcat) return false;
   if (state.query) {
     const q = normalizar(state.query);
-    if (!normalizar(p.nombre).includes(q) && !normalizar(p.referencia).includes(q) && !normalizar(p.descripcion).includes(q)) return false;
+    if (!coincideNombre(p.nombre, state.query) && !normalizar(p.referencia).includes(q) && !normalizar(p.descripcion).includes(q)) return false;
   }
   return true;
 }
