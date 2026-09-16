@@ -3966,7 +3966,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pinceles con punzón (doble punta) por unidad.",
       "imagen": "img/unas/PUN5PCS.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0339",
@@ -7974,7 +7974,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/MOR7.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0698",
@@ -8292,7 +8292,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/PUNDB.png",
-      "agotado": false,
+      "agotado": true,
       "promocion": true
     },
     {
