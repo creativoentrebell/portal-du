@@ -10270,7 +10270,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash profesional.",
       "imagen": "img/pestanas/KITPE.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0864",
@@ -10281,7 +10281,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash profesional.",
       "imagen": "img/pestanas/LAMC.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0865",
@@ -10292,7 +10292,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash.",
       "imagen": "img/pestanas/TINPC.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0866",
