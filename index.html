@@ -1372,6 +1372,16 @@
     .cliente-field input:focus { border-color: var(--du-blue-dk); background: var(--du-white); }
     .cliente-field input.error { border-color: #e05555; }
     .cliente-field input::placeholder { color: var(--du-gray); }
+    .cliente-retenedor.oculto { display: none; }
+    .reten-opts { display: flex; gap: 8px; }
+    .reten-opt {
+      flex: 1; height: 44px; border: 1px solid var(--du-border); border-radius: 8px;
+      background: var(--du-off); font-family: var(--font-sans); font-size: 13.5px;
+      color: var(--du-dark); cursor: pointer; transition: border-color 0.15s, background 0.15s;
+    }
+    .reten-opt.activo { border-color: var(--du-dark); background: var(--du-dark); color: var(--du-white); font-weight: 600; }
+    .reten-opts.error .reten-opt { border-color: #e05555; }
+    .reten-help { font-size: 11px; color: var(--du-gray); line-height: 1.35; }
     .cliente-warning { font-size: 11.5px; color: #e05555; min-height: 15px; opacity: 0; transition: opacity 0.2s; }
     .cliente-warning.visible { opacity: 1; }
     .cliente-continue-btn {
@@ -1689,6 +1699,14 @@
       <div class="cliente-field">
         <label class="opt-label" for="clienteTelefono">Teléfono de contacto<span class="req">*</span></label>
         <input type="tel" inputmode="tel" id="clienteTelefono" placeholder="Ej. 3001234567" autocomplete="off">
+      </div>
+      <div class="cliente-field cliente-retenedor oculto" id="clienteRetenedorField">
+        <span class="opt-label">¿Eres agente retenedor en la fuente?<span class="req">*</span></span>
+        <div class="reten-opts" id="retenOpts">
+          <button type="button" class="reten-opt" data-val="si" onclick="elegirRetenedor('si')">Sí</button>
+          <button type="button" class="reten-opt" data-val="no" onclick="elegirRetenedor('no')">No</button>
+        </div>
+        <span class="reten-help">Si eres retenedor, calculamos la retención en la fuente en tu cotización.</span>
       </div>
       <div class="cliente-warning" id="clienteWarning">Completa todos los campos para continuar.</div>
       <button class="cliente-continue-btn" onclick="continuarADestinos()">
@@ -2559,7 +2577,27 @@ function showToast(msg) {
 }
 
 /* Datos del cliente (se piden justo antes de enviar la cotización) */
-let clienteData = { cedula: '', nombre: '', direccion: '', ciudad: '', telefono: '' };
+let clienteData = { cedula: '', nombre: '', direccion: '', ciudad: '', telefono: '', retenedor: '' };
+
+/* ── Retención en la fuente (solo modo mayorista) ──
+   Si la DIAN cambia la tarifa o la base mínima, ajustar SOLO estas constantes. */
+const RETEFUENTE_TARIFA   = 0.025;   // 2,5 %
+const RETEFUENTE_BASE_MIN = 524000;  // base mínima (sin IVA) para aplicar retención
+const IVA_TARIFA          = 0.19;    // los precios mayoristas incluyen IVA del 19 %
+
+function elegirRetenedor(val) {
+  clienteData.retenedor = val;
+  document.querySelectorAll('#retenOpts .reten-opt').forEach(b => b.classList.toggle('activo', b.dataset.val === val));
+  document.getElementById('retenOpts').classList.remove('error');
+}
+
+/* Calcula base, retención y valor final a partir del total CON IVA (en pesos enteros) */
+function calcularRetencion(totalConIva) {
+  const base = Math.round(totalConIva / (1 + IVA_TARIFA));
+  const aplica = base >= RETEFUENTE_BASE_MIN;
+  const retencion = aplica ? Math.round(base * RETEFUENTE_TARIFA) : 0;
+  return { base, aplica, retencion, final: totalConIva - retencion };
+}
 
 function abrirDatosCliente() {
   if (cart.length === 0) return;
@@ -2568,6 +2606,8 @@ function abrirDatosCliente() {
   document.getElementById('clienteDireccion').value = clienteData.direccion;
   document.getElementById('clienteCiudad').value = clienteData.ciudad;
   document.getElementById('clienteTelefono').value = clienteData.telefono;
+  document.getElementById('clienteRetenedorField').classList.toggle('oculto', mode !== 'mayorista');
+  elegirRetenedor(clienteData.retenedor);
   document.getElementById('clienteWarning').classList.remove('visible');
   ['clienteCedula','clienteNombre','clienteDireccion','clienteCiudad','clienteTelefono'].forEach(id => {
     document.getElementById(id).classList.remove('error');
@@ -2595,6 +2635,10 @@ function continuarADestinos() {
     input.classList.toggle('error', vacio);
     if (vacio) faltan = true;
   });
+  if (mode === 'mayorista' && !clienteData.retenedor) {
+    document.getElementById('retenOpts').classList.add('error');
+    faltan = true;
+  }
   const warning = document.getElementById('clienteWarning');
   if (faltan) {
     warning.classList.add('visible');
@@ -2606,7 +2650,8 @@ function continuarADestinos() {
     nombre: campos.nombre.value.trim(),
     direccion: campos.direccion.value.trim(),
     ciudad: campos.ciudad.value.trim(),
-    telefono: campos.telefono.value.trim()
+    telefono: campos.telefono.value.trim(),
+    retenedor: clienteData.retenedor
   };
   cerrarDatosCliente();
   abrirDestinos();
@@ -2626,6 +2671,7 @@ function buildWhatsAppMessage() {
   L.push('• Dirección: ' + clienteData.direccion);
   L.push('• Ciudad: ' + clienteData.ciudad);
   L.push('• Teléfono: ' + clienteData.telefono);
+  if (mode === 'mayorista') L.push('• Agente retenedor: ' + (clienteData.retenedor === 'si' ? 'Sí' : 'No'));
   L.push('━━━━━━━━━━━━━━━━━━━');
   L.push('');
 
@@ -2652,6 +2698,23 @@ function buildWhatsAppMessage() {
   L.push('Productos: ' + cart.length + '  ·  Unidades: ' + unidades);
   if (conPrecios) {
     L.push('*TOTAL: $' + formatPrice(total) + '*' + (hayPendiente ? ' _(+ ítems a confirmar)_' : ''));
+    if (mode === 'mayorista' && clienteData.retenedor === 'si') {
+      L.push('');
+      if (hayPendiente) {
+        L.push('Retención en la fuente: _a calcular por la asesora (hay productos con precio a confirmar)_');
+      } else {
+        const r = calcularRetencion(total);
+        if (r.aplica) {
+          L.push('Base a aplicar retención: $' + formatPrice(r.base));
+          L.push('Retención en la fuente (' + String(RETEFUENTE_TARIFA * 100).replace('.', ',') + '%): $' + formatPrice(r.retencion));
+        } else {
+          L.push('Retención en la fuente: no aplica (base inferior a $' + formatPrice(RETEFUENTE_BASE_MIN) + ')');
+        }
+        L.push('━━━━━━━━━━━━━━━');
+        L.push('💰 *VALOR FINAL A PAGAR: $' + formatPrice(r.final) + '*');
+        L.push('━━━━━━━━━━━━━━━');
+      }
+    }
   } else {
     L.push('Precios a confirmar con la asesora.');
   }
