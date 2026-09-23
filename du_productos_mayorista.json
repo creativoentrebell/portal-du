@@ -20,7 +20,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 curvatura D para un look más dramático y levantado.",
       "imagen": "img/pestanas/SET4 ANGELINA-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0003",
@@ -31,7 +31,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 Carlina curvatura D.",
       "imagen": "img/pestanas/SET4 CARLINA-D.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0004",
@@ -460,7 +460,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestañas cluster 3D.",
       "imagen": "img/pestanas/CLU3D12.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0043",
@@ -2566,7 +2566,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo Bent.",
       "imagen": "img/pestanas/PINZA-75 1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0192",
@@ -2610,7 +2610,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo L microdentada. Mejor agarre al realizar abanicos sin partir la fibra.",
       "imagen": "img/pestanas/PINZA-100 1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0197",
@@ -7430,7 +7430,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
       "imagen": "",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0643",
@@ -7441,7 +7441,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
       "imagen": "",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0644",
@@ -10238,7 +10238,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Kit base para lashista profesional.",
       "imagen": "img/pestanas/KITLASHISTA1_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/KITLASHISTA1_1.jpg",
         "img/pestanas/KITLASHISTA1_2.jpg",
@@ -10254,7 +10254,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Kit profesional completo para lashista.",
       "imagen": "img/pestanas/KITLASHISTA2_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/KITLASHISTA2_1.jpg",
         "img/pestanas/KITLASHISTA2_2.jpg",
