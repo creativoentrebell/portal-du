@@ -894,30 +894,6 @@
       "destacado": true
     },
     {
-      "id": "p0082",
-      "nombre": "Cluster EMPG",
-      "referencia": "EMPG",
-      "precio": 9000,
-      "categoria": "Pestañas",
-      "subcategoria": "Pestañas de fácil aplicación",
-      "descripcion": "Pestañas cluster EMPG.",
-      "imagen": "img/pestanas/EMPG.webp",
-      "agotado": false,
-      "destacado": true
-    },
-    {
-      "id": "p0084",
-      "nombre": "Cluster PCUR-M",
-      "referencia": "PCUR-M",
-      "precio": 21900,
-      "categoria": "Pestañas",
-      "subcategoria": "Tecnológicas",
-      "descripcion": "Pestañas cluster curvatura M.",
-      "imagen": "img/pestanas/PCUR-M 2.webp",
-      "agotado": false,
-      "destacado": true
-    },
-    {
       "id": "p0085",
       "nombre": "Cluster Camellia Mix 10C",
       "referencia": "CAMELLIAMIX10C",
@@ -2189,17 +2165,6 @@
       "agotado": false
     },
     {
-      "id": "p0158",
-      "nombre": "Encrespador Fino C-0478",
-      "referencia": "C-0478",
-      "precio": 7900,
-      "categoria": "Pestañas",
-      "subcategoria": "Accesorios de pestañas",
-      "descripcion": "Encrespador de pestañas fino.",
-      "imagen": "img/pestanas/C-0478 2.webp",
-      "agotado": false
-    },
-    {
       "id": "p0159",
       "nombre": "Encrespador Masmellow E90",
       "referencia": "E90",
@@ -2265,17 +2230,6 @@
       ]
     },
     {
-      "id": "p0165",
-      "nombre": "Encrespador E102",
-      "referencia": "E102",
-      "precio": 6900,
-      "categoria": "Pestañas",
-      "subcategoria": "Accesorios de pestañas",
-      "descripcion": "Encrespador de pestañas.",
-      "imagen": "img/pestanas/E102 CREMA.webp",
-      "agotado": true
-    },
-    {
       "id": "p0166",
       "nombre": "Encrespador E103",
       "referencia": "E103",
@@ -2285,17 +2239,6 @@
       "descripcion": "Encrespador de pestañas con bandas de goma internas. Repuesto de silicona incluido.",
       "imagen": "img/pestanas/E103 GRIS.webp",
       "agotado": true
-    },
-    {
-      "id": "p0167",
-      "nombre": "Encrespador E104",
-      "referencia": "E104",
-      "precio": 6900,
-      "categoria": "Pestañas",
-      "subcategoria": "Accesorios de pestañas",
-      "descripcion": "Encrespador de pestañas con bandas de goma internas. Repuesto de silicona incluido.",
-      "imagen": "img/pestanas/E104 MORADO.webp",
-      "agotado": false
     },
     {
       "id": "p0168",
