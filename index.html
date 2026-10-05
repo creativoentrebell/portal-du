@@ -2243,11 +2243,12 @@ function renderDestacados() {
    DUCENAZO — campaña de octubre (12 + unidades gratis)
    · Productos: campo "ducenazo": <unidades de regalo> en los JSON.
    · Historias: campo "historia": "img/ducenazo/<REFERENCIA>.png" en los JSON.
-   · Se oculta sola después de DUCENAZO_FIN.
+   · Se muestra u oculta a mano con DUCENAZO_ACTIVO.
 ───────────────────────────────────────────────── */
-const DUCENAZO_FIN       = new Date('2026-11-01T00:00:00-05:00');
+const DUCENAZO_ACTIVO    = false;   // ← true = campaña visible · false = oculta
+const DUCENAZO_PREVIEW   = new URLSearchParams(location.search).has('ducenazo');   // ?ducenazo para revisarla antes
 const DUCENAZO_DURACION  = 5000;           // ms por historia
-function ducenazoActivo() { return new Date() < DUCENAZO_FIN; }
+function ducenazoActivo() { return DUCENAZO_ACTIVO || DUCENAZO_PREVIEW; }
 
 function renderDucenazo() {
   const section = document.getElementById('ducSection');
