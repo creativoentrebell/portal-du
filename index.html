@@ -402,6 +402,204 @@
     }
     .section-divider-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--du-blue); flex-shrink: 0; }
 
+
+    /* ─── DUCENAZO (campaña octubre) ─────────────────── */
+    .duc-section {
+      background: linear-gradient(180deg, #e6f4fb 0%, #f3fafd 45%, #ffffff 100%);
+      border-bottom: 1px solid #d6ebf6;
+      position: relative;
+      z-index: 1;
+    }
+    .duc-section::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--du-blue) 20%, #5b9fd0 50%, var(--du-blue) 80%, transparent);
+    }
+    .duc-header {
+      max-width: 1280px; margin: 0 auto;
+      padding: 28px 24px 4px;
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      text-align: center;
+    }
+    .duc-logo { height: 118px; width: auto; display: block; }
+    .duc-title-txt {
+      display: none;
+      font-size: 32px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--du-dark);
+    }
+    .duc-title-txt b { color: var(--du-blue-dk); }
+    .duc-header.no-logo .duc-logo { display: none; }
+    .duc-header.no-logo .duc-title-txt { display: block; }
+    .duc-sub {
+      font-size: 13px; color: #555; line-height: 1.5; max-width: 520px;
+    }
+    .duc-sub strong { color: var(--du-dark); font-weight: 600; }
+    .duc-vigencia {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase;
+      color: #4a8fc0;
+    }
+    @media (max-width: 640px) {
+      .duc-header { padding: 22px 16px 2px; gap: 6px; }
+      .duc-logo { height: 84px; }
+      .duc-title-txt { font-size: 24px; }
+      .duc-sub { font-size: 12px; }
+      .duc-vigencia { font-size: 9px; letter-spacing: 0.18em; }
+    }
+
+    /* — Fila de historias — */
+    .duc-stories-wrap { position: relative; max-width: 1280px; margin: 0 auto; }
+    .duc-scroll {
+      position: absolute; top: 44px; transform: translateY(-50%); z-index: 2;
+      width: 34px; height: 34px; border-radius: 50%;
+      border: 1px solid #d6ebf6; background: #fff; color: var(--du-dark);
+      display: flex; align-items: center; justify-content: center; cursor: pointer;
+      box-shadow: 0 2px 8px rgba(60,120,170,0.15);
+    }
+    .duc-scroll svg { width: 16px; height: 16px; }
+    .duc-scroll.izq { left: 6px; }
+    .duc-scroll.der { right: 6px; }
+    @media (hover: none), (max-width: 760px) { .duc-scroll { display: none; } }
+    .duc-stories {
+      display: flex; gap: 18px;
+      justify-content: flex-start;
+      padding: 18px 24px 6px;
+      overflow-x: auto; scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+    .duc-stories::-webkit-scrollbar { display: none; }
+    .duc-story:first-child { margin-left: auto; }
+    .duc-story:last-child { margin-right: auto; }
+    @media (hover: hover) and (min-width: 761px) { .duc-stories { padding-left: 48px; padding-right: 48px; } }
+    .duc-stories:empty { display: none; }
+    .duc-story {
+      flex: 0 0 auto;
+      background: none; border: 0; padding: 0; cursor: pointer;
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      font-family: var(--font-sans);
+      -webkit-tap-highlight-color: transparent;
+    }
+    .duc-ring {
+      display: block;
+      width: 82px; height: 82px; border-radius: 50%;
+      padding: 3px;
+      background: conic-gradient(from 210deg, #2e2e2e, #5b9fd0, var(--du-blue), #cfeaf8, #5b9fd0, #2e2e2e);
+      transition: transform 0.2s;
+    }
+    .duc-story:hover .duc-ring { transform: scale(1.05); }
+    .duc-story.vista .duc-ring { background: #d4d6d9; }
+    .duc-ring-inner {
+      display: block;
+      width: 100%; height: 100%; border-radius: 50%;
+      background: #fff; padding: 3px;
+    }
+    .duc-ring-inner img {
+      width: 100%; height: 100%; border-radius: 50%;
+      object-fit: cover; object-position: center 35%;
+      display: block; background: var(--du-off);
+    }
+    .duc-story-label {
+      font-size: 11px; color: var(--du-dark); max-width: 86px;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .duc-story-label:empty { display: none; }
+    @media (max-width: 640px) {
+      .duc-stories { gap: 14px; padding: 14px 16px 4px; }
+      .duc-ring { width: 70px; height: 70px; }
+    }
+
+    /* — Visor de historias — */
+    .duc-viewer {
+      position: fixed; inset: 0; z-index: 2000;
+      background: rgba(12,14,16,0.94);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.22s;
+      touch-action: none;
+    }
+    .duc-viewer.visible { opacity: 1; pointer-events: all; }
+    .duc-frame {
+      position: relative;
+      height: min(92vh, 900px);
+      aspect-ratio: 9 / 16;
+      max-width: 100vw;
+      border-radius: 10px; overflow: hidden;
+      background: #000;
+      user-select: none; -webkit-user-select: none;
+    }
+    .duc-frame img {
+      width: 100%; height: 100%; object-fit: contain; display: block;
+      pointer-events: none;
+      transition: opacity 0.18s;
+    }
+    .duc-bars {
+      position: absolute; top: 10px; left: 10px; right: 10px; z-index: 3;
+      display: flex; gap: 4px;
+    }
+    .duc-bar { flex: 1; height: 3px; border-radius: 2px; background: rgba(255,255,255,0.35); overflow: hidden; }
+    .duc-bar i { display: block; height: 100%; width: 0; background: #fff; }
+    .duc-bar.done i { width: 100%; }
+    .duc-top {
+      position: absolute; top: 20px; left: 12px; right: 8px; z-index: 3;
+      display: flex; align-items: center; gap: 8px;
+      color: #fff; font-size: 12px; font-weight: 600;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+    }
+    .duc-top img { width: 30px; height: 30px; border-radius: 50%; object-fit: cover; object-position: center 35%; border: 1.5px solid #fff; }
+    .duc-top span { flex: 1; }
+    .duc-close {
+      background: none; border: 0; color: #fff; font-size: 30px; line-height: 1;
+      width: 40px; height: 40px; cursor: pointer; opacity: 0.9;
+    }
+    .duc-tap { position: absolute; top: 0; bottom: 0; z-index: 2; width: 35%; cursor: pointer; }
+    .duc-tap.izq { left: 0; }
+    .duc-tap.der { right: 0; width: 65%; }
+    .duc-arrow {
+      position: absolute; top: 50%; transform: translateY(-50%); z-index: 4;
+      width: 46px; height: 46px; border-radius: 50%;
+      border: 0; cursor: pointer;
+      background: rgba(255,255,255,0.14); color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .duc-arrow:hover { background: rgba(255,255,255,0.28); }
+    .duc-arrow svg { width: 22px; height: 22px; }
+    .duc-arrow.prev { left: calc(50% - (min(92vh, 900px) * 9 / 16) / 2 - 66px); }
+    .duc-arrow.next { right: calc(50% - (min(92vh, 900px) * 9 / 16) / 2 - 66px); }
+    .duc-arrow[hidden] { display: none; }
+    @media (max-width: 760px) {
+      .duc-frame { height: 100%; width: 100%; aspect-ratio: auto; border-radius: 0; }
+      .duc-arrow { width: 38px; height: 38px; background: rgba(0,0,0,0.28); }
+      .duc-arrow.prev { left: 8px; }
+      .duc-arrow.next { right: 8px; }
+    }
+
+    /* — Cuadrícula Ducenazo (misma compacta que Aniversario, en azul DU) — */
+    .destacados-grid.ducenazo-grid .product-card { border-color: #d6ebf6; background: #fff; box-shadow: 0 1px 3px rgba(60,120,170,0.06); }
+    .destacados-grid.ducenazo-grid .product-card::after { background: linear-gradient(90deg, #2e2e2e 0%, #5b9fd0 35%, var(--du-blue) 65%, #2e2e2e 100%); }
+    .destacados-grid.ducenazo-grid .product-card:hover { box-shadow: 0 6px 20px -6px rgba(60,120,170,0.25); }
+    .destacados-grid.ducenazo-grid .card-subcat { color: #4a8fc0; }
+    .destacados-grid.ducenazo-grid .card-img-wrap.no-img { background: linear-gradient(145deg, #eef7fc 0%, #e0f0f9 100%); }
+    .destacados-grid.ducenazo-grid .card-placeholder-icon svg,
+    .destacados-grid.ducenazo-grid .card-placeholder-ref { color: #4a8fc0; }
+    .destacados-grid.ducenazo-grid .card-thumb.activo { border-color: var(--du-blue-dk); }
+    .destacados-grid.ducenazo-grid .card-thumb:hover { border-color: var(--du-blue); }
+
+    /* — Sello 12+4 en la tarjeta — */
+    .duc-badge {
+      position: absolute; top: 12px; right: 12px; z-index: 21;
+      display: inline-flex; align-items: stretch;
+      font-size: 11px; font-weight: 700; line-height: 1;
+      border-radius: 4px; overflow: hidden;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.14);
+    }
+    .duc-badge span { background: var(--du-dark); color: var(--du-blue); padding: 4px 6px 4px 7px; }
+    .duc-badge b { background: var(--du-blue-dk); color: #fff; padding: 4px 7px 4px 6px; font-weight: 700; }
+    .promo-badge + .duc-badge { top: 40px; }
+    .prod-modal-duc {
+      display: inline-block; font-size: 10px; font-weight: 600; letter-spacing: 0.08em;
+      background: #e6f4fb; color: #2e6e9c; border: 1px solid #c4e2f3;
+      padding: 3px 9px; border-radius: 2px; margin-bottom: 14px; margin-right: 6px;
+    }
+
     /* ─── DESTACADOS DEL MES ─────────────────────────── */
     .destacados-section {
       background: linear-gradient(180deg, var(--du-cream-dp) 0%, var(--du-cream) 40%, #ffffff 100%);
@@ -1530,6 +1728,40 @@
 
 </div><!-- /filter-bar -->
 
+<!-- ─── DUCENAZO (campaña octubre) ─── -->
+<section class="duc-section" id="ducSection" style="display:none">
+  <div class="duc-header" id="ducHeader">
+    <img class="duc-logo" src="img/ducenazo/logo_ducenazo.webp" alt="Ducenazo 12 + 4 gratis"
+         onerror="document.getElementById('ducHeader').classList.add('no-logo')"/>
+    <h2 class="duc-title-txt">Ducenazo <b>12+4</b></h2>
+    <p class="duc-sub">Por cada <strong>docena</strong> que compres de estas referencias, te llevas <strong>unidades gratis</strong>.</p>
+    <span class="duc-vigencia">Solo hasta el 31 de octubre</span>
+  </div>
+  <div class="duc-stories-wrap" id="ducStoriesWrap">
+    <button class="duc-scroll izq" type="button" aria-label="Ver anteriores" onclick="document.getElementById('ducStories').scrollBy({left:-360,behavior:'smooth'})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <div class="duc-stories" id="ducStories"></div>
+    <button class="duc-scroll der" type="button" aria-label="Ver siguientes" onclick="document.getElementById('ducStories').scrollBy({left:360,behavior:'smooth'})"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+  <div class="product-grid destacados-grid ducenazo-grid" id="ducGrid"></div>
+</section>
+
+<!-- ─── VISOR DE HISTORIAS DUCENAZO ─── -->
+<div class="duc-viewer" id="ducViewer" aria-hidden="true">
+  <button class="duc-arrow prev" id="ducPrev" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+  <div class="duc-frame" id="ducFrame">
+    <div class="duc-bars" id="ducBars"></div>
+    <div class="duc-top">
+      <img id="ducTopImg" src="" alt=""/>
+      <span>DU · Ducenazo</span>
+      <button class="duc-close" id="ducClose" aria-label="Cerrar">×</button>
+    </div>
+    <img id="ducImg" src="" alt="Oferta Ducenazo"/>
+    <div class="duc-tap izq" id="ducTapIzq"></div>
+    <div class="duc-tap der" id="ducTapDer"></div>
+  </div>
+  <button class="duc-arrow next" id="ducNext" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+
 <!-- ─── ELECCIÓN DE ANIVERSARIO ─── -->
 <section class="destacados-section" id="destacadosSection" style="display:none">
   <div class="destacados-header">
@@ -1613,7 +1845,7 @@
       <span class="prod-modal-subcat" id="prodModalSubcat"></span>
       <h2 class="prod-modal-name" id="prodModalName"></h2>
       <span class="prod-modal-ref" id="prodModalRef"></span>
-      <span class="prod-modal-nuevo" id="prodModalNuevo" style="display:none">Nuevo</span><span class="prod-modal-promo" id="prodModalPromo" style="display:none">Promoción</span><span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
+      <span class="prod-modal-nuevo" id="prodModalNuevo" style="display:none">Nuevo</span><span class="prod-modal-promo" id="prodModalPromo" style="display:none">Promoción</span><span class="prod-modal-duc" id="prodModalDuc" style="display:none"></span><span class="prod-modal-agotado" id="prodModalAgotado" style="display:none">Agotado</span>
       <p class="prod-modal-desc" id="prodModalDesc"></p>
       <div class="prod-modal-price-wrap" id="prodModalPriceWrap" style="display:none">
         <div class="prod-modal-price" id="prodModalPrice"></div>
@@ -1823,6 +2055,7 @@ function renderCard(p) {
   const agotadoHTML = p.agotado ? `<div class="agotado-overlay"><span class="agotado-badge">Agotado</span></div>` : "";
   const promoHTML   = p.promocion ? `<span class="promo-badge">Promoción</span>` : "";
   const nuevoHTML   = p.nuevo ? `<span class="nuevo-badge">Nuevo</span>` : "";
+  const ducHTML     = (p.ducenazo && ducenazoActivo()) ? `<span class="duc-badge" title="Ducenazo: por cada 12 llévate ${p.ducenazo} gratis"><span>12</span><b>+${p.ducenazo}</b></span>` : "";
   const hasImg      = p.imagen && p.imagen.trim() !== "";
   const placeholderIcon = ICONS[p.categoria] || ICONS["Accesorios"];
 
@@ -1852,6 +2085,7 @@ function renderCard(p) {
       </div>
       ${thumbsHTML}
       ${promoHTML}
+      ${ducHTML}
       ${agotadoHTML}
       ${nuevoHTML}
     </div>
@@ -1986,6 +2220,7 @@ function renderGrid() {
 
 /* ── Destacados del mes (sección fija, respeta búsqueda y filtros de categoría) ── */
 function renderDestacados() {
+  const hayDucenazo = renderDucenazo();
   const section  = document.getElementById('destacadosSection');
   const grid     = document.getElementById('destacadosGrid');
   const divider  = document.getElementById('catalogoDivider');
@@ -1994,7 +2229,7 @@ function renderDestacados() {
   if (!destacados.length) {
     section.style.display = 'none';
     grid.innerHTML = '';
-    if (divider) divider.style.display = 'none';
+    if (divider) divider.style.display = hayDucenazo ? '' : 'none';
     return;
   }
   section.style.display = '';
@@ -2002,6 +2237,154 @@ function renderDestacados() {
   grid.innerHTML = destacados.map(renderCard).join('');
   grid.querySelectorAll('img[data-src]').forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
 }
+
+
+/* ─────────────────────────────────────────────────
+   DUCENAZO — campaña de octubre (12 + unidades gratis)
+   · Productos: campo "ducenazo": <unidades de regalo> en los JSON.
+   · Historias: campo "historia": "img/ducenazo/<REFERENCIA>.png" en los JSON.
+   · Se oculta sola después de DUCENAZO_FIN.
+───────────────────────────────────────────────── */
+const DUCENAZO_FIN       = new Date('2026-11-01T00:00:00-05:00');
+const DUCENAZO_DURACION  = 5000;           // ms por historia
+function ducenazoActivo() { return new Date() < DUCENAZO_FIN; }
+
+function renderDucenazo() {
+  const section = document.getElementById('ducSection');
+  const grid    = document.getElementById('ducGrid');
+  if (!section || !grid) return false;
+  if (!ducenazoActivo()) { section.style.display = 'none'; grid.innerHTML = ''; return false; }
+  const items = allProducts.filter(p => p.ducenazo && matchesFilters(p));
+  const filtrando = state.query || state.cat || state.subcat || state.soloNuevos;
+  if (!items.length && (filtrando || !_ducHistorias.length)) {
+    section.style.display = 'none'; grid.innerHTML = ''; return false;
+  }
+  section.style.display = '';
+  document.getElementById('ducStoriesWrap').style.display = filtrando ? 'none' : '';
+  grid.innerHTML = items.map(renderCard).join('');
+  grid.querySelectorAll('img[data-src]').forEach(img => { img.src = img.dataset.src; img.removeAttribute('data-src'); });
+  return true;
+}
+
+/* — Historias: salen del campo "historia" de cada producto (mismo orden de los JSON) — */
+let _ducHistorias = [];
+function cargarHistoriasDucenazo() {
+  if (!ducenazoActivo()) return;
+  _ducHistorias = allProducts
+    .filter(p => p.ducenazo && p.historia)
+    .map(p => ({ src: p.historia, titulo: p.referencia, id: p.id }));
+  pintarCirculosDucenazo();
+}
+function _ducVistas() { try { return JSON.parse(localStorage.getItem('du_ducenazo_vistas') || '[]'); } catch (e) { return []; } }
+function _ducMarcarVista(src) {
+  try { const v = new Set(_ducVistas()); v.add(src); localStorage.setItem('du_ducenazo_vistas', JSON.stringify([...v])); } catch (e) {}
+}
+function pintarCirculosDucenazo() {
+  const cont = document.getElementById('ducStories');
+  if (!cont) return;
+  const vistas = new Set(_ducVistas());
+  cont.innerHTML = _ducHistorias.map((h, i) => `
+    <button class="duc-story ${vistas.has(h.src) ? 'vista' : ''}" onclick="abrirHistoria(${i})" aria-label="Ver oferta ${i + 1}">
+      <span class="duc-ring"><span class="duc-ring-inner"><img src="${h.src}" alt="" loading="lazy" onerror="this.closest('.duc-story').remove()"/></span></span>
+      <span class="duc-story-label">${h.titulo}</span>
+    </button>`).join('');
+}
+
+/* — Visor tipo Instagram — */
+let _ducIdx = 0, _ducTimer = null, _ducInicio = 0, _ducRestante = DUCENAZO_DURACION, _ducPausa = false;
+function abrirHistoria(i) {
+  if (!_ducHistorias.length) return;
+  const bars = document.getElementById('ducBars');
+  bars.innerHTML = _ducHistorias.map(() => '<div class="duc-bar"><i></i></div>').join('');
+  document.getElementById('ducViewer').classList.add('visible');
+  document.getElementById('ducViewer').setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+  mostrarHistoria(i);
+}
+function cerrarHistoria() {
+  const v = document.getElementById('ducViewer');
+  if (!v.classList.contains('visible')) return;
+  clearTimeout(_ducTimer); _ducTimer = null;
+  v.classList.remove('visible'); v.setAttribute('aria-hidden', 'true');
+  document.body.style.overflow = '';
+  pintarCirculosDucenazo();
+}
+function mostrarHistoria(i) {
+  if (i < 0) i = 0;
+  if (i >= _ducHistorias.length) { cerrarHistoria(); return; }
+  _ducIdx = i;
+  const h = _ducHistorias[i];
+  document.getElementById('ducImg').src = h.src;
+  document.getElementById('ducTopImg').src = h.src;
+  document.getElementById('ducPrev').hidden = (i === 0);
+  document.getElementById('ducNext').hidden = (i === _ducHistorias.length - 1);
+  document.querySelectorAll('#ducBars .duc-bar').forEach((b, k) => {
+    b.classList.toggle('done', k < i);
+    const fill = b.querySelector('i'); fill.style.transition = 'none'; fill.style.width = k < i ? '100%' : '0';
+  });
+  _ducMarcarVista(h.src);
+  _ducRestante = DUCENAZO_DURACION; _ducPausa = false;
+  _ducArrancar();
+}
+function _ducArrancar() {
+  clearTimeout(_ducTimer);
+  const fill = document.querySelectorAll('#ducBars .duc-bar i')[_ducIdx];
+  if (fill) {
+    void fill.offsetWidth;
+    fill.style.transition = `width ${_ducRestante}ms linear`;
+    fill.style.width = '100%';
+  }
+  _ducInicio = Date.now();
+  _ducTimer = setTimeout(() => mostrarHistoria(_ducIdx + 1), _ducRestante);
+}
+function _ducPausar() {
+  if (_ducPausa || !_ducTimer) return;
+  _ducPausa = true; clearTimeout(_ducTimer);
+  _ducRestante = Math.max(0, _ducRestante - (Date.now() - _ducInicio));
+  const fill = document.querySelectorAll('#ducBars .duc-bar i')[_ducIdx];
+  if (fill) { const w = getComputedStyle(fill).width; fill.style.transition = 'none'; fill.style.width = w; }
+}
+function _ducReanudar() { if (!_ducPausa) return; _ducPausa = false; _ducArrancar(); }
+
+(function initVisorDucenazo() {
+  const v = document.getElementById('ducViewer');
+  if (!v) return;
+  document.getElementById('ducClose').addEventListener('click', e => { e.stopPropagation(); cerrarHistoria(); });
+  document.getElementById('ducPrev').addEventListener('click', e => { e.stopPropagation(); mostrarHistoria(_ducIdx - 1); });
+  document.getElementById('ducNext').addEventListener('click', e => { e.stopPropagation(); mostrarHistoria(_ducIdx + 1); });
+  v.addEventListener('click', e => { if (e.target === v) cerrarHistoria(); });
+
+  // Tocar a los lados = anterior/siguiente · mantener presionado = pausa · deslizar = navegar/cerrar
+  const frame = document.getElementById('ducFrame');
+  let x0 = 0, y0 = 0, t0 = 0, zona = null;
+  frame.addEventListener('pointerdown', e => {
+    if (e.target.closest('.duc-close')) return;
+    x0 = e.clientX; y0 = e.clientY; t0 = Date.now();
+    zona = e.target.id === 'ducTapIzq' ? 'izq' : (e.target.id === 'ducTapDer' ? 'der' : null);
+    _ducPausar();
+  });
+  frame.addEventListener('pointerup', e => {
+    if (e.target.closest('.duc-close')) return;
+    const dx = e.clientX - x0, dy = e.clientY - y0, dt = Date.now() - t0;
+    if (dy > 80 && Math.abs(dy) > Math.abs(dx)) { cerrarHistoria(); return; }
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { mostrarHistoria(_ducIdx + (dx < 0 ? 1 : -1)); return; }
+    if (dt < 250 && zona) { mostrarHistoria(_ducIdx + (zona === 'der' ? 1 : -1)); return; }
+    _ducReanudar();
+  });
+  frame.addEventListener('pointercancel', _ducReanudar);
+  frame.addEventListener('contextmenu', e => e.preventDefault());
+
+  document.addEventListener('keydown', e => {
+    if (!v.classList.contains('visible')) return;
+    if (e.key === 'ArrowRight') mostrarHistoria(_ducIdx + 1);
+    else if (e.key === 'ArrowLeft') mostrarHistoria(_ducIdx - 1);
+    else if (e.key === 'Escape') cerrarHistoria();
+  });
+  document.addEventListener('visibilitychange', () => {
+    if (!v.classList.contains('visible')) return;
+    document.hidden ? _ducPausar() : _ducReanudar();
+  });
+})();
 
 /* ── Subcategories ── */
 function renderSubcats() {
@@ -2213,6 +2596,9 @@ function openProdModal(id) {
   // Promoción
   document.getElementById('prodModalNuevo').style.display = p.nuevo ? 'inline-block' : 'none';
   document.getElementById('prodModalPromo').style.display = p.promocion ? 'inline-block' : 'none';
+  const _ducTag = document.getElementById('prodModalDuc');
+  if (p.ducenazo && ducenazoActivo()) { _ducTag.textContent = `Ducenazo · Por cada 12 llévate ${p.ducenazo} gratis`; _ducTag.style.display = 'inline-block'; }
+  else _ducTag.style.display = 'none';
 
   // Imagen
   const img     = document.getElementById('prodModalImg');
@@ -2835,6 +3221,7 @@ async function init() {
     renderSubcats();
     updateModeUI();
     initSoloNuevos();
+    cargarHistoriasDucenazo();
     renderGrid();
     renderDestacados();
     updateCartCount();

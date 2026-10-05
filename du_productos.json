@@ -1112,7 +1112,9 @@
       "descripcion": "Pestañas pelo a pelo curvatura M. Grosor 0.07. Largos 8-14mm.",
       "imagen": "img/pestanas/PCUR-M 2.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 3,
+      "historia": "img/ducenazo/PCUR-M.png"
     },
     {
       "id": "p0103",
@@ -2396,7 +2398,9 @@
       "descripcion": "Pinza profesional de alta precisión.",
       "imagen": "img/pestanas/PINZA-40.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PINZA-40.png"
     },
     {
       "id": "p0182",
@@ -2578,7 +2582,9 @@
       "descripcion": "Pinza tipo hacha microdentada para abanicos más voluminosos.",
       "imagen": "img/pestanas/PINZA-120.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PINZA-120.png"
     },
     {
       "id": "p0199",
@@ -2590,7 +2596,8 @@
       "descripcion": "Pinza tipo hacha con efecto polvo en punta para mejor agarre.",
       "imagen": "img/pestanas/PINZA-120A.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4
     },
     {
       "id": "p0200",
@@ -2713,7 +2720,9 @@
       "descripcion": "Dispensador de cinta/transpore. Forma de corazón.",
       "imagen": "img/pestanas/88011-PhotoRoom.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/88011.png"
     },
     {
       "id": "p0211",
@@ -2736,7 +2745,9 @@
       "descripcion": "Espejo para pestañas.",
       "imagen": "img/pestanas/ESPES03_1.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/ESPES03.png"
     },
     {
       "id": "p0213",
@@ -2815,7 +2826,9 @@
       "descripcion": "Paleta en forma de Y para lifting de pestañas. Paquete x6 pares.",
       "imagen": "img/pestanas/PAH02.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PAH02.png"
     },
     {
       "id": "p0221",
@@ -2827,7 +2840,9 @@
       "descripcion": "Herramienta para lifting de pestañas en acero.",
       "imagen": "img/pestanas/PAH05.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PAH05.png"
     },
     {
       "id": "p0222",
@@ -2839,7 +2854,9 @@
       "descripcion": "Herramienta para lifting de pestañas en acero.",
       "imagen": "img/pestanas/PAH06.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PAH06.png"
     },
     {
       "id": "p0223",
@@ -2949,7 +2966,9 @@
       "descripcion": "Regla de alta calidad para diseño de cejas.",
       "imagen": "img/pestanas/REGCE4.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/REGCE4.png"
     },
     {
       "id": "p0232",
@@ -2995,7 +3014,9 @@
       "descripcion": "Cepillos para pestañas paquete x10.",
       "imagen": "img/pestanas/CEPEST.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/CEPEST.png"
     },
     {
       "id": "p0236",
@@ -3007,7 +3028,9 @@
       "descripcion": "Pincel delineador desechable x100 unidades.",
       "imagen": "img/pestanas/PINOJ100.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PINOJ100.png"
     },
     {
       "id": "p0237",
@@ -3979,7 +4002,9 @@
       "descripcion": "Molde silicona 3D para Nail Art 6.5x5cm. Para semipermanente, gel o acrílico.",
       "imagen": "img/unas/ML01.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/ML01.png"
     },
     {
       "id": "p0345",
@@ -3991,7 +4016,9 @@
       "descripcion": "Molde silicona 3D para Nail Art 8.5x5.5cm.",
       "imagen": "img/unas/ML02.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/ML02.png"
     },
     {
       "id": "p0346",
@@ -4003,7 +4030,9 @@
       "descripcion": "Molde silicona 3D para Nail Art 6.5x5cm.",
       "imagen": "img/unas/ML03.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/ML03.png"
     },
     {
       "id": "p0347",
@@ -4177,7 +4206,8 @@
       "descripcion": "Herramienta básica para cortar cutículas en plástico con punta de goma. Set x12.",
       "imagen": "img/unas/PT30-112.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4
     },
     {
       "id": "p0365",
@@ -4722,7 +4752,9 @@
       "colores": [
         "img/accesorios/PD14_1.JPG",
         "img/accesorios/PD14_2.webp"
-      ]
+      ],
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PD14.png"
     },
     {
       "id": "p0429",
@@ -5720,7 +5752,9 @@
       "descripcion": "Rodillo doble cabezal de piedra natural. Reduce hinchazón y estimula circulación.",
       "imagen": "img/accesorios/CR01 1.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/CR01.png"
     },
     {
       "id": "p0502",
@@ -5732,7 +5766,9 @@
       "descripcion": "Rodillo de piedra natural.",
       "imagen": "img/accesorios/CR02 1.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/CR02.png"
     },
     {
       "id": "p0503",
@@ -5748,7 +5784,9 @@
         "img/accesorios/AE-349 1.webp",
         "img/accesorios/AE-349.webp"
       ],
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/AE-349.png"
     },
     {
       "id": "p0504",
@@ -5984,7 +6022,9 @@
       "descripcion": "Cepillo pulidor.",
       "imagen": "img/accesorios/CEPUL-05 1.webp",
       "agotado": true,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/CEPUL-05.png"
     },
     {
       "id": "p0524",
@@ -6917,7 +6957,9 @@
       "descripcion": "",
       "imagen": "img/accesorios/MR01.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/MR01.png"
     },
     {
       "id": "p0609",
@@ -7321,7 +7363,9 @@
         "img/accesorios/FUNDA1_5.jpg",
         "img/accesorios/FUNDA1_6.jpg"
       ],
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/FUNDA1.png"
     },
     {
       "id": "p0639",
@@ -7566,7 +7610,8 @@
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4
     },
     {
       "id": "p0658",
@@ -7577,7 +7622,9 @@
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/ARCILLA_1.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/ARCILLA.png"
     },
     {
       "id": "p0662",
@@ -8227,7 +8274,9 @@
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/VIDUNA4.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/VIDUNA4.png"
     },
     {
       "id": "p0722",
@@ -10122,7 +10171,9 @@
         "img/pestanas/1108-2_1.jpg",
         "img/pestanas/1108-2_2.jpg"
       ],
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/1108-2.png"
     },
     {
       "id": "p0857",
@@ -10172,7 +10223,9 @@
       "descripcion": "Probador para pestañas enteras.",
       "imagen": "img/pestanas/EXP1.png",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/EXP1.png"
     },
     {
       "id": "p0861",
@@ -10477,7 +10530,9 @@
       "descripcion": "Pestañas pelo a pelo P3D, largo 15mm.",
       "imagen": "img/pestanas/P3D15MM.jpeg",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/P3D15MM.png"
     },
     {
       "id": "p0886",
@@ -10489,7 +10544,9 @@
       "descripcion": "Pestañas pelo a pelo P3C, largo 9mm.",
       "imagen": "img/pestanas/P3C9MM.jpeg",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/P3C9MM.png"
     },
     {
       "id": "p0887",
@@ -10637,7 +10694,9 @@
       "descripcion": "Punzón liner para nail art PUNDLINER.",
       "imagen": "img/unas/PUNDLINER.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/PUNDLINER.png"
     },
     {
       "id": "p0898",
@@ -10677,7 +10736,9 @@
       "descripcion": "Espejo lupa 3XL.",
       "imagen": "img/accesorios/3XL.jpeg",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4,
+      "historia": "img/ducenazo/3XL.png"
     },
     {
       "id": "p0901",
@@ -10705,7 +10766,9 @@
       "colores": [
         "img/accesorios/SPIN3216_1.jpeg",
         "img/accesorios/SPIN3216_2.jpeg"
-      ]
+      ],
+      "ducenazo": 4,
+      "historia": "img/ducenazo/SPIN3216.png"
     },
     {
       "id": "p0903",
@@ -10729,7 +10792,8 @@
       "descripcion": "Cortacutícula STAR.",
       "imagen": "img/unas/STAR 1.webp",
       "agotado": false,
-      "destacado": true
+      "destacado": true,
+      "ducenazo": 4
     },
     {
       "id": "p0906",
