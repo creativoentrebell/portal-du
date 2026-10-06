@@ -3837,7 +3837,7 @@
       "subcategoria": "Stickers para uñas",
       "descripcion": "Stickers para uñas para crear hermosos diseños en todo tipo de técnica.",
       "imagen": "img/unas/GM3087_1.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/GM3087_1.webp",
         "img/unas/GM3087_2.webp",
@@ -7491,7 +7491,7 @@
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
       "imagen": "img/accesorios/CS17.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0649",
@@ -7589,7 +7589,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/018B.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0656",
@@ -7715,7 +7715,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1301.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0671",
@@ -7725,7 +7725,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1302.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0672",
@@ -7745,7 +7745,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1304.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0674",
@@ -7755,7 +7755,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1305.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0675",
@@ -7765,7 +7765,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1306.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0676",
@@ -7775,7 +7775,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1307.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0677",
@@ -7785,7 +7785,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1308.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0678",
@@ -7795,7 +7795,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1309.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0679",
@@ -7805,7 +7805,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1310.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0680",
@@ -7815,7 +7815,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1311.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0681",
@@ -7825,7 +7825,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1312.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0686",
@@ -7909,7 +7909,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3127_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/GM3127_1.jpg",
         "img/unas/GM3127_2.jpg"
@@ -7923,7 +7923,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3141_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/GM3141_1.jpg",
         "img/unas/GM3141_2.jpg"
@@ -7937,7 +7937,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3156_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/GM3156_1.jpg",
         "img/unas/GM3156_2.jpg"
@@ -8026,7 +8026,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/POMUNA_1.png",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/POMUNA_1.png",
         "img/unas/POMUNA_2.png",
@@ -8185,7 +8185,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM6_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/USTM6_1.jpg",
         "img/unas/USTM6_2.jpg"
@@ -8199,7 +8199,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM7.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0716",
@@ -8209,7 +8209,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM8.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0717",
@@ -8219,7 +8219,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM9.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0718",
