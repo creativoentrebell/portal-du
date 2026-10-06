@@ -2245,7 +2245,7 @@ function renderDestacados() {
    · Historias: campo "historia": "img/ducenazo/<REFERENCIA>.png" en los JSON.
    · Se muestra u oculta a mano con DUCENAZO_ACTIVO.
 ───────────────────────────────────────────────── */
-const DUCENAZO_ACTIVO    = false;   // ← true = campaña visible · false = oculta
+const DUCENAZO_ACTIVO    = true;    // ← true = campaña visible · false = oculta
 const DUCENAZO_PREVIEW   = new URLSearchParams(location.search).has('ducenazo');   // ?ducenazo para revisarla antes
 const DUCENAZO_DURACION  = 5000;           // ms por historia
 function ducenazoActivo() { return DUCENAZO_ACTIVO || DUCENAZO_PREVIEW; }
