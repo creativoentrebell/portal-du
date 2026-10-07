@@ -2248,7 +2248,9 @@ function renderDestacados() {
 const DUCENAZO_ACTIVO    = true;    // ← true = campaña visible · false = oculta
 const DUCENAZO_PREVIEW   = new URLSearchParams(location.search).has('ducenazo');   // ?ducenazo para revisarla antes
 const DUCENAZO_DURACION  = 5000;           // ms por historia
-function ducenazoActivo() { return DUCENAZO_ACTIVO || DUCENAZO_PREVIEW; }
+function ducenazoEncendido() { return DUCENAZO_ACTIVO || DUCENAZO_PREVIEW; }
+// Campaña solo para mayoristas: se ve únicamente en modo Mayorista (no en Detal ni en Catálogo sin precios)
+function ducenazoActivo() { return ducenazoEncendido() && mode === 'mayorista'; }
 
 function renderDucenazo() {
   const section = document.getElementById('ducSection');
@@ -2270,7 +2272,7 @@ function renderDucenazo() {
 /* — Historias: salen del campo "historia" de cada producto (mismo orden de los JSON) — */
 let _ducHistorias = [];
 function cargarHistoriasDucenazo() {
-  if (!ducenazoActivo()) return;
+  if (!ducenazoEncendido()) return;
   _ducHistorias = allProducts
     .filter(p => p.ducenazo && p.historia)
     .map(p => ({ src: p.historia, titulo: p.referencia, id: p.id }));
