@@ -75,7 +75,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Jeni curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJENI-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETJENI-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0008",
@@ -86,7 +95,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Jeni curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJENI-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETJENI-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0009",
@@ -97,7 +115,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Juli curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJULI-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETJULI-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0010",
@@ -108,7 +135,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Juli curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETJULI-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETJULI-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0011",
@@ -119,7 +155,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Karol curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKAROL-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETKAROL-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0012",
@@ -130,7 +175,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Karol curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKAROL-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETKAROL-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0013",
@@ -141,7 +195,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Kelly curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKELLY-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETKELLY-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0014",
@@ -152,7 +215,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Kelly curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETKELLY-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETKELLY-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0015",
@@ -163,7 +235,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Laura curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLAURA-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETLAURA-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0016",
@@ -174,7 +255,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Laura curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLAURA-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETLAURA-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0017",
@@ -185,7 +275,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Lu curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLU-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETLU-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0018",
@@ -196,7 +295,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Lu curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLU-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETLU-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0019",
@@ -207,7 +315,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Simona curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSIMONA-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETSIMONA-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0020",
@@ -218,7 +335,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Simona curvatura D7. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSIMONA-D7.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETSIMONA-D7.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0021",
@@ -229,7 +355,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Sofi curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSOFI-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETSOFI-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0022",
@@ -240,7 +375,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Sofi curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETSOFI-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETSOFI-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0023",
@@ -251,7 +395,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Tani curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETTANI-C.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETTANI-C.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0024",
@@ -262,7 +415,16 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Tani curvatura D. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETTANI-D.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/SETTANI-D.webp",
+        "img/pestanas/PINZA_CLUSTER_1.png",
+        "img/pestanas/PINZA_CLUSTER_2.png",
+        "img/pestanas/PINZA_CLUSTER_3.png",
+        "img/pestanas/SETGYR_1.png",
+        "img/pestanas/SETGYR_2.png",
+        "img/pestanas/SETGYR_3.png"
+      ]
     },
     {
       "id": "p0025",
