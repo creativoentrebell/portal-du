@@ -4178,9 +4178,7 @@
       "descripcion": "Molde silicona 3D para Nail Art 8.5x5.5cm.",
       "imagen": "img/unas/ML02.webp",
       "agotado": false,
-      "destacado": true,
-      "ducenazo": 4,
-      "historia": "img/ducenazo/ML02.png"
+      "destacado": true
     },
     {
       "id": "p0346",
@@ -10857,9 +10855,7 @@
       "descripcion": "Punzón liner para nail art PUNDLINER.",
       "imagen": "img/unas/PUNDLINER.webp",
       "agotado": false,
-      "destacado": true,
-      "ducenazo": 4,
-      "historia": "img/ducenazo/PUNDLINER.png"
+      "destacado": true
     },
     {
       "id": "p0898",
