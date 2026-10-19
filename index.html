@@ -2119,6 +2119,7 @@ function coincideNombre(nombre, query) {
   return palabras.length > 0 && palabras.every(w => n.includes(w));
 }
 function matchesFilters(p) {
+  if (p.solo_mayorista && mode !== 'mayorista') return false;   // productos exclusivos del modo Mayorista
   if (state.soloNuevos && !p.nuevo) return false;
   if (!state.showAgotados && p.agotado) return false;
   if (state.cat && p.categoria !== state.cat) return false;

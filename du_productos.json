@@ -11363,6 +11363,60 @@
       "imagen": "img/accesorios/BAG-LD.png",
       "agotado": false,
       "destacado": false
+    },
+    {
+      "id": "p0927",
+      "nombre": "Repuesto Cuchilla Gillette Venus ComfortGlide Jasmine Petals — VENUS01",
+      "referencia": "VENUS01",
+      "precio": "pendiente",
+      "categoria": "Accesorios",
+      "subcategoria": "Herramientas y accesorios",
+      "descripcion": "Repuesto de cuchilla Gillette Venus ComfortGlide aroma jasmine petals (morado).",
+      "imagen": "img/accesorios/VENUS01_1.jpeg",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/accesorios/VENUS01_1.jpeg",
+        "img/accesorios/VENUS01_2.jpeg"
+      ],
+      "nuevo": true,
+      "solo_mayorista": true
+    },
+    {
+      "id": "p0928",
+      "nombre": "Repuesto Cuchilla Gillette Venus ComfortGlide Pink Hibiscus — VENUS02",
+      "referencia": "VENUS02",
+      "precio": "pendiente",
+      "categoria": "Accesorios",
+      "subcategoria": "Herramientas y accesorios",
+      "descripcion": "Repuesto de cuchilla Gillette Venus ComfortGlide aroma pink hibiscus (rosado).",
+      "imagen": "img/accesorios/VENUS02_1.jpeg",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/accesorios/VENUS02_1.jpeg",
+        "img/accesorios/VENUS02_2.jpeg"
+      ],
+      "nuevo": true,
+      "solo_mayorista": true
+    },
+    {
+      "id": "p0929",
+      "nombre": "Repuesto Cuchilla Gillette Venus ComfortGlide Mandarin Blossom — VENUS03",
+      "referencia": "VENUS03",
+      "precio": "pendiente",
+      "categoria": "Accesorios",
+      "subcategoria": "Herramientas y accesorios",
+      "descripcion": "Repuesto de cuchilla Gillette Venus ComfortGlide aroma mandarin blossom (naranja).",
+      "imagen": "img/accesorios/VENUS03_1.jpeg",
+      "agotado": false,
+      "destacado": false,
+      "colores": [
+        "img/accesorios/VENUS03_1.jpeg",
+        "img/accesorios/VENUS03_2.jpeg"
+      ],
+      "nuevo": true,
+      "solo_mayorista": true
     }
   ]
 }
