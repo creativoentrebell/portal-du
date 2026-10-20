@@ -885,7 +885,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x1, elaborada en PBT coreano de alta calidad.",
-      "imagen": "img/pestanas/3d25.webp",
+      "imagen": "img/pestanas/3D25 2.png",
       "agotado": false
     },
     {
@@ -896,7 +896,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x1, elaborada en PBT coreano de alta calidad.",
-      "imagen": "img/pestanas/3D26.webp",
+      "imagen": "img/pestanas/3D26 2.png",
       "agotado": false
     },
     {
@@ -951,7 +951,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 3D x1, elaborada en PBT coreano de alta calidad.",
-      "imagen": "img/pestanas/3D36.webp",
+      "imagen": "img/pestanas/3D36 2.png",
       "agotado": false
     },
     {
@@ -989,14 +989,18 @@
     },
     {
       "id": "p0076",
-      "nombre": "Pestaña Entera 6D — 6D20",
+      "nombre": "Pestaña Entera 6D",
       "referencia": "6D20",
       "precio": 3500,
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Pestaña entera 6D (6 capas delgadas de pelitos) en PBT coreano. Suavidad y naturalidad.",
-      "imagen": "img/pestanas/6D-20.webp",
-      "agotado": false
+      "imagen": "img/pestanas/6D-20.png",
+      "agotado": false,
+      "colores": [
+        "img/pestanas/6D-20.png",
+        "img/pestanas/6D20 2.png"
+      ]
     },
     {
       "id": "p0077",
@@ -6652,8 +6656,8 @@
     },
     {
       "id": "p0568",
-      "nombre": "Pestaña Entera 6D — 6D-01",
-      "referencia": "6D-01",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D01",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6663,8 +6667,8 @@
     },
     {
       "id": "p0569",
-      "nombre": "Pestaña Entera 6D — 6D-03",
-      "referencia": "6D-03",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D03",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6674,8 +6678,8 @@
     },
     {
       "id": "p0570",
-      "nombre": "Pestaña Entera 6D — 6D-06",
-      "referencia": "6D-06",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D06",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6685,19 +6689,19 @@
     },
     {
       "id": "p0571",
-      "nombre": "Pestaña Entera 6D — 6D-07",
-      "referencia": "6D-07",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D07",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-07.webp",
+      "imagen": "img/pestanas/6D-07.png",
       "agotado": false,
       "precio": 3500
     },
     {
       "id": "p0572",
-      "nombre": "Pestaña Entera 6D — 6D-10",
-      "referencia": "6D-10",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D10",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6707,8 +6711,8 @@
     },
     {
       "id": "p0573",
-      "nombre": "Pestaña Entera 6D — 6D-11",
-      "referencia": "6D-11",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D11",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6718,8 +6722,8 @@
     },
     {
       "id": "p0574",
-      "nombre": "Pestaña Entera 6D — 6D-12",
-      "referencia": "6D-12",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D12",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6729,8 +6733,8 @@
     },
     {
       "id": "p0575",
-      "nombre": "Pestaña Entera 6D — 6D-15",
-      "referencia": "6D-15",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D15",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6740,8 +6744,8 @@
     },
     {
       "id": "p0576",
-      "nombre": "Pestaña Entera 6D — 6D-16",
-      "referencia": "6D-16",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D16",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6751,8 +6755,8 @@
     },
     {
       "id": "p0577",
-      "nombre": "Pestaña Entera 6D — 6D-17",
-      "referencia": "6D-17",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D17",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6762,8 +6766,8 @@
     },
     {
       "id": "p0578",
-      "nombre": "Pestaña Entera 6D — 6D-19",
-      "referencia": "6D-19",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D19",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
@@ -6828,8 +6832,8 @@
     },
     {
       "id": "p0584",
-      "nombre": "Pestaña Entera 6D — 6D-05",
-      "referencia": "6D-05",
+      "nombre": "Pestaña Entera 6D",
+      "referencia": "6D05",
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
