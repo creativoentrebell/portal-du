@@ -4023,7 +4023,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Práctico mostrador y probador de uñas. Incluye 50 uñas.",
       "imagen": "img/unas/PROUN2.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0332",
@@ -5902,7 +5902,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Gua Sha en jade o cuarzo. Bordes curvos ergonómicos para masajes faciales.",
       "imagen": "img/accesorios/CR04 verde.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/CR04 verde.webp",
         "img/accesorios/CR04 blanca.webp"
@@ -6403,7 +6403,7 @@
       "subcategoria": "Cuidado del cabello",
       "descripcion": "Gorro de satín luxe mediano.",
       "imagen": "img/accesorios/SATINLUXE-MD azul.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/SATINLUXE-MD azul.webp",
         "img/accesorios/SATINLUXE-MD champagne.webp",
