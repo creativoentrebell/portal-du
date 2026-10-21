@@ -7519,9 +7519,10 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "img/accesorios/FUNDA1_1.jpg",
+      "imagen": "img/accesorios/FUNDA1_0.png",
       "agotado": false,
       "colores": [
+        "img/accesorios/FUNDA1_0.png",
         "img/accesorios/FUNDA1_1.jpg",
         "img/accesorios/FUNDA1_2.jpg",
         "img/accesorios/FUNDA1_3.jpg",
