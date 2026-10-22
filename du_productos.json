@@ -6630,9 +6630,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-03.webp",
+      "imagen": "img/pestanas/3D03_0.png",
       "agotado": false,
-      "precio": 7000
+      "precio": 7000,
+      "colores": [
+        "img/pestanas/3D03_0.png",
+        "img/pestanas/3D-03.webp"
+      ]
     },
     {
       "id": "p0566",
@@ -6663,9 +6667,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-01.webp",
+      "imagen": "img/pestanas/6D01_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D01_0.png",
+        "img/pestanas/6D-01.webp"
+      ]
     },
     {
       "id": "p0569",
@@ -6674,9 +6682,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-03.webp",
+      "imagen": "img/pestanas/6D03_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D03_0.png",
+        "img/pestanas/6D-03.webp"
+      ]
     },
     {
       "id": "p0570",
@@ -6685,9 +6697,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-06.webp",
+      "imagen": "img/pestanas/6D06_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D06_0.png",
+        "img/pestanas/6D-06.webp"
+      ]
     },
     {
       "id": "p0571",
@@ -6696,9 +6712,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-07.png",
+      "imagen": "img/pestanas/6D07_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D07_0.png",
+        "img/pestanas/6D-07.png"
+      ]
     },
     {
       "id": "p0572",
@@ -6707,9 +6727,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-10.webp",
+      "imagen": "img/pestanas/6D10_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D10_0.png",
+        "img/pestanas/6D-10.webp"
+      ]
     },
     {
       "id": "p0573",
@@ -6718,9 +6742,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-11.webp",
+      "imagen": "img/pestanas/6D11_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D11_0.png",
+        "img/pestanas/6D-11.webp"
+      ]
     },
     {
       "id": "p0574",
@@ -6729,9 +6757,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-12.webp",
+      "imagen": "img/pestanas/6D12_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D12_0.png",
+        "img/pestanas/6D-12.webp"
+      ]
     },
     {
       "id": "p0575",
@@ -6740,9 +6772,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-15.webp",
+      "imagen": "img/pestanas/6D15_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D15_0.png",
+        "img/pestanas/6D-15.webp"
+      ]
     },
     {
       "id": "p0576",
@@ -6751,9 +6787,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-16.webp",
+      "imagen": "img/pestanas/6D16_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D16_0.png",
+        "img/pestanas/6D-16.webp"
+      ]
     },
     {
       "id": "p0577",
@@ -6762,9 +6802,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-17.webp",
+      "imagen": "img/pestanas/6D17_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D17_0.png",
+        "img/pestanas/6D-17.webp"
+      ]
     },
     {
       "id": "p0578",
@@ -6773,9 +6817,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/6D-19.webp",
+      "imagen": "img/pestanas/6D19_0.png",
       "agotado": false,
-      "precio": 8000
+      "precio": 8000,
+      "colores": [
+        "img/pestanas/6D19_0.png",
+        "img/pestanas/6D-19.webp"
+      ]
     },
     {
       "id": "p0579",
@@ -6784,9 +6832,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-15.webp",
+      "imagen": "img/pestanas/3D-15_0.png",
       "agotado": false,
-      "precio": 7000
+      "precio": 7000,
+      "colores": [
+        "img/pestanas/3D-15_0.png",
+        "img/pestanas/3D-15.webp"
+      ]
     },
     {
       "id": "p0580",
@@ -6817,9 +6869,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
-      "imagen": "img/pestanas/3D-28.png",
+      "imagen": "img/pestanas/3D-28_0.png",
       "agotado": false,
-      "precio": 7000
+      "precio": 7000,
+      "colores": [
+        "img/pestanas/3D-28_0.png",
+        "img/pestanas/3D-28.png"
+      ]
     },
     {
       "id": "p0583",
