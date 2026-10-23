@@ -1414,7 +1414,7 @@
       "agotado": false,
       "colores": [
         "img/pestanas/5C-PMIX_1.jpg",
-        "img/pestanas/5C-PMIX_2.jpg"
+        "img/pestanas/5C-PMIX_2.png"
       ],
       "destacado": true
     },
@@ -4910,11 +4910,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha/pincel Colección Vainilla PD14.",
-      "imagen": "img/accesorios/PD14_1.JPG",
+      "imagen": "img/accesorios/PD14_1.png",
       "agotado": false,
       "destacado": true,
       "colores": [
-        "img/accesorios/PD14_1.JPG",
+        "img/accesorios/PD14_1.png",
         "img/accesorios/PD14_2.webp"
       ],
       "ducenazo": 4,
@@ -6947,7 +6947,7 @@
       "agotado": false,
       "colores": [
         "img/pestanas/3P-CFLORMIX_1.jpg",
-        "img/pestanas/3P-CFLORMIX_2.jpg"
+        "img/pestanas/3P-CFLORMIX_2.png"
       ]
     },
     {
@@ -7222,11 +7222,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "img/accesorios/DEP3124_1.jpg",
+      "imagen": "img/accesorios/DEP3124_1.png",
       "agotado": true,
       "colores": [
-        "img/accesorios/DEP3124_1.jpg",
-        "img/accesorios/DEP3124_2.jpg"
+        "img/accesorios/DEP3124_1.png",
+        "img/accesorios/DEP3124_2.png"
       ]
     },
     {
@@ -7297,12 +7297,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
-      "imagen": "img/accesorios/ATM10_1.jpg",
+      "imagen": "img/accesorios/ATM10_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/ATM10_1.jpg",
-        "img/accesorios/ATM10_2.jpg",
-        "img/accesorios/ATM10_3.jpg"
+        "img/accesorios/ATM10_1.png",
+        "img/accesorios/ATM10_2.png",
+        "img/accesorios/ATM10_3.png"
       ]
     },
     {
@@ -7417,15 +7417,15 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/CEP3141_1.jpg",
+      "imagen": "img/accesorios/CEP3141_1.png",
       "agotado": true,
       "colores": [
-        "img/accesorios/CEP3141_1.jpg",
-        "img/accesorios/CEP3141_2.jpg",
-        "img/accesorios/CEP3141_3.jpg",
-        "img/accesorios/CEP3141_4.jpg",
-        "img/accesorios/CEP3141_5.jpg",
-        "img/accesorios/CEP3141_6.jpg",
+        "img/accesorios/CEP3141_1.png",
+        "img/accesorios/CEP3141_2.png",
+        "img/accesorios/CEP3141_3.png",
+        "img/accesorios/CEP3141_4.png",
+        "img/accesorios/CEP3141_5.png",
+        "img/accesorios/CEP3141_6.png",
         "img/accesorios/CEP3141_7.jpg"
       ]
     },
@@ -7463,12 +7463,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/CEPL-03_1.jpg",
+      "imagen": "img/accesorios/CEPL-03_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/CEPL-03_1.jpg",
-        "img/accesorios/CEPL-03_2.jpg",
-        "img/accesorios/CEPL-03_3.jpg"
+        "img/accesorios/CEPL-03_1.png",
+        "img/accesorios/CEPL-03_2.png",
+        "img/accesorios/CEPL-03_3.png"
       ],
       "destacado": true
     },
@@ -7480,11 +7480,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/PEI-101_1.jpg",
+      "imagen": "img/accesorios/PEI-101_1.png",
       "agotado": true,
       "colores": [
-        "img/accesorios/PEI-101_1.jpg",
-        "img/accesorios/PEI-101_2.jpg"
+        "img/accesorios/PEI-101_1.png",
+        "img/accesorios/PEI-101_2.png"
       ]
     },
     {
@@ -7495,11 +7495,11 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/PEI-104_1.jpg",
+      "imagen": "img/accesorios/PEI-104_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/PEI-104_1.jpg",
-        "img/accesorios/PEI-104_2.jpg"
+        "img/accesorios/PEI-104_1.png",
+        "img/accesorios/PEI-104_2.png"
       ]
     },
     {
@@ -7521,10 +7521,10 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "",
-      "imagen": "img/accesorios/PEI109_1.jpg",
+      "imagen": "img/accesorios/PEI109_1.png",
       "agotado": true,
       "colores": [
-        "img/accesorios/PEI109_1.jpg",
+        "img/accesorios/PEI109_1.png",
         "img/accesorios/PEI109_2.jpg"
       ]
     },
@@ -7577,12 +7577,12 @@
       "agotado": false,
       "colores": [
         "img/accesorios/FUNDA1_0.png",
-        "img/accesorios/FUNDA1_1.jpg",
-        "img/accesorios/FUNDA1_2.jpg",
-        "img/accesorios/FUNDA1_3.jpg",
-        "img/accesorios/FUNDA1_4.jpg",
-        "img/accesorios/FUNDA1_5.jpg",
-        "img/accesorios/FUNDA1_6.jpg"
+        "img/accesorios/FUNDA1_1.png",
+        "img/accesorios/FUNDA1_2.png",
+        "img/accesorios/FUNDA1_3.png",
+        "img/accesorios/FUNDA1_4.png",
+        "img/accesorios/FUNDA1_5.png",
+        "img/accesorios/FUNDA1_6.png"
       ],
       "destacado": true,
       "ducenazo": 4,
@@ -7677,13 +7677,13 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "img/accesorios/BAG14_1.jpg",
+      "imagen": "img/accesorios/BAG14_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/BAG14_1.jpg",
-        "img/accesorios/BAG14_2.jpg",
-        "img/accesorios/BAG14_3.jpg",
-        "img/accesorios/BAG14_4.jpg"
+        "img/accesorios/BAG14_1.png",
+        "img/accesorios/BAG14_2.png",
+        "img/accesorios/BAG14_3.png",
+        "img/accesorios/BAG14_4.png"
       ]
     },
     {
@@ -7694,12 +7694,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "img/accesorios/BAG19_1.jpg",
+      "imagen": "img/accesorios/BAG19_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/BAG19_1.jpg",
-        "img/accesorios/BAG19_2.jpg",
-        "img/accesorios/BAG19_3.jpg",
+        "img/accesorios/BAG19_1.png",
+        "img/accesorios/BAG19_2.png",
+        "img/accesorios/BAG19_3.png",
         "img/accesorios/BAG19_4.png"
       ]
     },
@@ -7722,12 +7722,12 @@
       "categoria": "Accesorios",
       "subcategoria": "Maletas, neceseres y carteras",
       "descripcion": "",
-      "imagen": "img/accesorios/CS18_1.jpg",
+      "imagen": "img/accesorios/CS18_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/CS18_1.jpg",
-        "img/accesorios/CS18_2.jpg",
-        "img/accesorios/CS18_3.jpg"
+        "img/accesorios/CS18_1.png",
+        "img/accesorios/CS18_2.png",
+        "img/accesorios/CS18_3.png"
       ]
     },
     {
@@ -7784,7 +7784,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Espejos",
       "descripcion": "",
-      "imagen": "img/accesorios/ESP11.jpg",
+      "imagen": "img/accesorios/ESP11.png",
       "agotado": false
     },
     {
@@ -7795,10 +7795,10 @@
       "categoria": "Accesorios",
       "subcategoria": "Espejos",
       "descripcion": "",
-      "imagen": "img/accesorios/5X_1.jpg",
+      "imagen": "img/accesorios/5X_1.png",
       "agotado": false,
       "colores": [
-        "img/accesorios/5X_1.jpg",
+        "img/accesorios/5X_1.png",
         "img/accesorios/5X_2.jpg"
       ]
     },
@@ -10229,7 +10229,7 @@
       "agotado": false,
       "colores": [
         "img/pestanas/3P-DFLORMIX_1.jpg",
-        "img/pestanas/3P-DFLORMIX_2.jpg"
+        "img/pestanas/3P-DFLORMIX_2.png"
       ]
     },
     {
@@ -10337,7 +10337,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Removedor profesional en crema para extensiones de pestañas.",
-      "imagen": "img/pestanas/DU MELT CREAM.jpg",
+      "imagen": "img/pestanas/DU MELT CREAM.png",
       "agotado": false
     },
     {
@@ -10348,7 +10348,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Removedor profesional en gel para extensiones de pestañas. Actúa en 2 minutos.",
-      "imagen": "img/pestanas/DU MELT GEL.jpg",
+      "imagen": "img/pestanas/DU MELT GEL.png",
       "agotado": false
     },
     {
@@ -10359,7 +10359,7 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Super bonder profesional 220ml. Sella y acelera el secado del adhesivo.",
-      "imagen": "img/pestanas/DU SEAL.jpg",
+      "imagen": "img/pestanas/DU SEAL.png",
       "agotado": false
     },
     {
@@ -10370,12 +10370,12 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Regla de posicionamiento para diseño de cejas y pestañas.",
-      "imagen": "img/pestanas/REGCE6_1.jpg",
+      "imagen": "img/pestanas/REGCE6_1.png",
       "agotado": false,
       "colores": [
-        "img/pestanas/REGCE6_1.jpg",
-        "img/pestanas/REGCE6_2.jpg",
-        "img/pestanas/REGCE6_3.jpg"
+        "img/pestanas/REGCE6_1.png",
+        "img/pestanas/REGCE6_2.png",
+        "img/pestanas/REGCE6_3.png"
       ]
     },
     {
@@ -10386,11 +10386,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Sticker adhesivo para pestañas.",
-      "imagen": "img/pestanas/1108-2_1.jpg",
+      "imagen": "img/pestanas/1108-2_1.png",
       "agotado": false,
       "colores": [
-        "img/pestanas/1108-2_1.jpg",
-        "img/pestanas/1108-2_2.jpg"
+        "img/pestanas/1108-2_1.png",
+        "img/pestanas/1108-2_2.png"
       ],
       "destacado": true,
       "ducenazo": 4,
@@ -10404,11 +10404,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Parche de papel para protección durante extensiones.",
-      "imagen": "img/pestanas/1108-6_1.jpg",
+      "imagen": "img/pestanas/1108-6_1.png",
       "agotado": false,
       "colores": [
-        "img/pestanas/1108-6_1.jpg",
-        "img/pestanas/1108-6_2.jpg"
+        "img/pestanas/1108-6_1.png",
+        "img/pestanas/1108-6_2.png"
       ],
       "destacado": true
     },
@@ -10532,11 +10532,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Paleta para pestañas.",
-      "imagen": "img/pestanas/PAH01_1.jpg",
+      "imagen": "img/pestanas/PAH01_1.png",
       "agotado": false,
       "colores": [
-        "img/pestanas/PAH01_1.jpg",
-        "img/pestanas/PAH01_2.jpg"
+        "img/pestanas/PAH01_1.png",
+        "img/pestanas/PAH01_2.png"
       ]
     },
     {
@@ -10573,13 +10573,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x100 unidades.",
-      "imagen": "img/pestanas/ANI-09_1.jpg",
+      "imagen": "img/pestanas/ANI-09_1.png",
       "agotado": false,
       "colores": [
-        "img/pestanas/ANI-09_1.jpg",
-        "img/pestanas/ANI-09_2.jpg",
-        "img/pestanas/ANI-09_3.jpg",
-        "img/pestanas/ANI-09_4.jpg"
+        "img/pestanas/ANI-09_1.png",
+        "img/pestanas/ANI-09_2.png",
+        "img/pestanas/ANI-09_3.png",
+        "img/pestanas/ANI-09_4.png"
       ]
     },
     {
@@ -10590,13 +10590,13 @@
       "categoria": "Pestañas",
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x12 unidades.",
-      "imagen": "img/pestanas/ANI-11_1.jpg",
+      "imagen": "img/pestanas/ANI-11_1.png",
       "agotado": true,
       "colores": [
-        "img/pestanas/ANI-11_1.jpg",
-        "img/pestanas/ANI-11_2.jpg",
-        "img/pestanas/ANI-11_3.jpg",
-        "img/pestanas/ANI-11_4.jpg"
+        "img/pestanas/ANI-11_1.png",
+        "img/pestanas/ANI-11_2.png",
+        "img/pestanas/ANI-11_3.png",
+        "img/pestanas/ANI-11_4.png"
       ],
       "destacado": true
     },
@@ -10726,7 +10726,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo pulidor CEPUL1.",
-      "imagen": "img/accesorios/CEPUL1.jpg",
+      "imagen": "img/accesorios/CEPUL1.png",
       "agotado": true,
       "destacado": true
     },
@@ -10878,7 +10878,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Cuidado del cabello",
       "descripcion": "Limpiador LBR04.",
-      "imagen": "img/accesorios/LBR04.jpg",
+      "imagen": "img/accesorios/LBR04.png",
       "agotado": false,
       "destacado": true
     },
@@ -10902,7 +10902,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Brocha BRO3247.",
-      "imagen": "img/accesorios/BRO3247.jpg",
+      "imagen": "img/accesorios/BRO3247.png",
       "agotado": false,
       "destacado": true
     },
