@@ -9,7 +9,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 curvatura C. PBT coreano de primera calidad, suaves, ligeras y cómodas.",
       "imagen": "img/pestanas/SET4ANGELINA-C.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0002",
@@ -2540,7 +2540,11 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Atomizador/dispensador de agua 250ml, ideal para lavar pestañas.",
       "imagen": "img/pestanas/ATM250E.webp",
-      "agotado": false
+      "agotado": false,
+      "colores": [
+        "img/pestanas/ATM250E.webp",
+        "img/pestanas/ATM250E_1.webp"
+      ]
     },
     {
       "id": "p0180",
@@ -2736,7 +2740,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza.",
       "imagen": "img/pestanas/PINZA102 (2)-PhotoRoom.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0198",
@@ -3145,7 +3149,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Regla de posicionamiento de 3 puntos en acero. Ideal para microblading y maquillaje permanente.",
       "imagen": "img/pestanas/du6_regla_cejas_regce5-PhotoRoom.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0233",
@@ -3988,7 +3992,7 @@
       "subcategoria": "Stickers para uñas",
       "descripcion": "Stickers para uñas. Compatibles con semipermanente y tradicional.",
       "imagen": "img/unas/3DLINEAS_1.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/3DLINEAS_1.webp",
         "img/unas/3DLINEAS_2.webp"
@@ -6348,9 +6352,10 @@
       "categoria": "Accesorios",
       "subcategoria": "Cuidado del cabello",
       "descripcion": "Gorro impermeable anti-frizz.",
-      "imagen": "img/accesorios/GOBIM-OFF crema.webp",
+      "imagen": "img/accesorios/GOBIM-OFF_0.png",
       "agotado": false,
       "colores": [
+        "img/accesorios/GOBIM-OFF_0.png",
         "img/accesorios/GOBIM-OFF crema.webp",
         "img/accesorios/GOBIM-OFF gris.webp",
         "img/accesorios/GOBIM-OFF rosa.webp"
@@ -6364,9 +6369,10 @@
       "categoria": "Accesorios",
       "subcategoria": "Cuidado del cabello",
       "descripcion": "Gorro térmico con aluminio interno y doble tela. Fácil de limpiar.",
-      "imagen": "img/accesorios/GOTER BLANCO.webp",
+      "imagen": "img/accesorios/GOTER_0.png",
       "agotado": false,
       "colores": [
+        "img/accesorios/GOTER_0.png",
         "img/accesorios/GOTER BLANCO.webp",
         "img/accesorios/GOTER NEGRO.webp",
         "img/accesorios/GOTER_3.png"
@@ -6503,7 +6509,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Encrespador con bandas de goma. Repuesto silicona incluido.",
       "imagen": "img/accesorios/E104 MORADO.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/E104 MORADO.webp",
         "img/accesorios/E104 ROSADO.webp",
@@ -6831,7 +6837,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
       "imagen": "img/pestanas/3D-15_0.png",
-      "agotado": false,
+      "agotado": true,
       "precio": 5000,
       "colores": [
         "img/pestanas/3D-15_0.png",
@@ -6868,7 +6874,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
       "imagen": "img/pestanas/3D-28_0.png",
-      "agotado": false,
+      "agotado": true,
       "precio": 5000,
       "colores": [
         "img/pestanas/3D-28_0.png",
@@ -6922,7 +6928,7 @@
       "subcategoria": "Kits de pestañas",
       "descripcion": "Kit Beauty Wave para ondulado y laminado de pestañas. Alta gama Neicha coreano, original con Invima. Rinde 60 aplicaciones.",
       "imagen": "img/pestanas/Kit_Beauty.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0587",
@@ -7260,7 +7266,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DEP4000.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0616",
@@ -7314,7 +7320,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0620",
@@ -7367,7 +7373,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0624",
@@ -7392,10 +7398,10 @@
       "agotado": false,
       "colores": [
         "img/accesorios/CEP3091-4_1.webp",
-        "img/accesorios/CEP3091-4_2.webp",
-        "img/accesorios/CEP3091-4_3.webp",
-        "img/accesorios/CEP3091-4_4.webp",
-        "img/accesorios/CEP3091-4_5.webp"
+        "img/accesorios/CEP3091-4_2.png",
+        "img/accesorios/CEP3091-4_3.png",
+        "img/accesorios/CEP3091-4_4.png",
+        "img/accesorios/CEP3091-4_5.png"
       ]
     },
     {
@@ -7611,9 +7617,10 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "img/accesorios/MED-ONDAS_1.webp",
+      "imagen": "img/accesorios/MED-ONDAS_0.png",
       "agotado": false,
       "colores": [
+        "img/accesorios/MED-ONDAS_0.png",
         "img/accesorios/MED-ONDAS_1.webp",
         "img/accesorios/MED-ONDAS_2.webp",
         "img/accesorios/MED-ONDAS_3.webp",
@@ -7628,7 +7635,7 @@
       "categoria": "Accesorios",
       "subcategoria": "Hair Technology",
       "descripcion": "",
-      "imagen": "img/accesorios/SATINLG.jpg",
+      "imagen": "img/accesorios/SATINLG.png",
       "agotado": false
     },
     {
@@ -7785,7 +7792,7 @@
       "subcategoria": "Espejos",
       "descripcion": "",
       "imagen": "img/accesorios/ESP11.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0654",
@@ -7830,7 +7837,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
-      "agotado": false,
+      "agotado": true,
       "destacado": true,
       "ducenazo": 4
     },
@@ -7909,7 +7916,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1217.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0669",
@@ -7956,7 +7963,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1303.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0673",
@@ -8080,7 +8087,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3091.jpg",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0689",
@@ -8172,7 +8179,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/LAM04_1.jpg",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/LAM04_1.jpg",
         "img/unas/LAM04_2.jpg"
@@ -8812,7 +8819,7 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "imagen": "img/unas/STICKER3-22_1.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/unas/STICKER3-22_1.webp",
         "img/unas/STICKER3-22_2.webp"
@@ -9400,7 +9407,7 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "imagen": "img/unas/STICKER2-64_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0788",
@@ -9410,7 +9417,7 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "imagen": "img/unas/STICKER2-65_1.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0789",
@@ -10267,7 +10274,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Extensiones para volumen ruso estilo abanico, pre-armadas 5D (5 pelitos). Curvatura C (mix largos).",
       "imagen": null,
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0848",
@@ -10715,7 +10722,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Repuesto de silicona para lifting de pestañas RPES3.",
       "imagen": "img/pestanas/RPES3.jpeg",
-      "agotado": false,
+      "agotado": true,
       "destacado": true
     },
     {
@@ -10855,7 +10862,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "Tijeras de colores mini TJ824.",
       "imagen": "img/accesorios/TJ824.png",
-      "agotado": false,
+      "agotado": true,
       "destacado": true
     },
     {
@@ -10915,7 +10922,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Punzón liner para nail art PUNDLINER.",
       "imagen": "img/unas/PUNDLINER.webp",
-      "agotado": false,
+      "agotado": true,
       "destacado": true
     },
     {
