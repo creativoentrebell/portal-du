@@ -2685,7 +2685,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo Bent.",
       "imagen": "img/pestanas/PINZA-75 1.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0192",
@@ -2729,7 +2729,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza tipo L microdentada. Mejor agarre al realizar abanicos sin partir la fibra.",
       "imagen": "img/pestanas/PINZA-100 1.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0197",
@@ -2740,7 +2740,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Pinza.",
       "imagen": "img/pestanas/PINZA102 (2)-PhotoRoom.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0198",
