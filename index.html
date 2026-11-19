@@ -219,6 +219,38 @@
     .fblock--blue .fb-tit h2 svg, .fblock--gray .fb-tit h2 svg, .fblock--plain .fb-tit h2 svg { color: var(--du-blue-dk); }
     .fb-tit p { font-size: 13px; opacity: .72; margin-top: 4px; }
     .fb-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .fb-all {
+      border: 0; background: var(--du-dark); color: #fff; border-radius: 999px; padding: 9px 16px;
+      font-size: 12.5px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: background .15s;
+    }
+    .fb-all span { opacity: .7; font-weight: 500; }
+    .fb-all:hover { background: #444; }
+    /* Ventana con todos los destacados (queda debajo del detalle del producto) */
+    .dt-overlay {
+      position: fixed; inset: 0; z-index: 290; background: rgba(0,0,0,0.45); backdrop-filter: blur(2px);
+      display: flex; align-items: center; justify-content: center; padding: 24px;
+      opacity: 0; pointer-events: none; transition: opacity .2s;
+    }
+    .dt-overlay.visible { opacity: 1; pointer-events: all; }
+    .dt {
+      background: var(--du-white); border-radius: 22px; width: 100%; max-width: 1120px; max-height: calc(100vh - 48px);
+      display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+      transform: translateY(14px); transition: transform .25s ease;
+    }
+    .dt-overlay.visible .dt { transform: none; }
+    .dt-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 20px 24px; border-bottom: 1px solid var(--du-border); background: var(--du-blue-lt); }
+    .dt-head h2 { font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
+    .dt-head p { font-size: 12.5px; color: var(--du-gray-dk); margin-top: 2px; }
+    .dt .dt-close { position: static; background: #fff; flex-shrink: 0; }
+    .dt-body { overflow-y: auto; padding: 22px 24px 28px; overscroll-behavior: contain; }
+    @media (max-width: 640px) {
+      .dt-overlay { padding: 0; align-items: flex-end; }
+      .dt { border-radius: 20px 20px 0 0; max-height: 94vh; max-height: 94dvh; transform: translateY(100%); }
+      .dt-head { padding: 16px 16px; }
+      .dt-head h2 { font-size: 19px; }
+      .dt-body { padding: 14px 12px 24px; }
+      .fb-all { padding: 8px 13px; font-size: 12px; }
+    }
     .fb-clear { background: none; border: 0; cursor: pointer; font-size: 12.5px; color: var(--du-gray-dk); text-decoration: underline; text-underline-offset: 2px; }
     .fb-clear:hover { color: #e05555; }
     .car-nav { display: flex; gap: 6px; }
@@ -233,6 +265,68 @@
     .car::-webkit-scrollbar { display: none; }
     .car-track { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 42px) / 4); gap: 14px; }
     .car-track > * { scroll-snap-align: start; }
+    /* ── Más vendidos: bloque protagonista ── */
+    .fblock--mv {
+      background: radial-gradient(120% 90% at 100% 0%, rgba(166,216,242,0.22) 0%, rgba(166,216,242,0) 55%),
+                  radial-gradient(80% 70% at 0% 100%, rgba(124,184,217,0.16) 0%, rgba(124,184,217,0) 60%),
+                  linear-gradient(160deg, #343638 0%, #262728 100%);
+      color: #fff; padding: 30px 26px 30px; overflow: hidden;
+      box-shadow: 0 24px 50px -28px rgba(30,40,50,0.55);
+    }
+    .mv-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 22px; }
+    .mv-eyebrow { display: inline-flex; align-items: center; gap: 7px; font-size: 10.5px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; color: var(--du-blue); }
+    .mv-eyebrow svg { width: 11px; height: 11px; }
+    .mv-title { font-size: 44px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.02; margin-top: 8px; color: #fff; }
+    .mv-title em {
+      font-style: italic; font-weight: 400; padding-right: 0.06em;
+      background: linear-gradient(95deg, #a6d8f2 0%, #e4f4fc 45%, #7cb8d9 100%);
+      -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+    }
+    .mv-sub { font-size: 13px; font-style: italic; color: rgba(255,255,255,0.62); text-align: right; line-height: 1.45; }
+    .mv-car { position: relative; }
+    .fblock--mv .car-track { gap: 18px; grid-auto-columns: calc((100% - 54px) / 4); }
+    .fblock--mv .card { background: transparent; border: 0; border-radius: 0; color: #fff; box-shadow: none; }
+    .fblock--mv .card:hover, .fblock--mv .card:focus-visible { transform: translateY(-3px); box-shadow: none; }
+    .fblock--mv .card-media { border-radius: 16px; background: #fff; box-shadow: 0 10px 24px -14px rgba(0,0,0,0.6); transition: box-shadow .2s; }
+    .fblock--mv .card:hover .card-media { box-shadow: 0 0 0 2px var(--du-blue), 0 14px 30px -14px rgba(0,0,0,0.7); }
+    .fblock--mv .card-body { padding: 13px 2px 0; gap: 4px; }
+    .fblock--mv .card-sub { color: rgba(255,255,255,0.55); }
+    .fblock--mv .card-name { color: #fff; font-size: 15px; font-weight: 500; }
+    .fblock--mv .card-ref, .fblock--mv .card-fotos { display: none; }
+    .fblock--mv .card-price { color: #fff; font-size: 19px; padding-top: 4px; }
+    .fblock--mv .card-extra { color: rgba(255,255,255,0.6); }
+    .fblock--mv .card-extra.ant { color: var(--du-blue); }
+    .fblock--mv .price-pending { color: rgba(255,255,255,0.6); }
+    .fblock--mv .card.is-agotado .card-price { color: rgba(255,255,255,0.5); }
+    .fblock--mv .badges { top: 10px; left: 10px; }
+    .fblock--mv .bdg--rank {
+      background: linear-gradient(120deg, #a6d8f2 0%, #7cb8d9 100%); color: var(--du-dark);
+      font-size: 13px; font-weight: 700; padding: 6px 11px; border-radius: 9px; letter-spacing: 0.01em;
+      box-shadow: 0 2px 8px rgba(60,120,170,0.35);
+    }
+    .mv-arrow {
+      position: absolute; top: 0; z-index: 6; width: 42px; height: 42px; border: 0; background: #fff;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.3); margin-top: calc((100% - 54px) / 8 - 21px);
+    }
+    .mv-arrow.prev { left: -14px; }
+    .mv-arrow.next { right: -14px; }
+    .mv-arrow:disabled { display: none; }
+    @media (max-width: 899px) {
+      .fblock--mv .car-track { grid-auto-columns: calc((100% - 36px) / 3); }
+      .mv-arrow { margin-top: calc((100% - 36px) / 6 - 21px); }
+    }
+    @media (max-width: 640px) {
+      .fblock--mv { padding: 22px 16px 22px; }
+      .mv-head { flex-direction: column; align-items: flex-start; gap: 6px; margin-bottom: 16px; }
+      .mv-title { font-size: 32px; }
+      .mv-sub { text-align: left; }
+      .mv-sub br { display: none; }
+      .fblock--mv .car-track { grid-auto-columns: 46%; gap: 12px; }
+      .fblock--mv .card-name { font-size: 13.5px; }
+      .fblock--mv .card-price { font-size: 16px; }
+      .fblock--mv .bdg--rank { font-size: 11.5px; padding: 5px 9px; }
+      .mv-arrow { display: none; }
+    }
     .cat-divider { display: flex; align-items: center; gap: 14px; margin: 6px 0 18px; }
     .cat-divider span { font-size: 11px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--du-gray-dk); white-space: nowrap; }
     .cat-divider i { flex: 1; height: 1px; background: var(--du-border); }
@@ -1486,6 +1580,17 @@
   </div>
 </div>
 
+<!-- ─── VENTANA: TODOS LOS DESTACADOS ─── -->
+<div class="dt-overlay" id="dtOverlay" onclick="if(event.target===this)cerrarTodosDestacados()">
+  <div class="dt" role="dialog" aria-modal="true" aria-labelledby="dtTitle">
+    <div class="dt-head">
+      <div><h2 id="dtTitle">Destacados de DU</h2><p id="dtCount"></p></div>
+      <button type="button" class="pd-close dt-close" onclick="cerrarTodosDestacados()" aria-label="Cerrar">×</button>
+    </div>
+    <div class="dt-body" id="dtBody"><div class="grid" id="dtGrid"></div></div>
+  </div>
+</div>
+
 <!-- ─── HOJA INFERIOR: ORDENAR (celular) ─── -->
 <div class="destino-overlay" id="sortOverlay" onclick="if(event.target===this)cerrarSort()">
   <div class="destino-sheet" id="sortSheet">
@@ -1984,8 +2089,12 @@ function limpiarFiltros() {
 ───────────────────────────────────────────────── */
 function badgesHTML(p, rank) {
   const b = [];
-  if (rank) b.push(`<span class="bdg bdg--mv">${BI.star}#${rank} · Más vendido</span>`);
-  else if (mvRank(p)) b.push(`<span class="bdg bdg--mv">${BI.star}Más vendido</span>`);
+  if (rank) {
+    b.push(`<span class="bdg bdg--rank">#${rank}</span>`);
+    if (p.agotado) b.push(`<span class="bdg bdg--ago">${BI.ban}Agotado</span>`);
+    return b.join('');
+  }
+  if (mvRank(p)) b.push(`<span class="bdg bdg--mv">${BI.star}Más vendido</span>`);
   if (isNuevo(p)) b.push(`<span class="bdg bdg--nuevo">${BI.spark}Nuevo</span>`);
   if (isPreventa(p)) b.push(`<span class="bdg bdg--pre">${BI.clock}Preventa</span>`);
   if (p.promocion) b.push(`<span class="bdg bdg--promo">${BI.tag}Promoción</span>`);
@@ -2105,6 +2214,23 @@ function bloqueHTML(o) {
     <div class="car"><div class="car-track">${o.items.map(p => cardHTML(p, { rank: o.rank ? mvRank(p) : 0 })).join('')}</div></div>
   </section>`;
 }
+/* Bloque "Más vendidos": protagonista, estilo vitrina */
+function mvBloqueHTML(items) {
+  return `<section class="fblock fblock--mv" data-block="mv">
+    <div class="mv-head">
+      <div>
+        <span class="mv-eyebrow">${BI.star}Lo más pedido del mes</span>
+        <h2 class="mv-title">Más <em>vendidos</em></h2>
+      </div>
+      <p class="mv-sub">Los favoritos <br>de nuestras clientas</p>
+    </div>
+    <div class="mv-car">
+      <button type="button" class="car-btn mv-arrow prev" data-dir="-1" aria-label="Anterior">${BI.prev}</button>
+      <div class="car"><div class="car-track">${items.map(p => cardHTML(p, { rank: mvRank(p) })).join('')}</div></div>
+      <button type="button" class="car-btn mv-arrow next" data-dir="1" aria-label="Siguiente">${BI.next}</button>
+    </div>
+  </section>`;
+}
 function renderFeatured() {
   const cont = document.getElementById('featured');
   const on = sinFiltros();
@@ -2113,9 +2239,10 @@ function renderFeatured() {
   const vis = p => visibleModo(p) && (state.showAgotados || !p.agotado);
   let h = '';
   const mv = allProducts.filter(p => mvRank(p) && vis(p)).sort((a, b) => mvRank(a) - mvRank(b) || a._i - b._i);
-  if (mv.length) h += bloqueHTML({ id: 'mv', cls: 'fblock--dark', icon: BI.star, titulo: 'Más vendidos', sub: 'Los favoritos de nuestras clientas', items: mv, rank: true });
+  if (mv.length) h += mvBloqueHTML(mv);
   const des = allProducts.filter(p => p.destacado && vis(p));
-  if (des.length) h += bloqueHTML({ id: 'des', cls: 'fblock--blue', icon: BI.spark, titulo: 'Destacados del mes', sub: 'Una selección especial DU', items: des });
+  if (des.length) h += bloqueHTML({ id: 'des', cls: 'fblock--blue', icon: BI.spark, titulo: 'Destacados de DU', items: des,
+    extra: des.length > 4 ? `<button type="button" class="fb-all" onclick="abrirTodosDestacados()">Ver todos <span>(${des.length})</span></button>` : '' });
   const pre = allProducts.filter(p => isPreventa(p) && vis(p));
   if (pre.length) h += bloqueHTML({ id: 'pre', cls: 'fblock--gray', icon: BI.clock, titulo: 'Preventa', sub: 'Aparta antes de que llegue', items: pre });
   const vistos = getVistos().map(id => byId.get(id)).filter(p => p && visibleModo(p));
@@ -2125,9 +2252,22 @@ function renderFeatured() {
   cont.innerHTML = h;
   actualizarFlechas(cont);
 }
+/* Ventana "Ver todos" de los Destacados de DU */
+function abrirTodosDestacados() {
+  const items = allProducts.filter(p => p.destacado && visibleModo(p) && (state.showAgotados || !p.agotado));
+  document.getElementById('dtCount').textContent = `${items.length} productos`;
+  document.getElementById('dtGrid').innerHTML = items.map(p => cardHTML(p)).join('');
+  document.getElementById('dtBody').scrollTop = 0;
+  document.getElementById('dtOverlay').classList.add('visible');
+  document.documentElement.classList.add('lock');
+}
+function cerrarTodosDestacados() {
+  document.getElementById('dtOverlay').classList.remove('visible');
+  if (!document.getElementById('pdOverlay').classList.contains('visible')) document.documentElement.classList.remove('lock');
+}
 function actualizarFlechas(root) {
   (root || document).querySelectorAll('.car').forEach(car => {
-    const sec = car.closest('.fblock, .duc-car, .pd-rel'); if (!sec) return;
+    const sec = car.closest('.mv-car, .fblock, .duc-car, .pd-rel'); if (!sec) return;
     const [prev, next] = sec.querySelectorAll('.car-btn');
     if (!prev) return;
     const max = car.scrollWidth - car.clientWidth - 2;
@@ -2434,7 +2574,7 @@ document.getElementById('empty').addEventListener('click', e => {
 /* Abrir producto desde cualquier tarjeta */
 document.addEventListener('click', e => {
   const btn = e.target.closest('.car-btn');
-  if (btn) { const sec = btn.closest('.fblock, .duc-car, .pd-rel'); const car = sec && sec.querySelector('.car'); if (car) car.scrollBy({ left: (+btn.dataset.dir) * car.clientWidth * 0.9, behavior: 'smooth' }); return; }
+  if (btn) { const sec = btn.closest('.mv-car, .fblock, .duc-car, .pd-rel'); const car = sec && sec.querySelector('.car'); if (car) car.scrollBy({ left: (+btn.dataset.dir) * car.clientWidth * 0.9, behavior: 'smooth' }); return; }
   const card = e.target.closest('.card[data-id]');
   if (card) openProd(card.dataset.id);
 });
@@ -2567,7 +2707,7 @@ function ocultarDetalle() {
   const ov = document.getElementById('pdOverlay');
   if (!ov.classList.contains('visible')) return;
   ov.classList.remove('visible');
-  document.documentElement.classList.remove('lock');
+  if (!document.getElementById('dtOverlay').classList.contains('visible')) document.documentElement.classList.remove('lock');
   clearTimeout(window._zoomHintTimer); clearTimeout(window._zoomHintTimer2);
   if (sinFiltros()) renderFeatured();   // refresca "Vistos recientemente"
 }
@@ -2718,6 +2858,7 @@ document.addEventListener('keydown', e => {
   if (document.getElementById('lightbox').classList.contains('visible')) { closeLightbox(); return; }
   if (document.getElementById('wlOverlay').classList.contains('visible')) { wlCancelar(); return; }
   if (document.getElementById('pdOverlay').classList.contains('visible')) { cerrarDetalle(); return; }
+  if (document.getElementById('dtOverlay').classList.contains('visible')) { cerrarTodosDestacados(); return; }
   cerrarDestinos(); cerrarDatosCliente(); closeCart(); cerrarSort(); cerrarFiltros(); cerrarSugg();
 });
 
