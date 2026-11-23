@@ -8,7 +8,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 curvatura C. PBT coreano de primera calidad, suaves, ligeras y cómodas.",
-      "imagen": "img/pestanas/SET4ANGELINA-C.webp",
+      "imagen": "img/pestanas/SET4 ANGELINA-C_0.png",
+      "colores": [
+        "img/pestanas/SET4 ANGELINA-C_0.png",
+        "img/pestanas/SET4ANGELINA-C.webp"
+      ],
       "agotado": true
     },
     {
@@ -52,7 +56,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 Isabelina curvatura C.",
-      "imagen": "img/pestanas/SET4ISABELINA-C.webp",
+      "imagen": "img/pestanas/SET4 ISABELINA-C_0.png",
+      "colores": [
+        "img/pestanas/SET4 ISABELINA-C_0.png",
+        "img/pestanas/SET4ISABELINA-C.webp"
+      ],
       "agotado": false
     },
     {
@@ -63,7 +71,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Mix x4 Isabelina curvatura D.",
-      "imagen": "img/pestanas/SET4 ISABELINA-D.webp",
+      "imagen": "img/pestanas/SET4 ISABELINA-D_0.png",
+      "colores": [
+        "img/pestanas/SET4 ISABELINA-D_0.png",
+        "img/pestanas/SET4 ISABELINA-D.webp"
+      ],
       "agotado": false
     },
     {
@@ -1154,7 +1166,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas tecnológicas pelo a pelo, efecto pluma.",
-      "imagen": "img/pestanas/REF P-FLY YY.webp",
+      "imagen": "img/pestanas/P-FLY YY_0.png",
+      "colores": [
+        "img/pestanas/P-FLY YY_0.png",
+        "img/pestanas/REF P-FLY YY.webp"
+      ],
       "agotado": false
     },
     {
@@ -1165,7 +1181,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas tecnológicas pelo a pelo.",
-      "imagen": "img/pestanas/REF P-YY.webp",
+      "imagen": "img/pestanas/P-YY_0.png",
+      "colores": [
+        "img/pestanas/P-YY_0.png",
+        "img/pestanas/REF P-YY.webp"
+      ],
       "agotado": false
     },
     {
@@ -1176,7 +1196,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 3D pelo a pelo premium.",
-      "imagen": "img/pestanas/REF P-3DW.webp",
+      "imagen": "img/pestanas/P-3DW_0.png",
+      "colores": [
+        "img/pestanas/P-3DW_0.png",
+        "img/pestanas/REF P-3DW.webp"
+      ],
       "agotado": false
     },
     {
@@ -1187,7 +1211,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 4D pelo a pelo premium.",
-      "imagen": "img/pestanas/REF P-4DW.webp",
+      "imagen": "img/pestanas/P-4DW_0.png",
+      "colores": [
+        "img/pestanas/P-4DW_0.png",
+        "img/pestanas/REF P-4DW.webp"
+      ],
       "agotado": false
     },
     {
@@ -1198,7 +1226,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 5D pelo a pelo premium.",
-      "imagen": "img/pestanas/REF P-5DW.webp",
+      "imagen": "img/pestanas/P-5DW_0.png",
+      "colores": [
+        "img/pestanas/P-5DW_0.png",
+        "img/pestanas/REF P-5DW.webp"
+      ],
       "agotado": false
     },
     {
@@ -1209,7 +1241,11 @@
       "categoria": "Pestañas",
       "subcategoria": "Tecnológicas",
       "descripcion": "Pestañas 6D pelo a pelo premium.",
-      "imagen": "img/pestanas/REF P-6DW.webp",
+      "imagen": "img/pestanas/P-6DW_0.png",
+      "colores": [
+        "img/pestanas/P-6DW_0.png",
+        "img/pestanas/REF P-6DW.webp"
+      ],
       "agotado": false
     },
     {
