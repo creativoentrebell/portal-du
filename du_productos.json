@@ -247,7 +247,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "Cluster Set Laura curvatura C. Incluye pestañas + pinza + glue + removedor.",
       "imagen": "img/pestanas/SETLAURA-C.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/pestanas/SETLAURA-C.webp",
         "img/pestanas/PINZA_CLUSTER_1.png",
@@ -1257,7 +1257,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm, 14mm y 15mm. Pestañas Flat Premium tecnológica curvatura D.",
       "imagen": "img/pestanas/PF15D - FLAT 15 mm.png",
-      "agotado": true,
+      "agotado": false,
       "variantes": [
         "8 mm",
         "9 mm",
@@ -1280,7 +1280,7 @@
       "subcategoria": "Pestañas pelo a pelo",
       "descripcion": "Disponible en: 8mm, 9mm, 10mm, 11mm, 12mm, 13mm y 14mm. Pestañas Flat Premium tecnológica curvatura D.",
       "imagen": "img/pestanas/FLAT20D.webp",
-      "agotado": true,
+      "agotado": false,
       "variantes": [
         "8 mm",
         "9 mm",
@@ -2274,7 +2274,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Depilador con punta oblicua para cejas.",
       "imagen": "img/pestanas/dep3143.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0150",
@@ -2415,7 +2415,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Encrespador de pestañas.",
       "imagen": "img/pestanas/E100 2.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0164",
@@ -2443,17 +2443,6 @@
       "descripcion": "Encrespador de pestañas con bandas de goma internas. Repuesto de silicona incluido.",
       "imagen": "img/pestanas/E103 GRIS.webp",
       "agotado": true
-    },
-    {
-      "id": "p0168",
-      "nombre": "Encrespador Claw E108",
-      "referencia": "E108",
-      "precio": 10000,
-      "categoria": "Pestañas",
-      "subcategoria": "Accesorios de pestañas",
-      "descripcion": "Encrespador Claw diseño metálico con bandas de goma internas. Repuesto de silicona incluido.",
-      "imagen": "img/pestanas/E108.webp",
-      "agotado": false
     },
     {
       "id": "p0169",
@@ -4140,7 +4129,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pinceles con punzón (doble punta) por unidad.",
       "imagen": "img/unas/PUN5PCS.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0339",
@@ -4151,7 +4140,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pads limpiadores paquete x200.",
       "imagen": "img/unas/PADS2.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0340",
@@ -4162,7 +4151,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Pads limpiadores paquete x200.",
       "imagen": "img/unas/PADS3.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0341",
@@ -4290,7 +4279,7 @@
       "subcategoria": "Accesorios para uñas",
       "descripcion": "Guillotina de alta calidad con mango ergonómico antideslizante. Corte preciso y sin esfuerzo.",
       "imagen": "img/unas/BLACKY.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0351",
@@ -5376,7 +5365,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Pincel PL13.",
       "imagen": "img/accesorios/PI 13_1.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0457",
@@ -5985,7 +5974,7 @@
       "subcategoria": "Brochas, pinceles y accesorios",
       "descripcion": "Masajeador Ice Glow para rostro.",
       "imagen": "img/accesorios/AE-349 1.webp",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/accesorios/AE-349 1.webp",
         "img/accesorios/AE-349.webp"
@@ -6307,7 +6296,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/43A.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0531",
@@ -6318,7 +6307,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Cepillo térmico.",
       "imagen": "img/accesorios/43R.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0532",
@@ -6362,7 +6351,7 @@
       "subcategoria": "Cepillos y peinillas",
       "descripcion": "Peinilla.",
       "imagen": "img/accesorios/pei-106.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0537",
@@ -6875,7 +6864,7 @@
       "subcategoria": "Pestañas de fácil aplicación",
       "descripcion": "",
       "imagen": "img/pestanas/3D-15_0.png",
-      "agotado": true,
+      "agotado": false,
       "precio": 7000,
       "colores": [
         "img/pestanas/3D-15_0.png",
@@ -7003,7 +6992,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/BR01.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0590",
@@ -7014,7 +7003,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/BR07.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0591",
@@ -7025,7 +7014,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/BR09.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0592",
@@ -7036,7 +7025,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/BR10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0593",
@@ -7047,7 +7036,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DM03_1.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/DM03_1.webp",
         "img/accesorios/DM03_2.webp"
@@ -7062,7 +7051,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/DM05_1.webp",
-      "agotado": false,
+      "agotado": true,
       "colores": [
         "img/accesorios/DM05_1.webp",
         "img/accesorios/DM05_2.webp"
@@ -7077,7 +7066,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MC01.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0596",
@@ -7088,7 +7077,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0597",
@@ -7099,7 +7088,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP06.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0598",
@@ -7110,7 +7099,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP07.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0599",
@@ -7121,7 +7110,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP08.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0600",
@@ -7132,7 +7121,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP09.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0601",
@@ -7143,7 +7132,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP10.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0602",
@@ -7154,7 +7143,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP11.jpg",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0603",
@@ -7165,7 +7154,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP12.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0604",
@@ -7176,7 +7165,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP13.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0605",
@@ -7187,7 +7176,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP16.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0606",
@@ -7198,7 +7187,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP17.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0607",
@@ -7220,7 +7209,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MR01.webp",
-      "agotado": false,
+      "agotado": true,
       "destacado": true,
       "ducenazo": 4,
       "historia": "img/ducenazo/MR01.png"
@@ -7234,7 +7223,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MS02.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0610",
@@ -7245,7 +7234,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MS03.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0611",
@@ -7256,7 +7245,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/SP01.webp",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0612",
@@ -7855,7 +7844,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/018B.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0656",
@@ -7875,7 +7864,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
-      "agotado": true,
+      "agotado": false,
       "destacado": true,
       "ducenazo": 4
     },
@@ -7924,7 +7913,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0666",
@@ -7981,7 +7970,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1301.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0671",
@@ -7991,7 +7980,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1302.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0672",
@@ -8001,7 +7990,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1303.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0673",
@@ -8011,7 +8000,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1304.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0674",
@@ -8021,7 +8010,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1305.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0675",
@@ -8031,7 +8020,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1306.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0676",
@@ -8041,7 +8030,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1307.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0677",
@@ -8051,7 +8040,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1308.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0678",
@@ -8061,7 +8050,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1309.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0679",
@@ -8071,7 +8060,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1310.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0680",
@@ -8081,7 +8070,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1311.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0681",
@@ -8091,7 +8080,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GEM1312.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0686",
@@ -8175,7 +8164,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3127_1.jpg",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/unas/GM3127_1.jpg",
         "img/unas/GM3127_2.jpg"
@@ -8189,7 +8178,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3141_1.jpg",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/unas/GM3141_1.jpg",
         "img/unas/GM3141_2.jpg"
@@ -8203,7 +8192,7 @@
       "categoria": "Uñas",
       "subcategoria": "Efectos y apliques",
       "imagen": "img/unas/GM3156_1.jpg",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/unas/GM3156_1.jpg",
         "img/unas/GM3156_2.jpg"
@@ -8217,7 +8206,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/LAM04_1.jpg",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/unas/LAM04_1.jpg",
         "img/unas/LAM04_2.jpg"
@@ -8451,7 +8440,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM6_1.jpg",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/unas/USTM6_1.jpg",
         "img/unas/USTM6_2.jpg"
@@ -8465,7 +8454,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM7.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0716",
@@ -8475,7 +8464,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM8.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0717",
@@ -8485,7 +8474,7 @@
       "categoria": "Uñas",
       "subcategoria": "Accesorios para uñas",
       "imagen": "img/unas/USTM9.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0718",
@@ -9445,7 +9434,7 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "imagen": "img/unas/STICKER2-64_1.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0788",
@@ -9455,7 +9444,7 @@
       "categoria": "Uñas",
       "subcategoria": "Stickers para uñas",
       "imagen": "img/unas/STICKER2-65_1.webp",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0789",
@@ -10534,7 +10523,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash profesional.",
       "imagen": "img/pestanas/KITPE.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0864",
@@ -10545,7 +10534,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash profesional.",
       "imagen": "img/pestanas/LAMC.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0865",
@@ -10556,7 +10545,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Set Lash.",
       "imagen": "img/pestanas/TINPC.png",
-      "agotado": true
+      "agotado": false
     },
     {
       "id": "p0866",
@@ -10636,7 +10625,7 @@
       "subcategoria": "Accesorios de pestañas",
       "descripcion": "Anillo corazón porta adhesivo x12 unidades.",
       "imagen": "img/pestanas/ANI-11_1.png",
-      "agotado": true,
+      "agotado": false,
       "colores": [
         "img/pestanas/ANI-11_1.png",
         "img/pestanas/ANI-11_2.png",
@@ -10665,7 +10654,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/MP14.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0874",
@@ -10676,7 +10665,7 @@
       "subcategoria": "Herramientas y accesorios",
       "descripcion": "",
       "imagen": "img/accesorios/SP02.png",
-      "agotado": false
+      "agotado": true
     },
     {
       "id": "p0875",
