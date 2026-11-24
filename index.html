@@ -1300,12 +1300,159 @@
     }
     .cart-btn { width: 44px; height: 44px; }
     .cart-btn:hover { border-color: var(--du-blue-dk); }
+
+    /* ─── BLACK WEEK (campaña nov/2026 · -20 % en Detal) ─────────── */
+    .bw-strip, .bw-hero, .pd-bw, .bw-cart-row { display: none; }
+    body.bw-on .bw-strip { display: block; }
+    body.bw-on .bw-hero { display: block; }
+    body.bw-on .hero { display: none; }
+    /* Franja fija arriba de la barra */
+    .bw-strip {
+      background: #0c0d0e; color: #fff; overflow: hidden; position: relative;
+      border-bottom: 1px solid rgba(166,216,242,0.25);
+    }
+    .bw-strip::after {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: linear-gradient(100deg, transparent 0%, transparent 40%, rgba(166,216,242,0.18) 50%, transparent 60%, transparent 100%);
+      background-size: 250% 100%; animation: bwShine 5s linear infinite;
+    }
+    .bw-strip-inner {
+      max-width: var(--maxw); margin: 0 auto; padding: 8px 16px; display: flex; align-items: center; justify-content: center;
+      gap: 12px; font-size: 11.5px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap;
+    }
+    .bw-strip b { color: var(--du-blue); font-weight: 700; }
+    .bw-strip .bw-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--du-blue); flex-shrink: 0; }
+    .bw-strip .bw-cd-mini { font-variant-numeric: tabular-nums; color: rgba(255,255,255,0.75); letter-spacing: 0.08em; }
+    @keyframes bwShine { 0% { background-position: 150% 0; } 100% { background-position: -100% 0; } }
+
+    /* Banner protagonista (reemplaza el banner normal mientras dure) */
+    .bw-hero {
+      position: relative; overflow: hidden; color: #fff;
+      background:
+        radial-gradient(60% 120% at 88% 10%, rgba(166,216,242,0.30) 0%, rgba(166,216,242,0) 60%),
+        radial-gradient(50% 90% at 6% 100%, rgba(124,184,217,0.22) 0%, rgba(124,184,217,0) 60%),
+        linear-gradient(160deg, #1b1c1e 0%, #0b0b0c 100%);
+    }
+    .bw-hero::before {   /* textura de líneas finas */
+      content: ''; position: absolute; inset: 0; opacity: .07; pointer-events: none;
+      background-image: repeating-linear-gradient(115deg, #fff 0 1px, transparent 1px 22px);
+    }
+    .bw-hero-inner {
+      position: relative; max-width: var(--maxw); margin: 0 auto; padding: 38px 24px 36px;
+      display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 28px;
+    }
+    .bw-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px; font-size: 10.5px; font-weight: 700;
+      letter-spacing: 0.28em; text-transform: uppercase; color: var(--du-blue);
+    }
+    .bw-eyebrow i { width: 22px; height: 1px; background: var(--du-blue); }
+    .bw-title { margin-top: 12px; line-height: .88; letter-spacing: -0.035em; font-weight: 700; text-transform: uppercase; }
+    .bw-title .l1 { display: block; font-size: clamp(46px, 7.2vw, 92px); color: #fff; }
+    .bw-title .l2 {
+      display: block; font-size: clamp(46px, 7.2vw, 92px); color: transparent;
+      -webkit-text-stroke: 1.5px var(--du-blue); text-stroke: 1.5px var(--du-blue);
+    }
+    .bw-dates { margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.72); }
+    .bw-dates strong { color: #fff; font-weight: 600; }
+    .bw-cta {
+      margin-top: 20px; display: inline-flex; align-items: center; gap: 9px; height: 46px; padding: 0 24px;
+      border-radius: 999px; border: 0; cursor: pointer; font-size: 13px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase;
+      background: linear-gradient(120deg, #a6d8f2 0%, #e6f5fd 50%, #7cb8d9 100%); color: #111;
+      box-shadow: 0 10px 28px -10px rgba(166,216,242,0.65); transition: transform .2s, box-shadow .2s;
+    }
+    .bw-cta:hover { transform: translateY(-2px); box-shadow: 0 14px 34px -10px rgba(166,216,242,0.85); }
+    .bw-cta svg { width: 16px; height: 16px; }
+    .bw-right { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+    .bw-off { position: relative; display: flex; align-items: flex-start; line-height: .8; font-weight: 700; letter-spacing: -0.06em; }
+    .bw-off .num {
+      font-size: clamp(110px, 15vw, 196px); font-style: italic; padding-right: 0.04em;
+      background: linear-gradient(100deg, #7cb8d9 0%, #a6d8f2 28%, #ffffff 46%, #a6d8f2 62%, #7cb8d9 100%);
+      background-size: 220% 100%; -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent; color: transparent; animation: bwOff 6s ease-in-out infinite;
+    }
+    .bw-off .pct { font-size: clamp(44px, 6vw, 78px); font-style: italic; color: #fff; margin-top: .12em; }
+    .bw-off .minus { font-size: clamp(60px, 8vw, 104px); color: #fff; margin-top: .22em; margin-right: .02em; font-weight: 400; }
+    .bw-off-sub { font-size: 12px; font-weight: 700; letter-spacing: 0.32em; text-transform: uppercase; color: #fff; margin-top: -4px; }
+    @keyframes bwOff { 0%,100% { background-position: 0% 0; } 50% { background-position: 100% 0; } }
+    .bw-cd { display: flex; gap: 8px; margin-top: 4px; }
+    .bw-cd > div {
+      min-width: 60px; padding: 9px 6px 7px; border-radius: 12px; text-align: center;
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(166,216,242,0.28); backdrop-filter: blur(4px);
+    }
+    .bw-cd b { display: block; font-size: 24px; font-weight: 600; font-variant-numeric: tabular-nums; letter-spacing: 0; }
+    .bw-cd span { font-size: 8.5px; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.6); }
+    .bw-cd-label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.55); }
+    @media (max-width: 760px) {
+      .bw-hero-inner { grid-template-columns: 1fr; gap: 6px; padding: 26px 18px 26px; text-align: center; }
+      .bw-left { display: flex; flex-direction: column; align-items: center; }
+      .bw-title .l1, .bw-title .l2 { font-size: 54px; }
+      .bw-dates { font-size: 13px; margin-top: 12px; }
+      .bw-right { order: -1; gap: 10px; }
+      .bw-off .num { font-size: 120px; }
+      .bw-off .pct { font-size: 48px; }
+      .bw-off .minus { font-size: 64px; }
+      .bw-cd > div { min-width: 54px; padding: 7px 4px 6px; }
+      .bw-cd b { font-size: 20px; }
+      .bw-cta { height: 44px; margin-top: 16px; }
+      .bw-strip-inner { font-size: 10px; gap: 8px; letter-spacing: 0.1em; padding: 7px 10px; }
+      .bw-strip .bw-hide-m { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) { .bw-strip::after, .bw-off .num { animation: none; } }
+
+    /* Precio con descuento (tarjetas, sugerencias, detalle, carrito) */
+    .bw-now { color: inherit; }
+    .bw-old { font-size: .66em; font-weight: 400; color: var(--du-gray-dk); text-decoration: line-through; margin-left: 6px; white-space: nowrap; }
+    .bw-save { display: none; }
+    .card-media .bw-tag {
+      position: absolute; top: 10px; right: 10px; z-index: 6; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      width: 56px; height: 56px; border-radius: 50%; background: #0c0d0e; color: #fff; line-height: 1;
+      box-shadow: 0 4px 12px -2px rgba(0,0,0,0.35), inset 0 0 0 2px rgba(166,216,242,0.55); transform: rotate(-8deg);
+    }
+    .card-media .bw-tag b { font-size: 15px; font-weight: 700; letter-spacing: -0.03em; color: var(--du-blue); }
+    .card-media .bw-tag span { font-size: 6px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin-top: 2px; text-align: center; line-height: 1.15; max-width: 40px; }
+    .card--mini .card-media .bw-tag, .fblock--mv .card-media .bw-tag { width: 50px; height: 50px; top: 7px; right: 7px; }
+    .card--mini .card-media .bw-tag b, .fblock--mv .card-media .bw-tag b { font-size: 13px; }
+    .card--mini .card-media .bw-tag span { font-size: 5.5px; max-width: 36px; }
+    .card--mini .bw-old { display: block; margin-left: 0; font-size: .78em; }
+    .fblock--mv .bw-old { color: rgba(255,255,255,0.5); }
+    .card.is-agotado .bw-tag { opacity: .55; }
+    .sg-price .bw-old { font-size: .82em; }
+    @media (max-width: 640px) {
+      .card-price .bw-old { display: block; margin-left: 0; font-size: .7em; }
+      .card-media .bw-tag { width: 50px; height: 50px; top: 7px; right: 7px; }
+      .card-media .bw-tag b { font-size: 13px; }
+      .card-media .bw-tag span { font-size: 5.5px; max-width: 36px; }
+    }
+    .pd-price .bw-old { font-size: .55em; margin-left: 10px; }
+    .pd-price .bw-save {
+      display: inline-flex; align-items: center; gap: 6px; margin-left: 10px; vertical-align: middle;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+      background: #0c0d0e; color: var(--du-blue); padding: 5px 10px; border-radius: 999px;
+    }
+    .pd-bw { margin-top: 10px; font-size: 12.5px; color: var(--du-gray-dk); }
+    body.bw-on .pd-bw.on { display: block; }
+    .pd-bw strong { color: var(--du-dark); }
+    .cart-item-price .bw-old { display: block; text-align: right; margin: 0; font-size: 11px; }
+    body.bw-on .bw-cart-row.on {
+      display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px;
+      background: #0c0d0e; color: #fff; border-radius: 10px; padding: 9px 12px; font-size: 12.5px;
+    }
+    .bw-cart-row b { color: var(--du-blue); font-weight: 700; letter-spacing: 0.04em; }
+    .bw-cart-row span:last-child { font-weight: 600; }
   </style>
 </head>
 <body>
 
 <!-- ─── BARRA SUPERIOR FIJA ─── -->
 <header class="topbar" id="siteHeader">
+  <!-- Black Week: franja fija -->
+  <div class="bw-strip" onclick="irInicio(event)" role="button" aria-label="Black Week: 20% de descuento en toda la tienda">
+    <div class="bw-strip-inner">
+      <span><b>Black Week</b></span><span class="bw-dot"></span>
+      <span>20% de descuento en toda la tienda</span><span class="bw-dot bw-hide-m"></span>
+      <span class="bw-cd-mini bw-hide-m" id="bwCdMini"></span>
+    </div>
+  </div>
   <div class="tb-inner">
     <a class="tb-logo" href="#" onclick="irInicio(event)" aria-label="DU — inicio">
       <img src="img/logo.png" alt="DU" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"/>
@@ -1360,6 +1507,26 @@
   <!-- Pestañas de categoría -->
   <nav class="tabs" aria-label="Categorías"><div class="tabs-inner" id="tabs"></div></nav>
 </header>
+
+<!-- ─── BLACK WEEK: banner protagonista (solo Detal, mientras esté activa) ─── -->
+<section class="bw-hero" id="bwHero" aria-label="Black Week DU">
+  <div class="bw-hero-inner">
+    <div class="bw-left">
+      <span class="bw-eyebrow"><i></i>DU · Solo por una semana<i></i></span>
+      <h1 class="bw-title"><span class="l1">Black</span><span class="l2">Week</span></h1>
+      <p class="bw-dates" id="bwDates">Del <strong>23 al 30 de noviembre</strong> · precio con descuento ya aplicado</p>
+      <button type="button" class="bw-cta" onclick="bwIrAlCatalogo()">Comprar ahora
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </button>
+    </div>
+    <div class="bw-right">
+      <div class="bw-off" aria-label="20% de descuento"><span class="num">20</span><span class="pct">%</span></div>
+      <span class="bw-off-sub">De descuento en toda la tienda</span>
+      <span class="bw-cd-label" id="bwCdLabel">Termina en</span>
+      <div class="bw-cd" id="bwCd"></div>
+    </div>
+  </div>
+</section>
 
 <!-- ─── BANNER SUPERIOR (sin cambios) ─── -->
 <section class="hero">
@@ -1572,6 +1739,7 @@
             <button type="button" class="pd-share-btn" id="pdCopyBtn" onclick="copiarEnlace()"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg><span id="pdCopyTxt">Copiar enlace</span></button>
           </div>
           <div class="pd-price" id="pdPrice"></div>
+          <div class="pd-bw" id="pdBw"></div>
           <div id="pdExtra"></div>
           <span class="prod-modal-duc" id="pdDuc" style="display:none"></span>
 
@@ -1650,6 +1818,7 @@
   <div class="cart-mode-tag" id="cartModeTag"></div>
   <div class="cart-body" id="cartBody"></div>
   <div class="cart-footer" id="cartFooter">
+    <div class="bw-cart-row" id="bwCartRow"></div>
     <div class="cart-total-row">
       <span class="cart-total-label">Total</span>
       <span class="cart-total-val" id="cartTotalVal"></span>
@@ -1806,7 +1975,11 @@ function ducUnits(p) { return ducenazoActivo() ? (ducMap[p.id] || 0) : 0; }
 function precioNum(p) { const v = precioActual(p, null); return typeof v === 'number' ? v : null; }
 function precioHTML(p, variante) {
   const v = precioActual(p, variante || null);
-  return (typeof v === 'number') ? money(v) : '<span class="price-pending">Precio pendiente</span>';
+  if (typeof v !== 'number') return '<span class="price-pending">Precio pendiente</span>';
+  const l = precioLista(p, variante || null);
+  if (typeof l === 'number' && l > v)
+    return `<span class="bw-now">${money(v)}</span><s class="bw-old">${money(l)}</s><span class="bw-save">Ahorras ${money(l - v)}</span>`;
+  return money(v);
 }
 function extrasPrecio(p, clase) {
   if (mode !== 'mayorista') return '';
@@ -2153,7 +2326,7 @@ function cardHTML(p, o = {}) {
     <div class="card-media${img ? '' : ' no-img'}">
       ${img ? `<img src="${esc(img)}" alt="${esc(p.nombre)}" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('img-error')"/>` : ''}
       <div class="ph"><div class="ph-ic">${ICONS[p.categoria] || ICONS["Accesorios"]}</div><span>${esc(p.referencia)}</span></div>
-      ${b ? `<div class="badges">${b}</div>` : ''}${ducHTML}
+      ${b ? `<div class="badges">${b}</div>` : ''}${ducHTML}${bwAplica(p) && !duc ? `<span class="bw-tag" title="Black Week"><b>${BW_PCT}%</b><span>de descuento</span></span>` : ''}
     </div>
     <div class="card-body">
       <span class="card-sub">${esc(o.label || p.subcategoria)}</span>
@@ -2746,6 +2919,7 @@ function setMode(m) {
 function aplicarModo() {
   document.querySelectorAll('.mode-btn').forEach(b => b.classList.toggle('active', b.dataset.mode === mode));
   document.body.classList.toggle('modo-mayor', mode === 'mayorista');
+  document.body.classList.toggle('bw-on', bwModoActivo());
   const footerNote = document.getElementById('footerNote');
   if (footerNote) footerNote.textContent = mode === 'mayorista'
     ? 'Mayorista 2026 — Precios exclusivos para mayoristas. Arma tu pedido y envíalo por WhatsApp.'
@@ -2815,6 +2989,9 @@ function pintarDetalle(p, soloPrecios) {
   document.getElementById('pdBadges').innerHTML = badgesHTML(p, 0);
   document.getElementById('pdPrice').innerHTML = precioHTML(p, currentVariante);
   document.getElementById('pdExtra').innerHTML = extrasPrecio(p, 'pd-extra');
+  const bwEl = document.getElementById('pdBw');
+  bwEl.classList.toggle('on', bwAplica(p) && !p.agotado);
+  bwEl.innerHTML = `<strong>Black Week · ${BW_PCT}% de descuento</strong> ya aplicado, hasta el 30 de noviembre.`;
   const ducTag = document.getElementById('pdDuc');
   const duc = ducUnits(p);
   if (duc) { ducTag.textContent = `Ducenazo · Por cada 12 llévate ${duc} gratis`; ducTag.style.display = 'inline-block'; }
@@ -3002,7 +3179,34 @@ function varDef(p, varianteVal) {
 }
 
 /* Precio del producto según el modo activo (y la variante elegida, si tiene precio propio) */
+/* ─────────────────────────────────────────────────
+   BLACK WEEK — campaña nov/2026 (descuento sobre toda la mercancía)
+   · Se prende/apaga a mano con BLACKWEEK_ACTIVO.
+   · Se apaga sola al llegar BLACKWEEK_FIN (poner null para que no se apague sola).
+   · ?blackweek en la URL la muestra aunque esté apagada (vista previa).
+   · El descuento se calcula aquí: los JSON NO se tocan.
+───────────────────────────────────────────────── */
+const BLACKWEEK_ACTIVO      = true;                                   // ← true = campaña visible · false = oculta
+const BLACKWEEK_DESCUENTO   = 0.20;                                   // 20 %
+const BLACKWEEK_MODOS       = ['detal'];                              // agregar 'mayorista' si también aplica allá
+const BLACKWEEK_FIN         = new Date('2026-12-01T00:00:00-05:00');  // termina el 30/nov a medianoche (hora Colombia)
+const BLACKWEEK_EXCLUIR_DESTACADOS = false;                           // true = sin descuento para los Destacados de DU (rotación)
+const BLACKWEEK_PREVIEW     = new URLSearchParams(location.search).has('blackweek');
+function bwEncendida() {
+  if (BLACKWEEK_PREVIEW) return true;
+  return BLACKWEEK_ACTIVO && !(BLACKWEEK_FIN && Date.now() >= BLACKWEEK_FIN.getTime());
+}
+function bwModoActivo() { return bwEncendida() && BLACKWEEK_MODOS.includes(mode); }
+function bwAplica(p) { return bwModoActivo() && !(BLACKWEEK_EXCLUIR_DESTACADOS && p.destacado); }
+function bwPrecio(n) { return Math.round(n * (1 - BLACKWEEK_DESCUENTO)); }
+const BW_PCT = Math.round(BLACKWEEK_DESCUENTO * 100);
+
+/* Precio que se cobra (con Black Week si aplica). El de lista sale de precioLista(). */
 function precioActual(p, varianteVal) {
+  const v = precioLista(p, varianteVal);
+  return (typeof v === 'number' && bwAplica(p)) ? bwPrecio(v) : v;
+}
+function precioLista(p, varianteVal) {
   if (mode === 'sinprecios') return null;
   // Si la variante elegida tiene precio propio, ese manda
   const vd = varDef(p, varianteVal);
@@ -3119,7 +3323,9 @@ function renderCart() {
     if (conPrecios) {
       const precio = precioActual(p, it.variante);
       if (precio === 'pendiente') { hayPendiente = true; priceHTML = `<span class="cart-item-price"><span class="price-pending">A confirmar</span></span>`; }
-      else { const sub = precio * it.qty; total += sub; priceHTML = `<span class="cart-item-price">$${formatPrice(sub)}</span>`; }
+      else { const sub = precio * it.qty; total += sub; const lis = precioLista(p, it.variante);
+        const tach = (typeof lis === 'number' && lis > precio) ? `<s class="bw-old">$${formatPrice(lis * it.qty)}</s>` : '';
+        priceHTML = `<span class="cart-item-price">$${formatPrice(sub)}${tach}</span>`; }
     }
 
     const varHTML  = it.variante ? `<span class="cart-item-var">${p.variante_label || 'Tamaño'}: ${it.variante}</span>` : '';
@@ -3144,6 +3350,10 @@ function renderCart() {
     </div>`;
   }).join('');
 
+  const bwRow = document.getElementById('bwCartRow');
+  const ahorro = bwAhorroCarrito();
+  bwRow.classList.toggle('on', ahorro > 0);
+  bwRow.innerHTML = ahorro > 0 ? `<span><b>BLACK WEEK · ${BW_PCT}% DE DESCUENTO</b></span><span>Ahorras $${formatPrice(ahorro)}</span>` : '';
   if (conPrecios) {
     totalEl.innerHTML = `<span class="currency">$</span>${formatPrice(total)}` + (hayPendiente ? ` <span class="cart-total-pending">+ a confirmar</span>` : '');
   } else {
@@ -3261,6 +3471,7 @@ function buildWhatsAppMessage() {
   const L = [];
   L.push('*NUEVO PEDIDO — DU*');
   L.push('Lista de precios: *' + modoNombre + '*');
+  if (bwModoActivo()) L.push('Promoción: *BLACK WEEK · ' + BW_PCT + '% de descuento* (precios ya aplicados)');
   L.push('━━━━━━━━━━━━━━━━━━━');
   L.push('*Datos del cliente*');
   L.push('• Nombre: ' + clienteData.nombre);
@@ -3284,7 +3495,9 @@ function buildWhatsAppMessage() {
     if (conPrecios) {
       const precio = precioActual(p, it.variante);
       if (precio === 'pendiente') { hayPendiente = true; L.push('• Cantidad: ' + it.qty + ' · precio a confirmar'); }
-      else { const sub = precio * it.qty; total += sub; L.push('• Cantidad: ' + it.qty + ' × $' + formatPrice(precio)); L.push('• Subtotal: *$' + formatPrice(sub) + '*'); }
+      else { const sub = precio * it.qty; total += sub; const lis = precioLista(p, it.variante);
+        L.push('• Cantidad: ' + it.qty + ' × $' + formatPrice(precio) + ((typeof lis === 'number' && lis > precio) ? ' (antes $' + formatPrice(lis) + ')' : ''));
+        L.push('• Subtotal: *$' + formatPrice(sub) + '*'); }
     } else {
       L.push('• Cantidad: ' + it.qty);
     }
@@ -3294,6 +3507,8 @@ function buildWhatsAppMessage() {
   L.push('━━━━━━━━━━━━━━━━━━━');
   L.push('Productos: ' + cart.length + '  ·  Unidades: ' + unidades);
   if (conPrecios) {
+    const bwAh = bwAhorroCarrito();
+    if (bwAh > 0) L.push('Black Week ' + BW_PCT + '% de descuento: -$' + formatPrice(bwAh));
     L.push('*TOTAL: $' + formatPrice(total) + '*' + (hayPendiente ? ' _(+ ítems a confirmar)_' : ''));
     if (mode === 'mayorista' && clienteData.retenedor === 'si') {
       L.push('');
@@ -3392,7 +3607,8 @@ function enlaceProducto(id) { return location.origin + location.pathname + '#' +
 function textoCompartir(p) {
   // En modo Mayorista NO se comparte el precio (la asesora puede mandárselo a un cliente final)
   const L = ['Mira este producto de DU:', '*' + p.nombre + '*', 'Ref: ' + p.referencia];
-  if (mode === 'detal') { const v = precioActual(p, null); if (typeof v === 'number') L.push('Precio: $' + formatPrice(v)); }
+  if (mode === 'detal') { const v = precioActual(p, null); const l = precioLista(p, null);
+    if (typeof v === 'number') L.push('Precio: $' + formatPrice(v) + ((typeof l === 'number' && l > v) ? ' (Black Week ' + BW_PCT + '% de descuento, antes $' + formatPrice(l) + ')' : '')); }
   L.push(enlaceProducto(p.id));
   return L.join('\n');
 }
@@ -3526,6 +3742,38 @@ async function init() {
   sync();
   if ('ResizeObserver' in window) new ResizeObserver(sync).observe(h);
   window.addEventListener('resize', () => { sync(); actualizarFlechas(); });
+})();
+
+/* ── Black Week: ahorro del carrito, cuenta regresiva y botón del banner ── */
+function bwAhorroCarrito() {
+  let a = 0;
+  for (const it of cart) {
+    const p = byId.get(it.id); if (!p) continue;
+    const v = precioActual(p, it.variante), l = precioLista(p, it.variante);
+    if (typeof v === 'number' && typeof l === 'number' && l > v) a += (l - v) * it.qty;
+  }
+  return a;
+}
+function bwIrAlCatalogo() {
+  const m = document.querySelector('main.layout');
+  if (m) window.scrollTo({ top: m.getBoundingClientRect().top + window.scrollY - (parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) || 0) - 8, behavior: 'smooth' });
+}
+(function bwCuentaRegresiva() {
+  const cd = document.getElementById('bwCd'), mini = document.getElementById('bwCdMini'), lab = document.getElementById('bwCdLabel');
+  let estaba = bwEncendida();
+  const dos = n => String(n).padStart(2, '0');
+  function tick() {
+    const on = bwEncendida();
+    if (on !== estaba) { estaba = on; if (allProducts.length) aplicarModo(); }   // se acabó: quitar precios con descuento
+    if (!BLACKWEEK_FIN) { cd.innerHTML = ''; lab.style.display = 'none'; mini.textContent = ''; return; }
+    let s = Math.max(0, Math.floor((BLACKWEEK_FIN.getTime() - Date.now()) / 1000));
+    const d = Math.floor(s / 86400); s %= 86400;
+    const h = Math.floor(s / 3600); s %= 3600;
+    const m = Math.floor(s / 60); s %= 60;
+    cd.innerHTML = [[d, 'Días'], [h, 'Horas'], [m, 'Min'], [s, 'Seg']].map(([n, t]) => `<div><b>${dos(n)}</b><span>${t}</span></div>`).join('');
+    mini.textContent = 'Termina en ' + (d ? d + 'd ' : '') + dos(h) + 'h ' + dos(m) + 'm ' + dos(s) + 's';
+  }
+  tick(); setInterval(tick, 1000);
 })();
 
 init();
