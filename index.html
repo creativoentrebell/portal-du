@@ -1348,9 +1348,9 @@
     .bw-eyebrow i { width: 22px; height: 1px; background: var(--du-blue); }
     .bw-title { margin-top: 12px; line-height: .88; letter-spacing: -0.035em; font-weight: 700; text-transform: uppercase; }
     .bw-title .l1 { display: block; font-size: clamp(46px, 7.2vw, 92px); color: #fff; }
-    .bw-title .l2 {
-      display: block; font-size: clamp(46px, 7.2vw, 92px); color: transparent;
-      -webkit-text-stroke: 1.5px var(--du-blue); text-stroke: 1.5px var(--du-blue);
+    .bw-title .l2 {   /* contorno limpio: el filtro dibuja solo el borde exterior de las letras (sin trazos cruzados) */
+      display: block; font-size: clamp(46px, 7.2vw, 92px); color: #fff;
+      filter: url(#bwContorno);
     }
     .bw-dates { margin-top: 16px; font-size: 14px; color: rgba(255,255,255,0.72); }
     .bw-dates strong { color: #fff; font-weight: 600; }
@@ -1507,6 +1507,16 @@
   <!-- Pestañas de categoría -->
   <nav class="tabs" aria-label="Categorías"><div class="tabs-inner" id="tabs"></div></nav>
 </header>
+
+<!-- Filtro del contorno de "WEEK" (Black Week) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <filter id="bwContorno" x="-5%" y="-10%" width="110%" height="120%" color-interpolation-filters="sRGB">
+    <feMorphology in="SourceAlpha" operator="dilate" radius="1.6" result="grueso"/>
+    <feComposite in="grueso" in2="SourceAlpha" operator="out" result="borde"/>
+    <feFlood flood-color="#a6d8f2"/>
+    <feComposite in2="borde" operator="in"/>
+  </filter>
+</svg>
 
 <!-- ─── BLACK WEEK: banner protagonista (solo Detal, mientras esté activa) ─── -->
 <section class="bw-hero" id="bwHero" aria-label="Black Week DU">
