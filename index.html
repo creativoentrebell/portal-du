@@ -1439,6 +1439,12 @@
     }
     .bw-cart-row b { color: var(--du-blue); font-weight: 700; letter-spacing: 0.04em; }
     .bw-cart-row span:last-child { font-weight: 600; }
+    .bw-contado { margin-top: 6px; font-size: 12px; font-weight: 600; letter-spacing: 0.04em; color: var(--du-blue); }
+    .bw-hero .aviso-stock { margin-top: 10px; padding: 0; background: none; border: none; font-size: 12px; color: #f0c36d; align-items: center; gap: 6px; }
+    .bw-hero .aviso-stock strong { color: inherit; font-weight: 600; }
+    .bw-hero .aviso-stock svg { width: 13px; height: 13px; margin-top: 0; color: #f0c36d; }
+    .card-media .bw-tag.bw-tag--duc { top: 38px; }
+    .bw-cart-row small { display: block; font-size: 10.5px; color: rgba(255,255,255,0.65); margin-top: 2px; letter-spacing: 0.02em; }
   </style>
 </head>
 <body>
@@ -1449,7 +1455,7 @@
   <div class="bw-strip" onclick="irInicio(event)" role="button" aria-label="Black Week: 20% de descuento en toda la tienda">
     <div class="bw-strip-inner">
       <span><b>Black Week</b></span><span class="bw-dot"></span>
-      <span>20% de descuento en toda la tienda</span><span class="bw-dot bw-hide-m"></span>
+      <span>20% de descuento en toda la tienda</span><span class="bw-dot bw-hide-m"></span><span class="bw-hide-m">Pago de contado</span><span class="bw-dot bw-hide-m"></span>
       <span class="bw-cd-mini bw-hide-m" id="bwCdMini"></span>
     </div>
   </div>
@@ -1525,6 +1531,8 @@
       <span class="bw-eyebrow"><i></i>DU · Solo por una semana<i></i></span>
       <h1 class="bw-title"><span class="l1">Black</span><span class="l2">Week</span></h1>
       <p class="bw-dates" id="bwDates">Del <strong>23 al 30 de noviembre</strong> · precio con descuento ya aplicado</p>
+      <p class="bw-contado">Aplica para pagos de contado</p>
+      <div class="aviso-stock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span><strong>Pendiente verificar unidades disponibles</strong> con tu asesora.</span></div>
       <button type="button" class="bw-cta" onclick="bwIrAlCatalogo()">Comprar ahora
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </button>
@@ -1994,8 +2002,8 @@ function precioHTML(p, variante) {
 function extrasPrecio(p, clase) {
   if (mode !== 'mayorista') return '';
   let h = '';
-  if (volumenMap[p.id])    h += `<div class="${clase}">+12 unid: ${money(volumenMap[p.id])}</div>`;
-  if (anticipadoMap[p.id]) h += `<div class="${clase} ant">Pago anticipado: ${money(anticipadoMap[p.id])}</div>`;
+  if (volumenMap[p.id])    h += `<div class="${clase}">+12 unid: ${money(bwAplica(p) ? bwPrecio(volumenMap[p.id]) : volumenMap[p.id])}</div>`;
+  if (anticipadoMap[p.id]) h += `<div class="${clase} ant">Pago anticipado: ${money(bwAplica(p) ? bwPrecio(anticipadoMap[p.id]) : anticipadoMap[p.id])}</div>`;
   return h;
 }
 
@@ -2336,7 +2344,7 @@ function cardHTML(p, o = {}) {
     <div class="card-media${img ? '' : ' no-img'}">
       ${img ? `<img src="${esc(img)}" alt="${esc(p.nombre)}" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('img-error')"/>` : ''}
       <div class="ph"><div class="ph-ic">${ICONS[p.categoria] || ICONS["Accesorios"]}</div><span>${esc(p.referencia)}</span></div>
-      ${b ? `<div class="badges">${b}</div>` : ''}${ducHTML}${bwAplica(p) && !duc ? `<span class="bw-tag" title="Black Week"><b>${BW_PCT}%</b><span>de descuento</span></span>` : ''}
+      ${b ? `<div class="badges">${b}</div>` : ''}${ducHTML}${bwAplica(p) ? `<span class="bw-tag${duc ? ' bw-tag--duc' : ''}" title="Black Week"><b>${BW_PCT}%</b><span>de descuento</span></span>` : ''}
     </div>
     <div class="card-body">
       <span class="card-sub">${esc(o.label || p.subcategoria)}</span>
@@ -3001,7 +3009,7 @@ function pintarDetalle(p, soloPrecios) {
   document.getElementById('pdExtra').innerHTML = extrasPrecio(p, 'pd-extra');
   const bwEl = document.getElementById('pdBw');
   bwEl.classList.toggle('on', bwAplica(p) && !p.agotado);
-  bwEl.innerHTML = `<strong>Black Week · ${BW_PCT}% de descuento</strong> ya aplicado, hasta el 30 de noviembre.`;
+  bwEl.innerHTML = `<strong>Black Week · ${BW_PCT}% de descuento</strong> ya aplicado, hasta el 30 de noviembre. Aplica para pagos de contado.`;
   const ducTag = document.getElementById('pdDuc');
   const duc = ducUnits(p);
   if (duc) { ducTag.textContent = `Ducenazo · Por cada 12 llévate ${duc} gratis`; ducTag.style.display = 'inline-block'; }
@@ -3198,7 +3206,7 @@ function varDef(p, varianteVal) {
 ───────────────────────────────────────────────── */
 const BLACKWEEK_ACTIVO      = true;                                   // ← true = campaña visible · false = oculta
 const BLACKWEEK_DESCUENTO   = 0.20;                                   // 20 %
-const BLACKWEEK_MODOS       = ['detal'];                              // agregar 'mayorista' si también aplica allá
+const BLACKWEEK_MODOS       = ['detal', 'mayorista'];                 // modos con descuento (confirmado 24/nov: los dos)
 const BLACKWEEK_FIN         = new Date('2026-12-01T00:00:00-05:00');  // termina el 30/nov a medianoche (hora Colombia)
 const BLACKWEEK_EXCLUIR_DESTACADOS = false;                           // true = sin descuento para los Destacados de DU (rotación)
 const BLACKWEEK_PREVIEW     = new URLSearchParams(location.search).has('blackweek');
@@ -3210,6 +3218,7 @@ function bwModoActivo() { return bwEncendida() && BLACKWEEK_MODOS.includes(mode)
 function bwAplica(p) { return bwModoActivo() && !(BLACKWEEK_EXCLUIR_DESTACADOS && p.destacado); }
 function bwPrecio(n) { return Math.round(n * (1 - BLACKWEEK_DESCUENTO)); }
 const BW_PCT = Math.round(BLACKWEEK_DESCUENTO * 100);
+const BW_OBSERVACION = 'BLACK DAYS ' + BW_PCT + '%';   // lo que la asesora registra en observaciones del sistema
 
 /* Precio que se cobra (con Black Week si aplica). El de lista sale de precioLista(). */
 function precioActual(p, varianteVal) {
@@ -3363,7 +3372,7 @@ function renderCart() {
   const bwRow = document.getElementById('bwCartRow');
   const ahorro = bwAhorroCarrito();
   bwRow.classList.toggle('on', ahorro > 0);
-  bwRow.innerHTML = ahorro > 0 ? `<span><b>BLACK WEEK · ${BW_PCT}% DE DESCUENTO</b></span><span>Ahorras $${formatPrice(ahorro)}</span>` : '';
+  bwRow.innerHTML = ahorro > 0 ? `<span><b>BLACK WEEK · ${BW_PCT}% DE DESCUENTO</b><small>Aplica para pagos de contado</small></span><span>Ahorras $${formatPrice(ahorro)}</span>` : '';
   if (conPrecios) {
     totalEl.innerHTML = `<span class="currency">$</span>${formatPrice(total)}` + (hayPendiente ? ` <span class="cart-total-pending">+ a confirmar</span>` : '');
   } else {
@@ -3481,7 +3490,7 @@ function buildWhatsAppMessage() {
   const L = [];
   L.push('*NUEVO PEDIDO — DU*');
   L.push('Lista de precios: *' + modoNombre + '*');
-  if (bwModoActivo()) L.push('Promoción: *BLACK WEEK · ' + BW_PCT + '% de descuento* (precios ya aplicados)');
+  if (bwModoActivo()) L.push('Promoción: *BLACK WEEK · ' + BW_PCT + '% de descuento* (precios ya aplicados · pago de contado)');
   L.push('━━━━━━━━━━━━━━━━━━━');
   L.push('*Datos del cliente*');
   L.push('• Nombre: ' + clienteData.nombre);
@@ -3545,6 +3554,7 @@ function buildWhatsAppMessage() {
     L.push('_*Pendiente verificar unidades disponibles.*_');
     L.push('');
   }
+  if (bwModoActivo()) { L.push('Observaciones para el sistema: *' + BW_OBSERVACION + '*'); L.push(''); }
   L.push('_Enviado desde el catálogo DU_');
   return L.join('\n');
 }
