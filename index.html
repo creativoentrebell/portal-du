@@ -769,6 +769,8 @@
       font-size: 13px; color: #555; line-height: 1.5; max-width: 520px;
     }
     .duc-sub strong { color: var(--du-dark); font-weight: 600; }
+    .duc-nobw { display: none; }
+    body.bw-on .duc-nobw { display: inline; }
     .duc-vigencia {
       font-size: 10px; font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase;
       color: #4a8fc0;
@@ -1639,7 +1641,7 @@
     <img class="duc-logo" src="img/ducenazo/logo_ducenazo.webp" alt="Ducenazo 12 + 4 gratis"
          onerror="document.getElementById('ducHeader').classList.add('no-logo')"/>
     <h2 class="duc-title-txt">Ducenazo <b>12+4</b></h2>
-    <p class="duc-sub">Por cada <strong>docena</strong> que compres de estas referencias, te llevas <strong>unidades gratis</strong>.</p>
+    <p class="duc-sub">Por cada <strong>docena</strong> que compres de estas referencias, te llevas <strong>unidades gratis</strong>.<span class="duc-nobw"> <strong>No acumulable con Black Week:</strong> estas referencias van sin el 20% de descuento.</span></p>
     <span class="duc-vigencia">Solo hasta el 31 de octubre</span>
   </div>
   <div class="duc-stories-wrap" id="ducStoriesWrap">
@@ -3012,7 +3014,7 @@ function pintarDetalle(p, soloPrecios) {
   bwEl.innerHTML = `<strong>Black Week · ${BW_PCT}% de descuento</strong> ya aplicado, hasta el 30 de noviembre. Aplica para pagos de contado.`;
   const ducTag = document.getElementById('pdDuc');
   const duc = ducUnits(p);
-  if (duc) { ducTag.textContent = `Ducenazo · Por cada 12 llévate ${duc} gratis`; ducTag.style.display = 'inline-block'; }
+  if (duc) { ducTag.textContent = `Ducenazo · Por cada 12 llévate ${duc} gratis` + (bwModoActivo() ? ' · No acumulable con Black Week' : ''); ducTag.style.display = 'inline-block'; }
   else ducTag.style.display = 'none';
   if (soloPrecios) { pintarRelacionados(p); return; }
 
@@ -3215,7 +3217,7 @@ function bwEncendida() {
   return BLACKWEEK_ACTIVO && !(BLACKWEEK_FIN && Date.now() >= BLACKWEEK_FIN.getTime());
 }
 function bwModoActivo() { return bwEncendida() && BLACKWEEK_MODOS.includes(mode); }
-function bwAplica(p) { return bwModoActivo() && !(BLACKWEEK_EXCLUIR_DESTACADOS && p.destacado); }
+function bwAplica(p) { return bwModoActivo() && !(BLACKWEEK_EXCLUIR_DESTACADOS && p.destacado) && !ducUnits(p); }   // Ducenazo y Black Week NO son acumulables
 function bwPrecio(n) { return Math.round(n * (1 - BLACKWEEK_DESCUENTO)); }
 const BW_PCT = Math.round(BLACKWEEK_DESCUENTO * 100);
 const BW_OBSERVACION = 'BLACK DAYS ' + BW_PCT + '%';   // lo que la asesora registra en observaciones del sistema
@@ -3491,6 +3493,8 @@ function buildWhatsAppMessage() {
   L.push('*NUEVO PEDIDO — DU*');
   L.push('Lista de precios: *' + modoNombre + '*');
   if (bwModoActivo()) L.push('Promoción: *BLACK WEEK · ' + BW_PCT + '% de descuento* (precios ya aplicados · pago de contado)');
+  if (bwModoActivo() && cart.some(it => { const p = byId.get(it.id); return p && ducUnits(p); }))
+    L.push('_Ducenazo y Black Week no son acumulables: las referencias del Ducenazo van sin el ' + BW_PCT + '% de descuento._');
   L.push('━━━━━━━━━━━━━━━━━━━');
   L.push('*Datos del cliente*');
   L.push('• Nombre: ' + clienteData.nombre);
