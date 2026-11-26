@@ -1447,6 +1447,26 @@
     .bw-hero .aviso-stock svg { width: 13px; height: 13px; margin-top: 0; color: #f0c36d; }
     .card-media .bw-tag.bw-tag--duc { top: 38px; }
     .bw-cart-row small { display: block; font-size: 10.5px; color: rgba(255,255,255,0.65); margin-top: 2px; letter-spacing: 0.02em; }
+    /* ─── UÑAS DU → CATÁLOGO MARAGEL ─────────────────── */
+    .tab--ext { text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
+    .tab--ext svg { width: 12px; height: 12px; }
+    .unas-aviso {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 22px;
+      padding: 18px 22px; border-radius: 22px; text-decoration: none; color: var(--du-dark);
+      background: linear-gradient(120deg, #eaf6fc 0%, #d6ebf6 100%); border: 1px solid #c9e4f4;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .unas-aviso:hover { box-shadow: 0 10px 26px -14px rgba(60,120,170,0.5); transform: translateY(-1px); }
+    .ua-eyebrow { display: block; font-size: 10px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--du-blue-tx); }
+    .unas-aviso strong { display: block; font-size: 18px; font-weight: 600; margin-top: 4px; line-height: 1.25; }
+    .unas-aviso small { display: block; font-size: 13px; color: #4d6373; margin-top: 3px; }
+    .ua-btn { flex-shrink: 0; display: inline-flex; align-items: center; gap: 7px; background: var(--du-dark); color: #fff; border-radius: 999px; padding: 11px 18px; font-size: 13px; font-weight: 600; white-space: nowrap; }
+    .ua-btn svg { width: 14px; height: 14px; }
+    .em-box .unas-aviso { margin: 18px auto 0; max-width: 560px; text-align: left; }
+    @media (max-width: 640px) {
+      .unas-aviso { flex-direction: column; align-items: flex-start; padding: 16px; border-radius: 18px; gap: 12px; }
+      .unas-aviso strong { font-size: 16px; }
+    }
   </style>
 </head>
 <body>
@@ -1936,11 +1956,10 @@ const VISTOS_KEY     = 'du_vistos_v1';
 const VISTOS_MAX     = 12;
 const POR_PAGINA     = 48;
 
-const CAT_ORDEN = ["Pestañas", "Uñas", "Accesorios"];
+const CAT_ORDEN = ["Pestañas", "Accesorios"];   // Uñas pasó al catálogo Maragel (categoría "Uñas DU")
 const SUBCATS = {
   "Accesorios": ["Maletas, neceseres y carteras","Brochas, pinceles y accesorios","Hair Technology","Cepillos y peinillas","Cuidado del cabello","Herramientas y accesorios","Espejos"],
-  "Pestañas":   ["Tecnológicas","Pestañas de fácil aplicación","Pestañas pelo a pelo","Accesorios de pestañas","Kits de pestañas"],
-  "Uñas":       ["Efectos y apliques","Stickers para uñas","Accesorios para uñas","Kits para uñas"]
+  "Pestañas":   ["Tecnológicas","Pestañas de fácil aplicación","Pestañas pelo a pelo","Accesorios de pestañas","Kits de pestañas"]
 };
 const ICONS = {
   "Pestañas": `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12s3-8 10-8 10 8 10 8-3 8-10 8-10-8-10-8z"/><circle cx="12" cy="12" r="3"/></svg>`,
@@ -1960,6 +1979,17 @@ const BI = {
   check: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>`,
   search:`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="20" y1="20" x2="16.65" y2="16.65"/></svg>`
 };
+
+/* Uñas DU ahora vive en el catálogo Maragel (abre directo la categoría "Uñas DU") */
+const MARAGEL_UNAS_URL = 'https://creativoentrebell.github.io/portal-maragel/#du';
+const FLECHA = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>`;
+function avisoUnasHTML() {
+  return `<a class="unas-aviso" href="${MARAGEL_UNAS_URL}">
+    <span><span class="ua-eyebrow">Uñas DU</span><strong>Las uñas DU ahora están en el catálogo Maragel</strong><small>Accesorios, efectos, gemas y stickers para uñas.</small></span>
+    <span class="ua-btn">Ver uñas DU ${FLECHA}</span></a>`;
+}
+const PALABRAS_UNAS = ['una','unas','nail','glitter','gema','gemas','sticker','stickers','pusher','cortacuticula','cutícula','cuticula','esmalte','manicure','lima','limas','apliques','polvo','espejo','punzon','pincel','molde','guillotina','cortaunas','pads'];
+function buscaUnas(q) { return toks(q).some(t => PALABRAS_UNAS.some(w => normTxt(w) === t || (t.length >= 4 && normTxt(w).startsWith(t)))); }
 
 /* ── Estado ── */
 let allProducts   = [];
@@ -2195,7 +2225,8 @@ function subcategorias(cat) {
 
 function renderTabs() {
   const html = `<button class="tab ${!state.cat ? 'active' : ''}" data-cat="">Todos</button>` +
-    categorias().map(c => `<button class="tab ${state.cat === c ? 'active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('');
+    categorias().map(c => `<button class="tab ${state.cat === c ? 'active' : ''}" data-cat="${esc(c)}">${esc(c)}</button>`).join('') +
+    `<a class="tab tab--ext" href="${MARAGEL_UNAS_URL}" title="Ver uñas DU en el catálogo Maragel">Uñas ${FLECHA}</a>`;
   document.getElementById('tabs').innerHTML = html;
 }
 
@@ -2445,6 +2476,7 @@ function renderEmpty() {
     const dym = quisisteDecir(q);
     if (dym && dym !== normTxt(q)) h += `<p class="em-dym">¿Quisiste decir <button class="lnk" type="button" data-q="${esc(dym)}">${esc(dym)}</button>?</p>`;
     h += `<p>Revisa cómo está escrito, usa menos palabras o busca por la referencia (por ejemplo <strong>P12C</strong>).</p>`;
+    if (buscaUnas(q)) h += avisoUnasHTML();
     // Sugerir subcategorías parecidas
     const qt = toks(q).filter(t => t.length >= 3);
     const subs = [];
@@ -2504,7 +2536,7 @@ function renderFeatured() {
   const vCont = document.getElementById('vistosWrap');
   if (!on) { cont.innerHTML = ''; vCont.innerHTML = ''; return; }
   const vis = p => visibleModo(p) && (state.showAgotados || !p.agotado);
-  let h = '';
+  let h = avisoUnasHTML();
   const mv = allProducts.filter(p => mvRank(p) && vis(p)).sort((a, b) => mvRank(a) - mvRank(b) || a._i - b._i);
   if (mv.length) h += mvBloqueHTML(mv);
   const des = allProducts.filter(p => p.destacado && vis(p));
